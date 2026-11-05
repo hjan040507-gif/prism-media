@@ -111,9 +111,14 @@ for dp_, dns, fns in os.walk(root):
                 if s['codec_name'] != 'h264': fail(f'{rel}: codec {s["codec_name"]}')
                 if s['r_frame_rate'] != '60/1': fail(f'{rel}: fps {s["r_frame_rate"]}')
                 if dur > 6.05: fail(f'{rel}: {dur:.2f}s > 6s')
+                nf = int(s.get('nb_read_frames') or 0)
+                if abs(nf - round(dur * 60)) > 2: fail(f'{rel}: 프레임 {nf} ≠ 길이 {dur:.3f}s×60')
                 base = fp[:-4]
                 for w in ('first', 'last'):
                     if not os.path.exists(f'{base}-{w}.png'): fail(f'{rel}: {w} PNG 없음')
+                if os.path.exists(f'{base}-first.png'):
+                    fw, fh = Image.open(f'{base}-first.png').size
+                    if (s['width'], s['height']) != (fw - fw % 2, fh - fh % 2): fail(f'{rel}: {s["width"]}x{s["height"]} ≠ 첫 프레임 {fw}x{fh}')
             except Exception as e:
                 fail(f'{rel}: ffprobe 실패 {e}')
 (ok if total_bytes < 400 * 1024 * 1024 else fail)(f'폴더 {total_bytes/1048576:.1f}MB (<400MB)')
@@ -128,7 +133,11 @@ else:
 shots = os.path.join(root, 'shots.md')
 if os.path.exists(shots):
     txt = open(shots, encoding='utf-8').read()
-    miss = [f for f in all_files if (f.endswith(('.png', '.mp4', '.jpg', '.svg', '.webp', '.webm')) and os.path.basename(f) not in txt and f not in txt and f != 'contact.jpg')]
+    def listed(f):
+        if f in txt: return True
+        b = re.escape(os.path.basename(f))
+        return re.search(r'(^|[\s`|(/\[])' + b + r'($|[\s`|)\],:;])', txt, re.M) is not None
+    miss = [f for f in all_files if f.endswith(('.png', '.mp4', '.jpg', '.jpeg', '.svg', '.webp', '.webm', '.gif')) and f != 'contact.jpg' and not listed(f)]
     (ok if not miss else fail)(f'shots.md 누락 {len(miss)}: {miss[:8]}')
 else:
     fail('shots.md 없음')
