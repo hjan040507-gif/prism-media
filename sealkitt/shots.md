@@ -1,0 +1,194 @@
+# sealkitt shots — 파일마다 한 줄
+
+촬영: Playwright 1.64.1(chromiumSandbox), 운영 https://sealkitt.com, 로그인 없음. 모든 요청은 guard 로 비GET 가로챔·`x-sealkitt-verify: 1`(동일 출처만)로 검색 로그 생략. 가짜 값 사용 0(실서비스 화면 그대로, 가짜 응답은 알림 생성 POST 의 `{id:1}` 뿐). 가린 것: 푸터 운영자 정보 dl(상호·대표자·사업자번호·주소·전화·이메일) visibility:hidden, 도메인·URL 글자 자동 제거. 사람 이름·닉네임이 보이는 화면 없음(커뮤니티 닉네임 selector 가림 규칙 적용). 모든 PNG 곁 .json 의 pii_scan.total = 0.
+
+- `desktop/card-jp-full.json` — 카드 상세 일본판 `pokemon-card-jp-32317` 리자몽EX — 야후옥션 실거래·낙찰 내역·시세 차트 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/card-jp-full.png` — 카드 상세 일본판 `pokemon-card-jp-32317` 리자몽EX — 야후옥션 실거래·낙찰 내역·시세 차트 · full(끝까지 스크롤한 전체)
+- `desktop/card-jp-view.json` — 카드 상세 일본판 `pokemon-card-jp-32317` 리자몽EX — 야후옥션 실거래·낙찰 내역·시세 차트 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/card-jp-view.png` — 카드 상세 일본판 `pokemon-card-jp-32317` 리자몽EX — 야후옥션 실거래·낙찰 내역·시세 차트 · view(첫 화면 스크롤 0)
+- `desktop/card-kr-full.json` — 카드 상세 한글판 `pokemoncard-ko-BS2014001001` 이상해꽃 EX — 번개장터 호가·언어판 비교 스트립(한·일·영) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/card-kr-full.png` — 카드 상세 한글판 `pokemoncard-ko-BS2014001001` 이상해꽃 EX — 번개장터 호가·언어판 비교 스트립(한·일·영) · full(끝까지 스크롤한 전체)
+- `desktop/card-kr-view.json` — 카드 상세 한글판 `pokemoncard-ko-BS2014001001` 이상해꽃 EX — 번개장터 호가·언어판 비교 스트립(한·일·영) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/card-kr-view.png` — 카드 상세 한글판 `pokemoncard-ko-BS2014001001` 이상해꽃 EX — 번개장터 호가·언어판 비교 스트립(한·일·영) · view(첫 화면 스크롤 0)
+- `desktop/card-multi-axis-full.json` — 카드 상세 `optcgapi-OP13-007` 에이스&사보&루피 — 국내 호가·일본 실거래·미국 eBay 호가·시세 차트(국내+일본 2축) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/card-multi-axis-full.png` — 카드 상세 `optcgapi-OP13-007` 에이스&사보&루피 — 국내 호가·일본 실거래·미국 eBay 호가·시세 차트(국내+일본 2축) · full(끝까지 스크롤한 전체)
+- `desktop/card-multi-axis-view.json` — 카드 상세 `optcgapi-OP13-007` 에이스&사보&루피 — 국내 호가·일본 실거래·미국 eBay 호가·시세 차트(국내+일본 2축) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/card-multi-axis-view.png` — 카드 상세 `optcgapi-OP13-007` 에이스&사보&루피 — 국내 호가·일본 실거래·미국 eBay 호가·시세 차트(국내+일본 2축) · view(첫 화면 스크롤 0)
+- `desktop/for-shops-full.json` — 입점 안내 `/for-shops` — 공개 입점 샵이 0곳이라 입점 샵 페이지 대체(BLOCKED.md 1번) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/for-shops-full.png` — 입점 안내 `/for-shops` — 공개 입점 샵이 0곳이라 입점 샵 페이지 대체(BLOCKED.md 1번) · full(끝까지 스크롤한 전체)
+- `desktop/for-shops-view.json` — 입점 안내 `/for-shops` — 공개 입점 샵이 0곳이라 입점 샵 페이지 대체(BLOCKED.md 1번) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/for-shops-view.png` — 입점 안내 `/for-shops` — 공개 입점 샵이 0곳이라 입점 샵 페이지 대체(BLOCKED.md 1번) · view(첫 화면 스크롤 0)
+- `desktop/header.json` — header.png 곁 json · desktop
+- `desktop/header.png` — 고정 헤더(GlobalHeader sticky) 스크롤된 상태 — header.png · desktop
+- `desktop/home-full.json` — 홈 데스크톱 1440 — IntroSplash 가 사라진 뒤(히어로·시장별 최고가·시세 순위) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/home-full.png` — 홈 데스크톱 1440 — IntroSplash 가 사라진 뒤(히어로·시장별 최고가·시세 순위) · full(끝까지 스크롤한 전체)
+- `desktop/home-view.json` — 홈 데스크톱 1440 — IntroSplash 가 사라진 뒤(히어로·시장별 최고가·시세 순위) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/home-view.png` — 홈 데스크톱 1440 — IntroSplash 가 사라진 뒤(히어로·시장별 최고가·시세 순위) · view(첫 화면 스크롤 0)
+- `desktop/market-box-full.json` — 마켓 목록 `/market/box`(← `/market` 307) 시세 있는 밀봉 박스·팩·싱글 탭 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/market-box-full.png` — 마켓 목록 `/market/box`(← `/market` 307) 시세 있는 밀봉 박스·팩·싱글 탭 · full(끝까지 스크롤한 전체)
+- `desktop/market-box-view.json` — 마켓 목록 `/market/box`(← `/market` 307) 시세 있는 밀봉 박스·팩·싱글 탭 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/market-box-view.png` — 마켓 목록 `/market/box`(← `/market` 307) 시세 있는 밀봉 박스·팩·싱글 탭 · view(첫 화면 스크롤 0)
+- `desktop/search-chosung-full.json` — 초성 검색 결과 `/search?q=ㄹㅈㅁ` (리자몽 계열 20건) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/search-chosung-full.png` — 초성 검색 결과 `/search?q=ㄹㅈㅁ` (리자몽 계열 20건) · full(끝까지 스크롤한 전체)
+- `desktop/search-chosung-view.json` — 초성 검색 결과 `/search?q=ㄹㅈㅁ` (리자몽 계열 20건) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/search-chosung-view.png` — 초성 검색 결과 `/search?q=ㄹㅈㅁ` (리자몽 계열 20건) · view(첫 화면 스크롤 0)
+- `desktop/search-code-full.json` — 카드 번호 검색 결과 `/search?q=OP01-120` (2건) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/search-code-full.png` — 카드 번호 검색 결과 `/search?q=OP01-120` (2건) · full(끝까지 스크롤한 전체)
+- `desktop/search-code-view.json` — 카드 번호 검색 결과 `/search?q=OP01-120` (2건) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/search-code-view.png` — 카드 번호 검색 결과 `/search?q=OP01-120` (2건) · view(첫 화면 스크롤 0)
+- `desktop/shops-empty-full.json` — 검증샵 목록 `/shops` 빈 상태("아직 공개된 검증샵이 없어요") — BLOCKED.md 1번 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/shops-empty-full.png` — 검증샵 목록 `/shops` 빈 상태("아직 공개된 검증샵이 없어요") — BLOCKED.md 1번 · full(끝까지 스크롤한 전체)
+- `desktop/shops-empty-view.json` — 검증샵 목록 `/shops` 빈 상태("아직 공개된 검증샵이 없어요") — BLOCKED.md 1번 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/shops-empty-view.png` — 검증샵 목록 `/shops` 빈 상태("아직 공개된 검증샵이 없어요") — BLOCKED.md 1번 · view(첫 화면 스크롤 0)
+- `desktop/watch-sheet-full.json` — 카드 상세 '알림' 시트(가격 알림) 열린 화면 — 시세 소스 3개 선택·조건·목표가·받는 방법 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/watch-sheet-full.png` — 카드 상세 '알림' 시트(가격 알림) 열린 화면 — 시세 소스 3개 선택·조건·목표가·받는 방법 · full(끝까지 스크롤한 전체)
+- `desktop/watch-sheet-view.json` — 카드 상세 '알림' 시트(가격 알림) 열린 화면 — 시세 소스 3개 선택·조건·목표가·받는 방법 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/watch-sheet-view.png` — 카드 상세 '알림' 시트(가격 알림) 열린 화면 — 시세 소스 3개 선택·조건·목표가·받는 방법 · view(첫 화면 스크롤 0)
+- `desktop/wishlist-full.json` — 관심 목록 `/my/wishlist` — 카드 상세에서 하트 3번 눌러 localStorage `sk_wish` 에 3장 담은 뒤(로그인 없음) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/wishlist-full.png` — 관심 목록 `/my/wishlist` — 카드 상세에서 하트 3번 눌러 localStorage `sk_wish` 에 3장 담은 뒤(로그인 없음) · full(끝까지 스크롤한 전체)
+- `desktop/wishlist-view.json` — 관심 목록 `/my/wishlist` — 카드 상세에서 하트 3번 눌러 localStorage `sk_wish` 에 3장 담은 뒤(로그인 없음) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/wishlist-view.png` — 관심 목록 `/my/wishlist` — 카드 상세에서 하트 3번 눌러 localStorage `sk_wish` 에 3장 담은 뒤(로그인 없음) · view(첫 화면 스크롤 0)
+- `media/brand/app-icon-1024.png` — 앱 아이콘 ← 레포 public/brand/app-icon-1024.png
+- `media/brand/app-icon-120.png` — 앱 아이콘 ← 레포 public/brand/app-icon-120.png
+- `media/brand/app-icon-512.png` — 앱 아이콘 ← 레포 public/brand/app-icon-512.png
+- `media/card-back-sealkitt.png` — 씰킷 카드 뒷면 이미지 ← 레포 public/cards/backs/sealkitt.png
+- `media/hero/a/dark-1024.avif` — 히어로 배경 변형 A 원본(dark-1024.avif) ← 레포 public/hero/a/dark-1024.avif
+- `media/hero/a/dark-1024.webp` — 히어로 배경 변형 A 원본(dark-1024.webp) ← 레포 public/hero/a/dark-1024.webp
+- `media/hero/a/dark-1440.avif` — 히어로 배경 변형 A 원본(dark-1440.avif) ← 레포 public/hero/a/dark-1440.avif
+- `media/hero/a/dark-1440.webp` — 히어로 배경 변형 A 원본(dark-1440.webp) ← 레포 public/hero/a/dark-1440.webp
+- `media/hero/a/dark-390.avif` — 히어로 배경 변형 A 원본(dark-390.avif) ← 레포 public/hero/a/dark-390.avif
+- `media/hero/a/dark-390.webp` — 히어로 배경 변형 A 원본(dark-390.webp) ← 레포 public/hero/a/dark-390.webp
+- `media/hero/a/dark-768.avif` — 히어로 배경 변형 A 원본(dark-768.avif) ← 레포 public/hero/a/dark-768.avif
+- `media/hero/a/dark-768.webp` — 히어로 배경 변형 A 원본(dark-768.webp) ← 레포 public/hero/a/dark-768.webp
+- `media/hero/a/light-1024.avif` — 히어로 배경 변형 A 원본(light-1024.avif) ← 레포 public/hero/a/light-1024.avif
+- `media/hero/a/light-1024.webp` — 히어로 배경 변형 A 원본(light-1024.webp) ← 레포 public/hero/a/light-1024.webp
+- `media/hero/a/light-1440.avif` — 히어로 배경 변형 A 원본(light-1440.avif) ← 레포 public/hero/a/light-1440.avif
+- `media/hero/a/light-1440.webp` — 히어로 배경 변형 A 원본(light-1440.webp) ← 레포 public/hero/a/light-1440.webp
+- `media/hero/a/light-390.avif` — 히어로 배경 변형 A 원본(light-390.avif) ← 레포 public/hero/a/light-390.avif
+- `media/hero/a/light-390.webp` — 히어로 배경 변형 A 원본(light-390.webp) ← 레포 public/hero/a/light-390.webp
+- `media/hero/a/light-768.avif` — 히어로 배경 변형 A 원본(light-768.avif) ← 레포 public/hero/a/light-768.avif
+- `media/hero/a/light-768.webp` — 히어로 배경 변형 A 원본(light-768.webp) ← 레포 public/hero/a/light-768.webp
+- `media/hero/b/dark-1024.avif` — 히어로 배경 변형 B 원본(dark-1024.avif) ← 레포 public/hero/b/dark-1024.avif
+- `media/hero/b/dark-1024.webp` — 히어로 배경 변형 B 원본(dark-1024.webp) ← 레포 public/hero/b/dark-1024.webp
+- `media/hero/b/dark-1440.avif` — 히어로 배경 변형 B 원본(dark-1440.avif) ← 레포 public/hero/b/dark-1440.avif
+- `media/hero/b/dark-1440.webp` — 히어로 배경 변형 B 원본(dark-1440.webp) ← 레포 public/hero/b/dark-1440.webp
+- `media/hero/b/dark-390.avif` — 히어로 배경 변형 B 원본(dark-390.avif) ← 레포 public/hero/b/dark-390.avif
+- `media/hero/b/dark-390.webp` — 히어로 배경 변형 B 원본(dark-390.webp) ← 레포 public/hero/b/dark-390.webp
+- `media/hero/b/dark-768.avif` — 히어로 배경 변형 B 원본(dark-768.avif) ← 레포 public/hero/b/dark-768.avif
+- `media/hero/b/dark-768.webp` — 히어로 배경 변형 B 원본(dark-768.webp) ← 레포 public/hero/b/dark-768.webp
+- `media/hero/b/light-1024.avif` — 히어로 배경 변형 B 원본(light-1024.avif) ← 레포 public/hero/b/light-1024.avif
+- `media/hero/b/light-1024.webp` — 히어로 배경 변형 B 원본(light-1024.webp) ← 레포 public/hero/b/light-1024.webp
+- `media/hero/b/light-1440.avif` — 히어로 배경 변형 B 원본(light-1440.avif) ← 레포 public/hero/b/light-1440.avif
+- `media/hero/b/light-1440.webp` — 히어로 배경 변형 B 원본(light-1440.webp) ← 레포 public/hero/b/light-1440.webp
+- `media/hero/b/light-390.avif` — 히어로 배경 변형 B 원본(light-390.avif) ← 레포 public/hero/b/light-390.avif
+- `media/hero/b/light-390.webp` — 히어로 배경 변형 B 원본(light-390.webp) ← 레포 public/hero/b/light-390.webp
+- `media/hero/b/light-768.avif` — 히어로 배경 변형 B 원본(light-768.avif) ← 레포 public/hero/b/light-768.avif
+- `media/hero/b/light-768.webp` — 히어로 배경 변형 B 원본(light-768.webp) ← 레포 public/hero/b/light-768.webp
+- `media/hero/c/dark-1024.avif` — 히어로 배경 변형 C 원본(dark-1024.avif) ← 레포 public/hero/c/dark-1024.avif
+- `media/hero/c/dark-1024.webp` — 히어로 배경 변형 C 원본(dark-1024.webp) ← 레포 public/hero/c/dark-1024.webp
+- `media/hero/c/dark-1440.avif` — 히어로 배경 변형 C 원본(dark-1440.avif) ← 레포 public/hero/c/dark-1440.avif
+- `media/hero/c/dark-1440.webp` — 히어로 배경 변형 C 원본(dark-1440.webp) ← 레포 public/hero/c/dark-1440.webp
+- `media/hero/c/dark-390.avif` — 히어로 배경 변형 C 원본(dark-390.avif) ← 레포 public/hero/c/dark-390.avif
+- `media/hero/c/dark-390.webp` — 히어로 배경 변형 C 원본(dark-390.webp) ← 레포 public/hero/c/dark-390.webp
+- `media/hero/c/dark-768.avif` — 히어로 배경 변형 C 원본(dark-768.avif) ← 레포 public/hero/c/dark-768.avif
+- `media/hero/c/dark-768.webp` — 히어로 배경 변형 C 원본(dark-768.webp) ← 레포 public/hero/c/dark-768.webp
+- `media/hero/c/light-1024.avif` — 히어로 배경 변형 C 원본(light-1024.avif) ← 레포 public/hero/c/light-1024.avif
+- `media/hero/c/light-1024.webp` — 히어로 배경 변형 C 원본(light-1024.webp) ← 레포 public/hero/c/light-1024.webp
+- `media/hero/c/light-1440.avif` — 히어로 배경 변형 C 원본(light-1440.avif) ← 레포 public/hero/c/light-1440.avif
+- `media/hero/c/light-1440.webp` — 히어로 배경 변형 C 원본(light-1440.webp) ← 레포 public/hero/c/light-1440.webp
+- `media/hero/c/light-390.avif` — 히어로 배경 변형 C 원본(light-390.avif) ← 레포 public/hero/c/light-390.avif
+- `media/hero/c/light-390.webp` — 히어로 배경 변형 C 원본(light-390.webp) ← 레포 public/hero/c/light-390.webp
+- `media/hero/c/light-768.avif` — 히어로 배경 변형 C 원본(light-768.avif) ← 레포 public/hero/c/light-768.avif
+- `media/hero/c/light-768.webp` — 히어로 배경 변형 C 원본(light-768.webp) ← 레포 public/hero/c/light-768.webp
+- `media/icons/apple-touch-icon-180.png` — 앱 아이콘 ← 레포 public/icons/apple-touch-icon-180.png
+- `media/icons/badge-72.png` — 앱 아이콘 ← 레포 public/icons/badge-72.png
+- `media/icons/icon-192.png` — 앱 아이콘 ← 레포 public/icons/icon-192.png
+- `media/icons/icon-512.png` — 앱 아이콘 ← 레포 public/icons/icon-512.png
+- `media/icons/maskable-512.png` — 앱 아이콘 ← 레포 public/icons/maskable-512.png
+- `media/logo-symbol.svg` — 로고 심볼 원본 SVG(틸 #14B8A6 사각 + 씰 한 획) ← 레포 app/icon.svg
+- `media/wordmark-ligature.png` — 워드마크 디자인 레퍼런스 PNG ← 레포 public/brand-ref/wordmark-ligature.png
+- `media/wordmark.svg` — SEALKITT 워드마크 SVG — 레포에 독립 파일이 없고 컴포넌트(components/brand/Wordmark.tsx)로 그려져, 라이브 헤더의 렌더된 <svg> outerHTML 을 추출(currentColor→#e6edf3)
+- `mobile/card-jp-full.json` — 모바일 카드 상세 `pokemon-card-jp-32317` · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/card-jp-full.png` — 모바일 카드 상세 `pokemon-card-jp-32317` · full(끝까지 스크롤한 전체)
+- `mobile/card-jp-view.json` — 모바일 카드 상세 `pokemon-card-jp-32317` · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/card-jp-view.png` — 모바일 카드 상세 `pokemon-card-jp-32317` · view(첫 화면 스크롤 0)
+- `mobile/card-multi-axis-full.json` — 모바일 카드 상세 `optcgapi-OP13-007` · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/card-multi-axis-full.png` — 모바일 카드 상세 `optcgapi-OP13-007` · full(끝까지 스크롤한 전체)
+- `mobile/card-multi-axis-view.json` — 모바일 카드 상세 `optcgapi-OP13-007` · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/card-multi-axis-view.png` — 모바일 카드 상세 `optcgapi-OP13-007` · view(첫 화면 스크롤 0)
+- `mobile/home-full.json` — 홈 모바일 390 — IntroSplash 뒤, 하단 탭바 포함 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/home-full.png` — 홈 모바일 390 — IntroSplash 뒤, 하단 탭바 포함 · full(끝까지 스크롤한 전체)
+- `mobile/home-view.json` — 홈 모바일 390 — IntroSplash 뒤, 하단 탭바 포함 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/home-view.png` — 홈 모바일 390 — IntroSplash 뒤, 하단 탭바 포함 · view(첫 화면 스크롤 0)
+- `mobile/search-full.json` — 시세 탭 `/search` 비검색 상태(전체 카드 둘러보기·가격대별·인기 검색어) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/search-full.png` — 시세 탭 `/search` 비검색 상태(전체 카드 둘러보기·가격대별·인기 검색어) · full(끝까지 스크롤한 전체)
+- `mobile/search-results-full.json` — 모바일 초성 검색 결과 `/search?q=ㄹㅈㅁ` · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/search-results-full.png` — 모바일 초성 검색 결과 `/search?q=ㄹㅈㅁ` · full(끝까지 스크롤한 전체)
+- `mobile/search-results-view.json` — 모바일 초성 검색 결과 `/search?q=ㄹㅈㅁ` · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/search-results-view.png` — 모바일 초성 검색 결과 `/search?q=ㄹㅈㅁ` · view(첫 화면 스크롤 0)
+- `mobile/search-view.json` — 시세 탭 `/search` 비검색 상태(전체 카드 둘러보기·가격대별·인기 검색어) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/search-view.png` — 시세 탭 `/search` 비검색 상태(전체 카드 둘러보기·가격대별·인기 검색어) · view(첫 화면 스크롤 0)
+- `seq/chart-period-switch-first.json` — 카드 상세 시세 차트 기간 전환(7일→90일→전체) 선 그려지는 애니메이션 3.6s 60fps · 방식: page.clock 1/60s runFor(프레임 100·170 에서 탭 클릭) · 첫 프레임 곁 json
+- `seq/chart-period-switch-first.png` — 카드 상세 시세 차트 기간 전환(7일→90일→전체) 선 그려지는 애니메이션 3.6s 60fps · 방식: page.clock 1/60s runFor(프레임 100·170 에서 탭 클릭) · 첫 프레임
+- `seq/chart-period-switch-last.json` — 카드 상세 시세 차트 기간 전환(7일→90일→전체) 선 그려지는 애니메이션 3.6s 60fps · 방식: page.clock 1/60s runFor(프레임 100·170 에서 탭 클릭) · 끝 프레임 곁 json
+- `seq/chart-period-switch-last.png` — 카드 상세 시세 차트 기간 전환(7일→90일→전체) 선 그려지는 애니메이션 3.6s 60fps · 방식: page.clock 1/60s runFor(프레임 100·170 에서 탭 클릭) · 끝 프레임
+- `seq/chart-period-switch.mp4` — 카드 상세 시세 차트 기간 전환(7일→90일→전체) 선 그려지는 애니메이션 3.6s 60fps · 방식: page.clock 1/60s runFor(프레임 100·170 에서 탭 클릭) · 영상
+- `seq/home-intro-splash-first.json` — 홈 IntroSplash 연출(한 획 그리기→스탬프→워드마크→페이드→홈) 4.0s 60fps · 방식: page.clock 가상 시간 1/60s runFor + getAnimations 동기화(gsap 은 rAF 가 가상 시간에 묶임), 데스크톱 1440×900@2 · 첫 프레임 곁 json
+- `seq/home-intro-splash-first.png` — 홈 IntroSplash 연출(한 획 그리기→스탬프→워드마크→페이드→홈) 4.0s 60fps · 방식: page.clock 가상 시간 1/60s runFor + getAnimations 동기화(gsap 은 rAF 가 가상 시간에 묶임), 데스크톱 1440×900@2 · 첫 프레임
+- `seq/home-intro-splash-last.json` — 홈 IntroSplash 연출(한 획 그리기→스탬프→워드마크→페이드→홈) 4.0s 60fps · 방식: page.clock 가상 시간 1/60s runFor + getAnimations 동기화(gsap 은 rAF 가 가상 시간에 묶임), 데스크톱 1440×900@2 · 끝 프레임 곁 json
+- `seq/home-intro-splash-last.png` — 홈 IntroSplash 연출(한 획 그리기→스탬프→워드마크→페이드→홈) 4.0s 60fps · 방식: page.clock 가상 시간 1/60s runFor + getAnimations 동기화(gsap 은 rAF 가 가상 시간에 묶임), 데스크톱 1440×900@2 · 끝 프레임
+- `seq/home-intro-splash.mp4` — 홈 IntroSplash 연출(한 획 그리기→스탬프→워드마크→페이드→홈) 4.0s 60fps · 방식: page.clock 가상 시간 1/60s runFor + getAnimations 동기화(gsap 은 rAF 가 가상 시간에 묶임), 데스크톱 1440×900@2 · 영상
+- `seq/home-search-autocomplete-first.json` — 홈 검색 자동완성 펼침(ㅍ→ㅍㅋ→ㅍㅋㅊ) 3.0s 60fps · 방식: page.clock 1/60s runFor(프레임 20·70·120 에서 글자 입력) · 첫 프레임 곁 json
+- `seq/home-search-autocomplete-first.png` — 홈 검색 자동완성 펼침(ㅍ→ㅍㅋ→ㅍㅋㅊ) 3.0s 60fps · 방식: page.clock 1/60s runFor(프레임 20·70·120 에서 글자 입력) · 첫 프레임
+- `seq/home-search-autocomplete-last.json` — 홈 검색 자동완성 펼침(ㅍ→ㅍㅋ→ㅍㅋㅊ) 3.0s 60fps · 방식: page.clock 1/60s runFor(프레임 20·70·120 에서 글자 입력) · 끝 프레임 곁 json
+- `seq/home-search-autocomplete-last.png` — 홈 검색 자동완성 펼침(ㅍ→ㅍㅋ→ㅍㅋㅊ) 3.0s 60fps · 방식: page.clock 1/60s runFor(프레임 20·70·120 에서 글자 입력) · 끝 프레임
+- `seq/home-search-autocomplete.mp4` — 홈 검색 자동완성 펼침(ㅍ→ㅍㅋ→ㅍㅋㅊ) 3.0s 60fps · 방식: page.clock 1/60s runFor(프레임 20·70·120 에서 글자 입력) · 영상
+- `states/axis-tabs-kr-jp/01-axis-국내.json` — 카드 상세(OP13-007) 시세 축(나라) 탭 국내↔일본 — 단계 01-axis-국내. scrollY 고정 곁 json
+- `states/axis-tabs-kr-jp/01-axis-국내.png` — 카드 상세(OP13-007) 시세 축(나라) 탭 국내↔일본 — 단계 01-axis-국내. scrollY 고정
+- `states/axis-tabs-kr-jp/02-axis-일본.json` — 카드 상세(OP13-007) 시세 축(나라) 탭 국내↔일본 — 단계 02-axis-일본. scrollY 고정 곁 json
+- `states/axis-tabs-kr-jp/02-axis-일본.png` — 카드 상세(OP13-007) 시세 축(나라) 탭 국내↔일본 — 단계 02-axis-일본. scrollY 고정
+- `states/axis-tabs-kr-jp/03-axis-국내-again.json` — 카드 상세(OP13-007) 시세 축(나라) 탭 국내↔일본 — 단계 03-axis-국내-again. scrollY 고정 곁 json
+- `states/axis-tabs-kr-jp/03-axis-국내-again.png` — 카드 상세(OP13-007) 시세 축(나라) 탭 국내↔일본 — 단계 03-axis-국내-again. scrollY 고정
+- `states/chart-period/01-period-7일.json` — 카드 상세(OP13-007) 시세 차트 기간 탭 전환 — 단계 01-period-7일. scrollY 고정(차트 카드 상단 맞춤) 곁 json
+- `states/chart-period/01-period-7일.png` — 카드 상세(OP13-007) 시세 차트 기간 탭 전환 — 단계 01-period-7일. scrollY 고정(차트 카드 상단 맞춤)
+- `states/chart-period/02-period-30일.json` — 카드 상세(OP13-007) 시세 차트 기간 탭 전환 — 단계 02-period-30일. scrollY 고정(차트 카드 상단 맞춤) 곁 json
+- `states/chart-period/02-period-30일.png` — 카드 상세(OP13-007) 시세 차트 기간 탭 전환 — 단계 02-period-30일. scrollY 고정(차트 카드 상단 맞춤)
+- `states/chart-period/03-period-90일.json` — 카드 상세(OP13-007) 시세 차트 기간 탭 전환 — 단계 03-period-90일. scrollY 고정(차트 카드 상단 맞춤) 곁 json
+- `states/chart-period/03-period-90일.png` — 카드 상세(OP13-007) 시세 차트 기간 탭 전환 — 단계 03-period-90일. scrollY 고정(차트 카드 상단 맞춤)
+- `states/chart-period/04-period-전체.json` — 카드 상세(OP13-007) 시세 차트 기간 탭 전환 — 단계 04-period-전체. scrollY 고정(차트 카드 상단 맞춤) 곁 json
+- `states/chart-period/04-period-전체.png` — 카드 상세(OP13-007) 시세 차트 기간 탭 전환 — 단계 04-period-전체. scrollY 고정(차트 카드 상단 맞춤)
+- `states/search-autocomplete-mobile/01-focus.json` — 모바일 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 01-focus. 390×844·scrollY 0 곁 json
+- `states/search-autocomplete-mobile/01-focus.png` — 모바일 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 01-focus. 390×844·scrollY 0
+- `states/search-autocomplete-mobile/02-typed-ㅍ.json` — 모바일 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 02-typed-ㅍ. 390×844·scrollY 0 곁 json
+- `states/search-autocomplete-mobile/02-typed-ㅍ.png` — 모바일 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 02-typed-ㅍ. 390×844·scrollY 0
+- `states/search-autocomplete-mobile/03-typed-ㅍㅋ.json` — 모바일 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 03-typed-ㅍㅋ. 390×844·scrollY 0 곁 json
+- `states/search-autocomplete-mobile/03-typed-ㅍㅋ.png` — 모바일 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 03-typed-ㅍㅋ. 390×844·scrollY 0
+- `states/search-autocomplete-mobile/04-typed-ㅍㅋㅊ.json` — 모바일 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 04-typed-ㅍㅋㅊ. 390×844·scrollY 0 곁 json
+- `states/search-autocomplete-mobile/04-typed-ㅍㅋㅊ.png` — 모바일 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 04-typed-ㅍㅋㅊ. 390×844·scrollY 0
+- `states/search-autocomplete-mobile/05-typed-피카츄.json` — 모바일 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 05-typed-피카츄. 390×844·scrollY 0 곁 json
+- `states/search-autocomplete-mobile/05-typed-피카츄.png` — 모바일 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 05-typed-피카츄. 390×844·scrollY 0
+- `states/search-autocomplete/01-focus.json` — 데스크톱 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 01-focus. 같은 뷰포트 1440×900·scrollY 0 곁 json
+- `states/search-autocomplete/01-focus.png` — 데스크톱 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 01-focus. 같은 뷰포트 1440×900·scrollY 0
+- `states/search-autocomplete/02-typed-ㅍ.json` — 데스크톱 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 02-typed-ㅍ. 같은 뷰포트 1440×900·scrollY 0 곁 json
+- `states/search-autocomplete/02-typed-ㅍ.png` — 데스크톱 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 02-typed-ㅍ. 같은 뷰포트 1440×900·scrollY 0
+- `states/search-autocomplete/03-typed-ㅍㅋ.json` — 데스크톱 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 03-typed-ㅍㅋ. 같은 뷰포트 1440×900·scrollY 0 곁 json
+- `states/search-autocomplete/03-typed-ㅍㅋ.png` — 데스크톱 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 03-typed-ㅍㅋ. 같은 뷰포트 1440×900·scrollY 0
+- `states/search-autocomplete/04-typed-ㅍㅋㅊ.json` — 데스크톱 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 04-typed-ㅍㅋㅊ. 같은 뷰포트 1440×900·scrollY 0 곁 json
+- `states/search-autocomplete/04-typed-ㅍㅋㅊ.png` — 데스크톱 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 04-typed-ㅍㅋㅊ. 같은 뷰포트 1440×900·scrollY 0
+- `states/search-autocomplete/05-typed-피카츄.json` — 데스크톱 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 05-typed-피카츄. 같은 뷰포트 1440×900·scrollY 0 곁 json
+- `states/search-autocomplete/05-typed-피카츄.png` — 데스크톱 홈 검색창 한 글자씩 입력 → 자동완성 — 단계 05-typed-피카츄. 같은 뷰포트 1440×900·scrollY 0
+- `states/watch-alert/01-card-detail.json` — 카드 상세(OP13-007) 시세 알림 만들기 — 단계 01-card-detail. POST/PATCH /api/watch 는 가짜 성공으로 가로챔(알림은 생성되지 않음). scrollY 0 곁 json
+- `states/watch-alert/01-card-detail.png` — 카드 상세(OP13-007) 시세 알림 만들기 — 단계 01-card-detail. POST/PATCH /api/watch 는 가짜 성공으로 가로챔(알림은 생성되지 않음). scrollY 0
+- `states/watch-alert/02-sheet-open.json` — 카드 상세(OP13-007) 시세 알림 만들기 — 단계 02-sheet-open. POST/PATCH /api/watch 는 가짜 성공으로 가로챔(알림은 생성되지 않음). scrollY 0 곁 json
+- `states/watch-alert/02-sheet-open.png` — 카드 상세(OP13-007) 시세 알림 만들기 — 단계 02-sheet-open. POST/PATCH /api/watch 는 가짜 성공으로 가로챔(알림은 생성되지 않음). scrollY 0
+- `states/watch-alert/03-target-price-typed.json` — 카드 상세(OP13-007) 시세 알림 만들기 — 단계 03-target-price-typed. POST/PATCH /api/watch 는 가짜 성공으로 가로챔(알림은 생성되지 않음). scrollY 0 곁 json
+- `states/watch-alert/03-target-price-typed.png` — 카드 상세(OP13-007) 시세 알림 만들기 — 단계 03-target-price-typed. POST/PATCH /api/watch 는 가짜 성공으로 가로챔(알림은 생성되지 않음). scrollY 0
+- `states/watch-alert/04-created.json` — 카드 상세(OP13-007) 시세 알림 만들기 — 단계 04-created. POST/PATCH /api/watch 는 가짜 성공으로 가로챔(알림은 생성되지 않음). scrollY 0 곁 json
+- `states/watch-alert/04-created.png` — 카드 상세(OP13-007) 시세 알림 만들기 — 단계 04-created. POST/PATCH /api/watch 는 가짜 성공으로 가로챔(알림은 생성되지 않음). scrollY 0
+- `states/wish-register/01-before.json` — 카드 상세(리자몽EX) 관심 카드 등록 — 단계 01-before: before=누르기 전, pressed=마우스 누름(hover+mousedown), registered=등록됨(하트 채움·"관심"). scrollY 0 곁 json
+- `states/wish-register/01-before.png` — 카드 상세(리자몽EX) 관심 카드 등록 — 단계 01-before: before=누르기 전, pressed=마우스 누름(hover+mousedown), registered=등록됨(하트 채움·"관심"). scrollY 0
+- `states/wish-register/02-pressed.json` — 카드 상세(리자몽EX) 관심 카드 등록 — 단계 02-pressed: before=누르기 전, pressed=마우스 누름(hover+mousedown), registered=등록됨(하트 채움·"관심"). scrollY 0 곁 json
+- `states/wish-register/02-pressed.png` — 카드 상세(리자몽EX) 관심 카드 등록 — 단계 02-pressed: before=누르기 전, pressed=마우스 누름(hover+mousedown), registered=등록됨(하트 채움·"관심"). scrollY 0
+- `states/wish-register/03-registered.json` — 카드 상세(리자몽EX) 관심 카드 등록 — 단계 03-registered: before=누르기 전, pressed=마우스 누름(hover+mousedown), registered=등록됨(하트 채움·"관심"). scrollY 0 곁 json
+- `states/wish-register/03-registered.png` — 카드 상세(리자몽EX) 관심 카드 등록 — 단계 03-registered: before=누르기 전, pressed=마우스 누름(hover+mousedown), registered=등록됨(하트 채움·"관심"). scrollY 0
+- OCR 오탐 판정 없음: `python3 tools/ocr.py sealkitt -j 4` 81장 걸림 0(`ocr-report.txt`).

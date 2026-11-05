@@ -1,0 +1,557 @@
+{
+ "file": "card-kr-view.png",
+ "kind": "page",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/cards/pokemoncard-ko-BS2014001001",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2647,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:41:54.676Z",
+ "title": "이상해꽃 EX 시세 · 최저가 · SEALKITT",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "이상해꽃 EX (한글판)",
+   "rect": {
+    "x": 168,
+    "y": 198,
+    "w": 403,
+    "h": 46
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "시세 추이",
+   "rect": {
+    "x": 573,
+    "y": 535.4,
+    "w": 72,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1061,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1101,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "관심 추가",
+   "rect": {
+    "x": 864,
+    "y": 176,
+    "w": 100,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "알림",
+   "rect": {
+    "x": 972,
+    "y": 176,
+    "w": 72,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보유에 추가",
+   "rect": {
+    "x": 1052,
+    "y": 176,
+    "w": 112,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "비교 담기",
+   "rect": {
+    "x": 1172,
+    "y": 176,
+    "w": 100,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 788.2,
+    "w": 56,
+    "h": 77.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 232,
+    "y": 788.2,
+    "w": 56,
+    "h": 77.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 296,
+    "y": 788.2,
+    "w": 56,
+    "h": 77.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 360,
+    "y": 788.2,
+    "w": 56,
+    "h": 77.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "3D 슬랩으로 보기",
+   "rect": {
+    "x": 273.5,
+    "y": 879,
+    "w": 129,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "번개장터 판매중 중앙 호가 · 참고 출처 자세히 보기",
+   "rect": {
+    "x": 569,
+    "y": 436.4,
+    "w": 165,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "시세 신고",
+   "rect": {
+    "x": 1193,
+    "y": 441.6,
+    "w": 58,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "국내",
+   "rect": {
+    "x": 1072,
+    "y": 536.4,
+    "w": 40,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일본",
+   "rect": {
+    "x": 1116,
+    "y": 536.4,
+    "w": 40,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "TCGplayer",
+   "rect": {
+    "x": 1160,
+    "y": 536.4,
+    "w": 85,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 19,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 289.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "커뮤니티",
+   "rect": {
+    "x": 363.2,
+    "y": 16,
+    "w": 94,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "장터",
+   "rect": {
+    "x": 461.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 535.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 609.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1141,
+    "y": 14,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 1201,
+    "y": 17,
+    "w": 71,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세 홈",
+   "rect": {
+    "x": 168,
+    "y": 99,
+    "w": 53,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일본어판",
+   "rect": {
+    "x": 234,
+    "y": 134,
+    "w": 60,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영어판",
+   "rect": {
+    "x": 300,
+    "y": 134,
+    "w": 50,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "XY 확장팩 제1탄 「X컬렉션」",
+   "rect": {
+    "x": 225,
+    "y": 174,
+    "w": 125,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 · XY1-Bx 001",
+   "rect": {
+    "x": 229,
+    "y": 250,
+    "w": 119,
+    "h": 22
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 · XY 1 · TCGplayer 마켓가 $7.03",
+   "rect": {
+    "x": 356,
+    "y": 250,
+    "w": 215,
+    "h": 22
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 304,
+    "w": 340,
+    "h": 472.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 305.2,
+    "y": 391.3,
+    "w": 119,
+    "h": 223.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "국내 시세 참고 번개장터 호가 +25.3% 직전 ₩12,400 번개장터 판매중 · 어제 기준 · 11월 4일 · 매물 4건 번개장터 판매중 중앙 호가 · 참고 출처 자세히 보기 시세 신고",
+   "rect": {
+    "x": 548,
+    "y": 304,
+    "w": 724,
+    "h": 185.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "시세 추이 국내 일본 TCGplayer 11월 4일 기준 국내 호가 ₩12,400 일본·TCGplayer 추이는 기록이 2일 미만이라 그래프가 없어요. ₩1만 ₩1만 ₩1만 ₩2만 ₩2만 10.28 10.31 11.04 번개장터 호가 · 11월 4일 기준 최저 ₩9,900 · 최고 ₩1",
+   "rect": {
+    "x": 548,
+    "y": 513.4,
+    "w": 724,
+    "h": 468.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 202,
+    "y": 23.5,
+    "w": 63.2,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "이상해꽃 EX",
+   "rect": {
+    "x": 254.7,
+    "y": 391.3,
+    "w": 166.6,
+    "h": 223.4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "이상해꽃 EX 앞면",
+   "rect": {
+    "x": 198.6,
+    "y": 334.6,
+    "w": 278.8,
+    "h": 411
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 170,
+    "y": 790.2,
+    "w": 52,
+    "h": 73.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 234,
+    "y": 790.2,
+    "w": 52,
+    "h": 73.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 298,
+    "y": 790.2,
+    "w": 52,
+    "h": 73.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 362,
+    "y": 790.2,
+    "w": 52,
+    "h": 73.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "국내 최근 8일 시세 그래프",
+   "rect": {
+    "x": 569,
+    "y": 622.9,
+    "w": 682,
+    "h": 281.3
+   }
+  }
+ ]
+}

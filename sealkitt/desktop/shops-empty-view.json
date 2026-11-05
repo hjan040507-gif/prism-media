@@ -1,0 +1,480 @@
+{
+ "file": "shops-empty-view.png",
+ "kind": "page",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/shops",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1315,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:42:30.560Z",
+ "title": "검증샵 · SEALKITT",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "검증샵",
+   "rect": {
+    "x": 168,
+    "y": 97,
+    "w": 1104,
+    "h": 33.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "아직 공개된 검증샵이 없어요",
+   "rect": {
+    "x": 200,
+    "y": 274.4,
+    "w": 216,
+    "h": 26
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "샵을 운영하시나요",
+   "rect": {
+    "x": 255,
+    "y": 539.4,
+    "w": 385,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "오늘 시세가 오른 카드",
+   "rect": {
+    "x": 833.4,
+    "y": 201.8,
+    "w": 339.6,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1061,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1101,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 19,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 289.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "커뮤니티",
+   "rect": {
+    "x": 363.2,
+    "y": 16,
+    "w": 94,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "장터",
+   "rect": {
+    "x": 461.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 535.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 609.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1141,
+    "y": 14,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 1201,
+    "y": 17,
+    "w": 71,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마켓 매물 보기",
+   "rect": {
+    "x": 200,
+    "y": 356.8,
+    "w": 112,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오늘의 등락",
+   "rect": {
+    "x": 320,
+    "y": 356.8,
+    "w": 90,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입점 신청",
+   "rect": {
+    "x": 189,
+    "y": 641.4,
+    "w": 87,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오늘의 등락",
+   "rect": {
+    "x": 1185,
+    "y": 240.2,
+    "w": 66,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 825.4,
+    "y": 278.2,
+    "w": 433.6,
+    "h": 81.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 825.4,
+    "y": 359.6,
+    "w": 433.6,
+    "h": 81.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 825.4,
+    "y": 441.1,
+    "w": 433.6,
+    "h": 81.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 825.4,
+    "y": 522.5,
+    "w": 433.6,
+    "h": 81.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 825.4,
+    "y": 604,
+    "w": 433.6,
+    "h": 81.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "아직 공개된 검증샵이 없어요 사업자 검증과 심사를 마친 첫 검증샵을 준비하고 있어요. 그동안 마켓에서 시세와 다른 곳 매물을 비교해 보세요. 마켓 매물 보기 오늘의 등락",
+   "rect": {
+    "x": 168,
+    "y": 180.8,
+    "w": 620.4,
+    "h": 313.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "샵을 운영하시나요 입점비·수수료 없이 검증샵으로 등록해요. 지금 씰킷은 정직샵을 모으고 있어요. 무료 입점 인증마크 · 프로필 · 매물 노출 자사몰 · 카톡 직결 유입 입점 신청",
+   "rect": {
+    "x": 168,
+    "y": 518.4,
+    "w": 620.4,
+    "h": 188
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "오늘 시세가 오른 카드 포켓몬 한글판 · 번개장터 호가 · 직전 스냅샷 대비 · 11/4 기준 · 상위 N% = 지난 30일 변동폭 기준 오늘의 등락 1 다투곰 붉은 달 ex 호가 · 표본 6건 ₩12,250 +₩2,750 (+28.9%)상위 5% 2 이상해꽃 EX 호가 · 표본 4건 ",
+   "rect": {
+    "x": 812.4,
+    "y": 180.8,
+    "w": 459.6,
+    "h": 525.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "1 다투곰 붉은 달 ex 호가 · 표본 6건 ₩12,250 +₩2,750 (+28.9%)상위 5%",
+   "rect": {
+    "x": 825.4,
+    "y": 278.2,
+    "w": 433.6,
+    "h": 81.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "2 이상해꽃 EX 호가 · 표본 4건 ₩12,400 +₩2,500 (+25.3%)상위 5%",
+   "rect": {
+    "x": 825.4,
+    "y": 359.6,
+    "w": 433.6,
+    "h": 81.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "3 빙큐보 ex 호가 · 표본 4건 ₩12,500 +₩2,500 (+25.0%)상위 5%",
+   "rect": {
+    "x": 825.4,
+    "y": 441.1,
+    "w": 433.6,
+    "h": 81.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "4 블래키 VMAX 호가 · 표본 3건 ₩8,000 +₩1,500 (+23.1%)상위 5%",
+   "rect": {
+    "x": 825.4,
+    "y": 522.5,
+    "w": 433.6,
+    "h": 81.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "5 메가팬텀 ex 호가 · 표본 4건 ₩207,500 +₩32,500 (+18.6%)상위 5%",
+   "rect": {
+    "x": 825.4,
+    "y": 604,
+    "w": 433.6,
+    "h": 81.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 202,
+    "y": 23.5,
+    "w": 63.2,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "다투곰 붉은 달 ex",
+   "rect": {
+    "x": 865.4,
+    "y": 288.2,
+    "w": 44,
+    "h": 61.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "이상해꽃 EX",
+   "rect": {
+    "x": 865.4,
+    "y": 369.6,
+    "w": 44,
+    "h": 61.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "빙큐보 ex",
+   "rect": {
+    "x": 865.4,
+    "y": 451.1,
+    "w": 44,
+    "h": 61.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "블래키 VMAX",
+   "rect": {
+    "x": 865.4,
+    "y": 532.5,
+    "w": 44,
+    "h": 61.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메가팬텀 ex",
+   "rect": {
+    "x": 865.4,
+    "y": 614,
+    "w": 44,
+    "h": 61.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,348 @@
+{
+ "file": "card-multi-axis-view.png",
+ "kind": "page",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/cards/optcgapi-OP13-007",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 5199,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:43:37.410Z",
+ "title": "에이스 & 사보 & 루피 시세 · 최저가 · SEALKITT",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "에이스 & 사보 & 루피 (한글판)",
+   "rect": {
+    "x": 188,
+    "y": 137,
+    "w": 186,
+    "h": 68
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 163,
+    "y": 8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 203,
+    "y": 8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "관심 추가",
+   "rect": {
+    "x": 16,
+    "y": 372.5,
+    "w": 100,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "알림",
+   "rect": {
+    "x": 122,
+    "y": 372.5,
+    "w": 72,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보유에 추가",
+   "rect": {
+    "x": 200,
+    "y": 372.5,
+    "w": 112,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "비교 담기",
+   "rect": {
+    "x": 318,
+    "y": 372.5,
+    "w": 100,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "번개장터 판매중 중앙 호가 · 참고 출처 자세히 보기",
+   "rect": {
+    "x": 37,
+    "y": 566.9,
+    "w": 165,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "시세 신고",
+   "rect": {
+    "x": 295,
+    "y": 572.1,
+    "w": 58,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 13,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 243,
+    "y": 8,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 303,
+    "y": 11,
+    "w": 71,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세 홈",
+   "rect": {
+    "x": 16,
+    "y": 75,
+    "w": 53,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Carrying On His Will",
+   "rect": {
+    "x": 73,
+    "y": 113,
+    "w": 99,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일반",
+   "rect": {
+    "x": 188,
+    "y": 227,
+    "w": 50,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "패러렐",
+   "rect": {
+    "x": 246,
+    "y": 227,
+    "w": 61,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 0,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 78,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 156,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마켓",
+   "rect": {
+    "x": 234,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 312,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "국내 시세 참고 번개장터 호가 0.0% 직전 ₩25,000 번개장터 판매중 · 어제 기준 · 11월 4일 · 표본 적음 · 2건 번개장터 판매중 중앙 호가 · 참고 출처 자세히 보기 시세 신고",
+   "rect": {
+    "x": 16,
+    "y": 434.5,
+    "w": 358,
+    "h": 185.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "일본판 시세 원화 환산 일본 판매가 약 ₩1,000¥120 변동 없음직전 대비 遊々亭 · 11/5 · 상점 판매 일본 실거래가 참고 약 ₩1,500¥180 야후옥션 · 10/24 · 표본 3건 일본 PSA10 감정품 약 ₩8.8만¥10,400 약 +₩3,400 (+4.0%)직전 대비 S",
+   "rect": {
+    "x": 16,
+    "y": 643.9,
+    "w": 358,
+    "h": 720.4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 50,
+    "y": 17.5,
+    "w": 63.2,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "에이스 & 사보 & 루피",
+   "rect": {
+    "x": 16,
+    "y": 137,
+    "w": 160,
+    "h": 223.5
+   }
+  }
+ ]
+}

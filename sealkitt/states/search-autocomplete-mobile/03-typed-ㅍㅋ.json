@@ -1,0 +1,625 @@
+{
+ "file": "03-typed-ㅍㅋ.png",
+ "kind": "state",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2179,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:16:39.331Z",
+ "title": "SEALKITT — 한·미·일 TCG 시세와 검증샵 매물",
+ "note": "option rows=12",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "시세는 출처까지, 매물은 검증샵에서",
+   "rect": {
+    "x": 16,
+    "y": 89,
+    "w": 358,
+    "h": 57.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "오늘 시장별 최고가",
+   "rect": {
+    "x": 20,
+    "y": 236.6,
+    "w": 147.9,
+    "h": 26
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "시세 순위",
+   "rect": {
+    "x": 20,
+    "y": 627.3,
+    "w": 243.1,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 161.5,
+    "y": 8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 201.5,
+    "y": 8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 343,
+    "y": 183.6,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "각 값은 무엇인가요 · 환율 출처 자세히 보기",
+   "rect": {
+    "x": 20,
+    "y": 424.3,
+    "w": 124.5,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "국내",
+   "rect": {
+    "x": 16,
+    "y": 685.5,
+    "w": 52,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일본",
+   "rect": {
+    "x": 74,
+    "y": 685.5,
+    "w": 54,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "TCGplayer",
+   "rect": {
+    "x": 134,
+    "y": 685.5,
+    "w": 110.7,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "상승",
+   "rect": {
+    "x": 16,
+    "y": 729.5,
+    "w": 44,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "하락",
+   "rect": {
+    "x": 66,
+    "y": 729.5,
+    "w": 44,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "최고가",
+   "rect": {
+    "x": 116,
+    "y": 729.5,
+    "w": 54,
+    "h": 24
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "ㅍㅋ",
+   "rect": {
+    "x": 59,
+    "y": 179.6,
+    "w": 274,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 13,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 241.5,
+    "y": 8,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 301.5,
+    "y": 11,
+    "w": 72.5,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기라티나 V 국내 · 번개장터 · 11/4 ₩310,000 호가 · 표본 3건",
+   "rect": {
+    "x": 16,
+    "y": 268.6,
+    "w": 358,
+    "h": 75.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "리자몽EX 일본 · 야후옥션 · 11/4 약 ₩806만 실거래 · ¥952,551",
+   "rect": {
+    "x": 16,
+    "y": 344.5,
+    "w": 358,
+    "h": 75.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "중개 조항",
+   "rect": {
+    "x": 304.9,
+    "y": 577.8,
+    "w": 43.8,
+    "h": 14
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오늘의 등락",
+   "rect": {
+    "x": 302.9,
+    "y": 647.5,
+    "w": 67.1,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 759.5,
+    "w": 358,
+    "h": 75.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 835.4,
+    "w": 358,
+    "h": 75.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 0,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 78,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 156,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마켓",
+   "rect": {
+    "x": 234,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 312,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "피카츄 포켓몬 · 카드 672장 ¥8,500 일본 지연",
+   "rect": {
+    "x": 17,
+    "y": 256.6,
+    "w": 356,
+    "h": 52.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "푸크린 포켓몬 · 카드 82장 $2.42 TCGplayer",
+   "rect": {
+    "x": 17,
+    "y": 309.1,
+    "w": 356,
+    "h": 52.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "피콘 포켓몬 · 카드 51장 $0.15 TCGplayer",
+   "rect": {
+    "x": 17,
+    "y": 361.6,
+    "w": 356,
+    "h": 52.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "포켓몬 교체 포켓몬 · 판본 119개 ₩550 국내",
+   "rect": {
+    "x": 17,
+    "y": 441.1,
+    "w": 356,
+    "h": 52.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "피카츄 포켓몬 · 판본 97개",
+   "rect": {
+    "x": 17,
+    "y": 493.6,
+    "w": 356,
+    "h": 52.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "포켓몬 캐처 포켓몬 · 판본 68개 ₩1,500 국내",
+   "rect": {
+    "x": 17,
+    "y": 546.1,
+    "w": 356,
+    "h": 52.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "포켓몬 카드 게임 카드샵 구입 특전 포켓몬 · 542장 수록",
+   "rect": {
+    "x": 17,
+    "y": 625.6,
+    "w": 356,
+    "h": 52.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "포켓몬 카드 게임 스칼렛&바이올렛 확장팩 「스칼렛 ex」 포켓몬 · 216장 수록",
+   "rect": {
+    "x": 17,
+    "y": 678.1,
+    "w": 356,
+    "h": 52.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "포켓몬 카드 게임 스칼렛&바이올렛 확장팩 「바이올렛 ex」 포켓몬 · 216장 수록",
+   "rect": {
+    "x": 17,
+    "y": 730.6,
+    "w": 356,
+    "h": 52.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "포켓몬 카드 게임 스칼렛&바이올렛 강화 확장팩 「트리플렛비트」 포켓몬 · 206장 수록",
+   "rect": {
+    "x": 17,
+    "y": 783.1,
+    "w": 356,
+    "h": 52.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "포켓몬 카드 게임 스칼렛&바이올렛 프리미엄 트레이너 박스 ex 포켓몬 · 64장 수록",
+   "rect": {
+    "x": 17,
+    "y": 835.6,
+    "w": 356,
+    "h": 52.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 166.6,
+    "w": 358,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "검증샵이 재포장·서치팩 없이 검수 후 발송",
+   "rect": {
+    "x": 16,
+    "y": 493.3,
+    "w": 211.9,
+    "h": 16
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "샵 사업자 정보를 문의 전에 공개",
+   "rect": {
+    "x": 16,
+    "y": 517.3,
+    "w": 168.1,
+    "h": 16
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "모든 시세에 출처·기준일 표시",
+   "rect": {
+    "x": 204.1,
+    "y": 517.3,
+    "w": 154.3,
+    "h": 16
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "1 다투곰 붉은 달 ex 호가 · 표본 6건 · 11/4 ₩12,250 +₩2,750 (+28.9%)",
+   "rect": {
+    "x": 16,
+    "y": 759.5,
+    "w": 358,
+    "h": 75.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "2 이상해꽃 EX 호가 · 표본 4건 · 11/4 ₩12,400 +₩2,500 (+25.3%)",
+   "rect": {
+    "x": 16,
+    "y": 835.4,
+    "w": 358,
+    "h": 75.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "종 · 테마 피카츄 포켓몬 · 카드 672장 ¥8,500 일본 지연 푸크린 포켓몬 · 카드 82장 $2.42 TCGplayer 피콘 포켓몬 · 카드 51장 $0.15 TCGplayer 카드 포켓몬 교체 포켓몬 · 판본 119개 ₩550 국내 피카츄 포켓몬 · 판본 97개 포켓몬 캐처 포",
+   "rect": {
+    "x": 16,
+    "y": 224.6,
+    "w": 358,
+    "h": 615.4
+   },
+   "fixed": true
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 50,
+    "y": 17.5,
+    "w": 63.2,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 278.6,
+    "w": 40,
+    "h": 55.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 354.5,
+    "w": 40,
+    "h": 55.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "다투곰 붉은 달 ex",
+   "rect": {
+    "x": 44,
+    "y": 769.5,
+    "w": 40,
+    "h": 55.9
+   }
+  }
+ ]
+}

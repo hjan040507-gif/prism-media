@@ -1,0 +1,1987 @@
+{
+ "file": "market-box-full.png",
+ "kind": "page",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/market/box",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 3958,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:42:19.282Z",
+ "title": "마켓 박스 · SEALKITT",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "마켓",
+   "rect": {
+    "x": 168,
+    "y": 103.2,
+    "w": 56.3,
+    "h": 33.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "아직 올라온 박스 매물이 없어요",
+   "rect": {
+    "x": 184,
+    "y": 244,
+    "w": 181,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "시세 있는 밀봉",
+   "rect": {
+    "x": 172,
+    "y": 401.9,
+    "w": 110.4,
+    "h": 26
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "한국판·일본판",
+   "rect": {
+    "x": 172,
+    "y": 534.9,
+    "w": 1096,
+    "h": 18
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "영문판 · TCGplayer 마켓가 높은순",
+   "rect": {
+    "x": 172,
+    "y": 1586,
+    "w": 1096,
+    "h": 18
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1061,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1101,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "포켓몬",
+   "rect": {
+    "x": 168,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "유희왕",
+   "rect": {
+    "x": 231,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "원피스",
+   "rect": {
+    "x": 294,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "한국판",
+   "rect": {
+    "x": 368,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일본판",
+   "rect": {
+    "x": 431,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "영문판",
+   "rect": {
+    "x": 494,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "5만↓",
+   "rect": {
+    "x": 568,
+    "y": 442.9,
+    "w": 55,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "5–15만",
+   "rect": {
+    "x": 629,
+    "y": 442.9,
+    "w": 65,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "15–50만",
+   "rect": {
+    "x": 700,
+    "y": 442.9,
+    "w": 74,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "50만↑",
+   "rect": {
+    "x": 780,
+    "y": 442.9,
+    "w": 64,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 있는 것",
+   "rect": {
+    "x": 861,
+    "y": 442.9,
+    "w": 102,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "한국판·일본판 먼저",
+   "rect": {
+    "x": 978,
+    "y": 486.9,
+    "w": 119,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "TCGplayer 마켓가 높은순",
+   "rect": {
+    "x": 1103,
+    "y": 486.9,
+    "w": 165,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 654.5,
+    "y": 3511.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 749.5,
+    "y": 3511.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "제품·카드·샵 검색 (예: 프리즈마틱, 리자몽, 정직씰)",
+   "rect": {
+    "x": 832,
+    "y": 110,
+    "w": 294,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 19,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 289.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "커뮤니티",
+   "rect": {
+    "x": 363.2,
+    "y": 16,
+    "w": 94,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "장터",
+   "rect": {
+    "x": 461.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 535.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 609.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1141,
+    "y": 14,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 1201,
+    "y": 17,
+    "w": 71,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "발매 캘린더",
+   "rect": {
+    "x": 1153,
+    "y": 98,
+    "w": 119,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "박스",
+   "rect": {
+    "x": 168,
+    "y": 163.5,
+    "w": 30,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "팩",
+   "rect": {
+    "x": 222,
+    "y": 163.5,
+    "w": 17,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "싱글",
+   "rect": {
+    "x": 263,
+    "y": 163.5,
+    "w": 30,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증샵",
+   "rect": {
+    "x": 1207,
+    "y": 163,
+    "w": 65,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증샵이 뭔가요",
+   "rect": {
+    "x": 184,
+    "y": 322.9,
+    "w": 120,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사장님이라면 입점하기",
+   "rect": {
+    "x": 312,
+    "y": 322.9,
+    "w": 145,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 BEYOND THE BRAVE（BOX） 약 ₩5.9만 실거래 ¥7,000 · 야후옥 · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 562.9,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 WORLD PREMIERE PACK 2026（BOX） 약 ₩1.9만 실거래 ¥2,250 · 야후옥 · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한글판 리미트 오버 컬렉션 -더 히어로즈- 부스터 박스 ₩57,000 호가 번개장터 · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 CHAOS ORIGINS（BOX） 약 ₩5.2만 실거래 ¥6,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 562.9,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 LIMIT OVER COLLECTION - THE HEROES - 약 ₩11.2만 실거래 ¥13,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 BLAZING DOMINION（BOX） 약 ₩4.8만 실거래 ¥5,625 · 야후옥 · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 DUELIST BOX - PRISMATIC SUMMON - 약 ₩1.7만 실거래 ¥1,990 · 야후옥 · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 885.3,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 THE CHRONICLES DECK 白の物語 약 ₩2만 실거래 ¥2,400 · 야후옥 · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 LIMITED PACK GX - オシリスレッド - 약 ₩9.9만 실거래 ¥11,750 · 야후옥 · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 885.3,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 DOOM OF DIMENSIONS（BOX） 약 ₩1.6만 실거래 ¥1,930 · 야후옥 · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 DUELIST ADVANCE（BOX） 약 ₩3.5만 실거래 ¥4,100 · 야후옥 · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 1207.6,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 ALLIANCE INSIGHT（BOX） 약 ₩5.2만 실거래 ¥6,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 1207.6,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 LIMITED PACK GX - ラーイエロー - 약 ₩2.9만 실거래 ¥3,450 · 야후옥 · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 1207.6,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 LIMITED PACK - STAMP EDITION - 약 ₩6.9만 실거래 ¥8,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 1207.6,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한국판·일본판 778종 모두 보기",
+   "rect": {
+    "x": 172,
+    "y": 1518,
+    "w": 189,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Team Up Booster Box 약 ₩1,573만 마켓가 $11,737.50 · TCGplayer · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 1614,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 XY Ancient Origins Booster Box 약 ₩1,315만 마켓가 $9,807.99 · TCGplayer · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 1614,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 XY Roaring Skies Elite Trainer Box 약 ₩1,059만 마켓가 $7,899.99 · TCGplayer · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 1614,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 One Piece Card Game: English Version 1st Anniversary Set (Sealed Promotional Bundle) 약 ₩783만 마켓가 $5,844.86 · TCGplayer · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 1614,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 XY Roaring Skies Booster Box 약 ₩639만 마켓가 $4,768.42 · TCGplayer · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 1614,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Furious Fists Booster Box 약 ₩632만 마켓가 $4,717.50 · TCGplayer · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 1936.4,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Super-Premium Collection [Mew & Mewtwo] 약 ₩630만 마켓가 $4,697.97 · TCGplayer · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 1936.4,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Romance Dawn - Booster Box (Wave 1 - Blue) 약 ₩576만 마켓가 $4,298.93 · TCGplayer · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 1936.4,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Cosmic Eclipse Booster Box 약 ₩565만 마켓가 $4,216.67 · TCGplayer · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 1936.4,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 XY Primal Clash Booster Box 약 ₩545만 마켓가 $4,066.66 · TCGplayer · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 1936.4,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Team Up Elite Trainer Box 약 ₩536만 마켓가 $4,000 · TCGplayer · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 2258.8,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Generations Elite Trainer Box 약 ₩514만 마켓가 $3,833.33 · TCGplayer · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 2258.8,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Unified Minds Booster Box 약 ₩453만 마켓가 $3,376.76 · TCGplayer · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 2258.8,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 XY BREAKthrough Booster Box 약 ₩438만 마켓가 $3,265.81 · TCGplayer · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 2258.8,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Premium Trainer's XY Collection 약 ₩419만 마켓가 $3,125 · TCGplayer · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 2258.8,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Starter Deck: Yugi [1st Edition North American English] 약 ₩402만 마켓가 $3,000 · TCGplayer · 11/3",
+   "rect": {
+    "x": 168,
+    "y": 2562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Red & Blue Collection [Pikachu EX] 약 ₩402만 마켓가 $2,995.99 · TCGplayer · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 2562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Super Pre-Release Starter Decks 1-4 [Set of 4] 약 ₩388만 마켓가 $2,892.05 · TCGplayer · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 2562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Masterpiece Series: Platinum Blue-Eyes White Dragon 약 ₩374만 마켓가 $2,793.31 · TCGplayer · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 2562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 XY Fates Collide Booster Box 약 ₩369만 마켓가 $2,754.99 · TCGplayer · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 2562.9,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 TAG TEAM Tin [Set of 3] 약 ₩369만 마켓가 $2,749.95 · TCGplayer · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 2885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Unbroken Bonds Booster Box 약 ₩365만 마켓가 $2,724.40 · TCGplayer · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 2885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Celestial Storm Booster Box 약 ₩359만 마켓가 $2,676.74 · TCGplayer · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 2885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 XY Evolutions Booster Box 약 ₩354만 마켓가 $2,642 · TCGplayer · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 2885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Evolving Skies Pokemon Center Elite Trainer Box [Set of 2] (Exclusive) 약 ₩302만 마켓가 $2,250.60 · TCGplayer · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 2885.3,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영문판 Evolving Skies Booster Box 약 ₩294만 마켓가 $2,196.19 · TCGplayer · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 3207.7,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증샵 매물 준비 중",
+   "rect": {
+    "x": 172,
+    "y": 3555.9,
+    "w": 89,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 144,
+    "y": 3648.4,
+    "w": 1152,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증샵 밀봉 보증이란?",
+   "rect": {
+    "x": 144,
+    "y": 3690.4,
+    "w": 123,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용약관",
+   "rect": {
+    "x": 144,
+    "y": 3812.9,
+    "w": 40,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 211,
+    "y": 3812.9,
+    "w": 80,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "커뮤니티 운영정책",
+   "rect": {
+    "x": 318,
+    "y": 3812.9,
+    "w": 83,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "데이터 출처·라이선스",
+   "rect": {
+    "x": 428,
+    "y": 3812.9,
+    "w": 96,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 551,
+    "y": 3812.9,
+    "w": 20,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삭제 요청",
+   "rect": {
+    "x": 598,
+    "y": 3812.9,
+    "w": 43,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 789,
+    "y": 97,
+    "w": 352,
+    "h": 46
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "아직 올라온 박스 매물이 없어요 사업자 확인을 마친 검증샵이 직접 올린 매물이 여기에 모여요. 지금 시세는 ‘시세 있는 밀봉’에서 볼 수 있어요. 검증샵이 뭔가요 사장님이라면 입점하기",
+   "rect": {
+    "x": 168,
+    "y": 224,
+    "w": 1104,
+    "h": 162.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 BEYOND THE BRAVE（BOX） 약 ₩5.9만 실거래 ¥7,000 · 야후옥 · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 562.9,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 WORLD PREMIERE PACK 2026（BOX） 약 ₩1.9만 실거래 ¥2,250 · 야후옥 · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "한글판 리미트 오버 컬렉션 -더 히어로즈- 부스터 박스 ₩57,000 호가 번개장터 · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 CHAOS ORIGINS（BOX） 약 ₩5.2만 실거래 ¥6,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 562.9,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 LIMIT OVER COLLECTION - THE HEROES - 약 ₩11.2만 실거래 ¥13,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 BLAZING DOMINION（BOX） 약 ₩4.8만 실거래 ¥5,625 · 야후옥 · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 DUELIST BOX - PRISMATIC SUMMON - 약 ₩1.7만 실거래 ¥1,990 · 야후옥 · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 885.3,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 THE CHRONICLES DECK 白の物語 약 ₩2만 실거래 ¥2,400 · 야후옥 · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 LIMITED PACK GX - オシリスレッド - 약 ₩9.9만 실거래 ¥11,750 · 야후옥 · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 885.3,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 DOOM OF DIMENSIONS（BOX） 약 ₩1.6만 실거래 ¥1,930 · 야후옥 · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 DUELIST ADVANCE（BOX） 약 ₩3.5만 실거래 ¥4,100 · 야후옥 · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 1207.6,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 ALLIANCE INSIGHT（BOX） 약 ₩5.2만 실거래 ¥6,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 1207.6,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 LIMITED PACK GX - ラーイエロー - 약 ₩2.9만 실거래 ¥3,450 · 야후옥 · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 1207.6,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 LIMITED PACK - STAMP EDITION - 약 ₩6.9만 실거래 ¥8,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 1207.6,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Team Up Booster Box 약 ₩1,573만 마켓가 $11,737.50 · TCGplayer · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 1614,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 XY Ancient Origins Booster Box 약 ₩1,315만 마켓가 $9,807.99 · TCGplayer · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 1614,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 XY Roaring Skies Elite Trainer Box 약 ₩1,059만 마켓가 $7,899.99 · TCGplayer · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 1614,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 One Piece Card Game: English Version 1st Anniversary Set (Sealed Promotional Bundle) 약 ₩783만 마켓가 $5,844.86 · TCGplayer · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 1614,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 XY Roaring Skies Booster Box 약 ₩639만 마켓가 $4,768.42 · TCGplayer · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 1614,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Furious Fists Booster Box 약 ₩632만 마켓가 $4,717.50 · TCGplayer · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 1936.4,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Super-Premium Collection [Mew & Mewtwo] 약 ₩630만 마켓가 $4,697.97 · TCGplayer · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 1936.4,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Romance Dawn - Booster Box (Wave 1 - Blue) 약 ₩576만 마켓가 $4,298.93 · TCGplayer · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 1936.4,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Cosmic Eclipse Booster Box 약 ₩565만 마켓가 $4,216.67 · TCGplayer · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 1936.4,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 XY Primal Clash Booster Box 약 ₩545만 마켓가 $4,066.66 · TCGplayer · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 1936.4,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Team Up Elite Trainer Box 약 ₩536만 마켓가 $4,000 · TCGplayer · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 2258.8,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Generations Elite Trainer Box 약 ₩514만 마켓가 $3,833.33 · TCGplayer · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 2258.8,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Unified Minds Booster Box 약 ₩453만 마켓가 $3,376.76 · TCGplayer · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 2258.8,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 XY BREAKthrough Booster Box 약 ₩438만 마켓가 $3,265.81 · TCGplayer · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 2258.8,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Premium Trainer's XY Collection 약 ₩419만 마켓가 $3,125 · TCGplayer · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 2258.8,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Starter Deck: Yugi [1st Edition North American English] 약 ₩402만 마켓가 $3,000 · TCGplayer · 11/3",
+   "rect": {
+    "x": 168,
+    "y": 2562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Red & Blue Collection [Pikachu EX] 약 ₩402만 마켓가 $2,995.99 · TCGplayer · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 2562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Super Pre-Release Starter Decks 1-4 [Set of 4] 약 ₩388만 마켓가 $2,892.05 · TCGplayer · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 2562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Masterpiece Series: Platinum Blue-Eyes White Dragon 약 ₩374만 마켓가 $2,793.31 · TCGplayer · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 2562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 XY Fates Collide Booster Box 약 ₩369만 마켓가 $2,754.99 · TCGplayer · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 2562.9,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 TAG TEAM Tin [Set of 3] 약 ₩369만 마켓가 $2,749.95 · TCGplayer · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 2885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Unbroken Bonds Booster Box 약 ₩365만 마켓가 $2,724.40 · TCGplayer · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 2885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Celestial Storm Booster Box 약 ₩359만 마켓가 $2,676.74 · TCGplayer · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 2885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 XY Evolutions Booster Box 약 ₩354만 마켓가 $2,642 · TCGplayer · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 2885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Evolving Skies Pokemon Center Elite Trainer Box [Set of 2] (Exclusive) 약 ₩302만 마켓가 $2,250.60 · TCGplayer · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 2885.3,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "영문판 Evolving Skies Booster Box 약 ₩294만 마켓가 $2,196.19 · TCGplayer · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 3207.7,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 654.5,
+    "y": 3511.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 749.5,
+    "y": 3511.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 202,
+    "y": 23.5,
+    "w": 63.2,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "BEYOND THE BRAVE（BOX）",
+   "rect": {
+    "x": 168,
+    "y": 562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "WORLD PREMIERE PACK 2026（BOX）",
+   "rect": {
+    "x": 392,
+    "y": 562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "리미트 오버 컬렉션 -더 히어로즈- 부스터 박스",
+   "rect": {
+    "x": 616,
+    "y": 562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "CHAOS ORIGINS（BOX）",
+   "rect": {
+    "x": 840,
+    "y": 562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "LIMIT OVER COLLECTION - THE HEROES -",
+   "rect": {
+    "x": 1064,
+    "y": 562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "BLAZING DOMINION（BOX）",
+   "rect": {
+    "x": 168,
+    "y": 885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "DUELIST BOX - PRISMATIC SUMMON -",
+   "rect": {
+    "x": 392,
+    "y": 885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "THE CHRONICLES DECK 白の物語",
+   "rect": {
+    "x": 616,
+    "y": 885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "LIMITED PACK GX - オシリスレッド -",
+   "rect": {
+    "x": 840,
+    "y": 885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "DOOM OF DIMENSIONS（BOX）",
+   "rect": {
+    "x": 1064,
+    "y": 885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "DUELIST ADVANCE（BOX）",
+   "rect": {
+    "x": 168,
+    "y": 1207.6,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "ALLIANCE INSIGHT（BOX）",
+   "rect": {
+    "x": 392,
+    "y": 1207.6,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "LIMITED PACK GX - ラーイエロー -",
+   "rect": {
+    "x": 616,
+    "y": 1207.6,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "LIMITED PACK - STAMP EDITION -",
+   "rect": {
+    "x": 840,
+    "y": 1207.6,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Team Up Booster Box",
+   "rect": {
+    "x": 168,
+    "y": 1614,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "XY Ancient Origins Booster Box",
+   "rect": {
+    "x": 392,
+    "y": 1614,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "XY Roaring Skies Elite Trainer Box",
+   "rect": {
+    "x": 616,
+    "y": 1614,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "One Piece Card Game: English Version 1st Anniversary Set (Sealed Promotional Bundle)",
+   "rect": {
+    "x": 840,
+    "y": 1614,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "XY Roaring Skies Booster Box",
+   "rect": {
+    "x": 1064,
+    "y": 1614,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Furious Fists Booster Box",
+   "rect": {
+    "x": 168,
+    "y": 1936.4,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Super-Premium Collection [Mew & Mewtwo]",
+   "rect": {
+    "x": 392,
+    "y": 1936.4,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Romance Dawn - Booster Box (Wave 1 - Blue)",
+   "rect": {
+    "x": 616,
+    "y": 1936.4,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Cosmic Eclipse Booster Box",
+   "rect": {
+    "x": 840,
+    "y": 1936.4,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "XY Primal Clash Booster Box",
+   "rect": {
+    "x": 1064,
+    "y": 1936.4,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Team Up Elite Trainer Box",
+   "rect": {
+    "x": 168,
+    "y": 2258.8,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Generations Elite Trainer Box",
+   "rect": {
+    "x": 392,
+    "y": 2258.8,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Unified Minds Booster Box",
+   "rect": {
+    "x": 616,
+    "y": 2258.8,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "XY BREAKthrough Booster Box",
+   "rect": {
+    "x": 840,
+    "y": 2258.8,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1064,
+    "y": 2258.8,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Starter Deck: Yugi [1st Edition North American English]",
+   "rect": {
+    "x": 168,
+    "y": 2562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Red & Blue Collection [Pikachu EX]",
+   "rect": {
+    "x": 392,
+    "y": 2562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Super Pre-Release Starter Decks 1-4 [Set of 4]",
+   "rect": {
+    "x": 616,
+    "y": 2562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Masterpiece Series: Platinum Blue-Eyes White Dragon",
+   "rect": {
+    "x": 840,
+    "y": 2562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "XY Fates Collide Booster Box",
+   "rect": {
+    "x": 1064,
+    "y": 2562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "TAG TEAM Tin [Set of 3]",
+   "rect": {
+    "x": 168,
+    "y": 2885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Unbroken Bonds Booster Box",
+   "rect": {
+    "x": 392,
+    "y": 2885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Celestial Storm Booster Box",
+   "rect": {
+    "x": 616,
+    "y": 2885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "XY Evolutions Booster Box",
+   "rect": {
+    "x": 840,
+    "y": 2885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Evolving Skies Pokemon Center Elite Trainer Box [Set of 2] (Exclusive)",
+   "rect": {
+    "x": 1064,
+    "y": 2885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Evolving Skies Booster Box",
+   "rect": {
+    "x": 168,
+    "y": 3207.7,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 178,
+    "y": 3652.9,
+    "w": 63.2,
+    "h": 17
+   }
+  }
+ ]
+}

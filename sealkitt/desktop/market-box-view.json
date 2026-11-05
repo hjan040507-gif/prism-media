@@ -1,0 +1,821 @@
+{
+ "file": "market-box-view.png",
+ "kind": "page",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/market/box",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 3939,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:42:20.207Z",
+ "title": "마켓 박스 · SEALKITT",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "마켓",
+   "rect": {
+    "x": 168,
+    "y": 103.2,
+    "w": 56.3,
+    "h": 33.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "아직 올라온 박스 매물이 없어요",
+   "rect": {
+    "x": 184,
+    "y": 244,
+    "w": 181,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "시세 있는 밀봉",
+   "rect": {
+    "x": 172,
+    "y": 401.9,
+    "w": 110.4,
+    "h": 26
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "한국판·일본판",
+   "rect": {
+    "x": 172,
+    "y": 534.9,
+    "w": 1096,
+    "h": 18
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1061,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1101,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "포켓몬",
+   "rect": {
+    "x": 168,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "유희왕",
+   "rect": {
+    "x": 231,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "원피스",
+   "rect": {
+    "x": 294,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "한국판",
+   "rect": {
+    "x": 368,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일본판",
+   "rect": {
+    "x": 431,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "영문판",
+   "rect": {
+    "x": 494,
+    "y": 442.9,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "5만↓",
+   "rect": {
+    "x": 568,
+    "y": 442.9,
+    "w": 55,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "5–15만",
+   "rect": {
+    "x": 629,
+    "y": 442.9,
+    "w": 65,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "15–50만",
+   "rect": {
+    "x": 700,
+    "y": 442.9,
+    "w": 74,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "50만↑",
+   "rect": {
+    "x": 780,
+    "y": 442.9,
+    "w": 64,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 있는 것",
+   "rect": {
+    "x": 861,
+    "y": 442.9,
+    "w": 102,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "한국판·일본판 먼저",
+   "rect": {
+    "x": 978,
+    "y": 486.9,
+    "w": 119,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "TCGplayer 마켓가 높은순",
+   "rect": {
+    "x": 1103,
+    "y": 486.9,
+    "w": 165,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "제품·카드·샵 검색 (예: 프리즈마틱, 리자몽, 정직씰)",
+   "rect": {
+    "x": 832,
+    "y": 110,
+    "w": 294,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 19,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 289.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "커뮤니티",
+   "rect": {
+    "x": 363.2,
+    "y": 16,
+    "w": 94,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "장터",
+   "rect": {
+    "x": 461.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 535.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 609.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1141,
+    "y": 14,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 1201,
+    "y": 17,
+    "w": 71,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "발매 캘린더",
+   "rect": {
+    "x": 1153,
+    "y": 98,
+    "w": 119,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "박스",
+   "rect": {
+    "x": 168,
+    "y": 163.5,
+    "w": 30,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "팩",
+   "rect": {
+    "x": 222,
+    "y": 163.5,
+    "w": 17,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "싱글",
+   "rect": {
+    "x": 263,
+    "y": 163.5,
+    "w": 30,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증샵",
+   "rect": {
+    "x": 1207,
+    "y": 163,
+    "w": 65,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증샵이 뭔가요",
+   "rect": {
+    "x": 184,
+    "y": 322.9,
+    "w": 120,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사장님이라면 입점하기",
+   "rect": {
+    "x": 312,
+    "y": 322.9,
+    "w": 145,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 BEYOND THE BRAVE（BOX） 약 ₩5.9만 실거래 ¥7,000 · 야후옥 · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 562.9,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 WORLD PREMIERE PACK 2026（BOX） 약 ₩1.9만 실거래 ¥2,250 · 야후옥 · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한글판 리미트 오버 컬렉션 -더 히어로즈- 부스터 박스 ₩57,000 호가 번개장터 · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 CHAOS ORIGINS（BOX） 약 ₩5.2만 실거래 ¥6,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 562.9,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 LIMIT OVER COLLECTION - THE HEROES - 약 ₩11.2만 실거래 ¥13,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 BLAZING DOMINION（BOX） 약 ₩4.8만 실거래 ¥5,625 · 야후옥 · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 DUELIST BOX - PRISMATIC SUMMON - 약 ₩1.7만 실거래 ¥1,990 · 야후옥 · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 885.3,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 THE CHRONICLES DECK 白の物語 약 ₩2만 실거래 ¥2,400 · 야후옥 · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 LIMITED PACK GX - オシリスレッド - 약 ₩9.9만 실거래 ¥11,750 · 야후옥 · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 885.3,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일어판 DOOM OF DIMENSIONS（BOX） 약 ₩1.6만 실거래 ¥1,930 · 야후옥 · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 789,
+    "y": 97,
+    "w": 352,
+    "h": 46
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "아직 올라온 박스 매물이 없어요 사업자 확인을 마친 검증샵이 직접 올린 매물이 여기에 모여요. 지금 시세는 ‘시세 있는 밀봉’에서 볼 수 있어요. 검증샵이 뭔가요 사장님이라면 입점하기",
+   "rect": {
+    "x": 168,
+    "y": 224,
+    "w": 1104,
+    "h": 162.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 BEYOND THE BRAVE（BOX） 약 ₩5.9만 실거래 ¥7,000 · 야후옥 · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 562.9,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 WORLD PREMIERE PACK 2026（BOX） 약 ₩1.9만 실거래 ¥2,250 · 야후옥 · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "한글판 리미트 오버 컬렉션 -더 히어로즈- 부스터 박스 ₩57,000 호가 번개장터 · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 CHAOS ORIGINS（BOX） 약 ₩5.2만 실거래 ¥6,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 562.9,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 LIMIT OVER COLLECTION - THE HEROES - 약 ₩11.2만 실거래 ¥13,200 · 야후옥 · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 562.9,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 BLAZING DOMINION（BOX） 약 ₩4.8만 실거래 ¥5,625 · 야후옥 · 11/5",
+   "rect": {
+    "x": 168,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 DUELIST BOX - PRISMATIC SUMMON - 약 ₩1.7만 실거래 ¥1,990 · 야후옥 · 11/5",
+   "rect": {
+    "x": 392,
+    "y": 885.3,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 THE CHRONICLES DECK 白の物語 약 ₩2만 실거래 ¥2,400 · 야후옥 · 11/5",
+   "rect": {
+    "x": 616,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 LIMITED PACK GX - オシリスレッド - 약 ₩9.9만 실거래 ¥11,750 · 야후옥 · 11/5",
+   "rect": {
+    "x": 840,
+    "y": 885.3,
+    "w": 208,
+    "h": 298.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "일어판 DOOM OF DIMENSIONS（BOX） 약 ₩1.6만 실거래 ¥1,930 · 야후옥 · 11/5",
+   "rect": {
+    "x": 1064,
+    "y": 885.3,
+    "w": 208,
+    "h": 280.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 202,
+    "y": 23.5,
+    "w": 63.2,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "BEYOND THE BRAVE（BOX）",
+   "rect": {
+    "x": 168,
+    "y": 562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "WORLD PREMIERE PACK 2026（BOX）",
+   "rect": {
+    "x": 392,
+    "y": 562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "리미트 오버 컬렉션 -더 히어로즈- 부스터 박스",
+   "rect": {
+    "x": 616,
+    "y": 562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "CHAOS ORIGINS（BOX）",
+   "rect": {
+    "x": 840,
+    "y": 562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "LIMIT OVER COLLECTION - THE HEROES -",
+   "rect": {
+    "x": 1064,
+    "y": 562.9,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "BLAZING DOMINION（BOX）",
+   "rect": {
+    "x": 168,
+    "y": 885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "DUELIST BOX - PRISMATIC SUMMON -",
+   "rect": {
+    "x": 392,
+    "y": 885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "THE CHRONICLES DECK 白の物語",
+   "rect": {
+    "x": 616,
+    "y": 885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "LIMITED PACK GX - オシリスレッド -",
+   "rect": {
+    "x": 840,
+    "y": 885.3,
+    "w": 208,
+    "h": 208
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "DOOM OF DIMENSIONS（BOX）",
+   "rect": {
+    "x": 1064,
+    "y": 885.3,
+    "w": 208,
+    "h": 208
+   }
+  }
+ ]
+}

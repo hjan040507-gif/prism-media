@@ -86,3 +86,27 @@
 [자율도] 질문 없이 끝까지
 이 지시 원문을 prism-media/docs/specs/portfolio-capture.md에 저장하고, 프로젝트마다 명세와 코드가 다른 점(명세엔 있는데 없는 화면, 이름이 다른 기능)을 PROGRESS.md 맨 위에 먼저 적은 뒤 시작해. PROGRESS.md는 프로젝트를 끝낼 때마다 갱신해 압축·재시작 뒤에도 이어서 하게 하고, 끝나면 25줄 보고(결과·바뀐 것·검증·결정 필요·다음·추천 명령)로 마무리해. 추천 명령에는 이어서 하는 명령을 적어.
 /goal prism-media에 sealkitt·posco·byclick·jipyeong·maieventic·medimajor·nowflix 7개 폴더가 합격 기준을 채우거나 못 채운 부분이 BLOCKED.md에 사유·대안과 함께 적힌 채 push됐고(저장소를 만들 수 없으면 ~/prism-media에 커밋까지 하고 그 사실을 출력), 프로젝트별 커밋 해시·pii_scan 0건·고객 저장소 git status 무변경을 출력으로 보였다. 고객 프로젝트 코드·DB·배포는 바꾸지 않는다, or stop after 150 turns
+
+---
+
+# 추가 지시 (2026-11-06 수신, 원문 그대로)
+
+<추가 지시 — 진행 중인 portfolio-capture 작업에 이어서>
+대상 2개를 더하고 순서를 sealkitt → posco → byclick → fordex → jipyeong → maieventic → medimajor → sellfit → nowflix로 바꾼다. 이미 끝낸 프로젝트는 다시 찍지 않는다. 촬영 규격·가림 규칙·안전·문서·합격 기준은 기존 지시 그대로 쓰고, 이 추가 지시는 docs/specs/portfolio-capture.md 끝에 붙여 저장한다.
+
+fordex(FORDEX, 포켓몬 카드 안전거래 앱, App Store 출시, 웹·iOS 같은 코드)
+- 모바일(웹 빌드, 390×844·DSF 3): 홈, 카드 상세(시세 정보), 경매, 거래 진행 단계, 에스크로 안전결제, 구매확정·정산 내역, 신고·분쟁, 본인인증(만 19세) 안내
+- App Store에 올린 스크린샷 원본이 저장소·작업 폴더에 있으면 media/에 그대로 넣는다
+- 관리자(데스크톱): 대시보드, 거래·정산 관리, 분쟁 중재, 신고 처리 등 4화면 이상. 관리자 화면 수(18개로 알고 있음)를 facts.md에 근거와 함께 적는다
+- 상태 흐름: 결제 진행 단계, 경매 입찰
+- 결제(나이스페이먼츠)·본인인증·지급 요청은 전부 가로챈다. 회원 닉네임·주소·연락처는 가림 규칙대로
+
+sellfit(SELLFIT, 코디 기반 빈티지샵 PWA)
+- 고객이 인계를 요청했던 건이라 접근 권한부터 확인한다: 계정이 고객 쪽으로 넘어갔거나 이 서버에서 운영 화면에 접근할 권한이 없으면 찍지 말고 BLOCKED.md에 적는다
+- 사람이 나온 사진(얼굴·전신)은 쓰지 않는다. 그런 칸이 많은 화면은 빼고 상품 사진 위주 화면을 고른다
+- 모바일: 홈, 코디·상품 목록, 상품 상세, 장바구니·주문 단계 / 데스크톱: 관리자 상품·주문 관리
+
+nowflix: 기존 검수 캡처·녹화가 없고 첫 시도에서 화면을 못 띄우면 더 시도하지 말고 BLOCKED.md에 적은 뒤 작업을 끝낸다.
+</추가 지시>
+[목표] 기존 7개에 fordex·sellfit을 더해 9개 프로젝트 재료를 같은 규격으로 prism-media에 올린다.
+/goal prism-media에 sealkitt·posco·byclick·fordex·jipyeong·maieventic·medimajor·sellfit·nowflix 9개 폴더가 합격 기준을 채우거나 못 채운 부분이 BLOCKED.md에 사유·대안과 함께 적힌 채 push됐고(저장소를 만들 수 없으면 ~/prism-media에 커밋까지 하고 그 사실을 출력), 프로젝트별 커밋 해시·pii_scan 0건·고객 저장소 git status 무변경을 출력으로 보였다. 고객 프로젝트 코드·DB·배포는 바꾸지 않는다, or stop after 200 turns

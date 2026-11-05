@@ -1,0 +1,337 @@
+{
+ "file": "for-shops-view.png",
+ "kind": "page",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/for-shops",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2034,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:42:25.158Z",
+ "title": "카드샵 사장님 입점 — 연결 수수료 0% · 입점 무료 · 1분 등록 · SEALKITT",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "연결 수수료 0% · 입점 무료 · 1분 등록",
+   "rect": {
+    "x": 228,
+    "y": 175,
+    "w": 984,
+    "h": 55
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "시세 바로 옆에 내 매물",
+   "rect": {
+    "x": 246,
+    "y": 396,
+    "w": 574,
+    "h": 27
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "내 샵 페이지",
+   "rect": {
+    "x": 246,
+    "y": 505.8,
+    "w": 574,
+    "h": 27
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "문의는 내 카카오톡으로",
+   "rect": {
+    "x": 246,
+    "y": 615.5,
+    "w": 574,
+    "h": 27
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "등록은 이렇게 짧아요",
+   "rect": {
+    "x": 228,
+    "y": 801.3,
+    "w": 476,
+    "h": 27
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "초대 코드를 받으셨나요?",
+   "rect": {
+    "x": 753,
+    "y": 818.3,
+    "w": 442,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1061,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1101,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "확인",
+   "rect": {
+    "x": 1139,
+    "y": 877.8,
+    "w": 56,
+    "h": 42
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: AB12CD34",
+   "rect": {
+    "x": 753,
+    "y": 877.8,
+    "w": 378,
+    "h": 42
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 19,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 289.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "커뮤니티",
+   "rect": {
+    "x": 363.2,
+    "y": 16,
+    "w": 94,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "장터",
+   "rect": {
+    "x": 461.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 535.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 609.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1141,
+    "y": 14,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 1201,
+    "y": 17,
+    "w": 71,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "1분 만에 가입하기",
+   "rect": {
+    "x": 228,
+    "y": 292,
+    "w": 157,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이미 가입했어요",
+   "rect": {
+    "x": 397,
+    "y": 305.5,
+    "w": 88,
+    "h": 21
+   }
+  },
+  {
+   "type": "card",
+   "tag": "figure",
+   "text": "구매자 화면 예시 · 값은 예시예요 국내 시세(번개장터 호가 · 기준일 표시) ₩98,000 사장님 샵 ₩96,000 미개봉 · 3개 · 재고 확인 오늘 14:20 · 배송비 ₩3,500 재고 문의 · 카카오톡 [씰킷] 151 부스터 박스(미개봉) 96,000원 재고 있나요? 사장님 카",
+   "rect": {
+    "x": 860,
+    "y": 396,
+    "w": 352,
+    "h": 341.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "사장님 샵 ₩96,000 미개봉 · 3개 · 재고 확인 오늘 14:20 · 배송비 ₩3,500 재고 문의 · 카카오톡",
+   "rect": {
+    "x": 877,
+    "y": 510,
+    "w": 318,
+    "h": 120
+   }
+  },
+  {
+   "type": "card",
+   "tag": "form",
+   "text": "초대 코드를 받으셨나요? 코드를 넣으면 샵 정보가 미리 채워져요. 초대 코드 확인",
+   "rect": {
+    "x": 736,
+    "y": 801.3,
+    "w": 476,
+    "h": 200.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 202,
+    "y": 23.5,
+    "w": 63.2,
+    "h": 17
+   }
+  }
+ ]
+}

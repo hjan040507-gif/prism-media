@@ -6,3 +6,6 @@ maimai-event-builder head=e41d61e2 dirty=7 worktrees=10 sha=53b5aac24c
 Medimajor head=ec3dd74d dirty=1145 worktrees=7 sha=17a720a26c
 nowflix-kiosk head=d5afa3a dirty=0 worktrees=1 sha=da39a3ee5e
 2026-11-05T22:43:14Z
+fordex head=281aab73 dirty=8 worktrees=1 sha=f645ecb9e9 remote=git@gh-cla1:fordexapp26/fordex.git
+sellfit head=7e0cec6 dirty=10 worktrees=1 sha=ca4fe96e14 remote=git@gh-cla2:anhongjun0507-bit/sellfit.git
+2026-11-05T23:28:24Z

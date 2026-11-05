@@ -1,0 +1,931 @@
+{
+ "file": "02-sheet-open.png",
+ "kind": "state",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/cards/optcgapi-OP13-007",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 4154,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:29:36.325Z",
+ "title": "에이스 & 사보 & 루피 시세 · 최저가 · SEALKITT",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "에이스 & 사보 & 루피 (한글판)",
+   "rect": {
+    "x": 168,
+    "y": 161,
+    "w": 358.5,
+    "h": 46
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "가격 알림",
+   "rect": {
+    "x": 484,
+    "y": 97,
+    "w": 472,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1059.5,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1099.5,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "관심 추가",
+   "rect": {
+    "x": 859.6,
+    "y": 139,
+    "w": 101.5,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "알림",
+   "rect": {
+    "x": 969.1,
+    "y": 139,
+    "w": 72,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보유에 추가",
+   "rect": {
+    "x": 1049.1,
+    "y": 139,
+    "w": 113.5,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "비교 담기",
+   "rect": {
+    "x": 1170.5,
+    "y": 139,
+    "w": 101.5,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 785.2,
+    "w": 56,
+    "h": 77.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 232,
+    "y": 785.2,
+    "w": 56,
+    "h": 77.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 296,
+    "y": 785.2,
+    "w": 56,
+    "h": 77.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 360,
+    "y": 785.2,
+    "w": 56,
+    "h": 77.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "3D 슬랩으로 보기",
+   "rect": {
+    "x": 272.7,
+    "y": 876,
+    "w": 130.5,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "번개장터 판매중 중앙 호가 · 참고 출처 자세히 보기",
+   "rect": {
+    "x": 569,
+    "y": 433.4,
+    "w": 155,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "시세 신고",
+   "rect": {
+    "x": 1196.5,
+    "y": 438.6,
+    "w": 54.5,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "10월 17일 약 ₩1,500¥180",
+   "rect": {
+    "x": 575,
+    "y": 834.1,
+    "w": 444,
+    "h": 18
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "10월 10일 약 ₩4.1만¥4,800",
+   "rect": {
+    "x": 575,
+    "y": 864.1,
+    "w": 444,
+    "h": 18
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "10월 7일 약 ₩800¥100",
+   "rect": {
+    "x": 575,
+    "y": 894.1,
+    "w": 444,
+    "h": 18
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이 값 이하로",
+   "rect": {
+    "x": 484,
+    "y": 447.5,
+    "w": 87.3,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이 값 이상으로",
+   "rect": {
+    "x": 577.3,
+    "y": 447.5,
+    "w": 98.3,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "크게 움직이면",
+   "rect": {
+    "x": 681.5,
+    "y": 447.5,
+    "w": 94.1,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 472,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 511.3,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 550.7,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 590,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 629.3,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 668.7,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 708,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 747.3,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 786.7,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 826,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 865.3,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 904.7,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 944,
+    "y": 515,
+    "w": 24,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "-20%",
+   "rect": {
+    "x": 794.6,
+    "y": 582,
+    "w": 51,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "-10%",
+   "rect": {
+    "x": 853.6,
+    "y": 582,
+    "w": 51,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "-5%",
+   "rect": {
+    "x": 912.6,
+    "y": 582,
+    "w": 43.4,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "알림 만들기",
+   "rect": {
+    "x": 484,
+    "y": 660,
+    "w": 472,
+    "h": 45
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 497,
+    "y": 235,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 497,
+    "y": 299,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 497,
+    "y": 363,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "22500",
+   "rect": {
+    "x": 517.9,
+    "y": 587,
+    "w": 255.7,
+    "h": 24
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 940,
+    "y": 802.8,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 940,
+    "y": 874,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 19,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 289.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "커뮤니티",
+   "rect": {
+    "x": 363.2,
+    "y": 16,
+    "w": 94,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "장터",
+   "rect": {
+    "x": 461.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 535.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 609.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1139.5,
+    "y": 14,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 1199.5,
+    "y": 17,
+    "w": 72.5,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세 홈",
+   "rect": {
+    "x": 168,
+    "y": 99,
+    "w": 53.8,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Carrying On His Will",
+   "rect": {
+    "x": 225,
+    "y": 137,
+    "w": 119.8,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일반",
+   "rect": {
+    "x": 168,
+    "y": 229,
+    "w": 50,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "패러렐",
+   "rect": {
+    "x": 226,
+    "y": 229,
+    "w": 61,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 1027,
+    "y": 835.1,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 1027,
+    "y": 865.1,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 1027,
+    "y": 895.1,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 580.5,
+    "y": 848.4,
+    "w": 72,
+    "h": 13
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 301,
+    "w": 340,
+    "h": 472.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 138.2,
+    "y": 388.3,
+    "w": 119,
+    "h": 223.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "국내 시세 참고 번개장터 호가 0.0% 직전 ₩25,000 번개장터 판매중 · 어제 기준 · 11월 4일 · 표본 적음 · 2건 번개장터 판매중 중앙 호가 · 참고 출처 자세히 보기 시세 신고",
+   "rect": {
+    "x": 548,
+    "y": 301,
+    "w": 724,
+    "h": 185.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "일본판 시세 원화 환산 일본 판매가 약 ₩1,000¥120 변동 없음직전 대비 遊々亭 · 11/5 · 상점 판매 일본 실거래가 참고 약 ₩1,500¥180 야후옥션 · 10/24 · 표본 3건 일본 PSA10 감정품 약 ₩8.8만¥10,400 약 +₩3,400 (+4.0%)직전 대비 S",
+   "rect": {
+    "x": 548,
+    "y": 510.4,
+    "w": 724,
+    "h": 599.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "10월 17일 약 ₩1,500¥180",
+   "rect": {
+    "x": 569,
+    "y": 830.1,
+    "w": 480,
+    "h": 26
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "10월 10일 약 ₩4.1만¥4,800",
+   "rect": {
+    "x": 569,
+    "y": 860.1,
+    "w": 480,
+    "h": 26
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "10월 7일 약 ₩800¥100",
+   "rect": {
+    "x": 569,
+    "y": 890.1,
+    "w": 480,
+    "h": 26
+   }
+  },
+  {
+   "type": "card",
+   "tag": "label",
+   "text": "번개장터 판매 호가 2026-11-04 기준 · 표본 2건 ₩25,000",
+   "rect": {
+    "x": 484,
+    "y": 214,
+    "w": 472,
+    "h": 58
+   }
+  },
+  {
+   "type": "card",
+   "tag": "label",
+   "text": "야후옥션(일본판) 낙찰가 2026-10-24 기준 · 표본 3건 ¥180",
+   "rect": {
+    "x": 484,
+    "y": 278,
+    "w": 472,
+    "h": 58
+   }
+  },
+  {
+   "type": "card",
+   "tag": "label",
+   "text": "유유테이(일본판) 상점 판매가 2026-11-05 기준 ¥120",
+   "rect": {
+    "x": 484,
+    "y": 342,
+    "w": 472,
+    "h": 58
+   }
+  },
+  {
+   "type": "card",
+   "tag": "label",
+   "text": "₩",
+   "rect": {
+    "x": 484,
+    "y": 578,
+    "w": 302.6,
+    "h": 42
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 202,
+    "y": 23.5,
+    "w": 63.2,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "에이스 & 사보 & 루피",
+   "rect": {
+    "x": 254.7,
+    "y": 388.3,
+    "w": 166.6,
+    "h": 223.4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "에이스 & 사보 & 루피 앞면",
+   "rect": {
+    "x": 198.6,
+    "y": 331.6,
+    "w": 278.8,
+    "h": 411
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 170,
+    "y": 787.2,
+    "w": 52,
+    "h": 73.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 234,
+    "y": 787.2,
+    "w": 52,
+    "h": 73.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 298,
+    "y": 787.2,
+    "w": 52,
+    "h": 73.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 362,
+    "y": 787.2,
+    "w": 52,
+    "h": 73.8
+   }
+  }
+ ]
+}

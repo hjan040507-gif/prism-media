@@ -1,0 +1,10 @@
+ M src/app/admin/admin-nav.tsx
+ M src/app/page.tsx
+?? PROGRESS.md
+?? db.sh
+?? deploy.sh
+?? references/
+?? src/app/admin/members/
+?? src/app/member-gate.tsx
+?? src/lib/members/
+?? supabase/migrations/20260629010000_members.sql

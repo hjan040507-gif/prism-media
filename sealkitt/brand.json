@@ -1,0 +1,23 @@
+{
+  "primary": "#14b8a6",
+  "secondary": "#0b0f14",
+  "name": { "primary": "Seal Teal (--color-accent)", "secondary": "배경 --color-bg (다크 기본)" },
+  "palette_dark": {
+    "bg": "#0b0f14", "surface": "#151b24", "surface-2": "#1b2330", "border": "#232b36",
+    "text": "#e6edf3", "muted": "#8b98a5", "accent": "#14b8a6", "accent-hover": "#0fa093",
+    "price-up": "#f5455c", "price-down": "#3b82f6"
+  },
+  "palette_light_accent": "#0e7c6f",
+  "fonts": ["Pretendard", "Space Grotesk"],
+  "font_roles": { "Pretendard": "본문(한글·가나·라틴 서브셋)", "Space Grotesk": "디스플레이(숫자·영문 제목)" },
+  "font_files": ["public/fonts/PretendardVariable.woff2", "public/fonts/SpaceGrotesk-Variable.woff2"],
+  "source": [
+    "/home/dev/sealkitt/app/globals.css:47 (--color-bg #0b0f14)",
+    "/home/dev/sealkitt/app/globals.css:57 (--color-accent #14b8a6)",
+    "/home/dev/sealkitt/app/globals.css:61-62 (price up #f5455c / down #3b82f6)",
+    "/home/dev/sealkitt/app/globals.css:82-83 (--font-sans / --font-display)",
+    "/home/dev/sealkitt/app/globals.css:208 (light theme accent #0e7c6f)",
+    "/home/dev/sealkitt/app/icon.svg:2-3 (symbol fill #14B8A6 · stroke #0B0F14)"
+  ],
+  "note": "라이브 기본 테마는 다크(촬영 시 html[data-theme=dark], body 배경 rgb(11,15,20) 실측)."
+}

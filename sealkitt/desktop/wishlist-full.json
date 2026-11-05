@@ -1,0 +1,494 @@
+{
+ "file": "wishlist-full.png",
+ "kind": "page",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/my/wishlist",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1315,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:14:04.031Z",
+ "title": "관심 목록 · SEALKITT",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/get_wishlist_preview",
+   "POST /my/wishlist (server action, read)"
+  ],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "관심 목록3",
+   "rect": {
+    "x": 408,
+    "y": 97,
+    "w": 129.2,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1061,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1101,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "최근 담은 순",
+   "rect": {
+    "x": 408,
+    "y": 226.5,
+    "w": 85,
+    "h": 31.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 455,
+    "y": 289,
+    "w": 28,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "목표가",
+   "rect": {
+    "x": 497,
+    "y": 361.1,
+    "w": 71,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 455,
+    "y": 429.1,
+    "w": 28,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "목표가",
+   "rect": {
+    "x": 497,
+    "y": 501.3,
+    "w": 71,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 455,
+    "y": 569.3,
+    "w": 28,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 19,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 289.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "커뮤니티",
+   "rect": {
+    "x": 363.2,
+    "y": 16,
+    "w": 94,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "장터",
+   "rect": {
+    "x": 461.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 535.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 609.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1141,
+    "y": 14,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 1201,
+    "y": 17,
+    "w": 71,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 설정",
+   "rect": {
+    "x": 946,
+    "y": 97.3,
+    "w": 86,
+    "h": 31.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "에이스 & 사보 & 루피 한글판 Carrying On His Will · SR",
+   "rect": {
+    "x": 497,
+    "y": 287,
+    "w": 522,
+    "h": 40.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이상해꽃 EX 한글판 XY 확장팩 제1탄 「X컬렉션」 · RR",
+   "rect": {
+    "x": 497,
+    "y": 427.1,
+    "w": 522,
+    "h": 40.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "リザードンEX 일어판 XYP",
+   "rect": {
+    "x": 497,
+    "y": 567.3,
+    "w": 522,
+    "h": 40.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 144,
+    "y": 1006,
+    "w": 1152,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증샵 밀봉 보증이란?",
+   "rect": {
+    "x": 144,
+    "y": 1048,
+    "w": 123,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용약관",
+   "rect": {
+    "x": 144,
+    "y": 1170.5,
+    "w": 36,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 207,
+    "y": 1170.5,
+    "w": 72,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "커뮤니티 운영정책",
+   "rect": {
+    "x": 306,
+    "y": 1170.5,
+    "w": 75,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "데이터 출처·라이선스",
+   "rect": {
+    "x": 408,
+    "y": 1170.5,
+    "w": 87,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 522,
+    "y": 1170.5,
+    "w": 18,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삭제 요청",
+   "rect": {
+    "x": 567,
+    "y": 1170.5,
+    "w": 39,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "이 기기에만 저장돼요. 로그인하면 계정으로 옮겨 드리고, 목표가·기준선도 기록해요.",
+   "rect": {
+    "x": 408,
+    "y": 145,
+    "w": 624,
+    "h": 65.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "에이스 & 사보 & 루피 한글판 Carrying On His Will · SR 국내 ₩25,000 11월 4일 기준 목표가",
+   "rect": {
+    "x": 408,
+    "y": 274,
+    "w": 624,
+    "h": 128.1
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "이상해꽃 EX 한글판 XY 확장팩 제1탄 「X컬렉션」 · RR 국내 ₩9,900 11월 5일 기준 목표가",
+   "rect": {
+    "x": 408,
+    "y": 414.1,
+    "w": 624,
+    "h": 128.1
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "リザードンEX 일어판 XYP 등록된 매물이 없어요 · 관심은 유지돼요",
+   "rect": {
+    "x": 408,
+    "y": 554.3,
+    "w": 624,
+    "h": 90.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 202,
+    "y": 23.5,
+    "w": 63.2,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "에이스 & 사보 & 루피",
+   "rect": {
+    "x": 421,
+    "y": 287,
+    "w": 64,
+    "h": 64
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "이상해꽃 EX",
+   "rect": {
+    "x": 421,
+    "y": 427.1,
+    "w": 64,
+    "h": 64
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "リザードンEX",
+   "rect": {
+    "x": 421,
+    "y": 567.3,
+    "w": 64,
+    "h": 64
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 178,
+    "y": 1010.5,
+    "w": 63.2,
+    "h": 17
+   }
+  }
+ ]
+}

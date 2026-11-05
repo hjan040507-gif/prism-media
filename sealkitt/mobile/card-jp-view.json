@@ -1,0 +1,392 @@
+{
+ "file": "card-jp-view.png",
+ "kind": "page",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/cards/pokemon-card-jp-32317",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 4352,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:43:19.366Z",
+ "title": "リザードンEX 시세 · 최저가 · SEALKITT",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 1,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "리자몽EX (일어판)",
+   "rect": {
+    "x": 188,
+    "y": 175,
+    "w": 152.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 163,
+    "y": 8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 203,
+    "y": 8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "관심 추가",
+   "rect": {
+    "x": 16,
+    "y": 410.5,
+    "w": 100,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "알림",
+   "rect": {
+    "x": 122,
+    "y": 410.5,
+    "w": 72,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보유에 추가",
+   "rect": {
+    "x": 200,
+    "y": 410.5,
+    "w": 112,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "비교 담기",
+   "rect": {
+    "x": 318,
+    "y": 410.5,
+    "w": 100,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "10월 25일 약 ₩381만¥450,000",
+   "rect": {
+    "x": 43,
+    "y": 779.4,
+    "w": 280,
+    "h": 18
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "10월 22일 약 ₩846만¥1,000,000",
+   "rect": {
+    "x": 43,
+    "y": 809.4,
+    "w": 280,
+    "h": 18
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "10월 18일 약 ₩839만¥991,100",
+   "rect": {
+    "x": 43,
+    "y": 839.4,
+    "w": 280,
+    "h": 18
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 13,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 243,
+    "y": 8,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 303,
+    "y": 11,
+    "w": 71,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세 홈",
+   "rect": {
+    "x": 16,
+    "y": 75,
+    "w": 53,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "XY 프로모 카드",
+   "rect": {
+    "x": 73,
+    "y": 151,
+    "w": 70,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 331,
+    "y": 780.4,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 331,
+    "y": 810.4,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 331,
+    "y": 840.4,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 0,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 78,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 156,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마켓",
+   "rect": {
+    "x": 234,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 312,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "일본 시세 원화 환산 일본 실거래가 참고 약 ₩806만¥952,551 야후옥션 · 11/4 · 표본 8건 일본 PSA10 감정품 약 ₩1,160만¥1,370,000 변동 없음직전 대비 SNKRDUNK · 11/5 · 표본 6건 최근 실거래 (야후옥션 낙찰) 10월 25일 약 ₩381만¥",
+   "rect": {
+    "x": 16,
+    "y": 472.5,
+    "w": 358,
+    "h": 581.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "10월 25일 약 ₩381만¥450,000",
+   "rect": {
+    "x": 37,
+    "y": 775.4,
+    "w": 316,
+    "h": 26
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "10월 22일 약 ₩846만¥1,000,000",
+   "rect": {
+    "x": 37,
+    "y": 805.4,
+    "w": 316,
+    "h": 26
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "10월 18일 약 ₩839만¥991,100",
+   "rect": {
+    "x": 37,
+    "y": 835.4,
+    "w": 316,
+    "h": 26
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 50,
+    "y": 17.5,
+    "w": 63.2,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "リザードンEX",
+   "rect": {
+    "x": 16,
+    "y": 175,
+    "w": 160,
+    "h": 223.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "file": "chart-period-switch-first.png",
+ "kind": "seq-frame",
+ "seq": "chart-period-switch.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "scrollY": 1022,
+ "frames": 216,
+ "fps": 60,
+ "durationMs": 3600,
+ "crf": 12,
+ "capturedAt": "2026-11-05T23:27:28.978Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ }
+}

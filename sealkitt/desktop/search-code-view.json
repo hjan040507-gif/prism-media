@@ -1,0 +1,491 @@
+{
+ "file": "search-code-view.png",
+ "kind": "page",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/search",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1315,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:41:24.566Z",
+ "title": "시세 · SEALKITT",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "‘OP01-120’ 검색 결과 2개",
+   "rect": {
+    "x": 168,
+    "y": 97,
+    "w": 205.5,
+    "h": 28.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "카드",
+   "rect": {
+    "x": 172,
+    "y": 282.1,
+    "w": 33.6,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1061,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1101,
+    "y": 14,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1241,
+    "y": 152.6,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체",
+   "rect": {
+    "x": 168,
+    "y": 195.6,
+    "w": 44,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "포켓몬",
+   "rect": {
+    "x": 220,
+    "y": 195.6,
+    "w": 56,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "원피스",
+   "rect": {
+    "x": 284,
+    "y": 195.6,
+    "w": 56,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "유희왕",
+   "rect": {
+    "x": 348,
+    "y": 195.6,
+    "w": 56,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "한글판",
+   "rect": {
+    "x": 425,
+    "y": 195.6,
+    "w": 56,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일어판",
+   "rect": {
+    "x": 489,
+    "y": 195.6,
+    "w": 56,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "영문판",
+   "rect": {
+    "x": 553,
+    "y": 195.6,
+    "w": 56,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "시세 있음",
+   "rect": {
+    "x": 617,
+    "y": 195.6,
+    "w": 69,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "세부 조건 2",
+   "rect": {
+    "x": 707,
+    "y": 195.6,
+    "w": 97,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "가격 높은순",
+   "rect": {
+    "x": 198,
+    "y": 235.6,
+    "w": 75,
+    "h": 26.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1215,
+    "y": 283.1,
+    "w": 24,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1241,
+    "y": 283.1,
+    "w": 24,
+    "h": 24
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "OP01-120",
+   "rect": {
+    "x": 211,
+    "y": 150.6,
+    "w": 1020,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 19,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 289.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "커뮤니티",
+   "rect": {
+    "x": 363.2,
+    "y": 16,
+    "w": 94,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "장터",
+   "rect": {
+    "x": 461.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 535.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 609.2,
+    "y": 16,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1141,
+    "y": 14,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 1201,
+    "y": 17,
+    "w": 71,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "샹크스 Shanks (OP01-120) (Alternate Art) OP01-120 · Premium Booster -The Best- 카드 정보 보기",
+   "rect": {
+    "x": 169,
+    "y": 356.1,
+    "w": 551,
+    "h": 76.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "일반",
+   "rect": {
+    "x": 229,
+    "y": 428.6,
+    "w": 36,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "패러렐",
+   "rect": {
+    "x": 269,
+    "y": 428.6,
+    "w": 45,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "패러렐 2",
+   "rect": {
+    "x": 318,
+    "y": 428.6,
+    "w": 54,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "망가",
+   "rect": {
+    "x": 376,
+    "y": 428.6,
+    "w": 36,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "망가 2",
+   "rect": {
+    "x": 416,
+    "y": 428.6,
+    "w": 45,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "재록",
+   "rect": {
+    "x": 465,
+    "y": 428.6,
+    "w": 36,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "샹크스 샹크스 OP01-120 · プロモーションカード · 일어판 카드 정보 보기",
+   "rect": {
+    "x": 720,
+    "y": 356.1,
+    "w": 551,
+    "h": 70.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 168,
+    "y": 137.6,
+    "w": 1104,
+    "h": 46
+   }
+  },
+  {
+   "type": "card",
+   "tag": "ul",
+   "text": "2개는 아직 시세가 없어요 샹크스 Shanks (OP01-120) (Alternate Art) OP01-120 · Premium Booster -The Best- 카드 정보 보기 일반 패러렐 패러렐 2 망가 망가 2 재록 샹크스 샹크스 OP01-120 · プロモーションカード · 일어판 ",
+   "rect": {
+    "x": 168,
+    "y": 318.1,
+    "w": 1104,
+    "h": 144.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 202,
+    "y": 23.5,
+    "w": 63.2,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "샹크스",
+   "rect": {
+    "x": 181,
+    "y": 369.2,
+    "w": 36,
+    "h": 50.3
+   }
+  }
+ ]
+}

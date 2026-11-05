@@ -1,0 +1,535 @@
+{
+ "file": "search-results-view.png",
+ "kind": "page",
+ "project": "sealkitt",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/search",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2423,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:43:01.917Z",
+ "title": "시세 · SEALKITT",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "‘ㄹㅈㅁ’ 검색 결과 상위 20개",
+   "rect": {
+    "x": 16,
+    "y": 73,
+    "w": 136.8,
+    "h": 26
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "카드",
+   "rect": {
+    "x": 20,
+    "y": 293.5,
+    "w": 33.6,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 163,
+    "y": 8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 203,
+    "y": 8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 343,
+    "y": 162,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체",
+   "rect": {
+    "x": 16,
+    "y": 207,
+    "w": 44,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "포켓몬",
+   "rect": {
+    "x": 68,
+    "y": 207,
+    "w": 56,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "원피스",
+   "rect": {
+    "x": 132,
+    "y": 207,
+    "w": 56,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "유희왕",
+   "rect": {
+    "x": 196,
+    "y": 207,
+    "w": 56,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "한글판",
+   "rect": {
+    "x": 273,
+    "y": 207,
+    "w": 56,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일어판",
+   "rect": {
+    "x": 337,
+    "y": 207,
+    "w": 56,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "가격 높은순",
+   "rect": {
+    "x": 46,
+    "y": 247,
+    "w": 75,
+    "h": 26.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 317,
+    "y": 294.5,
+    "w": 24,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 343,
+    "y": 294.5,
+    "w": 24,
+    "h": 24
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "ㄹㅈㅁ",
+   "rect": {
+    "x": 59,
+    "y": 158,
+    "w": 274,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 13,
+    "w": 97.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 243,
+    "y": 8,
+    "w": 56,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 가입",
+   "rect": {
+    "x": 303,
+    "y": 11,
+    "w": 71,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "M리자몽 EX 055 · 와일드 블레이즈 · 언어판 2 ₩219,000 번개장터 호가",
+   "rect": {
+    "x": 17,
+    "y": 330.5,
+    "w": 356,
+    "h": 70.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "리자몽 VMAX 308 · 샤이니스타 V ₩125,000 번개장터 호가",
+   "rect": {
+    "x": 17,
+    "y": 401.8,
+    "w": 356,
+    "h": 70.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "루자미네 118 · GX 배틀부스트 ₩113,000 번개장터 호가",
+   "rect": {
+    "x": 17,
+    "y": 473.1,
+    "w": 356,
+    "h": 70.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "리자몽 VSTAR 212 · VSTAR 유니버스 · 언어판 2 ₩75,000 번개장터 호가",
+   "rect": {
+    "x": 17,
+    "y": 544.3,
+    "w": 356,
+    "h": 70.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "리자몽 V 211 · VSTAR 유니버스 · 언어판 2 ₩46,000 번개장터 호가",
+   "rect": {
+    "x": 17,
+    "y": 615.6,
+    "w": 356,
+    "h": 70.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "리자몽 V 102 · 스타버스 · 언어판 2 ₩42,000 번개장터 호가",
+   "rect": {
+    "x": 17,
+    "y": 686.9,
+    "w": 356,
+    "h": 70.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "메가리자몽X ex 223 · MEGA 드림 ex · 언어판 2 ₩25,750 번개장터 호가",
+   "rect": {
+    "x": 17,
+    "y": 758.2,
+    "w": 356,
+    "h": 70.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "M리자몽 EX 002 · M리자몽 EX ₩22,000 번개장터 호가",
+   "rect": {
+    "x": 17,
+    "y": 829.5,
+    "w": 356,
+    "h": 70.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 0,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세",
+   "rect": {
+    "x": 78,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "등급",
+   "rect": {
+    "x": 156,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마켓",
+   "rect": {
+    "x": 234,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 312,
+    "y": 780,
+    "w": 78,
+    "h": 64
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 145,
+    "w": 358,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "ul",
+   "text": "M리자몽 EX 055 · 와일드 블레이즈 · 언어판 2 ₩219,000 번개장터 호가 리자몽 VMAX 308 · 샤이니스타 V ₩125,000 번개장터 호가 루자미네 118 · GX 배틀부스트 ₩113,000 번개장터 호가 리자몽 VSTAR 212 · VSTAR 유니버스 · 언어판 2 ",
+   "rect": {
+    "x": 16,
+    "y": 329.5,
+    "w": 358,
+    "h": 1499.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "SEALKITT",
+   "rect": {
+    "x": 50,
+    "y": 17.5,
+    "w": 63.2,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "M리자몽 EX",
+   "rect": {
+    "x": 29,
+    "y": 340.5,
+    "w": 36,
+    "h": 50.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "리자몽 VMAX",
+   "rect": {
+    "x": 29,
+    "y": 411.8,
+    "w": 36,
+    "h": 50.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "루자미네",
+   "rect": {
+    "x": 29,
+    "y": 483.1,
+    "w": 36,
+    "h": 50.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "리자몽 VSTAR",
+   "rect": {
+    "x": 29,
+    "y": 554.3,
+    "w": 36,
+    "h": 50.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "리자몽 V",
+   "rect": {
+    "x": 29,
+    "y": 625.6,
+    "w": 36,
+    "h": 50.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "리자몽 V",
+   "rect": {
+    "x": 29,
+    "y": 696.9,
+    "w": 36,
+    "h": 50.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메가리자몽X ex",
+   "rect": {
+    "x": 29,
+    "y": 768.2,
+    "w": 36,
+    "h": 50.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "M리자몽 EX",
+   "rect": {
+    "x": 29,
+    "y": 839.5,
+    "w": 36,
+    "h": 50.3
+   }
+  }
+ ]
+}

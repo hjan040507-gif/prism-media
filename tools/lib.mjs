@@ -476,6 +476,38 @@ export async function saveShot(page, file, { full = false, clip, kind = 'page', 
 
 // 전체 화면: 기기 픽셀 16000 을 넘으면 clip 으로 나눠 찍고 PIL 로 잇는다.
 async function fullPageShot(page, file, dsf) {
+  // 화면 아래쪽에 붙은 고정 요소(하단 탭바·FAB)는 전체 화면에선 첫 화면 바닥(문서 중간)에 찍힌다 → 문서 바닥 같은 자리로 옮겼다가 되돌린다
+  await page.evaluate(() => {
+    const vh = window.innerHeight, docH = document.documentElement.scrollHeight, sy = window.scrollY;
+    const moved = [];
+    for (const el of document.querySelectorAll('body *')) {
+      const cs = getComputedStyle(el);
+      if (cs.position !== 'fixed' || cs.display === 'none' || cs.visibility === 'hidden') continue;
+      const r = el.getBoundingClientRect();
+      if (r.height < 4 || r.top < vh * 0.5 || r.bottom > vh + 2) continue;
+      moved.push([el, el.getAttribute('style')]);
+      const want = docH - (vh - r.top);
+      el.style.setProperty('position', 'absolute', 'important');
+      el.style.setProperty('bottom', 'auto', 'important');
+      el.style.setProperty('top', want + 'px', 'important');
+      const got = el.getBoundingClientRect().top + window.scrollY;
+      el.style.setProperty('top', (want + (want - got)) + 'px', 'important');
+    }
+    window.scrollTo({ top: sy, behavior: 'instant' });
+    window.__prismMoved = moved;
+  });
+  try { await fullPageShotInner(page, file, dsf); } finally {
+    await page.evaluate(() => { for (const [el, st] of window.__prismMoved || []) { if (st === null) el.removeAttribute('style'); else el.setAttribute('style', st); } window.__prismMoved = []; });
+  }
+}
+async function fullPageShotInner(page, file, dsf) {
+  // 화면 밖 이미지는 비동기 디코딩이라 전체 캡처에서 빈칸으로 찍힐 수 있다 → eager·sync 로 바꾸고 decode 를 기다린다
+  await page.evaluate(async () => {
+    const imgs = [...document.images];
+    for (const i of imgs) { i.loading = 'eager'; i.decoding = 'sync'; }
+    await Promise.race([Promise.all(imgs.map((i) => (i.complete ? i.decode() : new Promise((r) => { i.onload = i.onerror = r; }).then(() => i.decode())).catch(() => {}))), new Promise((r) => setTimeout(r, 10000))]);
+  }).catch(() => {});
+  await page.waitForTimeout(300);
   const h = await page.evaluate(() => document.documentElement.scrollHeight);
   const w = page.viewportSize().width;
   const LIMIT = Math.floor(16000 / dsf);
