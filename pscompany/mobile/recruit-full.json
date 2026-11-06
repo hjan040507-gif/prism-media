@@ -1,0 +1,568 @@
+{
+ "file": "recruit-full.png",
+ "kind": "page",
+ "project": "pscompany",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/recruit",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 9541,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:17:38.957Z",
+ "title": "BJ 모집 | PS COMPANY",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 3,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "인플루언서 · BJ 대규모 모집",
+   "rect": {
+    "x": 16,
+    "y": 211,
+    "w": 358,
+    "h": 86.4
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "왜 피에스컴퍼니인가",
+   "rect": {
+    "x": 16,
+    "y": 707.4,
+    "w": 358,
+    "h": 37.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "모집 부문",
+   "rect": {
+    "x": 16,
+    "y": 2000.9,
+    "w": 358,
+    "h": 37.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "개인 컨텐츠 방송 크리에이터",
+   "rect": {
+    "x": 48,
+    "y": 2203.4,
+    "w": 294,
+    "h": 32
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "크루 컨텐츠 방송 게스트",
+   "rect": {
+    "x": 49,
+    "y": 2586.4,
+    "w": 292,
+    "h": 32
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "지원 자격",
+   "rect": {
+    "x": 16,
+    "y": 3155.4,
+    "w": 358,
+    "h": 37.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "필수 조건",
+   "rect": {
+    "x": 49,
+    "y": 3317.9,
+    "w": 292,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "우대 사항",
+   "rect": {
+    "x": 49,
+    "y": 3595.9,
+    "w": 292,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "근무 조건",
+   "rect": {
+    "x": 16,
+    "y": 3988.9,
+    "w": 358,
+    "h": 37.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "복리후생",
+   "rect": {
+    "x": 16,
+    "y": 4727.4,
+    "w": 358,
+    "h": 37.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "고가 장비 지원",
+   "rect": {
+    "x": 41,
+    "y": 4929.9,
+    "w": 308,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "1:1 전담 매니지먼트",
+   "rect": {
+    "x": 41,
+    "y": 5131.9,
+    "w": 308,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "전용 스튜디오 제공",
+   "rect": {
+    "x": 41,
+    "y": 5333.9,
+    "w": 308,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "투명 계약 시스템",
+   "rect": {
+    "x": 41,
+    "y": 5535.9,
+    "w": 308,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "전형 절차",
+   "rect": {
+    "x": 16,
+    "y": 6042.9,
+    "w": 358,
+    "h": 37.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "접수 문의",
+   "rect": {
+    "x": 49,
+    "y": 6753.4,
+    "w": 292,
+    "h": 30
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "지원서 작성",
+   "rect": {
+    "x": 16,
+    "y": 7262.4,
+    "w": 358,
+    "h": 37.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 10,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 844
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "지원서 제출",
+   "rect": {
+    "x": 41,
+    "y": 8621.9,
+    "w": 130,
+    "h": 56
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "홍길동",
+   "rect": {
+    "x": 41,
+    "y": 7428.9,
+    "w": 308,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 24",
+   "rect": {
+    "x": 41,
+    "y": 7530.9,
+    "w": 308,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "010-****-****",
+   "rect": {
+    "x": 41,
+    "y": 7722.9,
+    "w": 308,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 41,
+    "y": 7824.9,
+    "w": 308,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 치지직 1년, 평균 시청자 30명",
+   "rect": {
+    "x": 41,
+    "y": 8176.9,
+    "w": 308,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "간단한 자기소개와 함께 하고 싶은 컨텐츠, 강점 등을 자유롭게 적어주세요.",
+   "rect": {
+    "x": 41,
+    "y": 8278.9,
+    "w": 308,
+    "h": 170
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 41,
+    "y": 8571.9,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PS COMPANY",
+   "rect": {
+    "x": 16,
+    "y": 18,
+    "w": 129,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지원하기",
+   "rect": {
+    "x": 266,
+    "y": 14,
+    "w": 68,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 16,
+    "y": 72,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "크리에이터",
+   "rect": {
+    "x": 16,
+    "y": 124,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "BJ 모집",
+   "rect": {
+    "x": 16,
+    "y": 176,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "캐스팅 디렉터 모집",
+   "rect": {
+    "x": 16,
+    "y": 228,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 16,
+    "y": 280,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지원하기 →",
+   "rect": {
+    "x": 16,
+    "y": 357,
+    "w": 358,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지금 지원하기 →",
+   "rect": {
+    "x": 111.5,
+    "y": 475.4,
+    "w": 167,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 수집 및 이용",
+   "rect": {
+    "x": 67,
+    "y": 8571.9,
+    "w": 120,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침 보기",
+   "rect": {
+    "x": 41,
+    "y": 8690.9,
+    "w": 307,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 16,
+    "y": 9341.9,
+    "w": 96,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용약관",
+   "rect": {
+    "x": 16,
+    "y": 9369.9,
+    "w": 48,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "BJ 모집",
+   "rect": {
+    "x": 16,
+    "y": 9397.9,
+    "w": 44,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 16,
+    "y": 9425.9,
+    "w": 24,
+    "h": 16
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "춤 · 노래 레슨 무료 지원",
+   "rect": {
+    "x": 41,
+    "y": 5745.9,
+    "w": 308,
+    "h": 24
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "초보자 교육 프로그램 운영",
+   "rect": {
+    "x": 41,
+    "y": 5777.9,
+    "w": 308,
+    "h": 24
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "다양한 플랫폼 동시 송출 가능 (유튜브 · 치지직 · SOOP · 틱톡)",
+   "rect": {
+    "x": 41,
+    "y": 5809.9,
+    "w": 308,
+    "h": 48
+   }
+  }
+ ]
+}

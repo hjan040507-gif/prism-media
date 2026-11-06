@@ -1,0 +1,16 @@
+{
+  "primary": "#ff1493",
+  "secondary": "#b347ff",
+  "accent": "#00dcff",
+  "text": "#0a0a0a",
+  "surface": "#f7f7f7",
+  "fonts": ["Pretendard"],
+  "font_stack": "Pretendard, -apple-system, BlinkMacSystemFont, \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Segoe UI\", Roboto, Inter, Helvetica, Arial, sans-serif",
+  "logo": "텍스트 로고 'PS COMPANY' (PS 는 #ff1493→#b347ff 그라데이션 글자, COMPANY 는 #0a0a0a). 로고 이미지 원본 파일 없음(운영 HTML 의 텍스트·그라데이션 span)",
+  "source": [
+    "https://pscp.to/_next/static/chunks/0z340ffjh4vuh.css (--font-sans, 색 사용 횟수: #ff1493 84 · #b347ff 36 · #00dcff 22 · #0a0a0a 23 · #f7f7f7 5, 조회 2026-11-06T08:05Z)",
+    "https://pscp.to/recruit (<link> pretendard@v1.3.9/dist/web/static/pretendard.min.css, 헤더 로고 span class from-[#ff1493])",
+    "https://pscp.to/_next/static/chunks/0tr1f06qf.zt5.js (지원 폼 focus-visible:border-[#ff1493] · has-[:checked]:border-[#ff1493] bg-[#ff1493]/5)"
+  ],
+  "note": "소스 저장소가 없어 file:line 근거 없음 — 운영 CSS·HTML GET 로 대체"
+}

@@ -1,0 +1,239 @@
+{
+ "file": "01-empty.png",
+ "kind": "state",
+ "project": "pscompany",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/recruit",
+ "scrollY": 7319,
+ "scrollX": 0,
+ "docHeight": 9541,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:18:00.615Z",
+ "title": "BJ 모집 | PS COMPANY",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 3,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 10,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 844
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 326,
+    "y": 776,
+    "w": 48,
+    "h": 48
+   },
+   "fixed": true
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "홍길동",
+   "rect": {
+    "x": 41,
+    "y": 109.9,
+    "w": 308,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 24",
+   "rect": {
+    "x": 41,
+    "y": 211.9,
+    "w": 308,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "010-****-****",
+   "rect": {
+    "x": 41,
+    "y": 403.9,
+    "w": 308,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 41,
+    "y": 505.9,
+    "w": 308,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PS COMPANY",
+   "rect": {
+    "x": 16,
+    "y": 18,
+    "w": 129,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지원하기",
+   "rect": {
+    "x": 266,
+    "y": 14,
+    "w": 68,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 16,
+    "y": 72,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "크리에이터",
+   "rect": {
+    "x": 16,
+    "y": 124,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "BJ 모집",
+   "rect": {
+    "x": 16,
+    "y": 176,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "캐스팅 디렉터 모집",
+   "rect": {
+    "x": 16,
+    "y": 228,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 16,
+    "y": 280,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지원하기 →",
+   "rect": {
+    "x": 16,
+    "y": 357,
+    "w": 358,
+    "h": 44
+   }
+  }
+ ]
+}

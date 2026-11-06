@@ -1,0 +1,403 @@
+{
+ "file": "recruit-sales-full.png",
+ "kind": "page",
+ "project": "pscompany",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/recruit/sales",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 4087,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:09:47.783Z",
+ "title": "캐스팅 디렉터 모집 | PS COMPANY",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 3,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "함께 성장할 캐스팅 디렉터를 모집합니다",
+   "rect": {
+    "x": 104,
+    "y": 227,
+    "w": 1232,
+    "h": 144
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "모집 안내 · 수익 구조",
+   "rect": {
+    "x": 104,
+    "y": 780,
+    "w": 1232,
+    "h": 37.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "모집 대상",
+   "rect": {
+    "x": 165,
+    "y": 942.5,
+    "w": 68,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "근무 안내",
+   "rect": {
+    "x": 793,
+    "y": 942.5,
+    "w": 68,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "접수 문의",
+   "rect": {
+    "x": 153,
+    "y": 2034.3,
+    "w": 1134,
+    "h": 37.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "캐스팅 디렉터 지원서",
+   "rect": {
+    "x": 104,
+    "y": 2430.8,
+    "w": 1232,
+    "h": 45
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "지원서 제출",
+   "rect": {
+    "x": 377,
+    "y": 3571.8,
+    "w": 130,
+    "h": 56
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "홍길동",
+   "rect": {
+    "x": 377,
+    "y": 2620.8,
+    "w": 686,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 24",
+   "rect": {
+    "x": 377,
+    "y": 2722.8,
+    "w": 331,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "010-****-****",
+   "rect": {
+    "x": 377,
+    "y": 2824.8,
+    "w": 686,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 377,
+    "y": 2926.8,
+    "w": 686,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 캐스팅·매니지먼트 2년, 방송 산업 경험",
+   "rect": {
+    "x": 377,
+    "y": 3126.8,
+    "w": 686,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "간단한 자기소개와 함께 하고 싶은 컨텐츠, 강점 등을 자유롭게 적어주세요.",
+   "rect": {
+    "x": 377,
+    "y": 3228.8,
+    "w": 686,
+    "h": 170
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 377,
+    "y": 3521.8,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PS COMPANY",
+   "rect": {
+    "x": 104,
+    "y": 18,
+    "w": 129,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 574,
+    "y": 22,
+    "w": 12,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "크리에이터",
+   "rect": {
+    "x": 614,
+    "y": 22,
+    "w": 60,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "BJ 모집",
+   "rect": {
+    "x": 702,
+    "y": 22,
+    "w": 43,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "캐스팅 디렉터 모집",
+   "rect": {
+    "x": 773,
+    "y": 22,
+    "w": 102,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 903,
+    "y": 22,
+    "w": 24,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지원하기",
+   "rect": {
+    "x": 1268,
+    "y": 14,
+    "w": 68,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지금 지원하기 →",
+   "rect": {
+    "x": 636.5,
+    "y": 500,
+    "w": 167,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 수집 및 이용",
+   "rect": {
+    "x": 403,
+    "y": 3521.8,
+    "w": 120,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침 보기",
+   "rect": {
+    "x": 634,
+    "y": 3640.8,
+    "w": 103,
+    "h": 14
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 1052,
+    "y": 3887.8,
+    "w": 96,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용약관",
+   "rect": {
+    "x": 1052,
+    "y": 3915.8,
+    "w": 48,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "BJ 모집",
+   "rect": {
+    "x": 1052,
+    "y": 3943.8,
+    "w": 44,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 1052,
+    "y": 3971.8,
+    "w": 24,
+    "h": 16
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "정산일: 매월 15일",
+   "rect": {
+    "x": 129,
+    "y": 1728.3,
+    "w": 1182,
+    "h": 24
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "플랫폼 정산 일정에 따라 약 1주일 정도 지급 지연 가능",
+   "rect": {
+    "x": 129,
+    "y": 1760.3,
+    "w": 1182,
+    "h": 24
+   }
+  }
+ ]
+}

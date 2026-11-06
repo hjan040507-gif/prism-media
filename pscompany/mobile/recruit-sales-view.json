@@ -1,0 +1,227 @@
+{
+ "file": "recruit-sales-view.png",
+ "kind": "page",
+ "project": "pscompany",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/recruit/sales",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 4750,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:17:54.357Z",
+ "title": "캐스팅 디렉터 모집 | PS COMPANY",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 3,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "함께 성장할 캐스팅 디렉터를 모집합니다",
+   "rect": {
+    "x": 16,
+    "y": 195,
+    "w": 358,
+    "h": 72
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "모집 안내 · 수익 구조",
+   "rect": {
+    "x": 16,
+    "y": 625,
+    "w": 358,
+    "h": 30
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "모집 대상",
+   "rect": {
+    "x": 77,
+    "y": 780,
+    "w": 68,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 10,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 844
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PS COMPANY",
+   "rect": {
+    "x": 16,
+    "y": 18,
+    "w": 129,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지원하기",
+   "rect": {
+    "x": 266,
+    "y": 14,
+    "w": 68,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 16,
+    "y": 72,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "크리에이터",
+   "rect": {
+    "x": 16,
+    "y": 124,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "BJ 모집",
+   "rect": {
+    "x": 16,
+    "y": 176,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "캐스팅 디렉터 모집",
+   "rect": {
+    "x": 16,
+    "y": 228,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 16,
+    "y": 280,
+    "w": 358,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지원하기 →",
+   "rect": {
+    "x": 16,
+    "y": 357,
+    "w": 358,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지금 지원하기 →",
+   "rect": {
+    "x": 111.5,
+    "y": 409,
+    "w": 167,
+    "h": 56
+   }
+  }
+ ]
+}
