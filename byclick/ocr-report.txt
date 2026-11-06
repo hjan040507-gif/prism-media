@@ -1,4 +1,4 @@
 # OCR(tesseract kor+eng) 독립 검사 · 대상 112장 · 걸림 1
 pdf/settlement-statement.png	phone	06***
 
-# 판정(03:55Z, 주 세션 직접 확인): pdf/settlement-statement.png phone 06*** = 문서번호 OMD-S-C3C3C3C3 를 OCR 이 숫자로 잘못 읽음 — 화면에 전화번호 형식 없음(PNG 직접 확인), 오탐.
+# 판정(주 세션 직접 확인): pdf/settlement-statement.png phone 06*** = 문서번호 OMD-S-C3C3C3C3 를 OCR 이 숫자로 잘못 읽음 — 화면에 전화번호 형식 없음(PNG 직접 확인), 오탐.

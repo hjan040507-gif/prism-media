@@ -1,0 +1,84 @@
+# 완료 조건 증거 · 2026-11-06T03:33:52Z · prism-media 42c49dd
+
+## 1. check.py (nowflix --tablet)
+sealkitt: PASS 8 · FAIL 0 · 폴더 65.2MB · 가로챈 요청 합계 2 · 허용한 비GET ['POST /my/wishlist (server action, read)', 'POST /rest/v1/rpc/get_wishlist_preview']
+posco: PASS 8 · FAIL 0 · 폴더 71.7MB · 가로챈 요청 합계 49 · 허용한 비GET []
+byclick: PASS 8 · FAIL 0 · 폴더 47.1MB · 가로챈 요청 합계 0 · 허용한 비GET ['POST /rest/v1/rpc/place_bid_v2', 'POST /rest/v1/rpc/vehicle_catalog']
+fordex: PASS 8 · FAIL 0 · 폴더 68.4MB · 가로챈 요청 합계 4 · 허용한 비GET []
+jipyeong: PASS 8 · FAIL 0 · 폴더 76.8MB · 가로챈 요청 합계 28 · 허용한 비GET []
+maieventic: PASS 8 · FAIL 0 · 폴더 57.4MB · 가로챈 요청 합계 19 · 허용한 비GET []
+medimajor: PASS 8 · FAIL 0 · 폴더 81.3MB · 가로챈 요청 합계 9 · 허용한 비GET []
+sellfit: PASS 8 · FAIL 0 · 폴더 39.1MB · 가로챈 요청 합계 0 · 허용한 비GET []
+nowflix: PASS 7 · FAIL 0 · 폴더 15.1MB · 가로챈 요청 합계 6 · 허용한 비GET []
+
+## 2. OCR 보고서 첫 줄 + 판정 줄
+sealkitt: # OCR(tesseract kor+eng) 독립 검사 · 대상 81장 · 걸림 0
+posco: # OCR(tesseract kor+eng) 독립 검사 · 대상 82장 · 걸림 0
+byclick: # OCR(tesseract kor+eng) 독립 검사 · 대상 112장 · 걸림 1
+    # 판정(03:55Z, 주 세션 직접 확인): pdf/settlement-statement.png phone 06*** = 문서번호 OMD-S-C3C3C3C3 를 OCR 이 숫자로 잘못 읽음 — 화면에 전화번호 형식 없음(PNG 직접 확인), 오탐.
+fordex: # OCR(tesseract kor+eng) 독립 검사 · 대상 50장 · 걸림 1
+jipyeong: # OCR(tesseract kor+eng) 독립 검사 · 대상 110장 · 걸림 0
+maieventic: # OCR(tesseract kor+eng) 독립 검사 · 대상 108장 · 걸림 1
+medimajor: # OCR(tesseract kor+eng) 독립 검사 · 대상 58장 · 걸림 5
+sellfit: # OCR(tesseract kor+eng) 독립 검사 · 대상 27장 · 걸림 0
+nowflix: # OCR(tesseract kor+eng) 독립 검사 · 대상 36장 · 걸림 0
+
+## 3. json pii_scan.total != 0 인 파일
+pii_scan 있는 json 569 · total≠0 0
+
+## 4. 요소 묶음 글자 재검사(tmp/elements-scan.py)
+sealkitt: json 60 · 걸림 0
+posco: json 87 · 걸림 0
+byclick: json 90 · 걸림 0
+fordex: json 51 · 걸림 0
+jipyeong: json 69 · 걸림 0
+maieventic: json 68 · 걸림 0
+medimajor: json 64 · 걸림 0
+sellfit: json 29 · 걸림 0
+nowflix: json 32 · 걸림 0
+
+## 5. 95MB 넘는 파일
+count=0
+
+## 6. 고객 레포 git status 기준선 대조(빈 줄 무시)
+  sealkitt: DIFF
+      0a1
+      >  M docs/audit/2026-11-06/report-w-do33-12.md
+  sellfit: same
+  nowflix-kiosk: same
+  Medimajor: same
+  maimai-posco: same
+  fordex: same
+  bikeclickofficial: same
+  maimai-event-builder: DIFF
+      0a1,494
+      >  M PROGRESS.md
+      >  M docs/mvp/q2-7/add15/g11/B-B1.json
+      >  M docs/mvp/q2-7/add15/g11/B-B2.json
+      >  M docs/mvp/q2-7/add15/g11/B-S1.json
+      >  M docs/mvp/q2-7/add15/g11/C-X2.json
+  maimai-jipyeong: same
+
+## 7. 임시 사본·서버
+  tmp/*-src: 0
+  이 작업이 쓴 포트(3207 3260 3263 4310) LISTEN: 0
+
+## 8. 커밋
+42c49dd posco: live closed notice (mobile·desktop, GET only) + local copy with fake responses — mobile 38 (journey·claim 3 tiers·staff PIN), ops desktop 10, 8 state flows, 2 seq (draw-reveal·quiz-correct), facts, shots, contact (check FAIL 0, OCR 0/82, elements 0)
+48eb3c3 tools: redact/scan PII split across inline elements (byclick root cause)
+9261fbe byclick: consumer mobile (live, GET only)·public desktop, dealer/admin desktop via local copy + mock DB, 8 state flows, 2 seq, PDF 3, facts, shots, contact (check FAIL 0, OCR 1 false positive judged, elements 0)
+2d484a5 PROGRESS: jipyeong done
+6e56787 jipyeong: mobile 36 (18 pages: results 5·invites 6), admin desktop 8 (4 pages via local copy + fake API), 6 state flows, 2 seq (shake-mix·mix-to-result), facts 10, shots, contact (check FAIL 0, OCR 0/110, elements 0)
+09603a2 tools: live PII redaction survives <html> root swap; post-shot scan before redact
+d54b8a0 PROGRESS: handoff at 400K context
+0f9386d PROGRESS: build state correction
+c109133 PROGRESS: resume posco/jipyeong/byclick after restart
+a20cd89 nowflix: tablet 8 (existing CI emulator captures, QR/domain masked, OCR boxes json), admin web desktop 3 pages via local copy + mock Supabase, 5 state flows, facts 11, shots, contact (check --tablet FAIL 0, OCR 0/36)
+9113730 fordex: mobile 14·admin desktop 5 pages (local replica + fake data), 3 state flows, 2 seq, App Store screenshots 8, facts 10 (admin screens 21 by code), shots, contact (check FAIL 0, OCR 1 false positive)
+ad354b8 maieventic: desktop 11·mobile 7 pages, 6 state flows, 2 seq (roulette/scratch, page.clock), facts 11, shots, contact (check FAIL 0, OCR 1 false positive); /create builder BLOCKED (server analytics write)
+071d6dd sellfit: public screens only (partial access) — desktop 4·mobile 5 pages, 2 state flows, 1 seq, facts 10, shots, contact (check FAIL 0, OCR 0/27, no people photos); admin/swap BLOCKED
+aa7d534 PROGRESS: medimajor done
+d4e391f medimajor: desktop 16 (6 languages, admin 4)·mobile 5 pages, 4 state flows (realtime bid via routeWebSocket), 2 seq, facts, shots, contact (check FAIL 0, OCR 5 false positives judged)
+d9c8005 sealkitt: desktop 11·mobile 5 pages, 7 state flows, 3 seq, facts 11, shots, contact (check FAIL 0, OCR 0/81); lib: full-page bottom-fixed relocation + eager image decode
+1ece652 tools: review fixes — per-frame redact+scan, post-shot rescan, shadow/iframe/pseudo scan, rule re-apply, rrn/addr/account-context/passport patterns, guard matcher fixes, seq timeline base, scroll recheck; check.py frame count; ocr.py
+f7998b8 tools: Playwright 1.64.1 capture lib (DOM redact + PII gate, write interception, states, 60fps seq), check/contact/stitch + spec + baseline
