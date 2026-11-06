@@ -1,0 +1,403 @@
+{
+ "file": "matches-supplier-full.png",
+ "kind": "page",
+ "project": "matchsat",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/matches",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1429,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:53:10.680Z",
+ "title": "매치샛 (MatchSat)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 2,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 3
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 2
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 3
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 2
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 2
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 2
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "매칭내역",
+   "rect": {
+    "x": 224,
+    "y": 89,
+    "w": 992,
+    "h": 37.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "해안 침식 정밀 지정 촬영",
+   "rect": {
+    "x": 245,
+    "y": 191.2,
+    "w": 950,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "댐 수위 변화 SAR 관측",
+   "rect": {
+    "x": 245,
+    "y": 403.2,
+    "w": 950,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1080,
+    "y": 12,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1168,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "수락",
+   "rect": {
+    "x": 245,
+    "y": 223.2,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거절",
+   "rect": {
+    "x": 309,
+    "y": 223.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "채팅 접기 ▴ 이○○",
+   "rect": {
+    "x": 245,
+    "y": 662.2,
+    "w": 100,
+    "h": 20
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전송",
+   "rect": {
+    "x": 1126,
+    "y": 1030.2,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "메시지를 입력하세요 (Enter 전송, Shift+Enter 줄바꿈)",
+   "rect": {
+    "x": 312,
+    "y": 1034.2,
+    "w": 806,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매치샛",
+   "rect": {
+    "x": 224,
+    "y": 16,
+    "w": 68,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성제공목록",
+   "rect": {
+    "x": 308,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "주문 입찰",
+   "rect": {
+    "x": 396,
+    "y": 18,
+    "w": 52,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성제공관리",
+   "rect": {
+    "x": 464,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여업체",
+   "rect": {
+    "x": 552,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 616,
+    "y": 18,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매칭내역",
+   "rect": {
+    "x": 668,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "채팅",
+   "rect": {
+    "x": 732,
+    "y": 18,
+    "w": 24,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이페이지",
+   "rect": {
+    "x": 772,
+    "y": 18,
+    "w": 60,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "주문 보기",
+   "rect": {
+    "x": 1152,
+    "y": 165.2,
+    "w": 43,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "주문 보기",
+   "rect": {
+    "x": 1152,
+    "y": 377.2,
+    "w": 43,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전체화면 ↗",
+   "rect": {
+    "x": 1141,
+    "y": 664.2,
+    "w": 54,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 1004,
+    "y": 1200.2,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용약관",
+   "rect": {
+    "x": 1056,
+    "y": 1200.2,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 1120,
+    "y": 1200.2,
+    "w": 96,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "대기 특별주문 · 지정 매칭 주문 보기 해안 침식 정밀 지정 촬영 수락 거절 수요자 정보 비공개 — 수요자가 정보 공개에 동의하면 연락처가 표시됩니다.",
+   "rect": {
+    "x": 224,
+    "y": 142.2,
+    "w": 992,
+    "h": 200
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "수락 영상주문 · 낙찰 매칭 주문 보기 댐 수위 변화 SAR 관측 내 입찰가 3,300,000원 내 입금 계좌 (수요자에게 공유됨) ○○은행 · · A위성 수요자 연락처 (공개됨) 이름 이○○ 소속 B기관 전화 - 이메일 채팅 접기 ▴ 이○○ 전체화면 ↗ 수요자와 공급자간 거래 중일 시",
+   "rect": {
+    "x": 224,
+    "y": 354.2,
+    "w": 992,
+    "h": 773
+   }
+  }
+ ]
+}

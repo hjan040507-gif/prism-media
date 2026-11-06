@@ -1,0 +1,274 @@
+{
+ "file": "rfq-form-steps-last.png",
+ "kind": "seq-frame",
+ "seq": "rfq-form-steps.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "scrollY": 0,
+ "frames": 300,
+ "fps": 60,
+ "durationMs": 5000,
+ "crf": 12,
+ "capturedAt": "2026-11-06T09:03:11.973Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "위성영상주문 (Sat-order)",
+   "rect": {
+    "x": 224,
+    "y": 89,
+    "w": 992,
+    "h": 37.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1080,
+    "y": 12,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1168,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이전",
+   "rect": {
+    "x": 384,
+    "y": 373.2,
+    "w": 70,
+    "h": 58
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "임시저장",
+   "rect": {
+    "x": 882,
+    "y": 373.2,
+    "w": 98,
+    "h": 58
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제출",
+   "rect": {
+    "x": 988,
+    "y": 373.2,
+    "w": 68,
+    "h": 58
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "3,000,000",
+   "rect": {
+    "x": 245,
+    "y": 307.2,
+    "w": 469,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "6,000,000",
+   "rect": {
+    "x": 726,
+    "y": 307.2,
+    "w": 469,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매치샛",
+   "rect": {
+    "x": 224,
+    "y": 16,
+    "w": 68,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성영상주문",
+   "rect": {
+    "x": 308,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성제공목록",
+   "rect": {
+    "x": 396,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여업체",
+   "rect": {
+    "x": 484,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 548,
+    "y": 18,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매칭내역",
+   "rect": {
+    "x": 600,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "채팅",
+   "rect": {
+    "x": 664,
+    "y": 18,
+    "w": 24,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이페이지",
+   "rect": {
+    "x": 704,
+    "y": 18,
+    "w": 60,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 1004,
+    "y": 671.5,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용약관",
+   "rect": {
+    "x": 1056,
+    "y": 671.5,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 1120,
+    "y": 671.5,
+    "w": 96,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "form",
+   "text": "4. 예산·확정 4 / 4 예산은 필수입니다 — 최소·최대 중 하나 이상 입력해야 주문이 등록됩니다. 예산(최소 또는 최대)을 입력해야 주문을 등록할 수 있습니다. 예산(최소) 예산(최대) 이전 임시저장 제출",
+   "rect": {
+    "x": 224,
+    "y": 142.2,
+    "w": 992,
+    "h": 310
+   }
+  }
+ ]
+}

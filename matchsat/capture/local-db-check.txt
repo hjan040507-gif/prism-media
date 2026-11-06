@@ -1,0 +1,9 @@
+# 2026-11-06T07:48:58Z migration/seed 직전 점검(start 직후)
+API_URL="http://127.0.0.1:57020"
+DB_URL="postgresql://postgres:postgres@127.0.0.1:57021/postgres"
+# 2026-11-06T07:50:45Z 시드 직전 점검
+API_URL="http://127.0.0.1:57020"
+DB_URL="postgresql://postgres:postgres@127.0.0.1:57021/postgres"
+
+# 2026-11-06T09:09:24Z 정리 완료: 앱 PID 종료 · supabase stop --no-backup · pm-matchsat 컨테이너 0 · 볼륨 0 · 사본 삭제 · 포트 57020~57029·3612 0
+# (참고) 첫 점검은 supabase start 직후에 했다 — start 가 컨테이너 안에서 마이그레이션 23개를 적용했고(project_id=pm-matchsat·포트 57020~57029, 운영 연결 없음), 시드 직전에 URL 두 줄이 127.0.0.1 배정 포트임을 확인했다(위 두 블록). `db reset --local` 은 danger-guard 훅이 막아 실행하지 않았다(점검 기록 없음).

@@ -1,0 +1,461 @@
+{
+ "file": "admin-reports-view.png",
+ "kind": "page",
+ "project": "matchsat",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/reports",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1029,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:54:08.172Z",
+ "title": "매치샛 (MatchSat)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 7
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 9
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 2
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "신고 처리",
+   "rect": {
+    "x": 224,
+    "y": 89,
+    "w": 992,
+    "h": 37.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "신고 (3)",
+   "rect": {
+    "x": 224,
+    "y": 227.2,
+    "w": 992,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1080,
+    "y": 12,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1168,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "검토중",
+   "rect": {
+    "x": 241,
+    "y": 350.2,
+    "w": 70,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "처리완료",
+   "rect": {
+    "x": 319,
+    "y": 350.2,
+    "w": 80,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기각",
+   "rect": {
+    "x": 407,
+    "y": 350.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "검토중",
+   "rect": {
+    "x": 241,
+    "y": 508.2,
+    "w": 70,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "처리완료",
+   "rect": {
+    "x": 319,
+    "y": 508.2,
+    "w": 80,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기각",
+   "rect": {
+    "x": 407,
+    "y": 508.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "검토중",
+   "rect": {
+    "x": 241,
+    "y": 666.2,
+    "w": 70,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "처리완료",
+   "rect": {
+    "x": 319,
+    "y": 666.2,
+    "w": 80,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기각",
+   "rect": {
+    "x": 407,
+    "y": 666.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매치샛",
+   "rect": {
+    "x": 224,
+    "y": 16,
+    "w": 68,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성제공목록",
+   "rect": {
+    "x": 308,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "주문 입찰",
+   "rect": {
+    "x": 396,
+    "y": 18,
+    "w": 52,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여업체",
+   "rect": {
+    "x": 464,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 528,
+    "y": 18,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매칭내역",
+   "rect": {
+    "x": 580,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이페이지",
+   "rect": {
+    "x": 644,
+    "y": 18,
+    "w": 60,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "채팅",
+   "rect": {
+    "x": 720,
+    "y": 18,
+    "w": 24,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관리자",
+   "rect": {
+    "x": 760,
+    "y": 18,
+    "w": 56,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대시보드",
+   "rect": {
+    "x": 224,
+    "y": 150.2,
+    "w": 72,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회원",
+   "rect": {
+    "x": 300,
+    "y": 150.2,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신고",
+   "rect": {
+    "x": 352,
+    "y": 150.2,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "모니터링",
+   "rect": {
+    "x": 404,
+    "y": 150.2,
+    "w": 72,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "감사",
+   "rect": {
+    "x": 480,
+    "y": 150.2,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 1004,
+    "y": 800.2,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용약관",
+   "rect": {
+    "x": 1056,
+    "y": 800.2,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 1120,
+    "y": 800.2,
+    "w": 96,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "rfq 2026. 11. 6. AM 1:51 접수 촬영 요청 조건이 현실적이지 않아 확인이 필요합니다(가상). 대상 ID: 6ee43934-a8ee-45ca-9a44-356b97774bda 검토중 처리완료 기각",
+   "rect": {
+    "x": 224,
+    "y": 261.2,
+    "w": 992,
+    "h": 150
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "supplier 2026. 11. 4. AM 7:51 검토중 연락 두절 — 지정 매칭 거절 사유 확인 요청(가상). 대상 ID: 21bc2528-36c4-494a-a36e-c26266564356 검토중 처리완료 기각",
+   "rect": {
+    "x": 224,
+    "y": 419.2,
+    "w": 992,
+    "h": 150
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "rfq 2026. 10. 31. AM 7:51 처리완료 중복 등록된 주문으로 보입니다(가상). 대상 ID: 5b32a2bf-1274-419d-aba3-518bbd1e4c15 검토중 처리완료 기각",
+   "rect": {
+    "x": 224,
+    "y": 577.2,
+    "w": 992,
+    "h": 150
+   }
+  }
+ ]
+}

@@ -1,0 +1,376 @@
+{
+ "file": "rfq-bid-view.png",
+ "kind": "page",
+ "project": "matchsat",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/rfqs/6ee43934-a8ee-45ca-9a44-356b97774bda",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1094,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:52:56.128Z",
+ "title": "매치샛 (MatchSat)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 3
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 2
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 2
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "산불 피해 구역 긴급 촬영",
+   "rect": {
+    "x": 224,
+    "y": 175,
+    "w": 992,
+    "h": 37.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "입찰하기",
+   "rect": {
+    "x": 241,
+    "y": 411.2,
+    "w": 958,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1080,
+    "y": 12,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1168,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "입찰하기",
+   "rect": {
+    "x": 241,
+    "y": 657.2,
+    "w": 96,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "신고",
+   "rect": {
+    "x": 237,
+    "y": 862.2,
+    "w": 50,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 1,000,000",
+   "rect": {
+    "x": 241,
+    "y": 469.2,
+    "w": 473,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 726,
+    "y": 469.2,
+    "w": 473,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "",
+   "rect": {
+    "x": 241,
+    "y": 551.2,
+    "w": 958,
+    "h": 94
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "신고 사유",
+   "rect": {
+    "x": 237,
+    "y": 795.2,
+    "w": 966,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매치샛",
+   "rect": {
+    "x": 224,
+    "y": 16,
+    "w": 68,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성제공목록",
+   "rect": {
+    "x": 308,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "주문 입찰",
+   "rect": {
+    "x": 396,
+    "y": 18,
+    "w": 51,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성제공관리",
+   "rect": {
+    "x": 463,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여업체",
+   "rect": {
+    "x": 551,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 615,
+    "y": 18,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매칭내역",
+   "rect": {
+    "x": 667,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "채팅",
+   "rect": {
+    "x": 731,
+    "y": 18,
+    "w": 24,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이페이지",
+   "rect": {
+    "x": 771,
+    "y": 18,
+    "w": 60,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 1004,
+    "y": 865.2,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용약관",
+   "rect": {
+    "x": 1056,
+    "y": 865.2,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 1120,
+    "y": 865.2,
+    "w": 96,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "익명 보기 — 수요자 신원(소속·이름·연락처)은 공개되지 않습니다. 입찰 모집 영상주문 산불 피해 구역 긴급 촬영 촬영수단 EO 촬영지점 피해 구역 반경 5km(가상) 범위 반경 5 km 촬영요청일시 2026. 11. 6. AM 8:51 ~ 2026. 11. 6. AM 10:21 예산 ",
+   "rect": {
+    "x": 224,
+    "y": 89,
+    "w": 992,
+    "h": 703.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "dl",
+   "text": "촬영수단 EO 촬영지점 피해 구역 반경 5km(가상) 범위 반경 5 km 촬영요청일시 2026. 11. 6. AM 8:51 ~ 2026. 11. 6. AM 10:21 예산 2,000,000 ~ 4,000,000원 제공시간 6시간 이내 분석보고서 무 해상도 3m급",
+   "rect": {
+    "x": 224,
+    "y": 228.2,
+    "w": 992,
+    "h": 138
+   }
+  },
+  {
+   "type": "card",
+   "tag": "form",
+   "text": "입찰하기 입찰가 (원)* 완료 예정일 제안서 입찰하기",
+   "rect": {
+    "x": 224,
+    "y": 382.2,
+    "w": 992,
+    "h": 348
+   }
+  },
+  {
+   "type": "card",
+   "tag": "details",
+   "text": "이 주문 신고",
+   "rect": {
+    "x": 224,
+    "y": 746.2,
+    "w": 992,
+    "h": 46
+   }
+  }
+ ]
+}

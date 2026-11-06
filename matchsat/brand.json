@@ -1,0 +1,12 @@
+{
+  "primary": "#0A0A0B",
+  "secondary": "#1B64F2",
+  "accent": { "pos": "#0A7D58", "warn": "#C2410C", "error": "#DC2626", "page": "#F2F4F6", "surface": "#FFFFFF" },
+  "fonts": ["Pretendard Variable"],
+  "source": [
+    "tailwind.config.ts:18-36 (ink-900 #0A0A0B · signal #1B64F2 · pos · warn · error · page)",
+    "app/_components/ui/button.tsx:15 (기본 버튼 bg-ink-900)",
+    "app/layout.tsx:14-19 (Pretendard Variable, app/fonts/PretendardVariable.woff2)",
+    "app/icon.svg (로고 마크)"
+  ]
+}

@@ -1,0 +1,332 @@
+{
+ "file": "rfq-owner-bids-full.png",
+ "kind": "page",
+ "project": "matchsat",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/rfqs/e25752c7-89b5-4589-82ce-ebeb4ea3332e",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1178,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:52:29.936Z",
+ "title": "매치샛 (MatchSat)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 6
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 2
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 2
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "서해안 갯벌 변화 관측 위성영상",
+   "rect": {
+    "x": 224,
+    "y": 117,
+    "w": 992,
+    "h": 37.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "받은 입찰 2건",
+   "rect": {
+    "x": 224,
+    "y": 446.2,
+    "w": 106.4,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1080,
+    "y": 12,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1168,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이 입찰 낙찰",
+   "rect": {
+    "x": 245,
+    "y": 609.2,
+    "w": 98,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이 입찰 낙찰",
+   "rect": {
+    "x": 245,
+    "y": 811.2,
+    "w": 98,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매치샛",
+   "rect": {
+    "x": 224,
+    "y": 16,
+    "w": 68,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성영상주문",
+   "rect": {
+    "x": 308,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성제공목록",
+   "rect": {
+    "x": 396,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여업체",
+   "rect": {
+    "x": 484,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 548,
+    "y": 18,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매칭내역",
+   "rect": {
+    "x": 600,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "채팅",
+   "rect": {
+    "x": 664,
+    "y": 18,
+    "w": 24,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이페이지",
+   "rect": {
+    "x": 704,
+    "y": 18,
+    "w": 60,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이 주문 복제",
+   "rect": {
+    "x": 224,
+    "y": 324.2,
+    "w": 100,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 1004,
+    "y": 949.2,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용약관",
+   "rect": {
+    "x": 1056,
+    "y": 949.2,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 1120,
+    "y": 949.2,
+    "w": 96,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "입찰 중 영상주문 서해안 갯벌 변화 관측 위성영상 촬영수단 EO, SAR 촬영지점 가로림만 일대(가상) 범위 반경 8 km 촬영요청일시 2026. 11. 7. PM 1:50 ~ 2026. 11. 9. PM 3:50 예산 3,000,000 ~ 6,000,000원 제공시간 24시간 이내 분",
+   "rect": {
+    "x": 224,
+    "y": 89,
+    "w": 992,
+    "h": 787.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "dl",
+   "text": "촬영수단 EO, SAR 촬영지점 가로림만 일대(가상) 범위 반경 8 km 촬영요청일시 2026. 11. 7. PM 1:50 ~ 2026. 11. 9. PM 3:50 예산 3,000,000 ~ 6,000,000원 제공시간 24시간 이내 분석보고서 무 해상도 1m급 이상",
+   "rect": {
+    "x": 224,
+    "y": 170.2,
+    "w": 992,
+    "h": 138
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "B B위성영상 최저가 3,800,000원 약 4일 · 상태 대기 · 1일 전 광학 영상 기준 최저가 제안(가상) 이 입찰 낙찰",
+   "rect": {
+    "x": 224,
+    "y": 480.2,
+    "w": 992,
+    "h": 194
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "A A위성 4,200,000원 약 3일 · 상태 대기 · 1일 전 가로림만 일대 EO·SAR 합성 영상 제공, 분석 전 원본 우선 전달(가상) 이 입찰 낙찰",
+   "rect": {
+    "x": 224,
+    "y": 682.2,
+    "w": 992,
+    "h": 194
+   }
+  }
+ ]
+}

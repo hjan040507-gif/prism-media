@@ -1,0 +1,17 @@
+# 로컬 Supabase(pm-matchsat · 127.0.0.1:57021) 읽기 전용 재현 — 2026-11-06T08:03:22Z — 마이그레이션 23개를 그대로 적용한 DB, 가짜 데이터, 전부 ROLLBACK
+# 실행 역할: authenticated + JWT sub(가짜 공급자 A / 가짜 수요자 B) 또는 anon
+supplier A: rfqs 기저 테이블 행 수 = 0
+supplier A: rfq_public_view 행 수 = 7
+rfq_public_view 컬럼에 requester_id 있나 = false
+supplier A: profiles 에서 보이는 행(본인뿐) = 1
+supplier A: match_view 행(당사자만) = 2
+supplier A: 수요자 공개 동의 매칭의 수요자 이름 = 이○○
+supplier A: 비공개 매칭의 수요자 이름 = (null)
+requester B: supplier_profiles 기저 테이블 행 수 = 0
+anon: rfq_public_view SELECT = denied
+anon: match_view SELECT = denied
+anon: suppliers_directory SELECT = GRANT(계좌·사업자번호 컬럼 없음)
+public 테이블 15
+public 뷰 6 (conversations_view,match_view,messages_view,rfq_public_view,suppliers_directory,supply_listings_view)
+suppliers_directory 컬럼: id,profile_id,company_name,equipment,tier,is_verified,portfolio_url,created_at,description,satellites,achievements,homepage_url,founded_year
+rfq_public_view 컬럼 수 27

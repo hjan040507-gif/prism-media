@@ -1,0 +1,324 @@
+{
+ "file": "matches-requester-view.png",
+ "kind": "page",
+ "project": "matchsat",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/matches",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1563,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:53:18.932Z",
+ "title": "매치샛 (MatchSat)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 2,
+  "email": 1,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 2
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 2
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "매칭내역",
+   "rect": {
+    "x": 224,
+    "y": 89,
+    "w": 992,
+    "h": 37.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "국가산단 시설 정기 지정 촬영",
+   "rect": {
+    "x": 245,
+    "y": 191.2,
+    "w": 950,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "댐 수위 변화 SAR 관측",
+   "rect": {
+    "x": 245,
+    "y": 403.2,
+    "w": 950,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1080,
+    "y": 12,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1168,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "정보 공개",
+   "rect": {
+    "x": 1099,
+    "y": 264.2,
+    "w": 83,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거래 완료",
+   "rect": {
+    "x": 245,
+    "y": 649.2,
+    "w": 83,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "공개 취소",
+   "rect": {
+    "x": 1097,
+    "y": 714.2,
+    "w": 85,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "채팅 접기 ▴ A위성",
+   "rect": {
+    "x": 245,
+    "y": 796.2,
+    "w": 96,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매치샛",
+   "rect": {
+    "x": 224,
+    "y": 16,
+    "w": 68,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성영상주문",
+   "rect": {
+    "x": 308,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성제공목록",
+   "rect": {
+    "x": 396,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여업체",
+   "rect": {
+    "x": 484,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 548,
+    "y": 18,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매칭내역",
+   "rect": {
+    "x": 600,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "채팅",
+   "rect": {
+    "x": 664,
+    "y": 18,
+    "w": 24,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이페이지",
+   "rect": {
+    "x": 704,
+    "y": 18,
+    "w": 60,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "주문 보기",
+   "rect": {
+    "x": 1152,
+    "y": 165.2,
+    "w": 43,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "주문 보기",
+   "rect": {
+    "x": 1152,
+    "y": 377.2,
+    "w": 43,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전체화면 ↗",
+   "rect": {
+    "x": 1141,
+    "y": 798.2,
+    "w": 54,
+    "h": 16
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "거절 특별주문 · 지정 매칭 주문 보기 국가산단 시설 정기 지정 촬영 공급업체: B위성영상 수요자 정보 공개: 비공개 정보 공개",
+   "rect": {
+    "x": 224,
+    "y": 142.2,
+    "w": 992,
+    "h": 200
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "수락 영상주문 · 낙찰 매칭 주문 보기 댐 수위 변화 SAR 관측 공급업체: A위성 입찰가 3,300,000원 입금 계좌 (직거래) 은행 ○○은행 계좌 예금주 A위성 매치샛은 중개 플랫폼으로, 당사자 간 거래(입금·결과물)에 대해 책임을 지지 않습니다. 거래 완료 입금·결과물 수령을 확",
+   "rect": {
+    "x": 224,
+    "y": 354.2,
+    "w": 992,
+    "h": 907
+   }
+  }
+ ]
+}

@@ -1,0 +1,258 @@
+{
+ "file": "rfq-new-full.png",
+ "kind": "page",
+ "project": "matchsat",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/rfqs/new",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1026,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:55:19.232Z",
+ "title": "매치샛 (MatchSat)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 2
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "위성영상주문 (Sat-order)",
+   "rect": {
+    "x": 16,
+    "y": 89,
+    "w": 358,
+    "h": 37.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 290,
+    "y": 12,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "영상주문",
+   "rect": {
+    "x": 38,
+    "y": 236.2,
+    "w": 156.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "특별주문",
+   "rect": {
+    "x": 194.5,
+    "y": 236.2,
+    "w": 157.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "RF",
+   "rect": {
+    "x": 38,
+    "y": 412.2,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "EO",
+   "rect": {
+    "x": 142,
+    "y": 412.2,
+    "w": 105,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "SAR",
+   "rect": {
+    "x": 247,
+    "y": 412.2,
+    "w": 105,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "임시저장",
+   "rect": {
+    "x": 200,
+    "y": 774,
+    "w": 98,
+    "h": 58
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "다음",
+   "rect": {
+    "x": 306,
+    "y": 774,
+    "w": 68,
+    "h": 58
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "주문 제목",
+   "rect": {
+    "x": 37,
+    "y": 323.2,
+    "w": 316,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매치샛",
+   "rect": {
+    "x": 16,
+    "y": 16,
+    "w": 68,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 16,
+    "y": 870.2,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용약관",
+   "rect": {
+    "x": 68,
+    "y": 870.2,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 132,
+    "y": 870.2,
+    "w": 96,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "form",
+   "text": "1. 무엇을 1 / 4 주문 유형* 영상주문 특별주문 제목* 촬영수단 (복수선택)* RF EO SAR EO·SAR 선택 시 해상도 항목이 표시됩니다. 임시저장 다음",
+   "rect": {
+    "x": 16,
+    "y": 142.2,
+    "w": 358,
+    "h": 434.5
+   }
+  }
+ ]
+}

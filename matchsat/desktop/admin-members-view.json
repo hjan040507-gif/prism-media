@@ -1,0 +1,530 @@
+{
+ "file": "admin-members-view.png",
+ "kind": "page",
+ "project": "matchsat",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/members",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1235,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:53:48.000Z",
+ "title": "매치샛 (MatchSat)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 11,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 7
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 2
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "회원 관리",
+   "rect": {
+    "x": 224,
+    "y": 89,
+    "w": 992,
+    "h": 37.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "승인 대기 (2)",
+   "rect": {
+    "x": 224,
+    "y": 227.2,
+    "w": 992,
+    "h": 26
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "전체 회원 (8)",
+   "rect": {
+    "x": 224,
+    "y": 419.2,
+    "w": 992,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1080,
+    "y": 12,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1168,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "승인",
+   "rect": {
+    "x": 241,
+    "y": 314.2,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거절",
+   "rect": {
+    "x": 305,
+    "y": 314.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "승인",
+   "rect": {
+    "x": 741,
+    "y": 314.2,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거절",
+   "rect": {
+    "x": 805,
+    "y": 314.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "정지",
+   "rect": {
+    "x": 241,
+    "y": 506.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "정지",
+   "rect": {
+    "x": 741,
+    "y": 506.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "정지",
+   "rect": {
+    "x": 241,
+    "y": 628.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "정지",
+   "rect": {
+    "x": 741,
+    "y": 628.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "정지",
+   "rect": {
+    "x": 241,
+    "y": 750.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "정지",
+   "rect": {
+    "x": 741,
+    "y": 750.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "정지",
+   "rect": {
+    "x": 241,
+    "y": 872.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매치샛",
+   "rect": {
+    "x": 224,
+    "y": 16,
+    "w": 68,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성제공목록",
+   "rect": {
+    "x": 308,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "주문 입찰",
+   "rect": {
+    "x": 396,
+    "y": 18,
+    "w": 52,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여업체",
+   "rect": {
+    "x": 464,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 528,
+    "y": 18,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매칭내역",
+   "rect": {
+    "x": 580,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이페이지",
+   "rect": {
+    "x": 644,
+    "y": 18,
+    "w": 60,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "채팅",
+   "rect": {
+    "x": 720,
+    "y": 18,
+    "w": 24,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관리자",
+   "rect": {
+    "x": 760,
+    "y": 18,
+    "w": 56,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대시보드",
+   "rect": {
+    "x": 224,
+    "y": 150.2,
+    "w": 72,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회원",
+   "rect": {
+    "x": 300,
+    "y": 150.2,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신고",
+   "rect": {
+    "x": 352,
+    "y": 150.2,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "모니터링",
+   "rect": {
+    "x": 404,
+    "y": 150.2,
+    "w": 72,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "감사",
+   "rect": {
+    "x": 480,
+    "y": 150.2,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "공급자 오○○ · D위성 승인대기 승인 거절 ※ 사업자 정보 확인 후 승인하세요.",
+   "rect": {
+    "x": 224,
+    "y": 261.2,
+    "w": 492,
+    "h": 134
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "수요자 한○○ · C기관 승인대기 승인 거절",
+   "rect": {
+    "x": 724,
+    "y": 261.2,
+    "w": 492,
+    "h": 134
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "공급자 오○○ · D위성 승인대기 정지",
+   "rect": {
+    "x": 224,
+    "y": 453.2,
+    "w": 492,
+    "h": 114
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "수요자 한○○ · C기관 승인대기 정지",
+   "rect": {
+    "x": 724,
+    "y": 453.2,
+    "w": 492,
+    "h": 114
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "공급자 정○○ · C지구관측 승인됨 정지",
+   "rect": {
+    "x": 224,
+    "y": 575.2,
+    "w": 492,
+    "h": 114
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "공급자 최○○ · B위성영상 승인됨 정지",
+   "rect": {
+    "x": 724,
+    "y": 575.2,
+    "w": 492,
+    "h": 114
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "공급자 박○○ · A위성 승인됨 정지",
+   "rect": {
+    "x": 224,
+    "y": 697.2,
+    "w": 492,
+    "h": 114
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "수요자 이○○ · B기관 승인됨 정지",
+   "rect": {
+    "x": 724,
+    "y": 697.2,
+    "w": 492,
+    "h": 114
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "수요자 김○○ · A기관 승인됨 정지",
+   "rect": {
+    "x": 224,
+    "y": 819.2,
+    "w": 492,
+    "h": 114
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "관리자 관리자 · 운영팀 승인됨",
+   "rect": {
+    "x": 724,
+    "y": 819.2,
+    "w": 492,
+    "h": 114
+   }
+  }
+ ]
+}

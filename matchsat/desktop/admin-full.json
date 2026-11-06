@@ -1,0 +1,588 @@
+{
+ "file": "admin-full.png",
+ "kind": "page",
+ "project": "matchsat",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1272,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:53:31.870Z",
+ "title": "매치샛 (MatchSat)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 2
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 1
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "관리자",
+   "rect": {
+    "x": 224,
+    "y": 89,
+    "w": 992,
+    "h": 37.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "통계",
+   "rect": {
+    "x": 224,
+    "y": 227.2,
+    "w": 992,
+    "h": 26
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "처리 / 관리",
+   "rect": {
+    "x": 224,
+    "y": 470.2,
+    "w": 992,
+    "h": 26
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "거절된 지정 매칭 — 재지정/취소 (2)",
+   "rect": {
+    "x": 224,
+    "y": 684.2,
+    "w": 992,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1080,
+    "y": 12,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1168,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "재지정",
+   "rect": {
+    "x": 406,
+    "y": 779.2,
+    "w": 68,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "취소",
+   "rect": {
+    "x": 482,
+    "y": 779.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "재지정",
+   "rect": {
+    "x": 406,
+    "y": 909.2,
+    "w": 68,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "취소",
+   "rect": {
+    "x": 482,
+    "y": 909.2,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "",
+   "rect": {
+    "x": 241,
+    "y": 779.2,
+    "w": 161,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "",
+   "rect": {
+    "x": 241,
+    "y": 909.2,
+    "w": 161,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매치샛",
+   "rect": {
+    "x": 224,
+    "y": 16,
+    "w": 68,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "위성제공목록",
+   "rect": {
+    "x": 308,
+    "y": 18,
+    "w": 72,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "주문 입찰",
+   "rect": {
+    "x": 396,
+    "y": 18,
+    "w": 52,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여업체",
+   "rect": {
+    "x": 464,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 528,
+    "y": 18,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매칭내역",
+   "rect": {
+    "x": 580,
+    "y": 18,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이페이지",
+   "rect": {
+    "x": 644,
+    "y": 18,
+    "w": 60,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "채팅",
+   "rect": {
+    "x": 720,
+    "y": 18,
+    "w": 24,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관리자",
+   "rect": {
+    "x": 760,
+    "y": 18,
+    "w": 56,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대시보드",
+   "rect": {
+    "x": 224,
+    "y": 150.2,
+    "w": 72,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회원",
+   "rect": {
+    "x": 300,
+    "y": 150.2,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신고",
+   "rect": {
+    "x": 352,
+    "y": 150.2,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "모니터링",
+   "rect": {
+    "x": 404,
+    "y": 150.2,
+    "w": 72,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "감사",
+   "rect": {
+    "x": 480,
+    "y": 150.2,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회원 관리 승인 · 정지 · 복구 승인대기 2",
+   "rect": {
+    "x": 224,
+    "y": 504.2,
+    "w": 492,
+    "h": 74
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신고 처리 신고 검토 · 처리 미처리 1",
+   "rect": {
+    "x": 724,
+    "y": 504.2,
+    "w": 492,
+    "h": 74
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "모니터링 주문 · 전체 활동 ›",
+   "rect": {
+    "x": 224,
+    "y": 586.2,
+    "w": 492,
+    "h": 74
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "감사 로그 관리자 액션 기록 ›",
+   "rect": {
+    "x": 724,
+    "y": 586.2,
+    "w": 492,
+    "h": 74
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사용법",
+   "rect": {
+    "x": 1004,
+    "y": 1043.2,
+    "w": 36,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용약관",
+   "rect": {
+    "x": 1056,
+    "y": 1043.2,
+    "w": 48,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보처리방침",
+   "rect": {
+    "x": 1120,
+    "y": 1043.2,
+    "w": 96,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "전체 회원 8 수요자 3 · 공급자 4 · 관리자 1",
+   "rect": {
+    "x": 224,
+    "y": 261.2,
+    "w": 239,
+    "h": 86.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "승인대기 2 정지 0",
+   "rect": {
+    "x": 475,
+    "y": 261.2,
+    "w": 239,
+    "h": 86.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "진행중 주문 9 누적 9",
+   "rect": {
+    "x": 726,
+    "y": 261.2,
+    "w": 239,
+    "h": 86.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "누적 매칭 5",
+   "rect": {
+    "x": 977,
+    "y": 261.2,
+    "w": 239,
+    "h": 86.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "결제 건수 0",
+   "rect": {
+    "x": 224,
+    "y": 359.7,
+    "w": 239,
+    "h": 86.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "결제 금액 0원",
+   "rect": {
+    "x": 475,
+    "y": 359.7,
+    "w": 239,
+    "h": 86.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "신고(미처리) 1 누적 3",
+   "rect": {
+    "x": 726,
+    "y": 359.7,
+    "w": 239,
+    "h": 86.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "회원 관리 승인 · 정지 · 복구 승인대기 2",
+   "rect": {
+    "x": 224,
+    "y": 504.2,
+    "w": 492,
+    "h": 74
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "신고 처리 신고 검토 · 처리 미처리 1",
+   "rect": {
+    "x": 724,
+    "y": 504.2,
+    "w": 492,
+    "h": 74
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "모니터링 주문 · 전체 활동 ›",
+   "rect": {
+    "x": 224,
+    "y": 586.2,
+    "w": 492,
+    "h": 74
+   }
+  },
+  {
+   "type": "card",
+   "tag": "a",
+   "text": "감사 로그 관리자 액션 기록 ›",
+   "rect": {
+    "x": 724,
+    "y": 586.2,
+    "w": 492,
+    "h": 74
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "국가산단 시설 정기 지정 촬영 현 공급자: B위성영상 · 거절됨 재지정 공급자 선택… A위성 B위성영상 C지구관측 재지정 취소",
+   "rect": {
+    "x": 224,
+    "y": 718.2,
+    "w": 992,
+    "h": 122
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "철새 도래지 지정 관측 현 공급자: C지구관측 · 거절됨 재지정 공급자 선택… A위성 B위성영상 C지구관측 재지정 취소",
+   "rect": {
+    "x": 224,
+    "y": 848.2,
+    "w": 992,
+    "h": 122
+   }
+  }
+ ]
+}
