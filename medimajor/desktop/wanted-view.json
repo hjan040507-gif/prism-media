@@ -1,0 +1,557 @@
+{
+ "file": "wanted-view.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/wanted",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2825,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:47:00.940Z",
+ "title": "삽니다 · 메디메이저",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 0,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 3,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "삽니다 진행 중 9건",
+   "rect": {
+    "x": 80,
+    "y": 226.6,
+    "w": 681.9,
+    "h": 42.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "필터",
+   "rect": {
+    "x": 101,
+    "y": 531.5,
+    "w": 27.6,
+    "h": 23.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "한국어",
+   "rect": {
+    "x": 1199,
+    "y": 5,
+    "w": 87,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "KRW",
+   "rect": {
+    "x": 1294,
+    "y": 5,
+    "w": 66,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체",
+   "rect": {
+    "x": 252.9,
+    "y": 53,
+    "w": 77,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 830.9,
+    "y": 53,
+    "w": 58,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 747,
+    "y": 511.5,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "장비명 · 제조사 · 모델명 · 매물번호로 찾기",
+   "rect": {
+    "x": 329.9,
+    "y": 53,
+    "w": 501,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 620.1,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 658.1,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 696.1,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 789.5,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 827.5,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "제목·사양으로 찾기",
+   "rect": {
+    "x": 377,
+    "y": 511.5,
+    "w": 370,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "최근 등록순",
+   "rect": {
+    "x": 1211,
+    "y": 513.5,
+    "w": 149,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용설명서",
+   "rect": {
+    "x": 1023.9,
+    "y": 7.6,
+    "w": 54.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "판매 안내",
+   "rect": {
+    "x": 1115.4,
+    "y": 7.6,
+    "w": 46.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심 관심 매물",
+   "rect": {
+    "x": 991.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 알림",
+   "rect": {
+    "x": 1053.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1115.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사진으로 판매 등록",
+   "rect": {
+    "x": 1187.5,
+    "y": 53,
+    "w": 172.5,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "중고 경매장터",
+   "rect": {
+    "x": 80,
+    "y": 121,
+    "w": 175.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신품 전시관",
+   "rect": {
+    "x": 265.5,
+    "y": 121,
+    "w": 162.6,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "팝니다",
+   "rect": {
+    "x": 444.2,
+    "y": 116,
+    "w": 64.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삽니다 9",
+   "rect": {
+    "x": 510.9,
+    "y": 116,
+    "w": 78.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공매 29",
+   "rect": {
+    "x": 610.5,
+    "y": 116,
+    "w": 73.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "부품·소모품",
+   "rect": {
+    "x": 705.2,
+    "y": 116,
+    "w": 94.5,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "서비스 엔지니어",
+   "rect": {
+    "x": 801.7,
+    "y": 116,
+    "w": 120.3,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "유찰 재경매",
+   "rect": {
+    "x": 1156.4,
+    "y": 131.8,
+    "w": 62.5,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 1238.9,
+    "y": 131.8,
+    "w": 50.6,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "산업 소식",
+   "rect": {
+    "x": 1309.4,
+    "y": 131.8,
+    "w": 50.6,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 80,
+    "y": 193,
+    "w": 11.9,
+    "h": 21.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "비공개로 견적 요청",
+   "rect": {
+    "x": 1061.5,
+    "y": 253.1,
+    "w": 146.5,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삽니다 글쓰기",
+   "rect": {
+    "x": 1216,
+    "y": 253.1,
+    "w": 144,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전체 초기화",
+   "rect": {
+    "x": 260.5,
+    "y": 531.9,
+    "w": 62.5,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "복부·갑상선 겸용 초음파 1대 구합니다",
+   "rect": {
+    "x": 399,
+    "y": 623.5,
+    "w": 396,
+    "h": 24.1
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 보내기",
+   "rect": {
+    "x": 1232,
+    "y": 645.1,
+    "w": 90.2,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회복실용 환자감시장치 4대",
+   "rect": {
+    "x": 399,
+    "y": 763.1,
+    "w": 396,
+    "h": 24.1
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 보내기",
+   "rect": {
+    "x": 1232,
+    "y": 784.7,
+    "w": 90.2,
+    "h": 38
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "진행 중 견적 1건 중고만 복부·갑상선 겸용 초음파 1대 구합니다 영상진단 › 초음파 1대 설치·인도 협의 예산 2,000만~3,500만원 총액 시기 1개월 이내 연식 2017년 이후 최소 등급 A급 user*** · 경기 2026.09.16 견적 보내기",
+   "rect": {
+    "x": 376,
+    "y": 572.5,
+    "w": 984,
+    "h": 129.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "진행 중 견적 1건 신품·중고 회복실용 환자감시장치 4대 환자감시 › 환자감시장치 4대 설치·인도 협의 예산 250만~400만원 대당 시기 2주 이내 연식 2018년 이후 최소 등급 B급 user*** · 서울 2026.09.14 견적 보내기",
+   "rect": {
+    "x": 376,
+    "y": 712.1,
+    "w": 984,
+    "h": 129.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "진행 중 견적 1건 중고만 Class B 탁상형 멸균기 20L 이상 멸균·소독 › 고압증기멸균기 1대 설치·인도 협의 예산 400만~700만원 총액 시기 즉시 연식 2019년 이후 최소 등급 A급 user*** · 부산 2026.09.13 견적 보내기",
+   "rect": {
+    "x": 376,
+    "y": 851.7,
+    "w": 984,
+    "h": 129.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메디메이저 MediMajor",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  }
+ ]
+}

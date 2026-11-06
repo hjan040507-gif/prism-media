@@ -1,0 +1,646 @@
+{
+ "file": "03-bid-13500000.png",
+ "kind": "state",
+ "project": "medimajor",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/auctions/0ca69e33-a36d-4fa3-a9f9-bd991d7ebdc8",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 6451,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:47:44.912Z",
+ "title": "미래온 MQE-102 뇌파 검사기 · 메디메이저",
+ "note": "fake realtime push 2/4 (WebSocket postgres_changes intercepted, no real bid)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 0,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 3,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "미래온 MQE-102 뇌파 검사기",
+   "rect": {
+    "x": 80,
+    "y": 320.6,
+    "w": 237.5,
+    "h": 84.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "한국어",
+   "rect": {
+    "x": 1199,
+    "y": 5,
+    "w": 87,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "KRW",
+   "rect": {
+    "x": 1294,
+    "y": 5,
+    "w": 66,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체",
+   "rect": {
+    "x": 252.9,
+    "y": 53,
+    "w": 77,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 830.9,
+    "y": 53,
+    "w": 58,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 768,
+    "y": 320.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 818,
+    "y": 320.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 868,
+    "y": 320.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 80,
+    "y": 455.3,
+    "w": 832,
+    "h": 624
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 96,
+    "y": 743.3,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 848,
+    "y": 743.3,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "관심 2",
+   "rect": {
+    "x": 981,
+    "y": 682.8,
+    "w": 173,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "장비명 · 제조사 · 모델명 · 매물번호로 찾기",
+   "rect": {
+    "x": 329.9,
+    "y": 53,
+    "w": 501,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용설명서",
+   "rect": {
+    "x": 1023.9,
+    "y": 7.6,
+    "w": 54.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "판매 안내",
+   "rect": {
+    "x": 1115.4,
+    "y": 7.6,
+    "w": 46.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심 관심 매물",
+   "rect": {
+    "x": 991.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 알림",
+   "rect": {
+    "x": 1053.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1115.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사진으로 판매 등록",
+   "rect": {
+    "x": 1187.5,
+    "y": 53,
+    "w": 172.5,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "중고 경매장터",
+   "rect": {
+    "x": 80,
+    "y": 121,
+    "w": 175.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신품 전시관",
+   "rect": {
+    "x": 265.5,
+    "y": 121,
+    "w": 162.6,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "팝니다",
+   "rect": {
+    "x": 444.2,
+    "y": 116,
+    "w": 64.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삽니다 9",
+   "rect": {
+    "x": 510.9,
+    "y": 116,
+    "w": 78.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공매 29",
+   "rect": {
+    "x": 610.5,
+    "y": 116,
+    "w": 73.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "부품·소모품",
+   "rect": {
+    "x": 705.2,
+    "y": 116,
+    "w": 94.5,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "서비스 엔지니어",
+   "rect": {
+    "x": 801.7,
+    "y": 116,
+    "w": 120.3,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "유찰 재경매",
+   "rect": {
+    "x": 1156.4,
+    "y": 131.8,
+    "w": 62.5,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 1238.9,
+    "y": 131.8,
+    "w": 50.6,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "산업 소식",
+   "rect": {
+    "x": 1309.4,
+    "y": 131.8,
+    "w": 50.6,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "목록",
+   "rect": {
+    "x": 80,
+    "y": 171.5,
+    "w": 79.8,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개요",
+   "rect": {
+    "x": 188.8,
+    "y": 171.5,
+    "w": 57.8,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "상태 근거",
+   "rect": {
+    "x": 252.7,
+    "y": 171.5,
+    "w": 87.6,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "명세",
+   "rect": {
+    "x": 346.2,
+    "y": 171.5,
+    "w": 57.8,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입찰 내역 10",
+   "rect": {
+    "x": 410,
+    "y": 171.5,
+    "w": 109.4,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 525.4,
+    "y": 171.5,
+    "w": 57.8,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입찰하기",
+   "rect": {
+    "x": 1284.5,
+    "y": 180,
+    "w": 75.5,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 80,
+    "y": 248,
+    "w": 23.8,
+    "h": 21.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신경",
+   "rect": {
+    "x": 125.8,
+    "y": 248,
+    "w": 23.8,
+    "h": 21.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "뇌파(EEG)",
+   "rect": {
+    "x": 171.7,
+    "y": 248,
+    "w": 55.4,
+    "h": 21.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "MQE-102 모델 정보",
+   "rect": {
+    "x": 331.8,
+    "y": 412.9,
+    "w": 115.8,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인하고 입찰하기",
+   "rect": {
+    "x": 981,
+    "y": 552.8,
+    "w": 354,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회원가입",
+   "rect": {
+    "x": 981,
+    "y": 622.8,
+    "w": 354,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의하기",
+   "rect": {
+    "x": 1162,
+    "y": 682.8,
+    "w": 173,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로필",
+   "rect": {
+    "x": 1281.3,
+    "y": 791.9,
+    "w": 55.7,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "최근 본 1",
+   "rect": {
+    "x": 1373,
+    "y": 251,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심",
+   "rect": {
+    "x": 1373,
+    "y": 311,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 1373,
+    "y": 371,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "맨 위",
+   "rect": {
+    "x": 1373,
+    "y": 431,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "온 온새미바이오장비 판매자 · 대전 유성구 프로필 등록 매물 10 건 낙찰 성사 2 건 사업자 진위확인 · 국세청 판매자 인증 전 의료기기 판매업 신고번호 미입력",
+   "rect": {
+    "x": 956,
+    "y": 767.8,
+    "w": 404,
+    "h": 277
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메디메이저 MediMajor",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "미래온 MQE-102 뇌파 검사기 사진 · 정면",
+   "rect": {
+    "x": 80,
+    "y": 455.3,
+    "w": 832,
+    "h": 624
+   }
+  }
+ ]
+}

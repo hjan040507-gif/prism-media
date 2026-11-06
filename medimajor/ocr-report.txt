@@ -1,0 +1,6 @@
+# OCR(tesseract kor+eng) 독립 검사 · 대상 58장 · 걸림 5
+desktop/admin-listings-view.png	phone	00***
+desktop/home-th-view.png	phone	07***
+desktop/home-th-view.png	phone	09***
+states/lang-switch/04-th.png	phone	07***
+states/lang-switch/04-th.png	phone	09***

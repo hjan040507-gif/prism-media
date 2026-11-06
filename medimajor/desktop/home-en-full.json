@@ -1,0 +1,3087 @@
+{
+ "file": "home-en-full.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/en",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 6483,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:43:22.854Z",
+ "title": "MEDIMAJOR — Used medical equipment auctions",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 4,
+  "email": 0,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 1,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 4,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Listings by category 25",
+   "rect": {
+    "x": 80,
+    "y": 738.5,
+    "w": 197.1,
+    "h": 23.4
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Used Auctions ending soon 6",
+   "rect": {
+    "x": 80,
+    "y": 1053.9,
+    "w": 317.2,
+    "h": 31.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Barun Instruments NIC-⁠100 Infant Incubator",
+   "rect": {
+    "x": 243,
+    "y": 1178.8,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Doran Medi OCT-⁠104 OCT / Fundus",
+   "rect": {
+    "x": 675,
+    "y": 1178.8,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Pureun Instruments SYR-⁠318 Syringe Pump",
+   "rect": {
+    "x": 1107,
+    "y": 1178.8,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Cheongam Meditech HBD-⁠260 Beds / Stretchers",
+   "rect": {
+    "x": 243,
+    "y": 1451.1,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Nuri Medix LNC-⁠106 Linear Accelerator",
+   "rect": {
+    "x": 675,
+    "y": 1451.1,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Danha Medi CSA-⁠102 Sterile Processing (Other)",
+   "rect": {
+    "x": 1107,
+    "y": 1451.1,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Used Live auctions 35",
+   "rect": {
+    "x": 80,
+    "y": 1734.4,
+    "w": 237.4,
+    "h": 31.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Irang Bio IAX-⁠106 Cath Lab",
+   "rect": {
+    "x": 95,
+    "y": 2084.8,
+    "w": 170,
+    "h": 42.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Jeoseul Medical USX-⁠100 Ultrasound",
+   "rect": {
+    "x": 311,
+    "y": 2084.8,
+    "w": 170,
+    "h": 42.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Deureumon Medi ACL-⁠143B Autoclave",
+   "rect": {
+    "x": 527,
+    "y": 2084.8,
+    "w": 170,
+    "h": 42.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Garam Diagnostics GRD-⁠105 X-⁠ray / Fluoroscopy",
+   "rect": {
+    "x": 743,
+    "y": 2084.8,
+    "w": 170,
+    "h": 42.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Ullim Bio ULB-⁠101 Dental Imaging",
+   "rect": {
+    "x": 959,
+    "y": 2084.8,
+    "w": 170,
+    "h": 42.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Yesol Diagnostics VET-⁠106 Vet Anesthesia & Monitoring",
+   "rect": {
+    "x": 1175,
+    "y": 2084.8,
+    "w": 170,
+    "h": 63.9
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "New Showroom",
+   "rect": {
+    "x": 80,
+    "y": 2424,
+    "w": 174.7,
+    "h": 31.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Raon Imaging",
+   "rect": {
+    "x": 97,
+    "y": 2693.8,
+    "w": 117,
+    "h": 28.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Seraon Medical",
+   "rect": {
+    "x": 421,
+    "y": 2693.8,
+    "w": 133,
+    "h": 28.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Hangyeol Biotech",
+   "rect": {
+    "x": 745,
+    "y": 2693.8,
+    "w": 149.9,
+    "h": 28.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Bluepoint Health",
+   "rect": {
+    "x": 1069,
+    "y": 2693.8,
+    "w": 139.9,
+    "h": 28.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Wanted Buy requests 9",
+   "rect": {
+    "x": 80,
+    "y": 3125.5,
+    "w": 242.3,
+    "h": 31.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Relisted · Parts",
+   "rect": {
+    "x": 80,
+    "y": 3545.2,
+    "w": 161.7,
+    "h": 31.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Public-agency auctions 20 External listing",
+   "rect": {
+    "x": 80,
+    "y": 4052,
+    "w": 410.8,
+    "h": 31.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Selling companies",
+   "rect": {
+    "x": 80,
+    "y": 4558,
+    "w": 196,
+    "h": 31.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Industry news",
+   "rect": {
+    "x": 80,
+    "y": 5025.3,
+    "w": 118.9,
+    "h": 28.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Trade shows",
+   "rect": {
+    "x": 517.3,
+    "y": 5025.3,
+    "w": 110.9,
+    "h": 28.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Notices",
+   "rect": {
+    "x": 954.7,
+    "y": 5025.3,
+    "w": 65.7,
+    "h": 28.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Get started for your role Connecting hospitals, makers and buyers",
+   "rect": {
+    "x": 80,
+    "y": 5422.7,
+    "w": 1280,
+    "h": 35.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h4",
+   "text": "Trade",
+   "rect": {
+    "x": 425.5,
+    "y": 5806.2,
+    "w": 203.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h4",
+   "text": "Browse",
+   "rect": {
+    "x": 669.1,
+    "y": 5806.2,
+    "w": 203.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h4",
+   "text": "MediMajor",
+   "rect": {
+    "x": 912.7,
+    "y": 5806.2,
+    "w": 203.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h4",
+   "text": "Terms & policies",
+   "rect": {
+    "x": 1156.4,
+    "y": 5806.2,
+    "w": 203.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "English",
+   "rect": {
+    "x": 1190,
+    "y": 5,
+    "w": 99,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "USD",
+   "rect": {
+    "x": 1297,
+    "y": 5,
+    "w": 63,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "All",
+   "rect": {
+    "x": 252.9,
+    "y": 53,
+    "w": 68,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 830.9,
+    "y": 53,
+    "w": 58,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "BMR Ad",
+   "rect": {
+    "x": 447,
+    "y": 210,
+    "w": 91.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "Featured auction",
+   "rect": {
+    "x": 540.9,
+    "y": 210,
+    "w": 136,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "Auto-bidding",
+   "rect": {
+    "x": 678.9,
+    "y": 210,
+    "w": 112,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "Public auctions",
+   "rect": {
+    "x": 792.9,
+    "y": 210,
+    "w": 126,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "Sell with photos",
+   "rect": {
+    "x": 920.9,
+    "y": 210,
+    "w": 132,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1063,
+    "y": 210,
+    "w": 34,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 183,
+    "y": 1118,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 615,
+    "y": 1118,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1047,
+    "y": 1118,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 183,
+    "y": 1390.3,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 615,
+    "y": 1390.3,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1047,
+    "y": 1390.3,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "Price: high to low",
+   "rect": {
+    "x": 1194,
+    "y": 1783.6,
+    "w": 166,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 231,
+    "y": 1842.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 447,
+    "y": 1842.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 663,
+    "y": 1842.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 879,
+    "y": 1842.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1095,
+    "y": 1842.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1311,
+    "y": 1842.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "Search equipment · maker · model · listing no.",
+   "rect": {
+    "x": 320.9,
+    "y": 53,
+    "w": 510,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "User guide",
+   "rect": {
+    "x": 975,
+    "y": 7.6,
+    "w": 65.1,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Selling guide",
+   "rect": {
+    "x": 1077.2,
+    "y": 7.6,
+    "w": 75.8,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Watchlist Watched listings",
+   "rect": {
+    "x": 945.3,
+    "y": 48,
+    "w": 67.2,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Notifications Notifications",
+   "rect": {
+    "x": 1014.5,
+    "y": 48,
+    "w": 91.8,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Log in",
+   "rect": {
+    "x": 1108.4,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "List with photos",
+   "rect": {
+    "x": 1180.4,
+    "y": 53,
+    "w": 179.6,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Used Auction market",
+   "rect": {
+    "x": 80,
+    "y": 121,
+    "w": 230.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "New Showroom",
+   "rect": {
+    "x": 314.5,
+    "y": 121,
+    "w": 192.1,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Sell",
+   "rect": {
+    "x": 512.6,
+    "y": 116,
+    "w": 44,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Wanted 9",
+   "rect": {
+    "x": 556.6,
+    "y": 116,
+    "w": 82.4,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Public auctions 29",
+   "rect": {
+    "x": 644,
+    "y": 116,
+    "w": 147.5,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Parts & Supplies",
+   "rect": {
+    "x": 796.5,
+    "y": 116,
+    "w": 135.6,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Service engineers",
+   "rect": {
+    "x": 932.1,
+    "y": 116,
+    "w": 146.5,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Relisted",
+   "rect": {
+    "x": 1094,
+    "y": 131.8,
+    "w": 56.3,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Request quote",
+   "rect": {
+    "x": 1156.3,
+    "y": 131.8,
+    "w": 100.8,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Industry news",
+   "rect": {
+    "x": 1263.2,
+    "y": 131.8,
+    "w": 96.8,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "UsedAuction marketplace 35 live",
+   "rect": {
+    "x": 80,
+    "y": 293.6,
+    "w": 336,
+    "h": 132.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "NewShowroom 4 brands · 12 new products",
+   "rect": {
+    "x": 80,
+    "y": 425.9,
+    "w": 336,
+    "h": 132.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "WantedBuy requests 9 live",
+   "rect": {
+    "x": 80,
+    "y": 558.2,
+    "w": 336,
+    "h": 132.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Ad Partner BMR BMR Co., Ltd. MRI · CT installation · maintenance · reconfiguration Philips · Siemens · GE and more · 6 brands Since 2005 10 MRI · CT engineers M",
+   "rect": {
+    "x": 433,
+    "y": 196,
+    "w": 678,
+    "h": 493.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Partner BMR BMR Co., Ltd. MRI · CT installation · maintenance · reconfiguration Since 2005 10 engineers View partner profile Members only",
+   "rect": {
+    "x": 1128,
+    "y": 195,
+    "w": 232,
+    "h": 294.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "To sell List an item Free to list · from one photo",
+   "rect": {
+    "x": 1129,
+    "y": 506.9,
+    "w": 230,
+    "h": 90.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "To buy Post a buy request Sellers send you quotes",
+   "rect": {
+    "x": 1129,
+    "y": 597.7,
+    "w": 230,
+    "h": 91.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "All categories",
+   "rect": {
+    "x": 1224.3,
+    "y": 738.5,
+    "w": 135.8,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Imaging",
+   "rect": {
+    "x": 80,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Endoscopy",
+   "rect": {
+    "x": 155.2,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Dental",
+   "rect": {
+    "x": 230.5,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Cosmetic & Aesthetic",
+   "rect": {
+    "x": 305.7,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Surgical",
+   "rect": {
+    "x": 380.9,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Sterile Processing",
+   "rect": {
+    "x": 456.2,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Patient Monitors / ICU",
+   "rect": {
+    "x": 531.4,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Respiratory",
+   "rect": {
+    "x": 606.6,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Ophthalmology",
+   "rect": {
+    "x": 681.9,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Neonatal",
+   "rect": {
+    "x": 757.1,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Laboratory",
+   "rect": {
+    "x": 832.3,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Beds, Stretchers & Furniture",
+   "rect": {
+    "x": 907.6,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Physical Therapy",
+   "rect": {
+    "x": 982.8,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Veterinary",
+   "rect": {
+    "x": 1058,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "By maker",
+   "rect": {
+    "x": 1138.3,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Service",
+   "rect": {
+    "x": 1213.5,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "All 25",
+   "rect": {
+    "x": 1288.8,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Trust & inspection standards",
+   "rect": {
+    "x": 1138.5,
+    "y": 993.3,
+    "w": 206.5,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "All, by closing time",
+   "rect": {
+    "x": 1188.8,
+    "y": 1047,
+    "w": 171.2,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Barun Instruments NIC-⁠100 Infant Incubator",
+   "rect": {
+    "x": 243,
+    "y": 1178.8,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Doran Medi OCT-⁠104 OCT / Fundus",
+   "rect": {
+    "x": 675,
+    "y": 1178.8,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Pureun Instruments SYR-⁠318 Syringe Pump",
+   "rect": {
+    "x": 1107,
+    "y": 1178.8,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Cheongam Meditech HBD-⁠260 Beds / Stretchers",
+   "rect": {
+    "x": 243,
+    "y": 1451.1,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Nuri Medix LNC-⁠106 Linear Accelerator",
+   "rect": {
+    "x": 675,
+    "y": 1451.1,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Danha Medi CSA-⁠102 Sterile Processing (Other)",
+   "rect": {
+    "x": 1107,
+    "y": 1451.1,
+    "w": 238,
+    "h": 42
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "All auctions",
+   "rect": {
+    "x": 1235.1,
+    "y": 1727.6,
+    "w": 124.9,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "All",
+   "rect": {
+    "x": 80,
+    "y": 1783.6,
+    "w": 46.7,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Imaging",
+   "rect": {
+    "x": 132.7,
+    "y": 1783.6,
+    "w": 85.4,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Dental",
+   "rect": {
+    "x": 224.1,
+    "y": 1783.6,
+    "w": 75.5,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Cosmetic & Aesthetic",
+   "rect": {
+    "x": 305.6,
+    "y": 1783.6,
+    "w": 174.2,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Surgical",
+   "rect": {
+    "x": 485.8,
+    "y": 1783.6,
+    "w": 87.3,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Sterile Processing",
+   "rect": {
+    "x": 579.1,
+    "y": 1783.6,
+    "w": 156.4,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Patient Monitors / ICU",
+   "rect": {
+    "x": 741.5,
+    "y": 1783.6,
+    "w": 179,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Ophthalmology",
+   "rect": {
+    "x": 926.5,
+    "y": 1783.6,
+    "w": 135.8,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Veterinary",
+   "rect": {
+    "x": 1068.3,
+    "y": 1783.6,
+    "w": 103.1,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Irang Bio IAX-⁠106 Cath Lab",
+   "rect": {
+    "x": 95,
+    "y": 2084.8,
+    "w": 170,
+    "h": 42.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Jeoseul Medical USX-⁠100 Ultrasound",
+   "rect": {
+    "x": 311,
+    "y": 2084.8,
+    "w": 170,
+    "h": 42.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Deureumon Medi ACL-⁠143B Autoclave",
+   "rect": {
+    "x": 527,
+    "y": 2084.8,
+    "w": 170,
+    "h": 42.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Garam Diagnostics GRD-⁠105 X-⁠ray / Fluoroscopy",
+   "rect": {
+    "x": 743,
+    "y": 2084.8,
+    "w": 170,
+    "h": 42.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Ullim Bio ULB-⁠101 Dental Imaging",
+   "rect": {
+    "x": 959,
+    "y": 2084.8,
+    "w": 170,
+    "h": 42.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Yesol Diagnostics VET-⁠106 Vet Anesthesia & Monitoring",
+   "rect": {
+    "x": 1175,
+    "y": 2084.8,
+    "w": 170,
+    "h": 63.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "View all 35 auctions",
+   "rect": {
+    "x": 580,
+    "y": 2315.2,
+    "w": 280,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Full showroom",
+   "rect": {
+    "x": 1217.2,
+    "y": 2417.2,
+    "w": 142.8,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Raon Imaging Enter booth",
+   "rect": {
+    "x": 81,
+    "y": 2474.2,
+    "w": 306,
+    "h": 204
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Request quote",
+   "rect": {
+    "x": 277.2,
+    "y": 2692.2,
+    "w": 93.8,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Portable Ultrasound RX-P5 RX-P5 $14,119",
+   "rect": {
+    "x": 97,
+    "y": 2761,
+    "w": 83.3,
+    "h": 145.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Wireless DR Detector RD-4343W RD-4343W Price on request",
+   "rect": {
+    "x": 192.3,
+    "y": 2761,
+    "w": 83.3,
+    "h": 166.7
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Mobile X-ray RM-32 RM-32 $31,377",
+   "rect": {
+    "x": 287.7,
+    "y": 2761,
+    "w": 83.3,
+    "h": 145.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Seraon Medical Enter booth",
+   "rect": {
+    "x": 405,
+    "y": 2474.2,
+    "w": 306,
+    "h": 204
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Request quote",
+   "rect": {
+    "x": 601.2,
+    "y": 2692.2,
+    "w": 93.8,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Patient Monitor SM-12 SM-12 $3,885",
+   "rect": {
+    "x": 421,
+    "y": 2761,
+    "w": 83.3,
+    "h": 145.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Infusion Pump SI-100 SI-100 $1,195",
+   "rect": {
+    "x": 516.3,
+    "y": 2761,
+    "w": 83.3,
+    "h": 145.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Syringe Pump SS-50 SS-50 $896",
+   "rect": {
+    "x": 611.7,
+    "y": 2761,
+    "w": 83.3,
+    "h": 145.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Hangyeol Biotech Enter booth",
+   "rect": {
+    "x": 729,
+    "y": 2474.2,
+    "w": 306,
+    "h": 204
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Request quote",
+   "rect": {
+    "x": 925.2,
+    "y": 2692.2,
+    "w": 93.8,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Tabletop Autoclave HB-23 HB-23 $5,827",
+   "rect": {
+    "x": 745,
+    "y": 2761,
+    "w": 83.3,
+    "h": 145.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Washer Disinfector HW-80 HW-80 Price on request",
+   "rect": {
+    "x": 840.3,
+    "y": 2761,
+    "w": 83.3,
+    "h": 166.7
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "UV Storage Cabinet HU-10 HU-10 $710",
+   "rect": {
+    "x": 935.7,
+    "y": 2761,
+    "w": 83.3,
+    "h": 145.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Bluepoint Health Enter booth",
+   "rect": {
+    "x": 1053,
+    "y": 2474.2,
+    "w": 306,
+    "h": 204
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Request quote",
+   "rect": {
+    "x": 1249.2,
+    "y": 2692.2,
+    "w": 93.8,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Electric Hospital Bed BB-5 BB-5 $5,155",
+   "rect": {
+    "x": 1069,
+    "y": 2761,
+    "w": 83.3,
+    "h": 145.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Electric Exam Table BT-2 BT-2 $2,465",
+   "rect": {
+    "x": 1164.3,
+    "y": 2761,
+    "w": 83.3,
+    "h": 145.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Treatment Cart BC-1 BC-1 $359",
+   "rect": {
+    "x": 1259.7,
+    "y": 2761,
+    "w": 83.3,
+    "h": 145.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Ask about a brand booth",
+   "rect": {
+    "x": 1149.2,
+    "y": 2972.7,
+    "w": 196.8,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "All buy requests",
+   "rect": {
+    "x": 1041,
+    "y": 3118.7,
+    "w": 153.6,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Post a buy request",
+   "rect": {
+    "x": 1202.5,
+    "y": 3118.7,
+    "w": 157.5,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Used only Buy: Within 1 month Ultrasound Imaging › Ultrasound 2017 or later · Grade A or above Budget Gyeonggi · Posted 09.16 1 quotes",
+   "rect": {
+    "x": 80,
+    "y": 3174.7,
+    "w": 243.2,
+    "h": 263.7
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "New or used Patient Monitor Patient Monitors / ICU › Patient Monitor 2018 or later · Grade B or above Budget Seoul · Posted 09.14 1 quotes",
+   "rect": {
+    "x": 339.2,
+    "y": 3174.7,
+    "w": 243.2,
+    "h": 263.7
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Used only Buy: Immediately Autoclave Sterile Processing › Autoclave 2019 or later · Grade A or above Budget Busan · Posted 09.13 1 quotes",
+   "rect": {
+    "x": 598.4,
+    "y": 3174.7,
+    "w": 243.2,
+    "h": 263.7
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Used only Buy: Within 1 month Skincare Device Cosmetic & Aesthetic › Skincare Device 2025 or later · Grade A or above Budget 10M KRW–30M KRW · Posted 09.11 1 qu",
+   "rect": {
+    "x": 857.6,
+    "y": 3174.7,
+    "w": 243.2,
+    "h": 263.7
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "New or used Buy: Within 3 months Dental Unit Chair Dental › Dental Unit Chair 2018 or later · Grade A or above Budget Daejeon · Posted 09.11 Awaiting quotes",
+   "rect": {
+    "x": 1116.8,
+    "y": 3174.7,
+    "w": 243.2,
+    "h": 263.7
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Relisted after no sale",
+   "rect": {
+    "x": 1005.4,
+    "y": 3538.4,
+    "w": 191,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Parts & Supplies",
+   "rect": {
+    "x": 1204.4,
+    "y": 3538.4,
+    "w": 155.6,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Representative image Unsold 1× Grade A Seller-reported Hwion Medical HWM-102 Infant Warmer Starting price$4,0340 bids · 0 watching 4d 3h Daejeon · 2017",
+   "rect": {
+    "x": 80,
+    "y": 3594.4,
+    "w": 416,
+    "h": 169.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Representative image Unsold 1× Grade A Seller-reported Naeum Medix NMX-100 Centrifuge Starting price$4,3330 bids · 0 watching 5d 0h Daejeon · 2018",
+   "rect": {
+    "x": 512,
+    "y": 3594.4,
+    "w": 416,
+    "h": 169.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Representative image Unsold 1× Grade B Seller-reported Bitna Medi EWD-102 Reprocessor / Washer Current bid$5,2291 bids · 2 watching 5d 21h Daegu · 2017",
+   "rect": {
+    "x": 944,
+    "y": 3594.4,
+    "w": 416,
+    "h": 169.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Representative image Parts · New Grade S Seller-reported Chowon Healthtech RSP-104 Mask & Respirator Starting price$1,3450 bids · 2 watching 3d 18h Busan · 2025",
+   "rect": {
+    "x": 80,
+    "y": 3779.8,
+    "w": 416,
+    "h": 169.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Representative image Parts · New Grade S Seller-reported Ara Vision SUT-142B Suture Current bid$1,0097 bids · 1 watching 5d 22h Gyeonggi · 2025",
+   "rect": {
+    "x": 512,
+    "y": 3779.8,
+    "w": 416,
+    "h": 169.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Parts and supplies at auction too Probes · boards · clinical supplies · free to list List an item",
+   "rect": {
+    "x": 944,
+    "y": 3779.8,
+    "w": 416,
+    "h": 169.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "All 20 public auctions",
+   "rect": {
+    "x": 1167,
+    "y": 4045.2,
+    "w": 193,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Werfen Blood Coagulation Tester ACL TOP 350 CTS Chungnam $1,582 Unsold 2× 11.06(Fri) 13:00 04:16:40 View notice",
+   "rect": {
+    "x": 81,
+    "y": 4142.2,
+    "w": 1278,
+    "h": 71.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Sysmex Automatic Hematology Analyzer XN-1000 Chungnam $2,607 Unsold 2× 11.06(Fri) 13:00 04:16:40 View notice",
+   "rect": {
+    "x": 81,
+    "y": 4214,
+    "w": 1278,
+    "h": 71.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Mcube Technalogy and Other Residual Urine Measurement Devices 5 Types 10 Units Biocon 700 and Others Chungnam $2,453 None unsold 11.06(Fri) 13:00 04:16:40 View ",
+   "rect": {
+    "x": 81,
+    "y": 4285.8,
+    "w": 1278,
+    "h": 71.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Paraffin Bath and 10 Other Items 28 Units Gyeonggi $17,392 Minimum bid −50% vs appraised value Unsold 8× 11.06(Fri) 17:00 08:16:40 View notice",
+   "rect": {
+    "x": 81,
+    "y": 4357.5,
+    "w": 1278,
+    "h": 92.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "All selling companies",
+   "rect": {
+    "x": 1171.9,
+    "y": 4551.1,
+    "w": 188.1,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "O Onsaemi Bio Equipment Daejeon 8 live Ophthalmology Neonatal Laboratory Representative image EEG $9,936 Representative image Refraction / Slit Lamp $5,005",
+   "rect": {
+    "x": 80,
+    "y": 4607.1,
+    "w": 416,
+    "h": 359.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "C Cheongmyeong Medical Daegu 7 live Dental Sterile Processing Endoscopy Representative image Dental Unit Chair $5,902 Representative image Sterilization $4,408",
+   "rect": {
+    "x": 512,
+    "y": 4607.1,
+    "w": 416,
+    "h": 359.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "H Haram Medical Equipment Gwangju 6 live Veterinary EMS / Rescue Beds, Stretchers & Furniture Representative image Shockwave (ESWT) $10,534 Representative image",
+   "rect": {
+    "x": 944,
+    "y": 4607.1,
+    "w": 416,
+    "h": 359.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "More",
+   "rect": {
+    "x": 406.7,
+    "y": 5022.7,
+    "w": 78.6,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Five checks before buying a used ultrasound 09.15",
+   "rect": {
+    "x": 80,
+    "y": 5068.7,
+    "w": 405.3,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Class B vs Class N autoclaves 09.12",
+   "rect": {
+    "x": 80,
+    "y": 5132.7,
+    "w": 405.3,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Reading the appraisal and start price on an auction 09.09",
+   "rect": {
+    "x": 80,
+    "y": 5196.7,
+    "w": 405.3,
+    "h": 64
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Full schedule",
+   "rect": {
+    "x": 790.8,
+    "y": 5022.7,
+    "w": 131.8,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "03.18 ~ 03.21 2027 D-132 KIMES 2027 Seoul COEX · Source · checked 09.02",
+   "rect": {
+    "x": 517.3,
+    "y": 5068.7,
+    "w": 405.3,
+    "h": 98
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "More",
+   "rect": {
+    "x": 1281.4,
+    "y": 5022.7,
+    "w": 78.6,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Beta operation has started The official launch is December 2026. Auctions, wanted posts and the showroom are available during the beta. 09.17",
+   "rect": {
+    "x": 954.7,
+    "y": 5068.7,
+    "w": 405.3,
+    "h": 88.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Six languages and local currency reference Switching language shows prices as a reference conversion; bidding and payment are in KRW. 09.13",
+   "rect": {
+    "x": 954.7,
+    "y": 5157.3,
+    "w": 405.3,
+    "h": 88.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Onbid public auction data Onbid items are external; bidding takes place on Onbid. 09.09",
+   "rect": {
+    "x": 954.7,
+    "y": 5245.9,
+    "w": 405.3,
+    "h": 67.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Hospitals · Clinics · Dealers Auction your used equipment List with one photo · published after operator review List an item",
+   "rect": {
+    "x": 80,
+    "y": 5475.8,
+    "w": 416,
+    "h": 190.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Makers · Suppliers Open a new-product booth Products · prices · quote requests in one booth Ask about joining",
+   "rect": {
+    "x": 512,
+    "y": 5475.8,
+    "w": 416,
+    "h": 190.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Buyers Post the equipment you need Sellers offer price and lead time Post a buy request",
+   "rect": {
+    "x": 944,
+    "y": 5475.8,
+    "w": 416,
+    "h": 190.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Auctions",
+   "rect": {
+    "x": 425.5,
+    "y": 5844,
+    "w": 56.3,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Sell",
+   "rect": {
+    "x": 425.5,
+    "y": 5876.4,
+    "w": 22.7,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Wanted",
+   "rect": {
+    "x": 425.5,
+    "y": 5908.8,
+    "w": 48.5,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Public auctions",
+   "rect": {
+    "x": 425.5,
+    "y": 5941.2,
+    "w": 97.8,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Parts & Supplies",
+   "rect": {
+    "x": 425.5,
+    "y": 5973.6,
+    "w": 103.7,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Request quote",
+   "rect": {
+    "x": 425.5,
+    "y": 6006,
+    "w": 93.9,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "All categories",
+   "rect": {
+    "x": 669.1,
+    "y": 5844,
+    "w": 86.8,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "New Showroom",
+   "rect": {
+    "x": 669.1,
+    "y": 5876.4,
+    "w": 103,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Service engineers",
+   "rect": {
+    "x": 669.1,
+    "y": 5908.8,
+    "w": 113.6,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Industry news",
+   "rect": {
+    "x": 669.1,
+    "y": 5941.2,
+    "w": 87.9,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Trade shows",
+   "rect": {
+    "x": 669.1,
+    "y": 5973.6,
+    "w": 82.1,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "About us",
+   "rect": {
+    "x": 912.7,
+    "y": 5844,
+    "w": 57.3,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Trust & inspection standards",
+   "rect": {
+    "x": 912.7,
+    "y": 5876.4,
+    "w": 182.7,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "User guide",
+   "rect": {
+    "x": 912.7,
+    "y": 5908.8,
+    "w": 68.2,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "FAQ",
+   "rect": {
+    "x": 912.7,
+    "y": 5941.2,
+    "w": 25.8,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Notices",
+   "rect": {
+    "x": 912.7,
+    "y": 5973.6,
+    "w": 49.4,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Contact",
+   "rect": {
+    "x": 912.7,
+    "y": 6006,
+    "w": 52.4,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Terms",
+   "rect": {
+    "x": 1156.4,
+    "y": 5844,
+    "w": 38.6,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Privacy policy",
+   "rect": {
+    "x": 1156.4,
+    "y": 5876.4,
+    "w": 97.8,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Auction rules",
+   "rect": {
+    "x": 1156.4,
+    "y": 5908.8,
+    "w": 83.9,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Selling guide",
+   "rect": {
+    "x": 1156.4,
+    "y": 5941.2,
+    "w": 79.9,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Korean",
+   "rect": {
+    "x": 80,
+    "y": 6355.2,
+    "w": 66.5,
+    "h": 31.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "English",
+   "rect": {
+    "x": 150.5,
+    "y": 6355.2,
+    "w": 60.4,
+    "h": 31.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "中文",
+   "rect": {
+    "x": 214.9,
+    "y": 6355.2,
+    "w": 45.8,
+    "h": 31.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "日本語",
+   "rect": {
+    "x": 264.8,
+    "y": 6355.2,
+    "w": 58.8,
+    "h": 31.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ไทย",
+   "rect": {
+    "x": 327.5,
+    "y": 6355.2,
+    "w": 40.8,
+    "h": 31.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "हिन्दी",
+   "rect": {
+    "x": 372.3,
+    "y": 6355.2,
+    "w": 42.8,
+    "h": 31.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Recent",
+   "rect": {
+    "x": 1373,
+    "y": 195,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Watchlist",
+   "rect": {
+    "x": 1373,
+    "y": 255,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Contact",
+   "rect": {
+    "x": 1373,
+    "y": 315,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Top",
+   "rect": {
+    "x": 1373,
+    "y": 375,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "Representative image 05:58:40 Ends 11.06(Fri) 14:42 Barun Instruments NIC-⁠100 Infant Incubator Used Grade B Seller-reported Daejeon · 2015 Current bid · 3 bids",
+   "rect": {
+    "x": 80,
+    "y": 1103,
+    "w": 416,
+    "h": 256.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "Representative image 10:27:40 Ends 11.06(Fri) 19:11 Doran Medi OCT-⁠104 OCT / Fundus Used Grade A Seller-reported Daejeon · 2019 Current bid · 5 bids $18,677 Pl",
+   "rect": {
+    "x": 512,
+    "y": 1103,
+    "w": 416,
+    "h": 256.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "Representative image 21:23:40 Ends 11.07(Sat) 06:07 Pureun Instruments SYR-⁠318 Syringe Pump Used Grade A Seller-reported Gwangju · 2020 Starting price · No bid",
+   "rect": {
+    "x": 944,
+    "y": 1103,
+    "w": 416,
+    "h": 256.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "Representative image 1d 4h Ends 11.07(Sat) 13:42 Cheongam Meditech HBD-⁠260 Beds / Stretchers Used Grade B Seller-reported Gwangju · 2016 Current bid · 7 bids $",
+   "rect": {
+    "x": 80,
+    "y": 1375.3,
+    "w": 416,
+    "h": 256.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "Representative image 2d 11h Ends 11.08(Sun) 20:18 Nuri Medix LNC-⁠106 Linear Accelerator Used Grade B Seller-reported Seoul · 2011 Current bid · 3 bids $316,006",
+   "rect": {
+    "x": 512,
+    "y": 1375.3,
+    "w": 416,
+    "h": 256.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "Representative image 2d 22h Ends 11.09(Mon) 07:14 Danha Medi CSA-⁠102 Sterile Processing (Other) Refurb Grade B Seller-reported Daegu · 2016 Starting price · No",
+   "rect": {
+    "x": 944,
+    "y": 1375.3,
+    "w": 416,
+    "h": 256.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "2d 23h Representative image Used Grade B Seller-reported Irang Bio IAX-⁠106 Cath Lab Daejeon 2013 11.09(Mon) 08:14 Ended Current bid $75,453 3 bids",
+   "rect": {
+    "x": 80,
+    "y": 1837.6,
+    "w": 200,
+    "h": 453.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "6d 16h Representative image Used Grade A Seller-reported Jeoseul Medical USX-⁠100 Ultrasound Seoul 2019 11.13(Fri) 01:39 Ended Current bid $31,003 9 bids",
+   "rect": {
+    "x": 296,
+    "y": 1837.6,
+    "w": 200,
+    "h": 453.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "9d 8h Representative image Used Grade B Seller-reported Deureumon Medi ACL-⁠143B Autoclave Daegu 2014 11.15(Sun) 16:56 Ended Current bid $25,774 6 bids",
+   "rect": {
+    "x": 512,
+    "y": 1837.6,
+    "w": 200,
+    "h": 453.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "5d 9h Representative image Used Grade A Seller-reported Garam Diagnostics GRD-⁠105 X-⁠ray / Fluoroscopy Seoul 2019 11.11(Wed) 18:04 Ended Current bid $20,544 10",
+   "rect": {
+    "x": 728,
+    "y": 1837.6,
+    "w": 200,
+    "h": 453.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "6d 20h Representative image Used Grade A Seller-reported Ullim Bio ULB-⁠101 Dental Imaging Daegu 2018 11.13(Fri) 04:53 Ended Current bid $16,809 2 bids",
+   "rect": {
+    "x": 944,
+    "y": 1837.6,
+    "w": 200,
+    "h": 453.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "3d 20h Representative image Used Grade A Seller-reported Yesol Diagnostics VET-⁠106 Vet Anesthesia & Monitoring Gwangju 2021 11.10(Tue) 05:00 Ended Current bid ",
+   "rect": {
+    "x": 1160,
+    "y": 1837.6,
+    "w": 200,
+    "h": 453.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "Raon Imaging Enter booth Raon Imaging Request quote Ultrasound · PACS / CR / DR · X-ray / Fluoroscopy Portable Ultrasound RX-P5 RX-P5 $14,119 Wireless DR Detect",
+   "rect": {
+    "x": 80,
+    "y": 2473.2,
+    "w": 308,
+    "h": 471.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "Seraon Medical Enter booth Seraon Medical Request quote Patient Monitor · IV Infusion Pump · Syringe Pump Patient Monitor SM-12 SM-12 $3,885 Infusion Pump SI-10",
+   "rect": {
+    "x": 404,
+    "y": 2473.2,
+    "w": 308,
+    "h": 471.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "Hangyeol Biotech Enter booth Hangyeol Biotech Request quote Autoclave · Washer-Disinfector · Sterile Processing (Other) Tabletop Autoclave HB-23 HB-23 $5,827 Wa",
+   "rect": {
+    "x": 728,
+    "y": 2473.2,
+    "w": 308,
+    "h": 471.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "Bluepoint Health Enter booth Bluepoint Health Request quote Beds / Stretchers · Exam Table / Chair · Furniture / Carts Electric Hospital Bed BB-5 BB-5 $5,155 El",
+   "rect": {
+    "x": 1052,
+    "y": 2473.2,
+    "w": 308,
+    "h": 471.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "MediMajor",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 433,
+    "y": 196,
+    "w": 678,
+    "h": 493.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 833,
+    "y": 555.5,
+    "w": 124,
+    "h": 88
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 967,
+    "y": 555.5,
+    "w": 124,
+    "h": 88
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1129,
+    "y": 196,
+    "w": 230,
+    "h": 104
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Barun Instruments NIC-⁠100 Infant Incubator representative image",
+   "rect": {
+    "x": 95,
+    "y": 1118,
+    "w": 132,
+    "h": 226.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Doran Medi OCT-⁠104 OCT / Fundus representative image",
+   "rect": {
+    "x": 527,
+    "y": 1118,
+    "w": 132,
+    "h": 226.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Pureun Instruments SYR-⁠318 Syringe Pump representative image",
+   "rect": {
+    "x": 959,
+    "y": 1118,
+    "w": 132,
+    "h": 226.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Cheongam Meditech HBD-⁠260 Beds / Stretchers representative image",
+   "rect": {
+    "x": 95,
+    "y": 1390.3,
+    "w": 132,
+    "h": 226.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Nuri Medix LNC-⁠106 Linear Accelerator representative image",
+   "rect": {
+    "x": 527,
+    "y": 1390.3,
+    "w": 132,
+    "h": 226.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Danha Medi CSA-⁠102 Sterile Processing (Other) representative image",
+   "rect": {
+    "x": 959,
+    "y": 1390.3,
+    "w": 132,
+    "h": 226.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Irang Bio IAX-⁠106 Cath Lab representative image",
+   "rect": {
+    "x": 81,
+    "y": 1838.6,
+    "w": 198,
+    "h": 178.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Jeoseul Medical USX-⁠100 Ultrasound representative image",
+   "rect": {
+    "x": 297,
+    "y": 1838.6,
+    "w": 198,
+    "h": 178.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Deureumon Medi ACL-⁠143B Autoclave representative image",
+   "rect": {
+    "x": 513,
+    "y": 1838.6,
+    "w": 198,
+    "h": 178.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Garam Diagnostics GRD-⁠105 X-⁠ray / Fluoroscopy representative image",
+   "rect": {
+    "x": 729,
+    "y": 1838.6,
+    "w": 198,
+    "h": 178.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Ullim Bio ULB-⁠101 Dental Imaging representative image",
+   "rect": {
+    "x": 945,
+    "y": 1838.6,
+    "w": 198,
+    "h": 178.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Yesol Diagnostics VET-⁠106 Vet Anesthesia & Monitoring representative image",
+   "rect": {
+    "x": 1161,
+    "y": 1838.6,
+    "w": 198,
+    "h": 178.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 81,
+    "y": 2474.2,
+    "w": 306,
+    "h": 204
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 97,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 192.3,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 287.7,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 405,
+    "y": 2474.2,
+    "w": 306,
+    "h": 204
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 421,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 516.3,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 611.7,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 729,
+    "y": 2474.2,
+    "w": 306,
+    "h": 204
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 745,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 840.3,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 935.7,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1053,
+    "y": 2474.2,
+    "w": 306,
+    "h": 204
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1069,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1164.3,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1259.7,
+    "y": 2761,
+    "w": 83.3,
+    "h": 83.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 95,
+    "y": 3609.4,
+    "w": 96,
+    "h": 158.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 527,
+    "y": 3609.4,
+    "w": 96,
+    "h": 112.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 959,
+    "y": 3609.4,
+    "w": 96,
+    "h": 157.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 95,
+    "y": 3794.8,
+    "w": 96,
+    "h": 96
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 527,
+    "y": 3794.8,
+    "w": 96,
+    "h": 96
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 99,
+    "y": 4725.5,
+    "w": 185,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 292,
+    "y": 4725.5,
+    "w": 185,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 531,
+    "y": 4725.5,
+    "w": 185,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 724,
+    "y": 4725.5,
+    "w": 185,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 963,
+    "y": 4759.5,
+    "w": 185,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1156,
+    "y": 4759.5,
+    "w": 185,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "MediMajor",
+   "rect": {
+    "x": 80,
+    "y": 5806.2,
+    "w": 122.5,
+    "h": 30
+   }
+  }
+ ]
+}

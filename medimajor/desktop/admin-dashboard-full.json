@@ -1,0 +1,315 @@
+{
+ "file": "admin-dashboard-full.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 960,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:00:47.354Z",
+ "title": "관리자 · 메디메이저",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "검토 대기",
+   "rect": {
+    "x": 260,
+    "y": 18.2,
+    "w": 66.3,
+    "h": 26.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "검토 대기 1",
+   "rect": {
+    "x": 285,
+    "y": 257.8,
+    "w": 73.9,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "수정 요청 중 0",
+   "rect": {
+    "x": 285,
+    "y": 465.4,
+    "w": 95.3,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "최근 처리 기록",
+   "rect": {
+    "x": 871,
+    "y": 465.4,
+    "w": 95.6,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 14,
+    "y": 20,
+    "w": 204,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검토 대기 1",
+   "rect": {
+    "x": 14,
+    "y": 109.2,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "수정 요청 중 0",
+   "rect": {
+    "x": 14,
+    "y": 151.2,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "게시 중 35",
+   "rect": {
+    "x": 14,
+    "y": 193.2,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마감·낙찰 27",
+   "rect": {
+    "x": 14,
+    "y": 235.2,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대량 등록 0",
+   "rect": {
+    "x": 14,
+    "y": 277.2,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삽니다 0",
+   "rect": {
+    "x": 14,
+    "y": 362.4,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의·견적 3",
+   "rect": {
+    "x": 14,
+    "y": 404.4,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공매 연동",
+   "rect": {
+    "x": 14,
+    "y": 446.4,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신품 전시관",
+   "rect": {
+    "x": 14,
+    "y": 488.4,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입점 심사 0",
+   "rect": {
+    "x": 14,
+    "y": 573.6,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지·배너",
+   "rect": {
+    "x": 14,
+    "y": 615.6,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "산업 소식",
+   "rect": {
+    "x": 14,
+    "y": 657.6,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신고·제재 0",
+   "rect": {
+    "x": 14,
+    "y": 699.6,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제출 순",
+   "rect": {
+    "x": 1318.4,
+    "y": 255.4,
+    "w": 68.6,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "08.19 20:54 78일 대기 ddd 치과 · 사진 1 · 신고 0/20 ㅇㅇㅇㅇ ㅇㅇㅇㅇ 준비 중 준비 중 검토 시작",
+   "rect": {
+    "x": 261,
+    "y": 348.4,
+    "w": 1150,
+    "h": 77
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메디메이저",
+   "rect": {
+    "x": 26,
+    "y": 24,
+    "w": 106.2,
+    "h": 26
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 415,
+    "y": 363.4,
+    "w": 64,
+    "h": 48
+   }
+  }
+ ]
+}

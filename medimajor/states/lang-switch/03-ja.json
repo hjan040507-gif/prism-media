@@ -1,0 +1,767 @@
+{
+ "file": "03-ja.png",
+ "kind": "state",
+ "project": "medimajor",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 6034,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:48:54.368Z",
+ "title": "MEDIMAJOR — 中古医療機器オークション",
+ "note": "header language menu click (cookie medimajor.lang + router.refresh)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 4,
+  "email": 0,
+  "rrn": 0,
+  "account": 4,
+  "passport": 0,
+  "url": 3,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 4,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "分野別の出品 25",
+   "rect": {
+    "x": 80,
+    "y": 719.6,
+    "w": 124.7,
+    "h": 23.4
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "日本語",
+   "rect": {
+    "x": 1202,
+    "y": 5,
+    "w": 90,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "JPY",
+   "rect": {
+    "x": 1300,
+    "y": 5,
+    "w": 60,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "すべて",
+   "rect": {
+    "x": 252.9,
+    "y": 53,
+    "w": 93,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 830.9,
+    "y": 53,
+    "w": 58,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "BMR 広告",
+   "rect": {
+    "x": 447,
+    "y": 210,
+    "w": 97.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "注目オークション",
+   "rect": {
+    "x": 546.9,
+    "y": 210,
+    "w": 128,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "自動入札",
+   "rect": {
+    "x": 676.9,
+    "y": 210,
+    "w": 76,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "公共機関の公売",
+   "rect": {
+    "x": 754.9,
+    "y": 210,
+    "w": 115,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "写真で販売",
+   "rect": {
+    "x": 871.9,
+    "y": 210,
+    "w": 89,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1063,
+    "y": 210,
+    "w": 34,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "機器名 · メーカー · 型番 · 出品番号で探す",
+   "rect": {
+    "x": 345.9,
+    "y": 53,
+    "w": 485,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ご利用ガイド",
+   "rect": {
+    "x": 997,
+    "y": 7.6,
+    "w": 71.5,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "出品ガイド",
+   "rect": {
+    "x": 1105.4,
+    "y": 7.6,
+    "w": 59.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "お気に入り お気に入りの出品",
+   "rect": {
+    "x": 998.5,
+    "y": 48,
+    "w": 64.6,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "通知 通知",
+   "rect": {
+    "x": 1065,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ログイン",
+   "rect": {
+    "x": 1127,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "写真で出品登録",
+   "rect": {
+    "x": 1199,
+    "y": 53,
+    "w": 161,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "中古 オークション市場",
+   "rect": {
+    "x": 80,
+    "y": 121,
+    "w": 237.2,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "新品 展示館",
+   "rect": {
+    "x": 327.2,
+    "y": 121,
+    "w": 167.6,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "出品する",
+   "rect": {
+    "x": 510.8,
+    "y": 116,
+    "w": 85.6,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "求む 9",
+   "rect": {
+    "x": 598.4,
+    "y": 116,
+    "w": 69.8,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "公売 29",
+   "rect": {
+    "x": 689.2,
+    "y": 116,
+    "w": 77.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "パーツ・消耗品",
+   "rect": {
+    "x": 787.8,
+    "y": 116,
+    "w": 130.4,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "サービスエンジニア",
+   "rect": {
+    "x": 920.2,
+    "y": 116,
+    "w": 160.2,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "再出品",
+   "rect": {
+    "x": 1152.2,
+    "y": 131.8,
+    "w": 38.7,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "見積依頼",
+   "rect": {
+    "x": 1210.9,
+    "y": 131.8,
+    "w": 51.6,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "業界ニュース",
+   "rect": {
+    "x": 1282.5,
+    "y": 131.8,
+    "w": 77.5,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "中古オークション市場 35件進行中",
+   "rect": {
+    "x": 80,
+    "y": 270.2,
+    "w": 336,
+    "h": 133.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "新品展示館 4ブランド · 新品 12種",
+   "rect": {
+    "x": 80,
+    "y": 404,
+    "w": 336,
+    "h": 133.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "求む購入リクエスト 9件進行中",
+   "rect": {
+    "x": 80,
+    "y": 537.8,
+    "w": 336,
+    "h": 133.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "広告 協力会社 BMR BMR Co., Ltd. MRI · CT 設置 · 保守 · 再構成 Philips · Siemens · GE など 6 ブランド 2005年から MRI · CT エンジニア 10名 MRI CT 協力会社の紹介を見る 会員限定 代表画像",
+   "rect": {
+    "x": 433,
+    "y": 196,
+    "w": 678,
+    "h": 474.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "協力会社 BMR BMR Co., Ltd. MRI · CT 設置 · 保守 · 再構成 2005年から エンジニア 10名 協力会社の紹介を見る 会員限定",
+   "rect": {
+    "x": 1128,
+    "y": 195,
+    "w": 232,
+    "h": 276
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "売るとき 出品登録 登録無料 · 写真1枚から",
+   "rect": {
+    "x": 1129,
+    "y": 488,
+    "w": 230,
+    "h": 90.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "買うとき 購入リクエストを登録 出品者が見積を送ります",
+   "rect": {
+    "x": 1129,
+    "y": 578.8,
+    "w": 230,
+    "h": 91.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "すべての分類",
+   "rect": {
+    "x": 1238.5,
+    "y": 719.6,
+    "w": 121.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "画像診断",
+   "rect": {
+    "x": 80,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "内視鏡",
+   "rect": {
+    "x": 155.2,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "歯科",
+   "rect": {
+    "x": 230.5,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "皮膚・美容",
+   "rect": {
+    "x": 305.7,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "手術・麻酔",
+   "rect": {
+    "x": 380.9,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "滅菌・消毒",
+   "rect": {
+    "x": 456.2,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "患者モニタ",
+   "rect": {
+    "x": 531.4,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "呼吸",
+   "rect": {
+    "x": 606.6,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "眼科",
+   "rect": {
+    "x": 681.9,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "新生児",
+   "rect": {
+    "x": 757.1,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "検査室",
+   "rect": {
+    "x": 832.3,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ベッド・家具",
+   "rect": {
+    "x": 907.6,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "理学療法",
+   "rect": {
+    "x": 982.8,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "動物病院",
+   "rect": {
+    "x": 1058,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "メーカー別",
+   "rect": {
+    "x": 1138.3,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "サービス",
+   "rect": {
+    "x": 1213.5,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "すべて 25件",
+   "rect": {
+    "x": 1288.8,
+    "y": 767.6,
+    "w": 71.2,
+    "h": 117.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "最近",
+   "rect": {
+    "x": 1373,
+    "y": 195,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "お気に入り",
+   "rect": {
+    "x": 1373,
+    "y": 255,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "お問い合わせ",
+   "rect": {
+    "x": 1373,
+    "y": 315,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "トップ",
+   "rect": {
+    "x": 1373,
+    "y": 375,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "MediMajor",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 433,
+    "y": 196,
+    "w": 678,
+    "h": 474.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 833,
+    "y": 536.6,
+    "w": 124,
+    "h": 88
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 967,
+    "y": 536.6,
+    "w": 124,
+    "h": 88
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1129,
+    "y": 196,
+    "w": 230,
+    "h": 104
+   }
+  }
+ ]
+}

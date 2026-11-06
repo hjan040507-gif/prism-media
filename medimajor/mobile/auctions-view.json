@@ -1,0 +1,491 @@
+{
+ "file": "auctions-view.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/auctions",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 5541,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:41:16.894Z",
+ "title": "전체 경매 · 메디메이저",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 0,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 3,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "경매 진행 중 35건",
+   "rect": {
+    "x": 16,
+    "y": 256.6,
+    "w": 358,
+    "h": 31
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "가람진단 GRD-105 디지털 X-ray 촬영장치",
+   "rect": {
+    "x": 29,
+    "y": 812.4,
+    "w": 148,
+    "h": 41.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "청암메디텍 HBD-260 ICU 전동 침대",
+   "rect": {
+    "x": 213,
+    "y": 812.4,
+    "w": 148,
+    "h": 41.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 325,
+    "y": 95,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "a",
+   "text": "필터",
+   "rect": {
+    "x": 16,
+    "y": 533.4,
+    "w": 77.7,
+    "h": 38
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 145,
+    "y": 643.4,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 329,
+    "y": 643.4,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "장비명 · 제조사 · 모델명 · 매물번호로 찾기",
+   "rect": {
+    "x": 17,
+    "y": 95,
+    "w": 308,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "recommended",
+   "rect": {
+    "x": 101.7,
+    "y": 532.4,
+    "w": 122,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 50.5,
+    "w": 110.3,
+    "h": 27
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심 매물",
+   "rect": {
+    "x": 198,
+    "y": 42,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림",
+   "rect": {
+    "x": 242,
+    "y": 42,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 286,
+    "y": 42,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 42,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매 35",
+   "rect": {
+    "x": 8,
+    "y": 152,
+    "w": 65.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "팝니다",
+   "rect": {
+    "x": 73.7,
+    "y": 152,
+    "w": 58.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삽니다 9",
+   "rect": {
+    "x": 132.4,
+    "y": 152,
+    "w": 72.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공매 29",
+   "rect": {
+    "x": 205,
+    "y": 152,
+    "w": 67.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신품 전시관",
+   "rect": {
+    "x": 272.7,
+    "y": 152,
+    "w": 88.5,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "부품·소모품",
+   "rect": {
+    "x": 361.2,
+    "y": 152,
+    "w": 88.5,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 16,
+    "y": 223,
+    "w": 11.9,
+    "h": 21.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "비교함 0",
+   "rect": {
+    "x": 16,
+    "y": 356.4,
+    "w": 102.3,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이 조건 알림 받기",
+   "rect": {
+    "x": 126.3,
+    "y": 356.4,
+    "w": 145.6,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전체 35",
+   "rect": {
+    "x": 16,
+    "y": 410.4,
+    "w": 70.7,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마감 임박 · 24시간 3",
+   "rect": {
+    "x": 88.7,
+    "y": 410.4,
+    "w": 145.8,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "새로 등록 · 7일",
+   "rect": {
+    "x": 236.5,
+    "y": 410.4,
+    "w": 110.1,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "유찰 재경매 4",
+   "rect": {
+    "x": 348.6,
+    "y": 410.4,
+    "w": 105.4,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "추천순 기준",
+   "rect": {
+    "x": 86.5,
+    "y": 488.4,
+    "w": 77.5,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "필터",
+   "rect": {
+    "x": 16,
+    "y": 533.4,
+    "w": 77.7,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "카드",
+   "rect": {
+    "x": 20,
+    "y": 584.4,
+    "w": 73.8,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "목록",
+   "rect": {
+    "x": 95.8,
+    "y": 584.4,
+    "w": 73.8,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가람진단 GRD-105 디지털 X-ray 촬영장치",
+   "rect": {
+    "x": 29,
+    "y": 813.4,
+    "w": 132.8,
+    "h": 37.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "청암메디텍 HBD-260 ICU 전동 침대",
+   "rect": {
+    "x": 213,
+    "y": 813.4,
+    "w": 133,
+    "h": 37.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "5일 9시간 3 중고 A급 가람진단 GRD-105 디지털 X-ray 촬영장치 2019년식 서울 현재가 27,500,000원 입찰 10 · 관심 6",
+   "rect": {
+    "x": 16,
+    "y": 642.4,
+    "w": 174,
+    "h": 329.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "1일 5시간 3 중고 B급 청암메디텍 HBD-260 ICU 전동 침대 2016년식 광주 현재가 9,200,000원 입찰 7 · 관심 5",
+   "rect": {
+    "x": 200,
+    "y": 642.4,
+    "w": 174,
+    "h": 329.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메디메이저 MediMajor",
+   "rect": {
+    "x": 16,
+    "y": 50.5,
+    "w": 110.3,
+    "h": 27
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가람진단 GRD-105 디지털 X-ray 촬영장치",
+   "rect": {
+    "x": 17,
+    "y": 643.4,
+    "w": 172,
+    "h": 129
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "청암메디텍 HBD-260 ICU 전동 침대",
+   "rect": {
+    "x": 201,
+    "y": 643.4,
+    "w": 172,
+    "h": 129
+   }
+  }
+ ]
+}

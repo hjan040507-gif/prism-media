@@ -1,0 +1,491 @@
+{
+ "file": "home-view.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/ko",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 9299,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:40:32.915Z",
+ "title": "메디메이저 — 중고 의료기기 경매",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 4,
+  "email": 0,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 1,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 4,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "최대 금액만 정해 두면 자동으로 입찰합니다",
+   "rect": {
+    "x": 33,
+    "y": 452.4,
+    "w": 159.4,
+    "h": 52
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "분야별 매물 25",
+   "rect": {
+    "x": 16,
+    "y": 667,
+    "w": 101.9,
+    "h": 22.1
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 325,
+    "y": 95,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "자동 입찰",
+   "rect": {
+    "x": 29,
+    "y": 382.4,
+    "w": 75,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 327,
+    "y": 382.4,
+    "w": 34,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "장비명 · 제조사 · 모델명 · 매물번호로 찾기",
+   "rect": {
+    "x": 17,
+    "y": 95,
+    "w": 308,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 50.5,
+    "w": 110.3,
+    "h": 27
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심 매물",
+   "rect": {
+    "x": 198,
+    "y": 42,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림",
+   "rect": {
+    "x": 242,
+    "y": 42,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 286,
+    "y": 42,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 42,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매 35",
+   "rect": {
+    "x": 8,
+    "y": 152,
+    "w": 65.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "팝니다",
+   "rect": {
+    "x": 73.7,
+    "y": 152,
+    "w": 58.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삽니다 9",
+   "rect": {
+    "x": 132.4,
+    "y": 152,
+    "w": 72.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공매 29",
+   "rect": {
+    "x": 205,
+    "y": 152,
+    "w": 67.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신품 전시관",
+   "rect": {
+    "x": 272.7,
+    "y": 152,
+    "w": 88.5,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "부품·소모품",
+   "rect": {
+    "x": 361.2,
+    "y": 152,
+    "w": 88.5,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "중고 경매장터 35건 진행 중",
+   "rect": {
+    "x": 16,
+    "y": 257.7,
+    "w": 119.3,
+    "h": 101.7
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신품 전시관 4개 브랜드",
+   "rect": {
+    "x": 135.3,
+    "y": 257.7,
+    "w": 119.3,
+    "h": 101.7
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삽니다 구매 요청 9건 진행 중",
+   "rect": {
+    "x": 254.7,
+    "y": 257.7,
+    "w": 119.3,
+    "h": 101.7
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입찰 규칙 보기",
+   "rect": {
+    "x": 33,
+    "y": 546.8,
+    "w": 324,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전체 분류",
+   "rect": {
+    "x": 283.4,
+    "y": 667,
+    "w": 90.6,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영상진단",
+   "rect": {
+    "x": 16,
+    "y": 719,
+    "w": 68.4,
+    "h": 88
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내시경",
+   "rect": {
+    "x": 88.4,
+    "y": 719,
+    "w": 68.4,
+    "h": 88
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "치과",
+   "rect": {
+    "x": 160.8,
+    "y": 719,
+    "w": 68.4,
+    "h": 88
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "피부·미용",
+   "rect": {
+    "x": 233.2,
+    "y": 719,
+    "w": 68.4,
+    "h": 88
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "수술·마취",
+   "rect": {
+    "x": 305.6,
+    "y": 719,
+    "w": 68.4,
+    "h": 88
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "멸균·소독",
+   "rect": {
+    "x": 16,
+    "y": 821,
+    "w": 68.4,
+    "h": 88
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "환자감시",
+   "rect": {
+    "x": 88.4,
+    "y": 821,
+    "w": 68.4,
+    "h": 88
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "호흡",
+   "rect": {
+    "x": 160.8,
+    "y": 821,
+    "w": 68.4,
+    "h": 88
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "안과",
+   "rect": {
+    "x": 233.2,
+    "y": 821,
+    "w": 68.4,
+    "h": 88
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전체 25개",
+   "rect": {
+    "x": 305.6,
+    "y": 821,
+    "w": 68.4,
+    "h": 88
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 4,
+    "y": 781,
+    "w": 76.4,
+    "h": 63
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "분류",
+   "rect": {
+    "x": 80.4,
+    "y": 781,
+    "w": 76.4,
+    "h": 63
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "판매 등록",
+   "rect": {
+    "x": 156.8,
+    "y": 781,
+    "w": 76.4,
+    "h": 63
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심",
+   "rect": {
+    "x": 233.2,
+    "y": 781,
+    "w": 76.4,
+    "h": 63
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "MY",
+   "rect": {
+    "x": 309.6,
+    "y": 781,
+    "w": 76.4,
+    "h": 63
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메디메이저 MediMajor",
+   "rect": {
+    "x": 16,
+    "y": 50.5,
+    "w": 110.3,
+    "h": 27
+   }
+  }
+ ]
+}

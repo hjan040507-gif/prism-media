@@ -21,7 +21,7 @@
 - 저장소: hjan040507-gif/prism-media 없음 + 이 서버에 GitHub API 인증 없음(gh 미로그인, 토큰 없음, SSH 로는 생성 불가) → ~/prism-media 에 커밋만, 보고에 '저장소 생성 필요'
 
 ## NOW
-- 00:15Z sealkitt 검수 끝(check FAIL 0·OCR 0/81·contact 확인, lib 수정 2건: full 캡처 하단 고정 요소 위치·화면 밖 이미지 빈칸 → 페이지 재촬영) → 커밋.
+- 23:46Z sealkitt 검수 끝(check FAIL 0·OCR 0/81·contact 확인, lib 수정 2건: full 캡처 하단 고정 요소 위치·화면 밖 이미지 빈칸 → 페이지 재촬영) → 커밋 d9c8005.
 - 23:10Z 도구 커밋 1ece652(자체 시험 17/17·OCR 0·code-review medium 11건 반영). 조사 7건 RECON.md. 공통 지침 docs/CAPTURE-BRIEF.md.
 - 23:15Z 촬영 서브에이전트 sealkitt·posco·nowflix·jipyeong 시작(종료 03:00~03:30Z). 23:30Z 추가 지시: fordex·sellfit 추가(조사 중, sellfit 은 접근 권한부터), nowflix 는 화면 띄우기 1회만. 다음: byclick·maieventic·medimajor·fordex·sellfit. 끝나는 대로 검수(check·ocr·contact 직접 보기) → 프로젝트별 커밋.
 - 막힌 것: 저장소 생성 권한
@@ -33,6 +33,7 @@
 - 로그인 POST 를 허용한 경우 횟수를 보고(인증 세션 행이 남는 쓰기).
 
 ## 보고할 것 (운영 쓰기 가능성)
+- medimajor: 로그인 POST 2회(테스트 판매자 1·qa-admin 1, 인증 세션 행). 상세는 MQE-102 1건만 8회, 모든 UA 가 BOT 정규식(lot-stats.ts:16)에 걸림(조회수 미기록). 판매 마법사 쓰기 RPC 3종 9건은 가로챔. 관리자 경로에 GET 렌더 쓰기·접근 로그 없음(src/app/admin grep).
 - sealkitt: `/api/suggest` 15회·`/api/search` 7회(첫 촬영 3 + 페이지 재촬영 4)마다 `rpc api_rate_take` 가 `api_rate_hits` upsert(IP별 속도 제한 카운터, 0190_api_rate_limit.sql:40-41 — 헤더로 못 피함). 카드 상세 약 24회 열람 때 `/api/ebay-*`·`/api/snkr-*` GET 자동 호출(캐시 미스 때 서버 쓰기 여부 미확인). 시세 축 조사로 카드 상세 HTML 4,331건 GET(JS 없음, 브라우저 비콘 없음). Realtime presence 웹소켓 접속.
 - medimajor 조사 중 curl GET 1회(일반 UA)로 매물 MQE-102 조회수 +1 가능성(lot-stats.ts:16 BOT 정규식에 안 걸림).
 

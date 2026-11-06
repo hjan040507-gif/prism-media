@@ -1,0 +1,766 @@
+{
+ "file": "home-zh-CN-view.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/zh-CN",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 5958,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:43:45.814Z",
+ "title": "MEDIMAJOR — 二手医疗设备拍卖",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 4,
+  "email": 0,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 1,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 4,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "按领域查看物件 25",
+   "rect": {
+    "x": 80,
+    "y": 698,
+    "w": 148.2,
+    "h": 23.4
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "中文",
+   "rect": {
+    "x": 1208,
+    "y": 5,
+    "w": 80,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "CNY",
+   "rect": {
+    "x": 1296,
+    "y": 5,
+    "w": 64,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "全部",
+   "rect": {
+    "x": 252.9,
+    "y": 53,
+    "w": 81,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 830.9,
+    "y": 53,
+    "w": 58,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "BMR 广告",
+   "rect": {
+    "x": 447,
+    "y": 210,
+    "w": 99.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "焦点拍卖",
+   "rect": {
+    "x": 548.9,
+    "y": 210,
+    "w": 80,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "自动出价",
+   "rect": {
+    "x": 630.9,
+    "y": 210,
+    "w": 80,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "公共机构公卖",
+   "rect": {
+    "x": 712.9,
+    "y": 210,
+    "w": 108,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "拍照出售",
+   "rect": {
+    "x": 822.9,
+    "y": 210,
+    "w": 80,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1063,
+    "y": 210,
+    "w": 34,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "按设备名 · 制造商 · 型号 · 物件编号查找",
+   "rect": {
+    "x": 333.9,
+    "y": 53,
+    "w": 497,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "使用指南",
+   "rect": {
+    "x": 1030.7,
+    "y": 7.6,
+    "w": 51.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "出售指南",
+   "rect": {
+    "x": 1119.4,
+    "y": 7.6,
+    "w": 51.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "关注 关注的物件",
+   "rect": {
+    "x": 1010.9,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "通知 通知",
+   "rect": {
+    "x": 1072.9,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "登录",
+   "rect": {
+    "x": 1134.9,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "拍照登记出售",
+   "rect": {
+    "x": 1206.9,
+    "y": 53,
+    "w": 153.1,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "二手 拍卖市场",
+   "rect": {
+    "x": 80,
+    "y": 121,
+    "w": 187.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "新品 展馆",
+   "rect": {
+    "x": 277.5,
+    "y": 121,
+    "w": 157.7,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "我要卖",
+   "rect": {
+    "x": 451.3,
+    "y": 116,
+    "w": 73.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "求购 9",
+   "rect": {
+    "x": 527,
+    "y": 116,
+    "w": 71.8,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "政府拍卖 29",
+   "rect": {
+    "x": 619.7,
+    "y": 116,
+    "w": 111.5,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "配件·耗材",
+   "rect": {
+    "x": 752.2,
+    "y": 116,
+    "w": 93.6,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "服务工程师",
+   "rect": {
+    "x": 847.8,
+    "y": 116,
+    "w": 105.6,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "流拍再拍",
+   "rect": {
+    "x": 1180.9,
+    "y": 131.8,
+    "w": 55.6,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "询价",
+   "rect": {
+    "x": 1256.5,
+    "y": 131.8,
+    "w": 27.8,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "行业资讯",
+   "rect": {
+    "x": 1304.4,
+    "y": 131.8,
+    "w": 55.6,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "二手拍卖市场 35件进行中",
+   "rect": {
+    "x": 80,
+    "y": 270.2,
+    "w": 336,
+    "h": 126.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "全新展馆 4个品牌 · 全新 12 种",
+   "rect": {
+    "x": 80,
+    "y": 396.8,
+    "w": 336,
+    "h": 126.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "求购采购需求 9件进行中",
+   "rect": {
+    "x": 80,
+    "y": 523.4,
+    "w": 336,
+    "h": 126.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "广告 合作伙伴 BMR BMR Co., Ltd. MRI · CT 安装 · 维护 · 重新配置 Philips · Siemens · GE 等 6 个品牌 2005 年起 MRI · CT 工程师 10 名 MRI CT 查看合作伙伴介绍 仅限会员 代表图片",
+   "rect": {
+    "x": 433,
+    "y": 196,
+    "w": 678,
+    "h": 453
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "合作伙伴 BMR BMR Co., Ltd. MRI · CT 安装 · 维护 · 重新配置 2005 年起 工程师 10 名 查看合作伙伴介绍 仅限会员",
+   "rect": {
+    "x": 1128,
+    "y": 195,
+    "w": 232,
+    "h": 254.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "出售时 出售登记 免费登记 · 一张照片即可",
+   "rect": {
+    "x": 1129,
+    "y": 466.4,
+    "w": 230,
+    "h": 90.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "购买时 发布求购 卖家会发来报价",
+   "rect": {
+    "x": 1129,
+    "y": 557.2,
+    "w": 230,
+    "h": 91.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "全部分类",
+   "rect": {
+    "x": 1260.4,
+    "y": 698,
+    "w": 99.6,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "影像诊断",
+   "rect": {
+    "x": 80,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "内窥镜",
+   "rect": {
+    "x": 155.2,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "牙科",
+   "rect": {
+    "x": 230.5,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "皮肤·美容",
+   "rect": {
+    "x": 305.7,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "手术·麻醉",
+   "rect": {
+    "x": 380.9,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "灭菌·消毒",
+   "rect": {
+    "x": 456.2,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "患者监护",
+   "rect": {
+    "x": 531.4,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "呼吸",
+   "rect": {
+    "x": 606.6,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "眼科",
+   "rect": {
+    "x": 681.9,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "新生儿",
+   "rect": {
+    "x": 757.1,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "检验科",
+   "rect": {
+    "x": 832.3,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "病床·家具",
+   "rect": {
+    "x": 907.6,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "理疗",
+   "rect": {
+    "x": 982.8,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "兽医",
+   "rect": {
+    "x": 1058,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "按制造商",
+   "rect": {
+    "x": 1138.3,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "服务",
+   "rect": {
+    "x": 1213.5,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "全部 25 个",
+   "rect": {
+    "x": 1288.8,
+    "y": 746,
+    "w": 71.2,
+    "h": 95.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "最近",
+   "rect": {
+    "x": 1373,
+    "y": 195,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "关注",
+   "rect": {
+    "x": 1373,
+    "y": 255,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "咨询",
+   "rect": {
+    "x": 1373,
+    "y": 315,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "顶部",
+   "rect": {
+    "x": 1373,
+    "y": 375,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "MediMajor",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 433,
+    "y": 196,
+    "w": 678,
+    "h": 453
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 833,
+    "y": 515,
+    "w": 124,
+    "h": 88
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 967,
+    "y": 515,
+    "w": 124,
+    "h": 88
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1129,
+    "y": 196,
+    "w": 230,
+    "h": 104
+   }
+  }
+ ]
+}

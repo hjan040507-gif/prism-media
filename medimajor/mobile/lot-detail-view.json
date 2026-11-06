@@ -1,0 +1,458 @@
+{
+ "file": "lot-detail-view.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/auctions/0ca69e33-a36d-4fa3-a9f9-bd991d7ebdc8",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 9406,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:41:45.370Z",
+ "title": "미래온 MQE-102 뇌파 검사기 · 메디메이저",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 0,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 3,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "미래온 MQE-102 뇌파 검사기",
+   "rect": {
+    "x": 16,
+    "y": 206.6,
+    "w": 174.3,
+    "h": 62
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 280,
+    "y": 206.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 206.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 349.4,
+    "w": 390,
+    "h": 292.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "정면",
+   "rect": {
+    "x": 16,
+    "y": 651.9,
+    "w": 66.8,
+    "h": 50.1
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "측면",
+   "rect": {
+    "x": 88.8,
+    "y": 651.9,
+    "w": 66.8,
+    "h": 50.1
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "후면",
+   "rect": {
+    "x": 161.6,
+    "y": 651.9,
+    "w": 66.8,
+    "h": 50.1
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "조작부",
+   "rect": {
+    "x": 234.4,
+    "y": 651.9,
+    "w": 66.8,
+    "h": 50.1
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "부속",
+   "rect": {
+    "x": 307.2,
+    "y": 651.9,
+    "w": 66.8,
+    "h": 50.1
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 210.6,
+    "y": 773.7,
+    "w": 50,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 14.5,
+    "w": 110.3,
+    "h": 27
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 154,
+    "y": 6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심 매물",
+   "rect": {
+    "x": 198,
+    "y": 6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림",
+   "rect": {
+    "x": 242,
+    "y": 6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 286,
+    "y": 6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "목록",
+   "rect": {
+    "x": 16,
+    "y": 57.5,
+    "w": 71.8,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개요",
+   "rect": {
+    "x": 93.8,
+    "y": 57.5,
+    "w": 49.8,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "상태 근거",
+   "rect": {
+    "x": 149.7,
+    "y": 57.5,
+    "w": 78.6,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "명세",
+   "rect": {
+    "x": 234.2,
+    "y": 57.5,
+    "w": 49.8,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입찰 내역 10",
+   "rect": {
+    "x": 290,
+    "y": 57.5,
+    "w": 100.4,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 16,
+    "y": 134,
+    "w": 23.8,
+    "h": 21.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신경",
+   "rect": {
+    "x": 61.8,
+    "y": 134,
+    "w": 23.8,
+    "h": 21.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "뇌파(EEG)",
+   "rect": {
+    "x": 107.7,
+    "y": 134,
+    "w": 55.4,
+    "h": 21.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "MQE-102 모델 정보",
+   "rect": {
+    "x": 16,
+    "y": 307,
+    "w": 115.8,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "출처 (AI)",
+   "rect": {
+    "x": 241.1,
+    "y": 801.6,
+    "w": 47.4,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "출처 (AI)",
+   "rect": {
+    "x": 243.1,
+    "y": 828.4,
+    "w": 47.4,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입찰하기",
+   "rect": {
+    "x": 272.6,
+    "y": 773.7,
+    "w": 101.4,
+    "h": 50
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메디메이저 MediMajor",
+   "rect": {
+    "x": 16,
+    "y": 14.5,
+    "w": 110.3,
+    "h": 27
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "미래온 MQE-102 뇌파 검사기 사진 · 정면",
+   "rect": {
+    "x": 0,
+    "y": 349.4,
+    "w": 390,
+    "h": 292.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 651.9,
+    "w": 66.8,
+    "h": 50.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 88.8,
+    "y": 651.9,
+    "w": 66.8,
+    "h": 50.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 161.6,
+    "y": 651.9,
+    "w": 66.8,
+    "h": 50.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 234.4,
+    "y": 651.9,
+    "w": 66.8,
+    "h": 50.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 307.2,
+    "y": 651.9,
+    "w": 66.8,
+    "h": 50.1
+   }
+  }
+ ]
+}

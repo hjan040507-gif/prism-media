@@ -1,0 +1,480 @@
+{
+ "file": "sell-view.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/sell",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 3147,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:47:16.927Z",
+ "title": "장비 등록 · 메디메이저",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 4,
+  "email": 0,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 3,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "검토를 거친 장비만 경매에 올립니다",
+   "rect": {
+    "x": 80,
+    "y": 300.6,
+    "w": 701,
+    "h": 108.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "구매자에게는 이렇게 보입니다",
+   "rect": {
+    "x": 528.1,
+    "y": 686.9,
+    "w": 383.8,
+    "h": 32.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "한국어",
+   "rect": {
+    "x": 1199,
+    "y": 5,
+    "w": 87,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "KRW",
+   "rect": {
+    "x": 1294,
+    "y": 5,
+    "w": 66,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체",
+   "rect": {
+    "x": 252.9,
+    "y": 53,
+    "w": 77,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 830.9,
+    "y": 53,
+    "w": 58,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 829,
+    "y": 779.6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "장비명 · 제조사 · 모델명 · 매물번호로 찾기",
+   "rect": {
+    "x": 329.9,
+    "y": 53,
+    "w": 501,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용설명서",
+   "rect": {
+    "x": 1023.9,
+    "y": 7.6,
+    "w": 54.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "판매 안내",
+   "rect": {
+    "x": 1115.4,
+    "y": 7.6,
+    "w": 46.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심 관심 매물",
+   "rect": {
+    "x": 991.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 알림",
+   "rect": {
+    "x": 1053.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1115.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사진으로 판매 등록",
+   "rect": {
+    "x": 1187.5,
+    "y": 53,
+    "w": 172.5,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "중고 경매장터",
+   "rect": {
+    "x": 80,
+    "y": 121,
+    "w": 175.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신품 전시관",
+   "rect": {
+    "x": 265.5,
+    "y": 121,
+    "w": 162.6,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "팝니다",
+   "rect": {
+    "x": 444.2,
+    "y": 116,
+    "w": 64.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삽니다 9",
+   "rect": {
+    "x": 510.9,
+    "y": 116,
+    "w": 78.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공매 29",
+   "rect": {
+    "x": 610.5,
+    "y": 116,
+    "w": 73.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "부품·소모품",
+   "rect": {
+    "x": 705.2,
+    "y": 116,
+    "w": 94.5,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "서비스 엔지니어",
+   "rect": {
+    "x": 801.7,
+    "y": 116,
+    "w": 120.3,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "유찰 재경매",
+   "rect": {
+    "x": 1156.4,
+    "y": 131.8,
+    "w": 62.5,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 1238.9,
+    "y": 131.8,
+    "w": 50.6,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "산업 소식",
+   "rect": {
+    "x": 1309.4,
+    "y": 131.8,
+    "w": 50.6,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 80,
+    "y": 193,
+    "w": 11.9,
+    "h": 21.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사진으로 판매 등록 시작",
+   "rect": {
+    "x": 80,
+    "y": 510.9,
+    "w": 229.9,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "판매 절차 보기",
+   "rect": {
+    "x": 317.9,
+    "y": 510.9,
+    "w": 144.7,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진행 중 경매 35건",
+   "rect": {
+    "x": 829,
+    "y": 447.3,
+    "w": 176.3,
+    "h": 86.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검수 항목 20개",
+   "rect": {
+    "x": 1183.6,
+    "y": 447.3,
+    "w": 176.3,
+    "h": 86.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "최근 본",
+   "rect": {
+    "x": 1373,
+    "y": 195,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심",
+   "rect": {
+    "x": 1373,
+    "y": 255,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 1373,
+    "y": 315,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "맨 위",
+   "rect": {
+    "x": 1373,
+    "y": 375,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "05:54:43 3 중고 B급 보증 3개월 바른기기 NIC-100 인큐베이터 2015년식 대전 온새미바이오장비 현재가 7,200,000원 입찰 3 · 관심 2 11.06(금) 14:42 마감",
+   "rect": {
+    "x": 560,
+    "y": 772.6,
+    "w": 320,
+    "h": 436.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메디메이저 MediMajor",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "바른기기 NIC-100 인큐베이터",
+   "rect": {
+    "x": 561,
+    "y": 773.6,
+    "w": 318,
+    "h": 238.5
+   }
+  }
+ ]
+}

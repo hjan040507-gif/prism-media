@@ -1,0 +1,766 @@
+{
+ "file": "home-en-view.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/en",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 6483,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:43:24.180Z",
+ "title": "MEDIMAJOR — Used medical equipment auctions",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 4,
+  "email": 0,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 1,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 4,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Listings by category 25",
+   "rect": {
+    "x": 80,
+    "y": 738.5,
+    "w": 197.1,
+    "h": 23.4
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "English",
+   "rect": {
+    "x": 1190,
+    "y": 5,
+    "w": 99,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "USD",
+   "rect": {
+    "x": 1297,
+    "y": 5,
+    "w": 63,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "All",
+   "rect": {
+    "x": 252.9,
+    "y": 53,
+    "w": 68,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 830.9,
+    "y": 53,
+    "w": 58,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "BMR Ad",
+   "rect": {
+    "x": 447,
+    "y": 210,
+    "w": 91.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "Featured auction",
+   "rect": {
+    "x": 540.9,
+    "y": 210,
+    "w": 136,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "Auto-bidding",
+   "rect": {
+    "x": 678.9,
+    "y": 210,
+    "w": 112,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "Public auctions",
+   "rect": {
+    "x": 792.9,
+    "y": 210,
+    "w": 126,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "Sell with photos",
+   "rect": {
+    "x": 920.9,
+    "y": 210,
+    "w": 132,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1063,
+    "y": 210,
+    "w": 34,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "Search equipment · maker · model · listing no.",
+   "rect": {
+    "x": 320.9,
+    "y": 53,
+    "w": 510,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "User guide",
+   "rect": {
+    "x": 975,
+    "y": 7.6,
+    "w": 65.1,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Selling guide",
+   "rect": {
+    "x": 1077.2,
+    "y": 7.6,
+    "w": 75.8,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Watchlist Watched listings",
+   "rect": {
+    "x": 945.3,
+    "y": 48,
+    "w": 67.2,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Notifications Notifications",
+   "rect": {
+    "x": 1014.5,
+    "y": 48,
+    "w": 91.8,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Log in",
+   "rect": {
+    "x": 1108.4,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "List with photos",
+   "rect": {
+    "x": 1180.4,
+    "y": 53,
+    "w": 179.6,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Used Auction market",
+   "rect": {
+    "x": 80,
+    "y": 121,
+    "w": 230.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "New Showroom",
+   "rect": {
+    "x": 314.5,
+    "y": 121,
+    "w": 192.1,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Sell",
+   "rect": {
+    "x": 512.6,
+    "y": 116,
+    "w": 44,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Wanted 9",
+   "rect": {
+    "x": 556.6,
+    "y": 116,
+    "w": 82.4,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Public auctions 29",
+   "rect": {
+    "x": 644,
+    "y": 116,
+    "w": 147.5,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Parts & Supplies",
+   "rect": {
+    "x": 796.5,
+    "y": 116,
+    "w": 135.6,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Service engineers",
+   "rect": {
+    "x": 932.1,
+    "y": 116,
+    "w": 146.5,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Relisted",
+   "rect": {
+    "x": 1094,
+    "y": 131.8,
+    "w": 56.3,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Request quote",
+   "rect": {
+    "x": 1156.3,
+    "y": 131.8,
+    "w": 100.8,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Industry news",
+   "rect": {
+    "x": 1263.2,
+    "y": 131.8,
+    "w": 96.8,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "UsedAuction marketplace 35 live",
+   "rect": {
+    "x": 80,
+    "y": 293.6,
+    "w": 336,
+    "h": 132.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "NewShowroom 4 brands · 12 new products",
+   "rect": {
+    "x": 80,
+    "y": 425.9,
+    "w": 336,
+    "h": 132.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "WantedBuy requests 9 live",
+   "rect": {
+    "x": 80,
+    "y": 558.2,
+    "w": 336,
+    "h": 132.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Ad Partner BMR BMR Co., Ltd. MRI · CT installation · maintenance · reconfiguration Philips · Siemens · GE and more · 6 brands Since 2005 10 MRI · CT engineers M",
+   "rect": {
+    "x": 433,
+    "y": 196,
+    "w": 678,
+    "h": 493.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Partner BMR BMR Co., Ltd. MRI · CT installation · maintenance · reconfiguration Since 2005 10 engineers View partner profile Members only",
+   "rect": {
+    "x": 1128,
+    "y": 195,
+    "w": 232,
+    "h": 294.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "To sell List an item Free to list · from one photo",
+   "rect": {
+    "x": 1129,
+    "y": 506.9,
+    "w": 230,
+    "h": 90.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "To buy Post a buy request Sellers send you quotes",
+   "rect": {
+    "x": 1129,
+    "y": 597.7,
+    "w": 230,
+    "h": 91.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "All categories",
+   "rect": {
+    "x": 1224.3,
+    "y": 738.5,
+    "w": 135.8,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Imaging",
+   "rect": {
+    "x": 80,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Endoscopy",
+   "rect": {
+    "x": 155.2,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Dental",
+   "rect": {
+    "x": 230.5,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Cosmetic & Aesthetic",
+   "rect": {
+    "x": 305.7,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Surgical",
+   "rect": {
+    "x": 380.9,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Sterile Processing",
+   "rect": {
+    "x": 456.2,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Patient Monitors / ICU",
+   "rect": {
+    "x": 531.4,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Respiratory",
+   "rect": {
+    "x": 606.6,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Ophthalmology",
+   "rect": {
+    "x": 681.9,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Neonatal",
+   "rect": {
+    "x": 757.1,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Laboratory",
+   "rect": {
+    "x": 832.3,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Beds, Stretchers & Furniture",
+   "rect": {
+    "x": 907.6,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Physical Therapy",
+   "rect": {
+    "x": 982.8,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Veterinary",
+   "rect": {
+    "x": 1058,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "By maker",
+   "rect": {
+    "x": 1138.3,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Service",
+   "rect": {
+    "x": 1213.5,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "All 25",
+   "rect": {
+    "x": 1288.8,
+    "y": 786.5,
+    "w": 71.2,
+    "h": 138.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Recent",
+   "rect": {
+    "x": 1373,
+    "y": 195,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Watchlist",
+   "rect": {
+    "x": 1373,
+    "y": 255,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Contact",
+   "rect": {
+    "x": 1373,
+    "y": 315,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "Top",
+   "rect": {
+    "x": 1373,
+    "y": 375,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "MediMajor",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 433,
+    "y": 196,
+    "w": 678,
+    "h": 493.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 833,
+    "y": 555.5,
+    "w": 124,
+    "h": 88
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 967,
+    "y": 555.5,
+    "w": 124,
+    "h": 88
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1129,
+    "y": 196,
+    "w": 230,
+    "h": 104
+   }
+  }
+ ]
+}

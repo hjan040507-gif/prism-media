@@ -1,0 +1,414 @@
+{
+ "file": "admin-showroom-full.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/showroom",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 960,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:01:03.468Z",
+ "title": "전시관 관리 · 메디메이저",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "전시관 관리",
+   "rect": {
+    "x": 260,
+    "y": 18.2,
+    "w": 82,
+    "h": 26.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "새 브랜드",
+   "rect": {
+    "x": 285,
+    "y": 673.4,
+    "w": 1102,
+    "h": 23.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "만들기(입점 준비 중)",
+   "rect": {
+    "x": 285,
+    "y": 813,
+    "w": 157.2,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 285,
+    "y": 743,
+    "w": 354,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 659,
+    "y": 743,
+    "w": 354,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 1033,
+    "y": 743,
+    "w": 354,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 14,
+    "y": 20,
+    "w": 204,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검토 대기 1",
+   "rect": {
+    "x": 14,
+    "y": 109.2,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "수정 요청 중 0",
+   "rect": {
+    "x": 14,
+    "y": 151.2,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "게시 중 35",
+   "rect": {
+    "x": 14,
+    "y": 193.2,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마감·낙찰 27",
+   "rect": {
+    "x": 14,
+    "y": 235.2,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대량 등록 0",
+   "rect": {
+    "x": 14,
+    "y": 277.2,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삽니다 0",
+   "rect": {
+    "x": 14,
+    "y": 362.4,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의·견적 3",
+   "rect": {
+    "x": 14,
+    "y": 404.4,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공매 연동",
+   "rect": {
+    "x": 14,
+    "y": 446.4,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신품 전시관",
+   "rect": {
+    "x": 14,
+    "y": 488.4,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입점 심사 0",
+   "rect": {
+    "x": 14,
+    "y": 573.6,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지·배너",
+   "rect": {
+    "x": 14,
+    "y": 615.6,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "산업 소식",
+   "rect": {
+    "x": 14,
+    "y": 657.6,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신고·제재 0",
+   "rect": {
+    "x": 14,
+    "y": 699.6,
+    "w": 204,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "/expo",
+   "rect": {
+    "x": 315.5,
+    "y": 91,
+    "w": 39.6,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "/admin/directory",
+   "rect": {
+    "x": 485.7,
+    "y": 91,
+    "w": 117.6,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "라온이미징",
+   "rect": {
+    "x": 277,
+    "y": 191.8,
+    "w": 64.6,
+    "h": 17
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "세라온메디칼",
+   "rect": {
+    "x": 277,
+    "y": 248.8,
+    "w": 77.5,
+    "h": 17
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한결바이오텍",
+   "rect": {
+    "x": 277,
+    "y": 305.8,
+    "w": 77.5,
+    "h": 17
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "블루포인트",
+   "rect": {
+    "x": 277,
+    "y": 362.8,
+    "w": 64.6,
+    "h": 17
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "JBM",
+   "rect": {
+    "x": 277,
+    "y": 419.8,
+    "w": 29.7,
+    "h": 17
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "HDX",
+   "rect": {
+    "x": 277,
+    "y": 476.8,
+    "w": 31.7,
+    "h": 17
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "나인앤테크",
+   "rect": {
+    "x": 277,
+    "y": 533.8,
+    "w": 64.6,
+    "h": 17
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한성의료기",
+   "rect": {
+    "x": 277,
+    "y": 590.8,
+    "w": 64.6,
+    "h": 17
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메디메이저",
+   "rect": {
+    "x": 26,
+    "y": 24,
+    "w": 106.2,
+    "h": 26
+   }
+  }
+ ]
+}

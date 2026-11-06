@@ -1,0 +1,30 @@
+{
+ "primary": "#222F60",
+ "secondary": "#2445C7",
+ "fonts": [
+  "MM Sans",
+  "Pretendard Variable",
+  "JetBrains Mono"
+ ],
+ "tokens": {
+  "brand": "#222F60",
+  "brand-ink": "#141D3D",
+  "night": "#0E1838",
+  "blue (CTA)": "#2445C7",
+  "signal": "#E5482D",
+  "ink": "#0B1530",
+  "bg": "#F3F5F8"
+ },
+ "font_note": "라이브 .mm 요소의 computed font-family 는 \"MM Sans\"(Pretendard Variable 서브셋을 이름만 바꿔 self-host, CLAUDE.md:98-99·src/app/fonts-m8.css:26)이고 document.fonts 에 로드된 패밀리도 MM Sans 뿐이다. src/v51/mm.css:4,15 는 \"Pretendard Variable\" 을 선언하지만 이 화면에서 실제로 쓰이지 않는다. 숫자·모노는 JetBrains Mono(mm.css --mono). 영상 자막용 이름은 'Pretendard'(글자 모양 동일).",
+ "conflict_with_repo_CLAUDE_md": "레포 CLAUDE.md:68 의 CTA 색 #1150c8(--id-accent)·src/app/globals.css:70 --color-primary #1150c8 는 레거시 award 층. 라이브 v51 화면(.mm 범위)은 #222F60(주)·#2445C7(CTA 파랑). RECON.md §9·§11-9 와 같은 결론.",
+ "source": [
+  "src/v51/mm.css:9 --brand:#222F60 (HEAD ec3dd74d)",
+  "src/v51/mm.css:10 --blue:#2445C7",
+  "src/v51/mm.css:11 --sig:#E5482D · :9 --night:#0E1838",
+  "라이브 https://medimajor.com getComputedStyle(.mm) 2026-11-05T23:50Z → --brand #222f60 · --blue #2445c7 · --night #0e1838 · --sig #e5482d (tmp/mm/live-css.json, capture/media.mjs)",
+  "src/app/fonts-m8.css:26,34 @font-face \"MM Sans\"",
+  "src/v51/mm.css:4,15 \"Pretendard Variable\" 선언",
+  "public/v51/logo-navy.svg fill #222F60 · logo-white.svg fill #FFFFFF",
+  "CLAUDE.md:68 · src/app/globals.css:70 (#1150c8, 레거시)"
+ ]
+}

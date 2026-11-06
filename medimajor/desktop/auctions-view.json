@@ -1,0 +1,821 @@
+{
+ "file": "auctions-view.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/auctions",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 4329,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:46:35.628Z",
+ "title": "전체 경매 · 메디메이저",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 0,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 3,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "경매 진행 중 35건",
+   "rect": {
+    "x": 80,
+    "y": 226.6,
+    "w": 440,
+    "h": 42.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "필터",
+   "rect": {
+    "x": 101,
+    "y": 414.1,
+    "w": 27.6,
+    "h": 23.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "가람진단 GRD-105 디지털 X-ray 촬영장치",
+   "rect": {
+    "x": 393,
+    "y": 734.6,
+    "w": 280.7,
+    "h": 44
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "청암메디텍 HBD-260 ICU 전동 침대",
+   "rect": {
+    "x": 727.7,
+    "y": 734.6,
+    "w": 280.7,
+    "h": 44
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "태온메디텍 IPL-103 롱펄스 레이저",
+   "rect": {
+    "x": 1062.3,
+    "y": 734.6,
+    "w": 280.7,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "한국어",
+   "rect": {
+    "x": 1199,
+    "y": 5,
+    "w": 87,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "KRW",
+   "rect": {
+    "x": 1294,
+    "y": 5,
+    "w": 66,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체",
+   "rect": {
+    "x": 252.9,
+    "y": 53,
+    "w": 77,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 830.9,
+    "y": 53,
+    "w": 58,
+    "h": 46
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 639.7,
+    "y": 462.1,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 974.3,
+    "y": 462.1,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1309,
+    "y": 462.1,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "장비명 · 제조사 · 모델명 · 매물번호로 찾기",
+   "rect": {
+    "x": 329.9,
+    "y": 53,
+    "w": 501,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 502.7,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 540.7,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 578.7,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 616.7,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 654.7,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 692.7,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 730.7,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 768.7,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 806.7,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 101,
+    "y": 844.7,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "recommended",
+   "rect": {
+    "x": 1072.3,
+    "y": 396.1,
+    "w": 122,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용설명서",
+   "rect": {
+    "x": 1023.9,
+    "y": 7.6,
+    "w": 54.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "판매 안내",
+   "rect": {
+    "x": 1115.4,
+    "y": 7.6,
+    "w": 46.6,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심 관심 매물",
+   "rect": {
+    "x": 991.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 알림",
+   "rect": {
+    "x": 1053.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 1115.5,
+    "y": 48,
+    "w": 60,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사진으로 판매 등록",
+   "rect": {
+    "x": 1187.5,
+    "y": 53,
+    "w": 172.5,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "중고 경매장터",
+   "rect": {
+    "x": 80,
+    "y": 121,
+    "w": 175.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신품 전시관",
+   "rect": {
+    "x": 265.5,
+    "y": 121,
+    "w": 162.6,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "팝니다",
+   "rect": {
+    "x": 444.2,
+    "y": 116,
+    "w": 64.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "삽니다 9",
+   "rect": {
+    "x": 510.9,
+    "y": 116,
+    "w": 78.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공매 29",
+   "rect": {
+    "x": 610.5,
+    "y": 116,
+    "w": 73.7,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "부품·소모품",
+   "rect": {
+    "x": 705.2,
+    "y": 116,
+    "w": 94.5,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "서비스 엔지니어",
+   "rect": {
+    "x": 801.7,
+    "y": 116,
+    "w": 120.3,
+    "h": 54
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "유찰 재경매",
+   "rect": {
+    "x": 1156.4,
+    "y": 131.8,
+    "w": 62.5,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 1238.9,
+    "y": 131.8,
+    "w": 50.6,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "산업 소식",
+   "rect": {
+    "x": 1309.4,
+    "y": 131.8,
+    "w": 50.6,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 80,
+    "y": 193,
+    "w": 11.9,
+    "h": 21.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "비교함 0",
+   "rect": {
+    "x": 1104.1,
+    "y": 261.1,
+    "w": 102.3,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이 조건 알림 받기",
+   "rect": {
+    "x": 1214.4,
+    "y": 261.1,
+    "w": 145.6,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전체 35",
+   "rect": {
+    "x": 80,
+    "y": 315.1,
+    "w": 78.7,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마감 임박 · 24시간 3",
+   "rect": {
+    "x": 160.7,
+    "y": 315.1,
+    "w": 156.8,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "새로 등록 · 7일",
+   "rect": {
+    "x": 319.5,
+    "y": 315.1,
+    "w": 121.1,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "유찰 재경매 4",
+   "rect": {
+    "x": 442.6,
+    "y": 315.1,
+    "w": 114.4,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "부품·소모품 2",
+   "rect": {
+    "x": 559,
+    "y": 315.1,
+    "w": 114.4,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전체 초기화",
+   "rect": {
+    "x": 260.5,
+    "y": 414.5,
+    "w": 62.5,
+    "h": 22.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "분야 15개 더 보기",
+   "rect": {
+    "x": 101,
+    "y": 878.7,
+    "w": 95,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "추천순 기준",
+   "rect": {
+    "x": 446.5,
+    "y": 400.1,
+    "w": 77.5,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "카드",
+   "rect": {
+    "x": 1206.3,
+    "y": 397.1,
+    "w": 73.8,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "목록",
+   "rect": {
+    "x": 1282.2,
+    "y": 397.1,
+    "w": 73.8,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가람진단 GRD-105 디지털 X-ray 촬영장치",
+   "rect": {
+    "x": 393,
+    "y": 735.6,
+    "w": 262.3,
+    "h": 19
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "청암메디텍 HBD-260 ICU 전동 침대",
+   "rect": {
+    "x": 727.7,
+    "y": 735.6,
+    "w": 223.3,
+    "h": 19
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "태온메디텍 IPL-103 롱펄스 레이저",
+   "rect": {
+    "x": 1062.3,
+    "y": 735.6,
+    "w": 206.8,
+    "h": 19
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "최근 본",
+   "rect": {
+    "x": 1373,
+    "y": 195,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심",
+   "rect": {
+    "x": 1373,
+    "y": 255,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 1373,
+    "y": 315,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "맨 위",
+   "rect": {
+    "x": 1373,
+    "y": 375,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "5일 9시간 3 중고 A급 보증 1개월 가람진단 GRD-105 디지털 X-ray 촬영장치 2019년식 서울 리메드솔루션 현재가 27,500,000원 입찰 10 · 관심 6 11.11(수) 18:04 마감",
+   "rect": {
+    "x": 376,
+    "y": 455.1,
+    "w": 314.7,
+    "h": 432.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "1일 4시간 3 중고 B급 보증 1개월 청암메디텍 HBD-260 ICU 전동 침대 2016년식 광주 하람메디컬장비 현재가 9,200,000원 입찰 7 · 관심 5 11.07(토) 13:42 마감",
+   "rect": {
+    "x": 710.7,
+    "y": 455.1,
+    "w": 314.7,
+    "h": 432.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "2일 15시간 3 중고 A급 보증 6개월 태온메디텍 IPL-103 롱펄스 레이저 2020년식 서울 리메드솔루션 현재가 37,500,000원 입찰 10 · 관심 2 11.09(월) 00:32 마감",
+   "rect": {
+    "x": 1045.3,
+    "y": 455.1,
+    "w": 314.7,
+    "h": 432.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메디메이저 MediMajor",
+   "rect": {
+    "x": 80,
+    "y": 59,
+    "w": 138.9,
+    "h": 34
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가람진단 GRD-105 디지털 X-ray 촬영장치",
+   "rect": {
+    "x": 377,
+    "y": 456.1,
+    "w": 312.7,
+    "h": 234.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "청암메디텍 HBD-260 ICU 전동 침대",
+   "rect": {
+    "x": 711.7,
+    "y": 456.1,
+    "w": 312.7,
+    "h": 234.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "태온메디텍 IPL-103 롱펄스 레이저",
+   "rect": {
+    "x": 1046.3,
+    "y": 456.1,
+    "w": 312.7,
+    "h": 234.5
+   }
+  }
+ ]
+}

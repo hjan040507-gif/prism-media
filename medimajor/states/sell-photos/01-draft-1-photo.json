@@ -1,0 +1,295 @@
+{
+ "file": "01-draft-1-photo.png",
+ "kind": "state",
+ "project": "medimajor",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/sell",
+ "scrollY": 380,
+ "scrollX": 0,
+ "docHeight": 3324,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:59:48.765Z",
+ "title": "장비 등록 · 메디메이저",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 0,
+  "rrn": 0,
+  "account": 7,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 3,
+  "fake": 0,
+  "removed": 3,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 2,
+  "new": [
+   "POST /rest/v1/rpc/get_listing_price_input"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "사진 1장",
+   "rect": {
+    "x": 113,
+    "y": 56.2,
+    "w": 54.3,
+    "h": 26.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "이름 미입력",
+   "rect": {
+    "x": 1036.7,
+    "y": 355.7,
+    "w": 306.3,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "div",
+   "text": "각도 미지정 · 대표",
+   "rect": {
+    "x": 113,
+    "y": 125.9,
+    "w": 202.9,
+    "h": 202.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "div",
+   "text": "정면 · 필수 대표 사진이 됩니다",
+   "rect": {
+    "x": 325.9,
+    "y": 125.9,
+    "w": 202.9,
+    "h": 202.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "div",
+   "text": "명판 · 필수 모델·시리얼이 보이게",
+   "rect": {
+    "x": 538.8,
+    "y": 125.9,
+    "w": 202.9,
+    "h": 202.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "div",
+   "text": "손상 부위 근접 없으면 건너뛰기",
+   "rect": {
+    "x": 751.7,
+    "y": 125.9,
+    "w": 202.9,
+    "h": 202.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "div",
+   "text": "사진 추가 최대 8장",
+   "rect": {
+    "x": 113,
+    "y": 338.8,
+    "w": 202.9,
+    "h": 202.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진에서 정보 채우기",
+   "rect": {
+    "x": 113,
+    "y": 613.9,
+    "w": 156,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "구동 소음",
+   "rect": {
+    "x": 113,
+    "y": 779.9,
+    "w": 72,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "콘솔 작동",
+   "rect": {
+    "x": 185,
+    "y": 779.9,
+    "w": 72,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "영상 추가",
+   "rect": {
+    "x": 113,
+    "y": 809.9,
+    "w": 92,
+    "h": 33
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 205,
+    "y": 815.9,
+    "w": 306,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검수 20항목 보기 →",
+   "rect": {
+    "x": 1040.7,
+    "y": 746.3,
+    "w": 103.9,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "최근 본",
+   "rect": {
+    "x": 1373,
+    "y": 17,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심",
+   "rect": {
+    "x": 1373,
+    "y": 77,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의",
+   "rect": {
+    "x": 1373,
+    "y": 137,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "맨 위",
+   "rect": {
+    "x": 1373,
+    "y": 197,
+    "w": 54,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "게시 전 1 등급 · 2단계에서 이름 미입력 연식 미입력 user*** 판매자 시작가 3단계에서 정합니다",
+   "rect": {
+    "x": 1019.7,
+    "y": 56.9,
+    "w": 340.3,
+    "h": 449.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "각도 미지정",
+   "rect": {
+    "x": 114,
+    "y": 126.9,
+    "w": 200.9,
+    "h": 200.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1020.7,
+    "y": 57.9,
+    "w": 338.3,
+    "h": 253.8
+   }
+  }
+ ]
+}

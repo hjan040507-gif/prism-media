@@ -1,0 +1,39 @@
+{
+ "file": "bid-update-first.png",
+ "kind": "seq-frame",
+ "seq": "bid-update.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "scrollY": 0,
+ "frames": 360,
+ "fps": 60,
+ "durationMs": 6000,
+ "crf": 12,
+ "capturedAt": "2026-11-05T23:54:34.049Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ }
+}

@@ -1,0 +1,260 @@
+{
+ "file": "sell-wizard-view.png",
+ "kind": "page",
+ "project": "medimajor",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/sell",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 5259,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:00:16.809Z",
+ "title": "장비 등록 · 메디메이저",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 0,
+  "rrn": 0,
+  "account": 7,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 3,
+  "fake": 0,
+  "removed": 3,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "판매 등록",
+   "rect": {
+    "x": 16,
+    "y": 112.6,
+    "w": 90.5,
+    "h": 31
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "사진 1장",
+   "rect": {
+    "x": 37,
+    "y": 296.7,
+    "w": 54.3,
+    "h": 26.6
+   }
+  },
+  {
+   "type": "button",
+   "tag": "div",
+   "text": "각도 미지정 · 대표",
+   "rect": {
+    "x": 37,
+    "y": 388.8,
+    "w": 100,
+    "h": 100
+   }
+  },
+  {
+   "type": "button",
+   "tag": "div",
+   "text": "정면 · 필수 대표 사진이 됩니다",
+   "rect": {
+    "x": 145,
+    "y": 388.8,
+    "w": 100,
+    "h": 100
+   }
+  },
+  {
+   "type": "button",
+   "tag": "div",
+   "text": "명판 · 필수 모델·시리얼이 보이게",
+   "rect": {
+    "x": 253,
+    "y": 388.8,
+    "w": 100,
+    "h": 100
+   }
+  },
+  {
+   "type": "button",
+   "tag": "div",
+   "text": "손상 부위 근접 없으면 건너뛰기",
+   "rect": {
+    "x": 37,
+    "y": 496.8,
+    "w": 100,
+    "h": 100
+   }
+  },
+  {
+   "type": "button",
+   "tag": "div",
+   "text": "사진 추가 최대 8장",
+   "rect": {
+    "x": 145,
+    "y": 496.8,
+    "w": 100,
+    "h": 100
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진에서 정보 채우기",
+   "rect": {
+    "x": 37,
+    "y": 668.9,
+    "w": 156,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 14.5,
+    "w": 110.3,
+    "h": 27
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 154,
+    "y": 6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관심 매물",
+   "rect": {
+    "x": 198,
+    "y": 6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "5 알림",
+   "rect": {
+    "x": 242,
+    "y": 6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 286,
+    "y": 6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 6,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "판매 안내",
+   "rect": {
+    "x": 16,
+    "y": 79,
+    "w": 50.6,
+    "h": 21.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "메디메이저 MediMajor",
+   "rect": {
+    "x": 16,
+    "y": 14.5,
+    "w": 110.3,
+    "h": 27
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "각도 미지정",
+   "rect": {
+    "x": 38,
+    "y": 389.8,
+    "w": 98,
+    "h": 98
+   }
+  }
+ ]
+}
