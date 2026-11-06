@@ -1,0 +1,187 @@
+{
+ "file": "live-board-full.png",
+ "kind": "section-full",
+ "project": "eureka",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 15611,
+ "full": true,
+ "clip": {
+  "documentY": 375,
+  "height": 678
+ },
+ "capturedAt": "2026-11-06T10:14:13.573Z",
+ "title": "노모어누수 | 누수 탐지·시공 전문 | 노모어누수",
+ "note": "조각 이어 붙임 — 화면 높이(844px)씩 스크롤해 뷰포트 캡처 1조각 후 PIL 로 이음(섹션만, 고정 요소 숨김). selector aside:has(ul[aria-live])",
+ "pii_scan": {
+  "total": 0,
+  "slices": 1,
+  "after": 0,
+  "at": "조각마다 가림 후·촬영 후 DOM 글자 정규식 검사",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 10,
+  "email": 0,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 6,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 4,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "누수를 끝까지 해결하는 네 가지 원칙",
+   "rect": {
+    "x": 12,
+    "y": 783,
+    "w": 366,
+    "h": 75
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "긴급출동 직통 010-****-****",
+   "rect": {
+    "x": 16,
+    "y": 546,
+    "w": 358,
+    "h": 72
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "카카오톡으로 빠른 상담",
+   "rect": {
+    "x": 16,
+    "y": 626,
+    "w": 358,
+    "h": 40
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 NEW 작업접수 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 46,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 작업접수 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 107,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 작업접수 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 168,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "변기 상담진행 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 229,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "난방 상담진행 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 290,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "변기 상담진행 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 351,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 작업접수 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 412,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 상담진행 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 473,
+    "w": 390,
+    "h": 60
+   }
+  }
+ ]
+}

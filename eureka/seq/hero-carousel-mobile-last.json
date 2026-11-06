@@ -1,0 +1,286 @@
+{
+ "file": "hero-carousel-mobile-last.png",
+ "kind": "seq-frame",
+ "seq": "hero-carousel-mobile.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "scrollY": 0,
+ "frames": 360,
+ "fps": 60,
+ "durationMs": 6000,
+ "crf": 12,
+ "capturedAt": "2026-11-06T09:34:45.577Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 2,
+  "new": [
+   "POST /cdn-cgi/rum",
+   "POST /api/analytics/event (blockAll)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "전화 한 통이면 전문가가 찾아갑니다",
+   "rect": {
+    "x": 20,
+    "y": 190.1,
+    "w": 350,
+    "h": 70.4
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 286,
+    "y": 12,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 155,
+    "y": 355,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 171,
+    "y": 355,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 187,
+    "y": 355,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 203,
+    "y": 355,
+    "w": 32,
+    "h": 8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "노모어누수",
+   "rect": {
+    "x": 12,
+    "y": 8,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 12,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적문의",
+   "rect": {
+    "x": 0,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "작업사례",
+   "rect": {
+    "x": 78,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "상담하기",
+   "rect": {
+    "x": 156,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "최근후기",
+   "rect": {
+    "x": 234,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "카톡상담",
+   "rect": {
+    "x": 312,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "난방 NEW 작업접수 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 421,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 작업접수 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 482,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "싱크대 작업접수 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 543,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 상담진행 김○○방금",
+   "rect": {
+    "x": 0,
+    "y": 604,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "기타 작업완료 김○○9월 10일",
+   "rect": {
+    "x": 0,
+    "y": 665,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "기타 상담진행 김○○9월 10일",
+   "rect": {
+    "x": 0,
+    "y": 726,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "변기 상담진행 김○○오늘 13:22",
+   "rect": {
+    "x": 0,
+    "y": 787,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 12,
+    "y": 8,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "전문 상담센터에서 상담 중",
+   "rect": {
+    "x": 0,
+    "y": 102,
+    "w": 390,
+    "h": 273
+   }
+  }
+ ]
+}

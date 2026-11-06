@@ -1,0 +1,18 @@
+{
+  "primary": "#2563eb",
+  "secondary": "#f55c2a",
+  "accent": "#fde047",
+  "dark": ["#071e3d", "#04172e", "#061b35"],
+  "palette": {
+    "brand-50": "#eff6ff", "brand-100": "#dbeafe", "brand-600": "#2563eb", "brand-700": "#1d4ed8", "brand-800": "#1e40af", "brand-900": "#1e3a8a", "brand-950": "#172554",
+    "accent-500": "#f55c2a", "accent-600": "#dd4a1e", "highlight-300": "#fde047", "theme-color-meta": "#0060ad"
+  },
+  "fonts": ["Pretendard Variable", "Pretendard"],
+  "name_on_screen": "노모어누수",
+  "source": [
+    "https://nomorenusu.com/_next/static/css/layout.BEvCr-a6.css (--color-brand-*, --color-accent-*, --color-highlight-*, --font-sans) — 조회 2026-11-06T07:55Z",
+    "https://nomorenusu.com/ HTML <meta name=\"theme-color\" content=\"#0060ad\"> · 어두운 섹션 클래스 bg-[#071e3d] bg-[#04172e] bg-[#061b35] — 조회 2026-11-06T07:55Z",
+    "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css (홈 HTML <link rel=stylesheet>)"
+  ],
+  "note": "소스 저장소가 없어 줄 번호 근거는 없고, 운영 CSS·HTML GET 결과가 근거다."
+}

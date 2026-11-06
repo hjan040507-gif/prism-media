@@ -1,0 +1,242 @@
+{
+ "file": "quote-form-full.png",
+ "kind": "section-full",
+ "project": "eureka",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 15611,
+ "full": true,
+ "clip": {
+  "documentY": 11797,
+  "height": 1431
+ },
+ "capturedAt": "2026-11-06T10:13:59.643Z",
+ "title": "노모어누수 | 누수 탐지·시공 전문 | 노모어누수",
+ "note": "조각 이어 붙임 — 화면 높이(844px)씩 스크롤해 뷰포트 캡처 2조각 후 PIL 로 이음(섹션만, 고정 요소 숨김). selector #quote-form",
+ "pii_scan": {
+  "total": 0,
+  "slices": 2,
+  "after": 0,
+  "at": "조각마다 가림 후·촬영 후 DOM 글자 정규식 검사",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 10,
+  "email": 0,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 6,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 4,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "지금 바로 무료 상담해보세요!",
+   "rect": {
+    "x": 12,
+    "y": 104.7,
+    "w": 366,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "서울",
+   "rect": {
+    "x": 58,
+    "y": 712.7,
+    "w": 57.7,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "인천",
+   "rect": {
+    "x": 123.7,
+    "y": 712.7,
+    "w": 57.7,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "경기",
+   "rect": {
+    "x": 189.4,
+    "y": 712.7,
+    "w": 57.7,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "홍길동",
+   "rect": {
+    "x": 45,
+    "y": 499.7,
+    "w": 300,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "010-****-****",
+   "rect": {
+    "x": 45,
+    "y": 587.7,
+    "w": 300,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "상세주소를 입력해주세요 (예: 래미안아파트 101동 1502호)",
+   "rect": {
+    "x": 45,
+    "y": 801.7,
+    "w": 300,
+    "h": 46
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "무료 전화상담 010-****-****",
+   "rect": {
+    "x": 67.8,
+    "y": 320.7,
+    "w": 254.5,
+    "h": 80
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "30분 이내 회신",
+   "rect": {
+    "x": 66.3,
+    "y": 240.7,
+    "w": 103.6,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "현장 출동 전 사진 견적",
+   "rect": {
+    "x": 185.8,
+    "y": 240.7,
+    "w": 137.9,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "1년 무상 A/S",
+   "rect": {
+    "x": 148.7,
+    "y": 268.7,
+    "w": 92.6,
+    "h": 20
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "궁금한 점, 먼저 확인하세요.",
+   "rect": {
+    "x": 12,
+    "y": 1540.7,
+    "w": 366,
+    "h": 79.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "30분 안에 회신 받기",
+   "rect": {
+    "x": 45,
+    "y": 1249.7,
+    "w": 300,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "예) 안방 천장에서 물이 떨어집니다. 어제부터 흔적이 점점 커지고 있어요.",
+   "rect": {
+    "x": 45,
+    "y": 889.7,
+    "w": 300,
+    "h": 118
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 57,
+    "y": 1203.7,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 수집·이용",
+   "rect": {
+    "x": 81,
+    "y": 1203.7,
+    "w": 101.4,
+    "h": 16
+   }
+  }
+ ]
+}

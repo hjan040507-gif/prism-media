@@ -1,0 +1,452 @@
+{
+ "file": "02-region-gangnam.png",
+ "kind": "state",
+ "project": "eureka",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/posts/region/gangnam",
+ "scrollY": 1,
+ "scrollX": 0,
+ "docHeight": 6852,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:05:37.948Z",
+ "title": "강남구 누수 시공 사례 | 노모어누수",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 6,
+  "email": 0,
+  "rrn": 0,
+  "account": 2,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 4,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 6,
+  "new": [
+   "POST /api/analytics/event (blockAll)",
+   "POST /api/analytics/event (blockAll)",
+   "POST /cdn-cgi/rum",
+   "POST /cdn-cgi/rum"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "강남구 누수 시공 사례",
+   "rect": {
+    "x": 12,
+    "y": 128,
+    "w": 366,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 286,
+    "y": 12,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "노모어누수",
+   "rect": {
+    "x": 12,
+    "y": 8,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 12,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전체",
+   "rect": {
+    "x": 12,
+    "y": 220,
+    "w": 49.7,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "강남구",
+   "rect": {
+    "x": 67.7,
+    "y": 220,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "서초구",
+   "rect": {
+    "x": 135.2,
+    "y": 220,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "송파구",
+   "rect": {
+    "x": 202.8,
+    "y": 220,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "강동구",
+   "rect": {
+    "x": 270.3,
+    "y": 220,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "도봉구",
+   "rect": {
+    "x": 12,
+    "y": 260,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "노원구",
+   "rect": {
+    "x": 79.5,
+    "y": 260,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "강북구",
+   "rect": {
+    "x": 147.1,
+    "y": 260,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "성북구",
+   "rect": {
+    "x": 214.6,
+    "y": 260,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "종로구",
+   "rect": {
+    "x": 282.1,
+    "y": 260,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "중구",
+   "rect": {
+    "x": 12,
+    "y": 300,
+    "w": 49.7,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "용산구",
+   "rect": {
+    "x": 67.7,
+    "y": 300,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마포구",
+   "rect": {
+    "x": 135.2,
+    "y": 300,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "서대문구",
+   "rect": {
+    "x": 202.8,
+    "y": 300,
+    "w": 73.4,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "은평구",
+   "rect": {
+    "x": 282.1,
+    "y": 300,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "양천구",
+   "rect": {
+    "x": 12,
+    "y": 340,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "강서구",
+   "rect": {
+    "x": 79.5,
+    "y": 340,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "구로구",
+   "rect": {
+    "x": 147.1,
+    "y": 340,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "금천구",
+   "rect": {
+    "x": 214.6,
+    "y": 340,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "영등포구",
+   "rect": {
+    "x": 282.1,
+    "y": 340,
+    "w": 73.4,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "동작구",
+   "rect": {
+    "x": 12,
+    "y": 380,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "관악구",
+   "rect": {
+    "x": 79.5,
+    "y": 380,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "광진구",
+   "rect": {
+    "x": 147.1,
+    "y": 380,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "성동구",
+   "rect": {
+    "x": 214.6,
+    "y": 380,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "동대문구",
+   "rect": {
+    "x": 282.1,
+    "y": 380,
+    "w": 73.4,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "중랑구",
+   "rect": {
+    "x": 12,
+    "y": 420,
+    "w": 61.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "분당",
+   "rect": {
+    "x": 79.5,
+    "y": 420,
+    "w": 49.7,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "누수 강남구 역삼동 매립 직수관 누수 | 어떤 반응을 먼저 확인할까요? 강남구 역삼동의 매립 직수관 누수 관련 점검 안내입니다. 어떤 반응을 먼저 확인할까요? 관찰 자료와 현장 검사, 상담 전 준비사항을 구분해 설명합니다. 2026.11.06",
+   "rect": {
+    "x": 12,
+    "y": 535,
+    "w": 366,
+    "h": 459
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 12,
+    "y": 8,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "역삼동 매립 직수관 누수 | 어떤 반응을 먼저 확인할까요? 대표 사진",
+   "rect": {
+    "x": 13,
+    "y": 536,
+    "w": 364,
+    "h": 273
+   }
+  }
+ ]
+}

@@ -1,0 +1,481 @@
+{
+ "file": "live-board-view.png",
+ "kind": "section-view",
+ "project": "eureka",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/",
+ "scrollY": 23,
+ "scrollX": 0,
+ "docHeight": 10854,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T07:57:28.648Z",
+ "title": "노모어누수 | 누수 탐지·시공 전문 | 노모어누수",
+ "note": "selector aside:has(ul[aria-live])",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 10,
+  "email": 0,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 6,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 4,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "정직한 견적 확실한 A/S",
+   "rect": {
+    "x": 56,
+    "y": 355.8,
+    "w": 837.1,
+    "h": 158.4
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "전화 한 통이면 전문가가 찾아갑니다",
+   "rect": {
+    "x": 1005.1,
+    "y": 355.8,
+    "w": 837.1,
+    "h": 158.4
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 12,
+    "y": 458,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 893.1,
+    "y": 458,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 434.5,
+    "y": 816,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 450.5,
+    "y": 816,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 466.5,
+    "y": 816,
+    "w": 32,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 506.5,
+    "y": 816,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "010-****-****",
+   "rect": {
+    "x": 779,
+    "y": 10,
+    "w": 90.9,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "노모어누수",
+   "rect": {
+    "x": 24,
+    "y": 45,
+    "w": 124,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "노모어누수",
+   "rect": {
+    "x": 969.8,
+    "y": 53,
+    "w": 83.2,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "서비스",
+   "rect": {
+    "x": 1055,
+    "y": 53,
+    "w": 59.5,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "작업사례",
+   "rect": {
+    "x": 1116.5,
+    "y": 53,
+    "w": 71.4,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객후기",
+   "rect": {
+    "x": 1189.9,
+    "y": 53,
+    "w": 71.4,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자주 묻는 질문",
+   "rect": {
+    "x": 1263.3,
+    "y": 53,
+    "w": 100.7,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 1376,
+    "y": 49,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "긴급출동 직통 010-****-****",
+   "rect": {
+    "x": 970.1,
+    "y": 706,
+    "w": 449.9,
+    "h": 74
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "카카오톡으로 빠른 상담",
+   "rect": {
+    "x": 970.1,
+    "y": 788,
+    "w": 449.9,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "노모어누수",
+   "rect": {
+    "x": 1316,
+    "y": 213,
+    "w": 112,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "서비스",
+   "rect": {
+    "x": 1316,
+    "y": 248,
+    "w": 112,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "작업사례",
+   "rect": {
+    "x": 1316,
+    "y": 283,
+    "w": 112,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객후기",
+   "rect": {
+    "x": 1316,
+    "y": 318,
+    "w": 112,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의하기",
+   "rect": {
+    "x": 1316,
+    "y": 353,
+    "w": 112,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전화상담",
+   "rect": {
+    "x": 1316,
+    "y": 395,
+    "w": 112,
+    "h": 67
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "카톡상담",
+   "rect": {
+    "x": 1316,
+    "y": 470,
+    "w": 112,
+    "h": 67
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "최근후기",
+   "rect": {
+    "x": 1316,
+    "y": 545,
+    "w": 112,
+    "h": 67
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "난방 NEW 방금 김○○ 서울 광진구 작업접수",
+   "rect": {
+    "x": 950.1,
+    "y": 165,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 방금 김○○ 서울 관악구 작업출동",
+   "rect": {
+    "x": 950.1,
+    "y": 225,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "싱크대 방금 김○○ 인천 미추홀구 작업접수",
+   "rect": {
+    "x": 950.1,
+    "y": 285,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 방금 김○○ 서울 용산구 작업출동",
+   "rect": {
+    "x": 950.1,
+    "y": 345,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "변기 방금 김○○ 경기 수원시 상담진행",
+   "rect": {
+    "x": 950.1,
+    "y": 405,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "난방 방금 김○○ 경기 시흥시 작업접수",
+   "rect": {
+    "x": 950.1,
+    "y": 465,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 방금 김○○ 서울 서초구 작업출동",
+   "rect": {
+    "x": 950.1,
+    "y": 525,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "변기 방금 김○○ 경기 김포시 작업완료",
+   "rect": {
+    "x": 950.1,
+    "y": 585,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 24,
+    "y": 45,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "현장에서 견적서를 설명하는 모습",
+   "rect": {
+    "x": 0,
+    "y": 120,
+    "w": 949.1,
+    "h": 720
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "전문 상담센터에서 상담 중",
+   "rect": {
+    "x": 949.1,
+    "y": 120,
+    "w": 949.1,
+    "h": 720
+   }
+  }
+ ]
+}

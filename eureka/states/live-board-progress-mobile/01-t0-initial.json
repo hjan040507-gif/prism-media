@@ -1,0 +1,340 @@
+{
+ "file": "01-t0-initial.png",
+ "kind": "state",
+ "project": "eureka",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/",
+ "scrollY": 295,
+ "scrollX": 0,
+ "docHeight": 15611,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:16:45.088Z",
+ "title": "노모어누수 | 누수 탐지·시공 전문 | 노모어누수",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 10,
+  "email": 0,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 6,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 2,
+  "new": [
+   "POST /cdn-cgi/rum",
+   "POST /api/analytics/event (blockAll)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 286,
+    "y": 12,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 155,
+    "y": 60,
+    "w": 32,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 195,
+    "y": 60,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 211,
+    "y": 60,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 227,
+    "y": 60,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "노모어누수",
+   "rect": {
+    "x": 12,
+    "y": 8,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 12,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "긴급출동 직통 010-****-****",
+   "rect": {
+    "x": 16,
+    "y": 626,
+    "w": 358,
+    "h": 72
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "카카오톡으로 빠른 상담",
+   "rect": {
+    "x": 16,
+    "y": 706,
+    "w": 358,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적문의",
+   "rect": {
+    "x": 0,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "작업사례",
+   "rect": {
+    "x": 78,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "상담하기",
+   "rect": {
+    "x": 156,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "최근후기",
+   "rect": {
+    "x": 234,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "카톡상담",
+   "rect": {
+    "x": 312,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "기타 상담진행 김○○9월 10일",
+   "rect": {
+    "x": 0,
+    "y": 126,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "기타 작업접수 김○○9월 10일",
+   "rect": {
+    "x": 0,
+    "y": 187,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "변기 작업접수 김○○오늘 13:22",
+   "rect": {
+    "x": 0,
+    "y": 248,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "난방 작업접수 김○○오늘 13:22",
+   "rect": {
+    "x": 0,
+    "y": 309,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "변기 작업접수 김○○33초 전",
+   "rect": {
+    "x": 0,
+    "y": 370,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 작업접수 김○○35초 전",
+   "rect": {
+    "x": 0,
+    "y": 431,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "난방 작업접수 김○○오늘 13:22",
+   "rect": {
+    "x": 0,
+    "y": 492,
+    "w": 390,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "변기 작업접수 김○○9분 전",
+   "rect": {
+    "x": 0,
+    "y": 553,
+    "w": 390,
+    "h": 60
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 12,
+    "y": 8,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "긴급 출동 중인 누수탐지 전문기사",
+   "rect": {
+    "x": 0,
+    "y": -193,
+    "w": 390,
+    "h": 273
+   }
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "file": "live-board-full.png",
+ "kind": "section-full",
+ "project": "eureka",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 10854,
+ "full": true,
+ "clip": {
+  "documentY": 143,
+  "height": 720
+ },
+ "capturedAt": "2026-11-06T10:13:58.248Z",
+ "title": "노모어누수 | 누수 탐지·시공 전문 | 노모어누수",
+ "note": "조각 이어 붙임 — 화면 높이(900px)씩 스크롤해 뷰포트 캡처 1조각 후 PIL 로 이음(섹션만, 고정 요소 숨김). selector aside:has(ul[aria-live])",
+ "pii_scan": {
+  "total": 0,
+  "slices": 1,
+  "after": 0,
+  "at": "조각마다 가림 후·촬영 후 DOM 글자 정규식 검사",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 10,
+  "email": 0,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 6,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 4,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "전화 한 통이면 전문가가 찾아갑니다",
+   "rect": {
+    "x": 56,
+    "y": 235.8,
+    "w": 837.1,
+    "h": 158.4
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 12,
+    "y": 338,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 893.1,
+    "y": 338,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 434.5,
+    "y": 696,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 450.5,
+    "y": 696,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 466.5,
+    "y": 696,
+    "w": 8,
+    "h": 8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 482.5,
+    "y": 696,
+    "w": 32,
+    "h": 8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "긴급출동 직통 010-****-****",
+   "rect": {
+    "x": 970.1,
+    "y": 586,
+    "w": 449.9,
+    "h": 74
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "카카오톡으로 빠른 상담",
+   "rect": {
+    "x": 970.1,
+    "y": 668,
+    "w": 449.9,
+    "h": 40
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 NEW 방금 김○○ 경기 용인시 작업접수",
+   "rect": {
+    "x": 950.1,
+    "y": 34.3,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "싱크대 방금 김○○ 경기 성남시 분당구 작업접수",
+   "rect": {
+    "x": 950.1,
+    "y": 105,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "난방 방금 김○○ 서울 광진구 작업접수",
+   "rect": {
+    "x": 950.1,
+    "y": 165,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 방금 김○○ 서울 관악구 상담진행",
+   "rect": {
+    "x": 950.1,
+    "y": 225,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "싱크대 방금 김○○ 인천 미추홀구 상담진행",
+   "rect": {
+    "x": 950.1,
+    "y": 285,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "누수 방금 김○○ 서울 용산구 상담진행",
+   "rect": {
+    "x": 950.1,
+    "y": 345,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "변기 방금 김○○ 경기 수원시 작업출동",
+   "rect": {
+    "x": 950.1,
+    "y": 405,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "난방 방금 김○○ 경기 시흥시 작업출동",
+   "rect": {
+    "x": 950.1,
+    "y": 465,
+    "w": 489.9,
+    "h": 60
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "전문 상담센터에서 상담 중",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 949.1,
+    "h": 720
+   }
+  }
+ ]
+}

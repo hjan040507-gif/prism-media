@@ -1,0 +1,205 @@
+{
+ "file": "post-detail-view.png",
+ "kind": "page",
+ "project": "eureka",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/posts/20261031-october-extension-175",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 9900,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:00:11.864Z",
+ "title": "심곡본동 누수탐지 | 노모어누수",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 4,
+  "email": 0,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 16,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 21,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "심곡본동 누수탐지 | 빌라에서 자주 확인하는 옥상 누수",
+   "rect": {
+    "x": 12,
+    "y": 181,
+    "w": 366,
+    "h": 75
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "심곡본동 누수, 건물 조건부터 봅니다",
+   "rect": {
+    "x": 12,
+    "y": 423,
+    "w": 366,
+    "h": 32
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "비슷한 흔적을 만드는 원인",
+   "rect": {
+    "x": 12,
+    "y": 647,
+    "w": 366,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 286,
+    "y": 12,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "공유",
+   "rect": {
+    "x": 306.3,
+    "y": 268,
+    "w": 71.7,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "노모어누수",
+   "rect": {
+    "x": 12,
+    "y": 8,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 12,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "노모어누수",
+   "rect": {
+    "x": 12,
+    "y": 105,
+    "w": 59.2,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "노모어누수 › 부천시 소사구 부천시 소사구 심곡본동 누수탐지 | 빌라에서 자주 확인하는 옥상 누수 2026.10.31·leak 공유 심곡본동 누수, 건물 조건부터 봅니다 부천시 소사구의 빌라에서는 전용 배관과 공용 배관의 경계, 위층 물 사용 시간, 보일러 운전 여부를 함께 살펴야 합니",
+   "rect": {
+    "x": 0,
+    "y": 65,
+    "w": 390,
+    "h": 6713
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "노모어누수",
+   "rect": {
+    "x": 12,
+    "y": 105,
+    "w": 59.2,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "› 부천시 소사구",
+   "rect": {
+    "x": 79.2,
+    "y": 105,
+    "w": 86.7,
+    "h": 20
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 12,
+    "y": 8,
+    "w": 48,
+    "h": 48
+   }
+  }
+ ]
+}

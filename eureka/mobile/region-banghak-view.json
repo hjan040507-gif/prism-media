@@ -1,0 +1,326 @@
+{
+ "file": "region-banghak-view.png",
+ "kind": "page",
+ "project": "eureka",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/seoul/dobong-gu/banghak-dong",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 5848,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T07:58:56.306Z",
+ "title": "방학동 누수탐지 | 아파트·배관 누수 상담 | 노모어누수",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 10,
+  "email": 0,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 12,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "방학동 누수탐지",
+   "rect": {
+    "x": 12,
+    "y": 149,
+    "w": 366,
+    "h": 37.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "방학동 누수 증상, 이런 경우인가요?",
+   "rect": {
+    "x": 12,
+    "y": 427.5,
+    "w": 366,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 286,
+    "y": 12,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "노모어누수",
+   "rect": {
+    "x": 12,
+    "y": 8,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 12,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 12,
+    "y": 87,
+    "w": 11.8,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "서울",
+   "rect": {
+    "x": 44.7,
+    "y": 85,
+    "w": 23.7,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "도봉구",
+   "rect": {
+    "x": 89.2,
+    "y": 85,
+    "w": 35.5,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지금 전화 상담 · 010-****-****",
+   "rect": {
+    "x": 12,
+    "y": 290.5,
+    "w": 366,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적문의",
+   "rect": {
+    "x": 0,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "작업사례",
+   "rect": {
+    "x": 78,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "상담하기",
+   "rect": {
+    "x": 156,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "최근후기",
+   "rect": {
+    "x": 234,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "카톡상담",
+   "rect": {
+    "x": 312,
+    "y": 776,
+    "w": 78,
+    "h": 68
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "/ 서울",
+   "rect": {
+    "x": 31.8,
+    "y": 85,
+    "w": 36.5,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "/ 도봉구",
+   "rect": {
+    "x": 76.4,
+    "y": 85,
+    "w": 48.4,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "/ 방학동",
+   "rect": {
+    "x": 132.8,
+    "y": 85,
+    "w": 48.4,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "✓ 계량기가 계속 돌아가요",
+   "rect": {
+    "x": 12,
+    "y": 547.5,
+    "w": 366,
+    "h": 56
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "✓ 수도요금이 갑자기 늘었어요",
+   "rect": {
+    "x": 12,
+    "y": 615.5,
+    "w": 366,
+    "h": 56
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "✓ 천장에 물자국이 생겼어요",
+   "rect": {
+    "x": 12,
+    "y": 683.5,
+    "w": 366,
+    "h": 56
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "✓ 화장실이나 욕실 주변이 젖어 있어요",
+   "rect": {
+    "x": 12,
+    "y": 751.5,
+    "w": 366,
+    "h": 56
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "✓ 보일러 압력이 계속 떨어져요",
+   "rect": {
+    "x": 12,
+    "y": 819.5,
+    "w": 366,
+    "h": 56
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 12,
+    "y": 8,
+    "w": 48,
+    "h": 48
+   }
+  }
+ ]
+}
