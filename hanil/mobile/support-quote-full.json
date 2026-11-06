@@ -1,0 +1,656 @@
+{
+ "file": "support-quote-full.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/support/quote",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 3884,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:01:29.596Z",
+ "title": "견적 요청 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 1,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "견적 요청",
+   "rect": {
+    "x": 24,
+    "y": 179.2,
+    "w": 342,
+    "h": 46.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 16,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "견적 요청 접수",
+   "rect": {
+    "x": 24,
+    "y": 1871.7,
+    "w": 134,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "회사명을(를) 입력해 주세요",
+   "rect": {
+    "x": 24,
+    "y": 698.9,
+    "w": 342,
+    "h": 48.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "담당자명을(를) 입력해 주세요",
+   "rect": {
+    "x": 24,
+    "y": 800.4,
+    "w": 342,
+    "h": 48.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "이메일을(를) 입력해 주세요",
+   "rect": {
+    "x": 24,
+    "y": 901.9,
+    "w": 342,
+    "h": 48.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "전화번호을(를) 입력해 주세요",
+   "rect": {
+    "x": 24,
+    "y": 1003.4,
+    "w": 342,
+    "h": 48.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "",
+   "rect": {
+    "x": 24,
+    "y": 1104.9,
+    "w": 342,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "소재 / 재질을(를) 입력해 주세요",
+   "rect": {
+    "x": 24,
+    "y": 1203.9,
+    "w": 342,
+    "h": 48.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "수량을(를) 입력해 주세요",
+   "rect": {
+    "x": 24,
+    "y": 1305.4,
+    "w": 342,
+    "h": 48.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "요청사항을(를) 입력해 주세요",
+   "rect": {
+    "x": 24,
+    "y": 1406.9,
+    "w": 342,
+    "h": 138.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 24,
+    "y": 1605.4,
+    "w": 342,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 24,
+    "y": 1710.9,
+    "w": 13,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주)",
+   "rect": {
+    "x": 20,
+    "y": 22,
+    "w": 165.3,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 24,
+    "y": 97.5,
+    "w": 40,
+    "h": 18
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자세히 보기",
+   "rect": {
+    "x": 49,
+    "y": 1802.9,
+    "w": 63,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주)",
+   "rect": {
+    "x": 24,
+    "y": 2316.5,
+    "w": 342,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사소개",
+   "rect": {
+    "x": 24,
+    "y": 2738.8,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대표인사말",
+   "rect": {
+    "x": 37,
+    "y": 2766.3,
+    "w": 55,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사현황",
+   "rect": {
+    "x": 37,
+    "y": 2792.1,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사연혁",
+   "rect": {
+    "x": 37,
+    "y": 2817.8,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "조직도",
+   "rect": {
+    "x": 37,
+    "y": 2843.6,
+    "w": 33,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "인증 / 수상현황",
+   "rect": {
+    "x": 37,
+    "y": 2869.3,
+    "w": 76,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오시는길",
+   "rect": {
+    "x": 37,
+    "y": 2895.1,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 24,
+    "y": 2930.8,
+    "w": 63,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설비현황",
+   "rect": {
+    "x": 24,
+    "y": 2966.3,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "R&D",
+   "rect": {
+    "x": 24,
+    "y": 3001.8,
+    "w": 25,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG",
+   "rect": {
+    "x": 24,
+    "y": 3037.3,
+    "w": 27,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "환경 (Environment)",
+   "rect": {
+    "x": 37,
+    "y": 3064.8,
+    "w": 104,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사회 (Social)",
+   "rect": {
+    "x": 37,
+    "y": 3090.6,
+    "w": 68,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지배구조 (Governance)",
+   "rect": {
+    "x": 37,
+    "y": 3116.3,
+    "w": 124,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 24,
+    "y": 3152.1,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "온라인 문의",
+   "rect": {
+    "x": 37,
+    "y": 3179.6,
+    "w": 58,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 37,
+    "y": 3205.3,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 사항",
+   "rect": {
+    "x": 37,
+    "y": 3231.1,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실",
+   "rect": {
+    "x": 37,
+    "y": 3256.8,
+    "w": 33,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오시는길",
+   "rect": {
+    "x": 37,
+    "y": 3282.6,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF1",
+   "rect": {
+    "x": 24,
+    "y": 3378,
+    "w": 74,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF+",
+   "rect": {
+    "x": 24,
+    "y": 3405.5,
+    "w": 76,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE LS",
+   "rect": {
+    "x": 24,
+    "y": 3433,
+    "w": 67,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가스질화",
+   "rect": {
+    "x": 24,
+    "y": 3460.5,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "DEFRIC (고체윤활)",
+   "rect": {
+    "x": 24,
+    "y": 3488,
+    "w": 98,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "DLC 코팅",
+   "rect": {
+    "x": 24,
+    "y": 3515.5,
+    "w": 50,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "화성처리",
+   "rect": {
+    "x": 24,
+    "y": 3543,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "T.D 코팅",
+   "rect": {
+    "x": 24,
+    "y": 3570.5,
+    "w": 46,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PVD 코팅",
+   "rect": {
+    "x": 24,
+    "y": 3598,
+    "w": 50,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진공열처리",
+   "rect": {
+    "x": 24,
+    "y": 3625.5,
+    "w": 55,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가스침탄",
+   "rect": {
+    "x": 24,
+    "y": 3653,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진공침탄",
+   "rect": {
+    "x": 24,
+    "y": 3680.5,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 처리방침",
+   "rect": {
+    "x": 24,
+    "y": 3803.5,
+    "w": 342,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 22,
+    "w": 38.1,
+    "h": 28
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": -9.7,
+    "y": -9.7,
+    "w": 409.5,
+    "h": 407.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 24,
+    "y": 2316.5,
+    "w": 48.9,
+    "h": 36
+   }
+  }
+ ]
+}

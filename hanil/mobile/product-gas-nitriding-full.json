@@ -1,0 +1,1371 @@
+{
+ "file": "product-gas-nitriding-full.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/product/gas-nitriding",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 13703,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:01:00.501Z",
+ "title": "가스질화 — GAS NITRIDING | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 4,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 1,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "가스질화",
+   "rect": {
+    "x": 24,
+    "y": 285.4,
+    "w": 342,
+    "h": 46.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "■ γ´ 단상 구조",
+   "rect": {
+    "x": 24,
+    "y": 2842.2,
+    "w": 342,
+    "h": 26.1
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h4",
+   "text": "▶ 적용 사례",
+   "rect": {
+    "x": 24,
+    "y": 3891.5,
+    "w": 342,
+    "h": 22
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "■ ε 단상 구조",
+   "rect": {
+    "x": 24,
+    "y": 4986.4,
+    "w": 342,
+    "h": 26.1
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h4",
+   "text": "▶ 적용 사례",
+   "rect": {
+    "x": 24,
+    "y": 6127.5,
+    "w": 342,
+    "h": 22
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "■ COMPOUND LESS 단상 구조",
+   "rect": {
+    "x": 24,
+    "y": 7157.8,
+    "w": 342,
+    "h": 26.1
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h4",
+   "text": "▶ 적용 사례",
+   "rect": {
+    "x": 24,
+    "y": 7984.7,
+    "w": 342,
+    "h": 22
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "■ S PHASE",
+   "rect": {
+    "x": 24,
+    "y": 9142.2,
+    "w": 342,
+    "h": 26.1
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h4",
+   "text": "▶ 적용 사례",
+   "rect": {
+    "x": 24,
+    "y": 10166.1,
+    "w": 342,
+    "h": 22
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "이 공정에 대한 상담이 필요하신가요?",
+   "rect": {
+    "x": 64,
+    "y": 11414.9,
+    "w": 262,
+    "h": 118.7
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 16,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 785,
+    "w": 324,
+    "h": 250.4
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 1098.6,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 141.9,
+    "y": 1098.6,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 250.9,
+    "y": 1098.6,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 1204.3,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 141.9,
+    "y": 1204.3,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 250.9,
+    "y": 1204.3,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 3059.7,
+    "w": 324,
+    "h": 194
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 3316.9,
+    "w": 324,
+    "h": 217
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 3597.1,
+    "w": 324,
+    "h": 216.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 4008.5,
+    "w": 324,
+    "h": 194.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 4265.8,
+    "w": 324,
+    "h": 216.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 4545.2,
+    "w": 324,
+    "h": 282
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 56.3,
+    "y": 5173.3,
+    "w": 300.8,
+    "h": 201.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 5437.9,
+    "w": 324,
+    "h": 207
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 5708.1,
+    "w": 324,
+    "h": 341.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 6244.5,
+    "w": 324,
+    "h": 222
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 6529.7,
+    "w": 324,
+    "h": 167
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 6759.8,
+    "w": 324,
+    "h": 238.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 65.4,
+    "y": 7405.9,
+    "w": 259.2,
+    "h": 194.4
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 7663.5,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 8127.7,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 8433.8,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 8740,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 9390.3,
+    "w": 324,
+    "h": 128
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 9581.5,
+    "w": 324,
+    "h": 201
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 9845.7,
+    "w": 324,
+    "h": 242.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 10309.1,
+    "w": 324,
+    "h": 172
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 10544.3,
+    "w": 324,
+    "h": 206
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 10813.5,
+    "w": 324,
+    "h": 187
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 11063.7,
+    "w": 324,
+    "h": 193
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주)",
+   "rect": {
+    "x": 20,
+    "y": 22,
+    "w": 165.3,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공정 GUIDE",
+   "rect": {
+    "x": 16,
+    "y": 82,
+    "w": 84,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "01 ISONITE TF1",
+   "rect": {
+    "x": 120,
+    "y": 82,
+    "w": 120,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "02 ISONITE TF+",
+   "rect": {
+    "x": 244,
+    "y": 82,
+    "w": 122,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "03 ISONITE LS",
+   "rect": {
+    "x": 370,
+    "y": 82,
+    "w": 112,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 24,
+    "y": 203.7,
+    "w": 58,
+    "h": 18
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전화 문의 010-****-****",
+   "rect": {
+    "x": 91.5,
+    "y": 11633.6,
+    "w": 207,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 140.5,
+    "y": 11693.6,
+    "w": 109,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주)",
+   "rect": {
+    "x": 24,
+    "y": 12135.1,
+    "w": 342,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사소개",
+   "rect": {
+    "x": 24,
+    "y": 12557.4,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대표인사말",
+   "rect": {
+    "x": 37,
+    "y": 12584.9,
+    "w": 55,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사현황",
+   "rect": {
+    "x": 37,
+    "y": 12610.7,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사연혁",
+   "rect": {
+    "x": 37,
+    "y": 12636.4,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "조직도",
+   "rect": {
+    "x": 37,
+    "y": 12662.2,
+    "w": 33,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "인증 / 수상현황",
+   "rect": {
+    "x": 37,
+    "y": 12687.9,
+    "w": 76,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오시는길",
+   "rect": {
+    "x": 37,
+    "y": 12713.7,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 24,
+    "y": 12749.4,
+    "w": 63,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설비현황",
+   "rect": {
+    "x": 24,
+    "y": 12784.9,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "R&D",
+   "rect": {
+    "x": 24,
+    "y": 12820.4,
+    "w": 25,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG",
+   "rect": {
+    "x": 24,
+    "y": 12855.9,
+    "w": 27,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "환경 (Environment)",
+   "rect": {
+    "x": 37,
+    "y": 12883.4,
+    "w": 104,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사회 (Social)",
+   "rect": {
+    "x": 37,
+    "y": 12909.2,
+    "w": 68,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지배구조 (Governance)",
+   "rect": {
+    "x": 37,
+    "y": 12934.9,
+    "w": 124,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 24,
+    "y": 12970.7,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "온라인 문의",
+   "rect": {
+    "x": 37,
+    "y": 12998.2,
+    "w": 58,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 37,
+    "y": 13023.9,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 사항",
+   "rect": {
+    "x": 37,
+    "y": 13049.7,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실",
+   "rect": {
+    "x": 37,
+    "y": 13075.4,
+    "w": 33,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오시는길",
+   "rect": {
+    "x": 37,
+    "y": 13101.2,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF1",
+   "rect": {
+    "x": 24,
+    "y": 13196.6,
+    "w": 74,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF+",
+   "rect": {
+    "x": 24,
+    "y": 13224.1,
+    "w": 76,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE LS",
+   "rect": {
+    "x": 24,
+    "y": 13251.6,
+    "w": 67,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가스질화",
+   "rect": {
+    "x": 24,
+    "y": 13279.1,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "DEFRIC (고체윤활)",
+   "rect": {
+    "x": 24,
+    "y": 13306.6,
+    "w": 98,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "DLC 코팅",
+   "rect": {
+    "x": 24,
+    "y": 13334.1,
+    "w": 50,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "화성처리",
+   "rect": {
+    "x": 24,
+    "y": 13361.6,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "T.D 코팅",
+   "rect": {
+    "x": 24,
+    "y": 13389.1,
+    "w": 46,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PVD 코팅",
+   "rect": {
+    "x": 24,
+    "y": 13416.6,
+    "w": 50,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진공열처리",
+   "rect": {
+    "x": 24,
+    "y": 13444.1,
+    "w": 55,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가스침탄",
+   "rect": {
+    "x": 24,
+    "y": 13471.6,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진공침탄",
+   "rect": {
+    "x": 24,
+    "y": 13499.1,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 처리방침",
+   "rect": {
+    "x": 24,
+    "y": 13622.1,
+    "w": 342,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 22,
+    "w": 38.1,
+    "h": 28
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": -9.7,
+    "y": 41.3,
+    "w": 409.5,
+    "h": 407.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화로 본체 & 제어반",
+   "rect": {
+    "x": 33,
+    "y": 785,
+    "w": 324,
+    "h": 250.4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 기어류",
+   "rect": {
+    "x": 33,
+    "y": 1098.6,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 링·베어링류",
+   "rect": {
+    "x": 141.9,
+    "y": 1098.6,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 스프링",
+   "rect": {
+    "x": 250.9,
+    "y": 1098.6,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 금형 부품",
+   "rect": {
+    "x": 33,
+    "y": 1204.3,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 소형 정밀부품",
+   "rect": {
+    "x": 141.9,
+    "y": 1204.3,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 평기어",
+   "rect": {
+    "x": 250.9,
+    "y": 1204.3,
+    "w": 106.1,
+    "h": 102.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Fe-N 온도·질화포텐셜 선도",
+   "rect": {
+    "x": 33,
+    "y": 3059.7,
+    "w": 324,
+    "h": 194
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "화합물층 단면 상 분포",
+   "rect": {
+    "x": 82,
+    "y": 3316.9,
+    "w": 226,
+    "h": 217
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "SCM435 잔류응력 깊이 분포",
+   "rect": {
+    "x": 33,
+    "y": 3597.1,
+    "w": 324,
+    "h": 216.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "변속기 기어·샤프트",
+   "rect": {
+    "x": 33,
+    "y": 4008.5,
+    "w": 324,
+    "h": 194.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "링기어·피니언·니들 베어링",
+   "rect": {
+    "x": 33,
+    "y": 4265.8,
+    "w": 324,
+    "h": 216.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "헬리컬 기어",
+   "rect": {
+    "x": 33,
+    "y": 4545.2,
+    "w": 324,
+    "h": 282
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "ε상 단상구조 질화층",
+   "rect": {
+    "x": 56.3,
+    "y": 5173.3,
+    "w": 300.8,
+    "h": 201.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "ε상 단상구조 SEM사진",
+   "rect": {
+    "x": 40,
+    "y": 5437.9,
+    "w": 310,
+    "h": 207
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "회전 굽힘 피로 TEST",
+   "rect": {
+    "x": 33,
+    "y": 5708.1,
+    "w": 324,
+    "h": 341.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "알루미늄 압출 금형",
+   "rect": {
+    "x": 33,
+    "y": 6244.5,
+    "w": 324,
+    "h": 222
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "압출 금형·압출 프로파일",
+   "rect": {
+    "x": 33,
+    "y": 6529.7,
+    "w": 324,
+    "h": 167
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "다이캐스팅 금형",
+   "rect": {
+    "x": 33,
+    "y": 6759.8,
+    "w": 324,
+    "h": 238.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "COMPOUND LESS 질화층",
+   "rect": {
+    "x": 65.4,
+    "y": 7405.9,
+    "w": 259.2,
+    "h": 194.4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "SACM 강종의 화합물층 회전 굽힘 피로강도 효과비",
+   "rect": {
+    "x": 33,
+    "y": 7663.5,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "다이캐스팅 금형류",
+   "rect": {
+    "x": 33,
+    "y": 8127.7,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "사출 금형 코어",
+   "rect": {
+    "x": 33,
+    "y": 8433.8,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "대형 사출 금형",
+   "rect": {
+    "x": 33,
+    "y": 8740,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "S Phase 표면층 단면 SEM",
+   "rect": {
+    "x": 117,
+    "y": 9390.3,
+    "w": 156,
+    "h": 128
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "확장 γ상 단면 조직",
+   "rect": {
+    "x": 65,
+    "y": 9581.5,
+    "w": 260,
+    "h": 201
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "질화 온도별 표면경도",
+   "rect": {
+    "x": 33,
+    "y": 9845.7,
+    "w": 324,
+    "h": 242.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "튜브 피팅",
+   "rect": {
+    "x": 84.5,
+    "y": 10309.1,
+    "w": 221,
+    "h": 172
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "용접 피팅",
+   "rect": {
+    "x": 83,
+    "y": 10544.3,
+    "w": 224,
+    "h": 206
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "유압파이프 피팅",
+   "rect": {
+    "x": 79.5,
+    "y": 10813.5,
+    "w": 231,
+    "h": 187
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "고진공 피팅",
+   "rect": {
+    "x": 85,
+    "y": 11063.7,
+    "w": 220,
+    "h": 193
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 24,
+    "y": 12135.1,
+    "w": 48.9,
+    "h": 36
+   }
+  }
+ ]
+}

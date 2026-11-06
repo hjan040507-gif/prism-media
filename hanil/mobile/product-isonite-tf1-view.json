@@ -1,0 +1,183 @@
+{
+ "file": "product-isonite-tf1-view.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/product/isonite-tf1",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 6659,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:01:22.118Z",
+ "title": "ISONITE TF1 — SALT-BATH NITROCARBURIZING | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 4,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 1,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "ISONITE TF1",
+   "rect": {
+    "x": 24,
+    "y": 285.4,
+    "w": 342,
+    "h": 46.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 16,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주)",
+   "rect": {
+    "x": 20,
+    "y": 22,
+    "w": 165.3,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공정 GUIDE",
+   "rect": {
+    "x": 16,
+    "y": 82,
+    "w": 84,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "01 ISONITE TF1",
+   "rect": {
+    "x": 120,
+    "y": 82,
+    "w": 120,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "02 ISONITE TF+",
+   "rect": {
+    "x": 244,
+    "y": 82,
+    "w": 122,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "03 ISONITE LS",
+   "rect": {
+    "x": 370,
+    "y": 82,
+    "w": 112,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 24,
+    "y": 203.7,
+    "w": 58,
+    "h": 18
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 22,
+    "w": 38.1,
+    "h": 28
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": -9.7,
+    "y": 41.3,
+    "w": 409.5,
+    "h": 407.6
+   }
+  }
+ ]
+}

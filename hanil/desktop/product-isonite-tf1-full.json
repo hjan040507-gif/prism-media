@@ -1,0 +1,854 @@
+{
+ "file": "product-isonite-tf1-full.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/product/isonite-tf1",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 4754,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T07:54:04.324Z",
+ "title": "ISONITE TF1 — SALT-BATH NITROCARBURIZING | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 4,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 1,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "ISONITE TF1",
+   "rect": {
+    "x": 112,
+    "y": 324.2,
+    "w": 896,
+    "h": 75.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "이 공정에 대한 상담이 필요하신가요?",
+   "rect": {
+    "x": 152,
+    "y": 3456.2,
+    "w": 1136,
+    "h": 50.6
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 121,
+    "y": 904.4,
+    "w": 376.7,
+    "h": 235.7
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 531.7,
+    "y": 904.4,
+    "w": 376.7,
+    "h": 341
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 942.3,
+    "y": 904.4,
+    "w": 376.7,
+    "h": 354.7
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 429,
+    "y": 2361.8,
+    "w": 582,
+    "h": 436.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 121,
+    "y": 2861.5,
+    "w": 582,
+    "h": 436.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 737,
+    "y": 2861.5,
+    "w": 582,
+    "h": 436.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주) HANIL METAL INDUSTRY CO.,LTD",
+   "rect": {
+    "x": 112,
+    "y": 26,
+    "w": 288.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사소개",
+   "rect": {
+    "x": 672.4,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 761.9,
+    "y": 27,
+    "w": 108.6,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설비현황",
+   "rect": {
+    "x": 874.5,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "R&D",
+   "rect": {
+    "x": 964,
+    "y": 27,
+    "w": 64.1,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG",
+   "rect": {
+    "x": 1032.1,
+    "y": 27,
+    "w": 62.1,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 1098.3,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "010-****-****",
+   "rect": {
+    "x": 1199.8,
+    "y": 24,
+    "w": 128.2,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공정 GUIDE",
+   "rect": {
+    "x": 112,
+    "y": 98,
+    "w": 84,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "01 ISONITE TF1",
+   "rect": {
+    "x": 216,
+    "y": 98,
+    "w": 120,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "02 ISONITE TF+",
+   "rect": {
+    "x": 340,
+    "y": 98,
+    "w": 122,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "03 ISONITE LS",
+   "rect": {
+    "x": 466,
+    "y": 98,
+    "w": 112,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "04 가스질화",
+   "rect": {
+    "x": 582,
+    "y": 98,
+    "w": 86,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "05 DEFRIC (고체윤활)",
+   "rect": {
+    "x": 672,
+    "y": 98,
+    "w": 140,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "06 DLC 코팅",
+   "rect": {
+    "x": 816,
+    "y": 98,
+    "w": 94,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "07 화성처리",
+   "rect": {
+    "x": 914,
+    "y": 98,
+    "w": 86,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "08 기타 PROCESS",
+   "rect": {
+    "x": 1004,
+    "y": 98,
+    "w": 127,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 112,
+    "y": 242.5,
+    "w": 58,
+    "h": 18
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전화 문의 010-****-****",
+   "rect": {
+    "x": 556,
+    "y": 3580.8,
+    "w": 207,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 775,
+    "y": 3580.8,
+    "w": 109,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주) HANIL METAL INDUSTRY CO.,LTD",
+   "rect": {
+    "x": 112,
+    "y": 3993.8,
+    "w": 365.3,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사소개",
+   "rect": {
+    "x": 800.9,
+    "y": 4031.5,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대표인사말",
+   "rect": {
+    "x": 813.9,
+    "y": 4059,
+    "w": 55,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사현황",
+   "rect": {
+    "x": 813.9,
+    "y": 4084.7,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사연혁",
+   "rect": {
+    "x": 813.9,
+    "y": 4110.5,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "조직도",
+   "rect": {
+    "x": 813.9,
+    "y": 4136.2,
+    "w": 33,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "인증 / 수상현황",
+   "rect": {
+    "x": 813.9,
+    "y": 4162,
+    "w": 76,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오시는길",
+   "rect": {
+    "x": 813.9,
+    "y": 4187.7,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 800.9,
+    "y": 4223.5,
+    "w": 63,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설비현황",
+   "rect": {
+    "x": 800.9,
+    "y": 4259,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "R&D",
+   "rect": {
+    "x": 800.9,
+    "y": 4294.5,
+    "w": 25,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG",
+   "rect": {
+    "x": 800.9,
+    "y": 4330,
+    "w": 27,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "환경 (Environment)",
+   "rect": {
+    "x": 813.9,
+    "y": 4357.5,
+    "w": 104,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사회 (Social)",
+   "rect": {
+    "x": 813.9,
+    "y": 4383.2,
+    "w": 68,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지배구조 (Governance)",
+   "rect": {
+    "x": 813.9,
+    "y": 4409,
+    "w": 124,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 800.9,
+    "y": 4444.7,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "온라인 문의",
+   "rect": {
+    "x": 813.9,
+    "y": 4472.2,
+    "w": 58,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 813.9,
+    "y": 4498,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 사항",
+   "rect": {
+    "x": 813.9,
+    "y": 4523.7,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실",
+   "rect": {
+    "x": 813.9,
+    "y": 4549.5,
+    "w": 33,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오시는길",
+   "rect": {
+    "x": 813.9,
+    "y": 4575.2,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF1",
+   "rect": {
+    "x": 1084.4,
+    "y": 4031.5,
+    "w": 74,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF+",
+   "rect": {
+    "x": 1084.4,
+    "y": 4059,
+    "w": 76,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE LS",
+   "rect": {
+    "x": 1084.4,
+    "y": 4086.5,
+    "w": 67,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가스질화",
+   "rect": {
+    "x": 1084.4,
+    "y": 4114,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "DEFRIC (고체윤활)",
+   "rect": {
+    "x": 1084.4,
+    "y": 4141.5,
+    "w": 98,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "DLC 코팅",
+   "rect": {
+    "x": 1084.4,
+    "y": 4169,
+    "w": 50,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "화성처리",
+   "rect": {
+    "x": 1084.4,
+    "y": 4196.5,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "T.D 코팅",
+   "rect": {
+    "x": 1084.4,
+    "y": 4224,
+    "w": 46,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PVD 코팅",
+   "rect": {
+    "x": 1084.4,
+    "y": 4251.5,
+    "w": 50,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진공열처리",
+   "rect": {
+    "x": 1084.4,
+    "y": 4279,
+    "w": 55,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가스침탄",
+   "rect": {
+    "x": 1084.4,
+    "y": 4306.5,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진공침탄",
+   "rect": {
+    "x": 1084.4,
+    "y": 4334,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 처리방침",
+   "rect": {
+    "x": 1245,
+    "y": 4674,
+    "w": 83,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 112,
+    "y": 26,
+    "w": 48.9,
+    "h": 36
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": -36,
+    "y": 39.3,
+    "w": 1512,
+    "h": 491.4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "염욕 질화 라인 설비 전경",
+   "rect": {
+    "x": 121,
+    "y": 904.4,
+    "w": 376.7,
+    "h": 235.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "SEM 단면 사진",
+   "rect": {
+    "x": 563.5,
+    "y": 904.4,
+    "w": 313,
+    "h": 341
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "질화층 모식도",
+   "rect": {
+    "x": 942.3,
+    "y": 904.4,
+    "w": 376.7,
+    "h": 354.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "엔진 V/V",
+   "rect": {
+    "x": 429,
+    "y": 2361.8,
+    "w": 582,
+    "h": 436.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "오일펌프 CAGE",
+   "rect": {
+    "x": 121,
+    "y": 2861.5,
+    "w": 582,
+    "h": 436.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "중장비 BUSHING",
+   "rect": {
+    "x": 737,
+    "y": 2861.5,
+    "w": 582,
+    "h": 436.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 112,
+    "y": 3993.8,
+    "w": 48.9,
+    "h": 36
+   }
+  }
+ ]
+}

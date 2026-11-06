@@ -1,0 +1,367 @@
+{
+ "file": "admin-notifications-view.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/notifications",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 950,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:03:38.127Z",
+ "title": "관리자 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 4,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /auth/v1/token",
+   "POST /__nextjs_original-stack-frames"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 16
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 11
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 21
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 20
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 11
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 12
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 11
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "알림 설정",
+   "rect": {
+    "x": 240,
+    "y": 165.3,
+    "w": 960,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "새 접수 알림 메일",
+   "rect": {
+    "x": 240,
+    "y": 399,
+    "w": 241,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "받는 이메일",
+   "rect": {
+    "x": 240,
+    "y": 477,
+    "w": 576,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "최근 발송 기록",
+   "rect": {
+    "x": 240,
+    "y": 790,
+    "w": 960,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1134,
+    "y": 24,
+    "w": 66,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "켜짐",
+   "rect": {
+    "x": 748,
+    "y": 400,
+    "w": 68,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 759,
+    "y": 540,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "추가",
+   "rect": {
+    "x": 758,
+    "y": 597,
+    "w": 58,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "설정 저장",
+   "rect": {
+    "x": 240,
+    "y": 698,
+    "w": 99,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "테스트 메일 보내기",
+   "rect": {
+    "x": 347,
+    "y": 698,
+    "w": 136,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 240,
+    "y": 597,
+    "w": 510,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "HANIL METAL · ADMIN",
+   "rect": {
+    "x": 240,
+    "y": 31.4,
+    "w": 168.8,
+    "h": 17.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대시보드",
+   "rect": {
+    "x": 240,
+    "y": 97,
+    "w": 76,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수함 4",
+   "rect": {
+    "x": 320,
+    "y": 97,
+    "w": 92,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "콘텐츠",
+   "rect": {
+    "x": 416,
+    "y": 97,
+    "w": 64,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품 사진",
+   "rect": {
+    "x": 484,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배경 사진",
+   "rect": {
+    "x": 567,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 관리",
+   "rect": {
+    "x": 650,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실 관리",
+   "rect": {
+    "x": 733,
+    "y": 97,
+    "w": 91,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 설정",
+   "rect": {
+    "x": 828,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 계정",
+   "rect": {
+    "x": 911,
+    "y": 97,
+    "w": 67,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "삭제",
+   "rect": {
+    "x": 241,
+    "y": 540,
+    "w": 574,
+    "h": 44
+   }
+  }
+ ]
+}

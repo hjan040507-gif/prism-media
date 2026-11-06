@@ -1,0 +1,99 @@
+2026-11-06T08:02:42Z
+(node:2594017) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/dev/prism-media/tmp/hanil-src/src/lib/content.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/dev/prism-media/tmp/hanil-src/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+## 공정 상세 본문 도판
+전체 슬롯 111 · 렌더 107 · 미렌더 4
+ID 중복 0
+
+| 공정 | 슬롯 | 합성본 칸 |
+|---|---:|---:|
+| 01 ISONITE TF1 | 6 | 0 |
+| 02 ISONITE TF+ | 12 | 0 |
+| 03 ISONITE LS | 15 | 0 |
+| 04 가스질화 | 31 | 6 |
+| 05 DEFRIC (고체윤활) | 6 | 0 |
+| 06 DLC 코팅 | 8 | 0 |
+| 07 화성처리 | 3 | 0 |
+| 08 T.D 코팅 | 9 | 0 |
+| 09 PVD 코팅 | 8 | 0 |
+| 10 진공열처리 | 3 | 0 |
+| 11 가스침탄 | 3 | 0 |
+| 12 진공침탄 | 3 | 0 |
+| **합계** | **107** | **6** |
+
+## 미렌더(관리자 비노출)
+- isonite-tf-plus.image36  /images/isonite-tf-plus/image36.png
+- isonite-tf-plus.image37  /images/isonite-tf-plus/image37.png
+- isonite-tf-plus.image39  /images/isonite-tf-plus/image39.png
+- isonite-tf-plus.image40  /images/isonite-tf-plus/image40.png
+
+## 갤러리형 섹션 (추가·삭제·순서 변경 가능)
+26개 / 전체 섹션 43개
+- isonite-tf1.overview  (사진 3장)
+- isonite-tf1.cases  (사진 3장)
+- isonite-tf-plus.overview  (사진 3장)
+- isonite-tf-plus.cases  (사진 2장)
+- isonite-ls.overview  (사진 3장)
+- isonite-ls.cases  (사진 6장)
+- gas-nitriding.sub1  (사진 3장)
+- gas-nitriding.use1  (사진 3장)
+- gas-nitriding.sub2  (사진 3장)
+- gas-nitriding.use2  (사진 3장)
+- gas-nitriding.sub3  (사진 2장)
+- gas-nitriding.use3  (사진 3장)
+- gas-nitriding.sub4  (사진 3장)
+- gas-nitriding.use4  (사진 4장)
+- defric.overview  (사진 3장)
+- dlc.overview  (사진 3장)
+- dlc.compare  (사진 2장)
+- dlc.cases  (사진 2장)
+- phosphate.overview  (사진 2장)
+- td-coating.overview  (사진 2장)
+- td-coating.cases  (사진 6장)
+- pvd-coating.overview  (사진 3장)
+- pvd-coating.cases  (사진 5장)
+- vacuum-heat.overview  (사진 3장)
+- gas-carburizing.overview  (사진 3장)
+- vacuum-carburizing.overview  (사진 3장)
+
+## 갤러리 아님 — 사유별
+- 사진이 한 장인 자리예요(교체만 가능). → 9개
+- 이 섹션은 사진 자리가 본문에 맞춰 고정돼 있어요(교체만 가능). → 7개
+- 칸이 정해진 묶음 사진이라 칸 교체만 가능해요. → 1개
+
+## 상단 배경
+영역 23개 · 사진 39장
+
+| 묶음 | 자리 | 사진 | 라우트 |
+|---|---|---:|---|
+| 홈 | 메인 화면 | 3 | / |
+| 회사소개 | CEO 인사말 · 회사현황 | 1 | /company/greeting |
+| 회사소개 | 회사연혁 | 1 | /company/history |
+| 회사소개 | 조직도 | 1 | /company/organization |
+| 회사소개 | 인증 · 수상현황 | 1 | /company/certifications |
+| 회사소개 | 오시는 길 | 1 | /company/location |
+| PRODUCT | 공정 GUIDE (PRODUCT 첫 화면) | 5 | /product |
+| PRODUCT | 01 ISONITE TF1 | 1 | /product/isonite-tf1 |
+| PRODUCT | 02 ISONITE TF+ | 3 | /product/isonite-tf-plus |
+| PRODUCT | 03 ISONITE LS | 1 | /product/isonite-ls |
+| PRODUCT | 04 가스질화 | 2 | /product/gas-nitriding |
+| PRODUCT | 05 DEFRIC (고체윤활) | 1 | /product/defric |
+| PRODUCT | 06 DLC 코팅 | 4 | /product/dlc |
+| PRODUCT | 07 화성처리 | 5 | /product/phosphate |
+| PRODUCT | 08 T.D 코팅 | 1 | /product/td-coating |
+| PRODUCT | 09 PVD 코팅 | 1 | /product/pvd-coating |
+| PRODUCT | 10 진공열처리 | 1 | /product/vacuum-heat |
+| PRODUCT | 11 가스침탄 | 1 | /product/gas-carburizing |
+| PRODUCT | 12 진공침탄 | 1 | /product/vacuum-carburizing |
+| 설비 · 연구 · ESG | 설비현황 | 1 | /facility |
+| 설비 · 연구 · ESG | 연구개발(R&D) | 1 | /rnd |
+| 설비 · 연구 · ESG | ESG 경영 | 1 | /esg |
+| 고객지원 | 고객지원 5개 페이지 | 1 | /support/contact |
+
+배경 ID 중복 0
+도판 ID 와 충돌 0
+
+총 관리 대상 사진 = 도판 107 + 배경 39 = 146
+레이아웃 섹션 총 70개

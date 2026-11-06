@@ -1,0 +1,314 @@
+{
+ "file": "admin-content-home-view.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/content/home",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 900,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:02:48.889Z",
+ "title": "관리자 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /auth/v1/token",
+   "POST /__nextjs_original-stack-frames"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 16
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 11
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 21
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 20
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 11
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "메인 화면",
+   "rect": {
+    "x": 240,
+    "y": 197.3,
+    "w": 960,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1134,
+    "y": 24,
+    "w": 66,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 240,
+    "y": 766.4,
+    "w": 70,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기본값으로 되돌리기",
+   "rect": {
+    "x": 322,
+    "y": 765.4,
+    "w": 136,
+    "h": 41.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "FOR YOUR SATISFACTION",
+   "rect": {
+    "x": 240,
+    "y": 319.1,
+    "w": 960,
+    "h": 43
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "제품의 표면은 단순한 외관이 아닌,\n수명을 좌우하는 핵심 기술 영역입니다",
+   "rect": {
+    "x": 240,
+    "y": 406.9,
+    "w": 960,
+    "h": 93.4
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "한일금속공업은 HYBRID 표면개질 기술로 고객의 NEEDS에 100% 응답하는 표면처리 전문기업입니다",
+   "rect": {
+    "x": 240,
+    "y": 552,
+    "w": 960,
+    "h": 69.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "표면처리 공정 보기",
+   "rect": {
+    "x": 240,
+    "y": 673.4,
+    "w": 960,
+    "h": 43
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "HANIL METAL · ADMIN",
+   "rect": {
+    "x": 240,
+    "y": 31.4,
+    "w": 168.8,
+    "h": 17.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대시보드",
+   "rect": {
+    "x": 240,
+    "y": 97,
+    "w": 76,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수함 4",
+   "rect": {
+    "x": 320,
+    "y": 97,
+    "w": 92,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "콘텐츠",
+   "rect": {
+    "x": 416,
+    "y": 97,
+    "w": 64,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품 사진",
+   "rect": {
+    "x": 484,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배경 사진",
+   "rect": {
+    "x": 567,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 관리",
+   "rect": {
+    "x": 650,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실 관리",
+   "rect": {
+    "x": 733,
+    "y": 97,
+    "w": 91,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 설정",
+   "rect": {
+    "x": 828,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 계정",
+   "rect": {
+    "x": 911,
+    "y": 97,
+    "w": 67,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "← 콘텐츠 관리",
+   "rect": {
+    "x": 240,
+    "y": 171.3,
+    "w": 67,
+    "h": 14
+   }
+  }
+ ]
+}

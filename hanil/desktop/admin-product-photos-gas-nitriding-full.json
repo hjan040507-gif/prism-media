@@ -1,0 +1,2517 @@
+{
+ "file": "admin-product-photos-gas-nitriding-full.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/product-photos/gas-nitriding",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 7593,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:02:06.647Z",
+ "title": "관리자 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 1,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /auth/v1/token",
+   "POST /__nextjs_original-stack-frames"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 16
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 11
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 21
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 18
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "가스질화",
+   "rect": {
+    "x": 240,
+    "y": 209.3,
+    "w": 68,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "개요",
+   "rect": {
+    "x": 240,
+    "y": 269.3,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "■ γ´ 단상 구조",
+   "rect": {
+    "x": 240,
+    "y": 1672.7,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "▶ 적용 사례",
+   "rect": {
+    "x": 240,
+    "y": 2447.3,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "■ ε 단상 구조",
+   "rect": {
+    "x": 240,
+    "y": 3196.3,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "▶ 적용 사례",
+   "rect": {
+    "x": 240,
+    "y": 3997.4,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "■ COMPOUND LESS 단상 구조",
+   "rect": {
+    "x": 240,
+    "y": 4708.2,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "▶ 적용 사례",
+   "rect": {
+    "x": 240,
+    "y": 5207.3,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "■ S PHASE",
+   "rect": {
+    "x": 240,
+    "y": 5921.8,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "▶ 적용 사례",
+   "rect": {
+    "x": 240,
+    "y": 6656.5,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1134,
+    "y": 24,
+    "w": 66,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 606.8,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 698.1,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 698.1,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 1136.9,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 1136.9,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 1136.9,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 1575.7,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 253,
+    "y": 1755.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 295,
+    "y": 1755.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 337,
+    "y": 1755.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 2015,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 341,
+    "y": 2015,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 577,
+    "y": 1755.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 619,
+    "y": 1755.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 661,
+    "y": 1755.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 2118.3,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 665,
+    "y": 2118.3,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 901,
+    "y": 1755.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 943,
+    "y": 1755.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 985,
+    "y": 1755.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 2034.6,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 989,
+    "y": 2034.6,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 추가 이 자리 맨 뒤에 들어갑니다",
+   "rect": {
+    "x": 240,
+    "y": 2187.3,
+    "w": 312,
+    "h": 220
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 253,
+    "y": 2529.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 295,
+    "y": 2529.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 337,
+    "y": 2529.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 2789.8,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 341,
+    "y": 2789.8,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 577,
+    "y": 2529.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 619,
+    "y": 2529.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 661,
+    "y": 2529.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 2809.2,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 665,
+    "y": 2809.2,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 901,
+    "y": 2529.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 943,
+    "y": 2529.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 985,
+    "y": 2529.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 2867.3,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 989,
+    "y": 2867.3,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 추가 이 자리 맨 뒤에 들어갑니다",
+   "rect": {
+    "x": 240,
+    "y": 2936.3,
+    "w": 312,
+    "h": 220
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 253,
+    "y": 3278.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 295,
+    "y": 3278.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 337,
+    "y": 3278.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 3558.8,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 341,
+    "y": 3558.8,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 577,
+    "y": 3278.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 619,
+    "y": 3278.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 661,
+    "y": 3278.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 3558.2,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 665,
+    "y": 3558.2,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 901,
+    "y": 3278.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 943,
+    "y": 3278.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 985,
+    "y": 3278.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 3668.4,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 989,
+    "y": 3668.4,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 추가 이 자리 맨 뒤에 들어갑니다",
+   "rect": {
+    "x": 240,
+    "y": 3737.4,
+    "w": 312,
+    "h": 220
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 253,
+    "y": 4079.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 295,
+    "y": 4079.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 337,
+    "y": 4079.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 4364.4,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 341,
+    "y": 4364.4,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 577,
+    "y": 4079.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 619,
+    "y": 4079.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 661,
+    "y": 4079.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 4315.8,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 665,
+    "y": 4315.8,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 901,
+    "y": 4079.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 943,
+    "y": 4079.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 985,
+    "y": 4079.9,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 4379.2,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 989,
+    "y": 4379.2,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 추가 이 자리 맨 뒤에 들어갑니다",
+   "rect": {
+    "x": 240,
+    "y": 4448.2,
+    "w": 312,
+    "h": 220
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 253,
+    "y": 4790.7,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 295,
+    "y": 4790.7,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 337,
+    "y": 4790.7,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 5093.7,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 341,
+    "y": 5093.7,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 577,
+    "y": 4790.7,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 619,
+    "y": 4790.7,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 661,
+    "y": 4790.7,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 5110.3,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 665,
+    "y": 5110.3,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 추가 이 자리 맨 뒤에 들어갑니다",
+   "rect": {
+    "x": 888,
+    "y": 4777.7,
+    "w": 312,
+    "h": 389.6
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 253,
+    "y": 5289.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 295,
+    "y": 5289.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 337,
+    "y": 5289.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 5592.8,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 341,
+    "y": 5592.8,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 577,
+    "y": 5289.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 619,
+    "y": 5289.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 661,
+    "y": 5289.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 5592.8,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 665,
+    "y": 5592.8,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 901,
+    "y": 5289.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 943,
+    "y": 5289.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 985,
+    "y": 5289.8,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 5592.8,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 989,
+    "y": 5592.8,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 추가 이 자리 맨 뒤에 들어갑니다",
+   "rect": {
+    "x": 240,
+    "y": 5661.8,
+    "w": 312,
+    "h": 220
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 253,
+    "y": 6004.3,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 295,
+    "y": 6004.3,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 337,
+    "y": 6004.3,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 6327.5,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 341,
+    "y": 6327.5,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 577,
+    "y": 6004.3,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 619,
+    "y": 6004.3,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 661,
+    "y": 6004.3,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 6313.9,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 665,
+    "y": 6313.9,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 901,
+    "y": 6004.3,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 943,
+    "y": 6004.3,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 985,
+    "y": 6004.3,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 6306.7,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 989,
+    "y": 6306.7,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 추가 이 자리 맨 뒤에 들어갑니다",
+   "rect": {
+    "x": 240,
+    "y": 6396.5,
+    "w": 312,
+    "h": 220
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 253,
+    "y": 6739,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 295,
+    "y": 6739,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 337,
+    "y": 6739,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 7050.1,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 341,
+    "y": 7050.1,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 577,
+    "y": 6739,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 619,
+    "y": 6739,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 661,
+    "y": 6739,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 7090.5,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 665,
+    "y": 7090.5,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 901,
+    "y": 6739,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 943,
+    "y": 6739,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 985,
+    "y": 6739,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 7059,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 989,
+    "y": 7059,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 253,
+    "y": 7172.5,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 295,
+    "y": 7172.5,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 337,
+    "y": 7172.5,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 7511.9,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 341,
+    "y": 7511.9,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 추가 이 자리 맨 뒤에 들어갑니다",
+   "rect": {
+    "x": 564,
+    "y": 7159.5,
+    "w": 312,
+    "h": 409.4
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "HANIL METAL · ADMIN",
+   "rect": {
+    "x": 240,
+    "y": 31.4,
+    "w": 168.8,
+    "h": 17.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대시보드",
+   "rect": {
+    "x": 240,
+    "y": 97,
+    "w": 76,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수함 4",
+   "rect": {
+    "x": 320,
+    "y": 97,
+    "w": 92,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "콘텐츠",
+   "rect": {
+    "x": 416,
+    "y": 97,
+    "w": 64,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품 사진",
+   "rect": {
+    "x": 484,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배경 사진",
+   "rect": {
+    "x": 567,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 관리",
+   "rect": {
+    "x": 650,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실 관리",
+   "rect": {
+    "x": 733,
+    "y": 97,
+    "w": 91,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 설정",
+   "rect": {
+    "x": 828,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 계정",
+   "rect": {
+    "x": 911,
+    "y": 97,
+    "w": 67,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "← 제품 사진",
+   "rect": {
+    "x": 240,
+    "y": 165.3,
+    "w": 57,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트 열기",
+   "rect": {
+    "x": 381,
+    "y": 217.3,
+    "w": 58,
+    "h": 18.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 341,
+    "y": 606.8,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 665,
+    "y": 698.1,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 989,
+    "y": 698.1,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 341,
+    "y": 1136.9,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 665,
+    "y": 1136.9,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 989,
+    "y": 1136.9,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 341,
+    "y": 1575.7,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 431,
+    "y": 2015,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 755,
+    "y": 2118.3,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 1079,
+    "y": 2034.6,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 431,
+    "y": 2789.8,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 755,
+    "y": 2809.2,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 1079,
+    "y": 2867.3,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 431,
+    "y": 3558.8,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 755,
+    "y": 3558.2,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 1079,
+    "y": 3668.4,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 431,
+    "y": 4364.4,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 755,
+    "y": 4315.8,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 1079,
+    "y": 4379.2,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 431,
+    "y": 5093.7,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 755,
+    "y": 5110.3,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 431,
+    "y": 5592.8,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 755,
+    "y": 5592.8,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 1079,
+    "y": 5592.8,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 431,
+    "y": 6327.5,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 755,
+    "y": 6313.9,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 1079,
+    "y": 6306.7,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 431,
+    "y": 7050.1,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 755,
+    "y": 7090.5,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 1079,
+    "y": 7059,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 431,
+    "y": 7511.9,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화로 본체 & 제어반",
+   "rect": {
+    "x": 259,
+    "y": 347.3,
+    "w": 274,
+    "h": 209
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 왼쪽 위 칸",
+   "rect": {
+    "x": 583,
+    "y": 347.3,
+    "w": 274,
+    "h": 265.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 가운데 위 칸",
+   "rect": {
+    "x": 907,
+    "y": 347.3,
+    "w": 274,
+    "h": 265.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 오른쪽 위 칸",
+   "rect": {
+    "x": 259,
+    "y": 786.1,
+    "w": 274,
+    "h": 265.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 왼쪽 아래 칸",
+   "rect": {
+    "x": 583,
+    "y": 786.1,
+    "w": 274,
+    "h": 265.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 가운데 아래 칸",
+   "rect": {
+    "x": 907,
+    "y": 786.1,
+    "w": 274,
+    "h": 265.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 오른쪽 아래 칸",
+   "rect": {
+    "x": 259,
+    "y": 1224.9,
+    "w": 274,
+    "h": 265.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Fe-N 온도·질화포텐셜 선도",
+   "rect": {
+    "x": 259,
+    "y": 1805.2,
+    "w": 274,
+    "h": 159.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "화합물층 단면 상 분포",
+   "rect": {
+    "x": 583,
+    "y": 1805.2,
+    "w": 274,
+    "h": 262.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "SCM435 잔류응력 깊이 분포",
+   "rect": {
+    "x": 907,
+    "y": 1805.2,
+    "w": 274,
+    "h": 178.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "변속기 기어·샤프트",
+   "rect": {
+    "x": 259,
+    "y": 2579.8,
+    "w": 274,
+    "h": 159.4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "링기어·피니언·니들 베어링",
+   "rect": {
+    "x": 583,
+    "y": 2579.8,
+    "w": 274,
+    "h": 178.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "헬리컬 기어",
+   "rect": {
+    "x": 907,
+    "y": 2579.8,
+    "w": 274,
+    "h": 236.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "ε상 단상구조 질화층",
+   "rect": {
+    "x": 259,
+    "y": 3328.8,
+    "w": 274,
+    "h": 179.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "ε상 단상구조 SEM사진",
+   "rect": {
+    "x": 583,
+    "y": 3328.8,
+    "w": 274,
+    "h": 179
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "회전 굽힘 피로 TEST",
+   "rect": {
+    "x": 907,
+    "y": 3328.8,
+    "w": 274,
+    "h": 289.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "알루미늄 압출 금형",
+   "rect": {
+    "x": 259,
+    "y": 4129.9,
+    "w": 274,
+    "h": 184
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "압출 금형·압출 프로파일",
+   "rect": {
+    "x": 583,
+    "y": 4129.9,
+    "w": 274,
+    "h": 135.4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "다이캐스팅 금형",
+   "rect": {
+    "x": 907,
+    "y": 4129.9,
+    "w": 274,
+    "h": 198.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "COMPOUND LESS 질화층",
+   "rect": {
+    "x": 259,
+    "y": 4840.7,
+    "w": 274,
+    "h": 202.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "SACM 강종의 화합물층 회전 굽힘 피로강도 효과비",
+   "rect": {
+    "x": 583,
+    "y": 4840.7,
+    "w": 274,
+    "h": 202.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "다이캐스팅 금형류",
+   "rect": {
+    "x": 259,
+    "y": 5339.8,
+    "w": 274,
+    "h": 202.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "사출 금형 코어",
+   "rect": {
+    "x": 583,
+    "y": 5339.8,
+    "w": 274,
+    "h": 202.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "대형 사출 금형",
+   "rect": {
+    "x": 907,
+    "y": 5339.8,
+    "w": 274,
+    "h": 202.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "S Phase 표면층 단면 SEM",
+   "rect": {
+    "x": 259,
+    "y": 6054.3,
+    "w": 274,
+    "h": 222.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "확장 γ상 단면 조직",
+   "rect": {
+    "x": 583,
+    "y": 6054.3,
+    "w": 274,
+    "h": 209.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "질화 온도별 표면경도",
+   "rect": {
+    "x": 907,
+    "y": 6054.3,
+    "w": 274,
+    "h": 201.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "튜브 피팅",
+   "rect": {
+    "x": 259,
+    "y": 6789,
+    "w": 274,
+    "h": 210.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "용접 피팅",
+   "rect": {
+    "x": 583,
+    "y": 6789,
+    "w": 274,
+    "h": 251
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "유압파이프 피팅",
+   "rect": {
+    "x": 907,
+    "y": 6789,
+    "w": 274,
+    "h": 219.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "고진공 피팅",
+   "rect": {
+    "x": 259,
+    "y": 7222.5,
+    "w": 274,
+    "h": 238.9
+   }
+  }
+ ]
+}

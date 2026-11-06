@@ -1,0 +1,525 @@
+{
+ "file": "04-focal-point-set.png",
+ "kind": "state",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/backgrounds",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 9959,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:04:52.252Z",
+ "title": "관리자 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /auth/v1/token",
+   "POST /storage/v1/object/product-media/bg.home.p1-i2/1793955888820-q3lzixu2.webp"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 17
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 15
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "배경 사진",
+   "rect": {
+    "x": 240,
+    "y": 165.3,
+    "w": 960,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "홈",
+   "rect": {
+    "x": 240,
+    "y": 339.5,
+    "w": 960,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "메인 화면",
+   "rect": {
+    "x": 240,
+    "y": 378,
+    "w": 51,
+    "h": 20.3
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "회사소개",
+   "rect": {
+    "x": 240,
+    "y": 775.7,
+    "w": 960,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "CEO 인사말 · 회사현황",
+   "rect": {
+    "x": 240,
+    "y": 814.2,
+    "w": 126,
+    "h": 20.3
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "배경 사진 바꾸기 · 초점 지정",
+   "rect": {
+    "x": 357,
+    "y": 216.8,
+    "w": 189,
+    "h": 25.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1134,
+    "y": 24,
+    "w": 66,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진·초점 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 670.7,
+    "w": 108,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진·초점 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 670.7,
+    "w": 108,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진·초점 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 670.7,
+    "w": 108,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "✕",
+   "rect": {
+    "x": 1047,
+    "y": 208.8,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "다른 사진 고르기",
+   "rect": {
+    "x": 879,
+    "y": 639.1,
+    "w": 124,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 1011,
+    "y": 639.1,
+    "w": 72,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "HANIL METAL · ADMIN",
+   "rect": {
+    "x": 240,
+    "y": 31.4,
+    "w": 168.8,
+    "h": 17.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대시보드",
+   "rect": {
+    "x": 240,
+    "y": 97,
+    "w": 76,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수함 4",
+   "rect": {
+    "x": 320,
+    "y": 97,
+    "w": 92,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "콘텐츠",
+   "rect": {
+    "x": 416,
+    "y": 97,
+    "w": 64,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품 사진",
+   "rect": {
+    "x": 484,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배경 사진",
+   "rect": {
+    "x": 567,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 관리",
+   "rect": {
+    "x": 650,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실 관리",
+   "rect": {
+    "x": 733,
+    "y": 97,
+    "w": 91,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 설정",
+   "rect": {
+    "x": 828,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 계정",
+   "rect": {
+    "x": 911,
+    "y": 97,
+    "w": 67,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 240,
+    "y": 263.5,
+    "w": 41,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사소개",
+   "rect": {
+    "x": 289,
+    "y": 263.5,
+    "w": 74,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 371,
+    "y": 263.5,
+    "w": 92,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설비 · 연구 · ESG",
+   "rect": {
+    "x": 471,
+    "y": 263.5,
+    "w": 117,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 596,
+    "y": 263.5,
+    "w": 74,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트 열기",
+   "rect": {
+    "x": 303,
+    "y": 380,
+    "w": 53,
+    "h": 18
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 367,
+    "y": 670.7,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 691,
+    "y": 670.7,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 1015,
+    "y": 670.7,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트 열기",
+   "rect": {
+    "x": 378,
+    "y": 816.2,
+    "w": 53,
+    "h": 18
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "1번째 사진",
+   "rect": {
+    "x": 253,
+    "y": 445.3,
+    "w": 286,
+    "h": 160.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "2번째 사진",
+   "rect": {
+    "x": 577,
+    "y": 445.3,
+    "w": 286,
+    "h": 160.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "3번째 사진",
+   "rect": {
+    "x": 901,
+    "y": 445.3,
+    "w": 286,
+    "h": 160.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "배경 사진",
+   "rect": {
+    "x": 253,
+    "y": 881.4,
+    "w": 286,
+    "h": 160.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 358,
+    "y": 319.6,
+    "w": 441.8,
+    "h": 246.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 814.6,
+    "y": 317.9,
+    "w": 131.4,
+    "h": 73
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 962.7,
+    "y": 314.8,
+    "w": 113.4,
+    "h": 203.2
+   }
+  }
+ ]
+}

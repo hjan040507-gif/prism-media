@@ -1,0 +1,271 @@
+{
+ "file": "support-contact-view.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/support/contact",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2226,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T07:56:27.187Z",
+ "title": "온라인 문의 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 5,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 2,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 1,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "온라인 문의",
+   "rect": {
+    "x": 112,
+    "y": 273.2,
+    "w": 896,
+    "h": 75.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "회사명을(를) 입력해 주세요",
+   "rect": {
+    "x": 112,
+    "y": 625,
+    "w": 342.5,
+    "h": 48.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "담당자명을(를) 입력해 주세요",
+   "rect": {
+    "x": 478.5,
+    "y": 625,
+    "w": 342.5,
+    "h": 48.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "이메일을(를) 입력해 주세요",
+   "rect": {
+    "x": 112,
+    "y": 726.5,
+    "w": 342.5,
+    "h": 48.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "전화번호을(를) 입력해 주세요",
+   "rect": {
+    "x": 478.5,
+    "y": 726.5,
+    "w": 342.5,
+    "h": 48.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "문의사항을(를) 입력해 주세요",
+   "rect": {
+    "x": 112,
+    "y": 828,
+    "w": 708.9,
+    "h": 138.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주) HANIL METAL INDUSTRY CO.,LTD",
+   "rect": {
+    "x": 112,
+    "y": 26,
+    "w": 288.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사소개",
+   "rect": {
+    "x": 672.4,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 761.9,
+    "y": 27,
+    "w": 108.6,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설비현황",
+   "rect": {
+    "x": 874.5,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "R&D",
+   "rect": {
+    "x": 964,
+    "y": 27,
+    "w": 64.1,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG",
+   "rect": {
+    "x": 1032.1,
+    "y": 27,
+    "w": 62.1,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 1098.3,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "010-****-****",
+   "rect": {
+    "x": 1199.8,
+    "y": 24,
+    "w": 128.2,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 112,
+    "y": 191.5,
+    "w": 40,
+    "h": 18
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "010-****-****",
+   "rect": {
+    "x": 917.9,
+    "y": 696.7,
+    "w": 121,
+    "h": 21
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 112,
+    "y": 26,
+    "w": 48.9,
+    "h": 36
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": -36,
+    "y": -11.7,
+    "w": 1512,
+    "h": 491.4
+   }
+  }
+ ]
+}

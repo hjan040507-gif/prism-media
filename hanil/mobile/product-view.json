@@ -1,0 +1,194 @@
+{
+ "file": "product-view.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/product",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 7741,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:00:12.701Z",
+ "title": "공정 GUIDE | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 1,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "공정 GUIDE",
+   "rect": {
+    "x": 24,
+    "y": 206.8,
+    "w": 342,
+    "h": 46.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "표면처리 공정 체계도",
+   "rect": {
+    "x": 52,
+    "y": 484.2,
+    "w": 147.1,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "ISONITE PROCESS",
+   "rect": {
+    "x": 25,
+    "y": 588.2,
+    "w": 340,
+    "h": 45.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 16,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주)",
+   "rect": {
+    "x": 20,
+    "y": 22,
+    "w": 165.3,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 24,
+    "y": 125.1,
+    "w": 58,
+    "h": 18
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF",
+   "rect": {
+    "x": 25,
+    "y": 739.7,
+    "w": 340,
+    "h": 44.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF + (QPQ)",
+   "rect": {
+    "x": 25,
+    "y": 785,
+    "w": 340,
+    "h": 44.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF + (SQP)",
+   "rect": {
+    "x": 25,
+    "y": 830.2,
+    "w": 340,
+    "h": 44.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 22,
+    "w": 38.1,
+    "h": 28
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": -9.7,
+    "y": -9.7,
+    "w": 409.5,
+    "h": 407.6
+   }
+  }
+ ]
+}

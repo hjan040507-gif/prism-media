@@ -1,0 +1,377 @@
+{
+ "file": "01-gallery-before.png",
+ "kind": "state",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/product-photos/gas-nitriding",
+ "scrollY": 1606,
+ "scrollX": 0,
+ "docHeight": 7593,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:06:46.936Z",
+ "title": "관리자 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 1,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /auth/v1/token",
+   "POST /__nextjs_original-stack-frames",
+   "POST /storage/v1/object/product-media/gas-nitriding.gas-nitriding-furnace/1793955992618-owl9rs3n.webp",
+   "POST /admin/product-photos/gas-nitriding"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 24
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 23
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 16
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "■ γ´ 단상 구조",
+   "rect": {
+    "x": 240,
+    "y": 66.7,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "▶ 적용 사례",
+   "rect": {
+    "x": 240,
+    "y": 841.3,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": -30.3,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 253,
+    "y": 149.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 295,
+    "y": 149.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 337,
+    "y": 149.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 409,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 341,
+    "y": 409,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 577,
+    "y": 149.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 619,
+    "y": 149.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 661,
+    "y": 149.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 512.3,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 665,
+    "y": 512.3,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "⠿",
+   "rect": {
+    "x": 901,
+    "y": 149.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 943,
+    "y": 149.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 985,
+    "y": 149.2,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 428.6,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 지우기",
+   "rect": {
+    "x": 989,
+    "y": 428.6,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 추가 이 자리 맨 뒤에 들어갑니다",
+   "rect": {
+    "x": 240,
+    "y": 581.3,
+    "w": 312,
+    "h": 220
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 341,
+    "y": -30.3,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 431,
+    "y": 409,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 755,
+    "y": 512.3,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 1079,
+    "y": 428.6,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "Fe-N 온도·질화포텐셜 선도",
+   "rect": {
+    "x": 259,
+    "y": 199.2,
+    "w": 274,
+    "h": 159.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "화합물층 단면 상 분포",
+   "rect": {
+    "x": 583,
+    "y": 199.2,
+    "w": 274,
+    "h": 262.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "SCM435 잔류응력 깊이 분포",
+   "rect": {
+    "x": 907,
+    "y": 199.2,
+    "w": 274,
+    "h": 178.8
+   }
+  }
+ ]
+}

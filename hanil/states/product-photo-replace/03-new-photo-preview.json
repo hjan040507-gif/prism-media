@@ -1,0 +1,427 @@
+{
+ "file": "03-new-photo-preview.png",
+ "kind": "state",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/product-photos/gas-nitriding",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 7593,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:06:33.661Z",
+ "title": "관리자 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 1,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /auth/v1/token",
+   "POST /__nextjs_original-stack-frames",
+   "POST /storage/v1/object/product-media/gas-nitriding.gas-nitriding-furnace/1793955992618-owl9rs3n.webp"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 24
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 19
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "가스질화",
+   "rect": {
+    "x": 240,
+    "y": 209.3,
+    "w": 68,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "개요",
+   "rect": {
+    "x": 240,
+    "y": 269.3,
+    "w": 960,
+    "h": 21
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 357,
+    "y": 319.4,
+    "w": 79,
+    "h": 25.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1134,
+    "y": 24,
+    "w": 66,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 253,
+    "y": 660.4,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "원래대로",
+   "rect": {
+    "x": 341,
+    "y": 660.4,
+    "w": 70,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 577,
+    "y": 698.1,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 바꾸기",
+   "rect": {
+    "x": 901,
+    "y": 698.1,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "✕",
+   "rect": {
+    "x": 1047,
+    "y": 311.4,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 고르기",
+   "rect": {
+    "x": 668.5,
+    "y": 459.1,
+    "w": 103,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "HANIL METAL · ADMIN",
+   "rect": {
+    "x": 240,
+    "y": 31.4,
+    "w": 168.8,
+    "h": 17.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대시보드",
+   "rect": {
+    "x": 240,
+    "y": 97,
+    "w": 76,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수함 4",
+   "rect": {
+    "x": 320,
+    "y": 97,
+    "w": 92,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "콘텐츠",
+   "rect": {
+    "x": 416,
+    "y": 97,
+    "w": 64,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품 사진",
+   "rect": {
+    "x": 484,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배경 사진",
+   "rect": {
+    "x": 567,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 관리",
+   "rect": {
+    "x": 650,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실 관리",
+   "rect": {
+    "x": 733,
+    "y": 97,
+    "w": 91,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 설정",
+   "rect": {
+    "x": 828,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 계정",
+   "rect": {
+    "x": 911,
+    "y": 97,
+    "w": 67,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "← 제품 사진",
+   "rect": {
+    "x": 240,
+    "y": 165.3,
+    "w": 57,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트 열기",
+   "rect": {
+    "x": 434,
+    "y": 217.3,
+    "w": 58,
+    "h": 18.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 417,
+    "y": 660.4,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 665,
+    "y": 698.1,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사이트에서 보기",
+   "rect": {
+    "x": 989,
+    "y": 698.1,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화로 본체 & 제어반",
+   "rect": {
+    "x": 259,
+    "y": 347.3,
+    "w": 274,
+    "h": 262.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 왼쪽 위 칸",
+   "rect": {
+    "x": 583,
+    "y": 347.3,
+    "w": 274,
+    "h": 265.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 가운데 위 칸",
+   "rect": {
+    "x": 907,
+    "y": 347.3,
+    "w": 274,
+    "h": 265.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 오른쪽 위 칸",
+   "rect": {
+    "x": 259,
+    "y": 786.1,
+    "w": 274,
+    "h": 265.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 왼쪽 아래 칸",
+   "rect": {
+    "x": 583,
+    "y": 786.1,
+    "w": 274,
+    "h": 265.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "가스질화 처리 부품류 — 가운데 아래 칸",
+   "rect": {
+    "x": 907,
+    "y": 786.1,
+    "w": 274,
+    "h": 265.3
+   }
+  }
+ ]
+}

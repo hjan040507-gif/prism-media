@@ -1,0 +1,689 @@
+{
+ "file": "admin-content-greeting-full.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/content/greeting",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2229,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:09:55.449Z",
+ "title": "관리자 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 2,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /auth/v1/token"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 17
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 12
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "대표인사말",
+   "rect": {
+    "x": 240,
+    "y": 197.3,
+    "w": 960,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1134,
+    "y": 24,
+    "w": 66,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 1051,
+    "y": 461.5,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 1094,
+    "y": 461.5,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 1137,
+    "y": 461.5,
+    "w": 46,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 1051,
+    "y": 628.1,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 1094,
+    "y": 628.1,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 1137,
+    "y": 628.1,
+    "w": 46,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 1051,
+    "y": 794.7,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 1094,
+    "y": 794.7,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 1137,
+    "y": 794.7,
+    "w": 46,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 1051,
+    "y": 961.3,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 1094,
+    "y": 961.3,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 1137,
+    "y": 961.3,
+    "w": 46,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 1051,
+    "y": 1127.8,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 1094,
+    "y": 1127.8,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 1137,
+    "y": 1127.8,
+    "w": 46,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 1051,
+    "y": 1294.4,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 1094,
+    "y": 1294.4,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 1137,
+    "y": 1294.4,
+    "w": 46,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 1051,
+    "y": 1461,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 1094,
+    "y": 1461,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 1137,
+    "y": 1461,
+    "w": 46,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 1051,
+    "y": 1627.6,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 1094,
+    "y": 1627.6,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 1137,
+    "y": 1627.6,
+    "w": 46,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↑",
+   "rect": {
+    "x": 1051,
+    "y": 1794.2,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "↓",
+   "rect": {
+    "x": 1094,
+    "y": 1794.2,
+    "w": 37,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 1137,
+    "y": 1794.2,
+    "w": 46,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "+ 문단 추가",
+   "rect": {
+    "x": 240,
+    "y": 1943.8,
+    "w": 92,
+    "h": 41.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 240,
+    "y": 843.5,
+    "w": 70,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기본값으로 되돌리기",
+   "rect": {
+    "x": 322,
+    "y": 842.5,
+    "w": 136,
+    "h": 41.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "제품의 표면은 단순한 외관이 아니라, 제품의 수명과 신뢰성을 결정하는 핵심 기술 영역입니다.",
+   "rect": {
+    "x": 240,
+    "y": 319.1,
+    "w": 960,
+    "h": 69.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "안녕하십니까.",
+   "rect": {
+    "x": 257,
+    "y": 505.5,
+    "w": 926,
+    "h": 69.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "한일금속공업(주) 홈페이지를 방문해 주신 고객 여러분을 진심으로 환영합니다.",
+   "rect": {
+    "x": 257,
+    "y": 672.1,
+    "w": 926,
+    "h": 69.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "저희 회사는 창립(1986) 이래 금속의 열처리, 표면처리에 기술 혁신과 철저한 품질 관리를 바탕으로, 고객에게 최고의 가치를 제공하고자 노력해 왔습니다.",
+   "rect": {
+    "x": 257,
+    "y": 838.7,
+    "w": 926,
+    "h": 69.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "제품의 표면은 단순한 외관이 아니라, 제품의 수명과 신뢰성을 결정하는 핵심 기술 영역입니다.",
+   "rect": {
+    "x": 257,
+    "y": 1005.3,
+    "w": 926,
+    "h": 69.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "당사는 질화, 고체 윤활(DEFRIC), DLC 코팅을 융합한 복합표면 개질 기술을 통해 부품의 마찰·마모·피로 특성을 개선하는 데 주력하고 있는 표면처리 전문 업체입니다.",
+   "rect": {
+    "x": 257,
+    "y": 1171.8,
+    "w": 926,
+    "h": 69.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "특히 공정 혁신과 신시장 대응 기술개발을 지속하여 차세대 표면처리 기술 확보에 힘쓰고 있습니다.",
+   "rect": {
+    "x": 257,
+    "y": 1338.4,
+    "w": 926,
+    "h": 69.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "국내 표면처리 분야를 선도해 나가는 기술 경쟁력을 갖춘 1등 기업의 자부심을 갖고 고객의 요구를 한발 앞서 고민하고, 신뢰성 있는 공정으로 고객의 NEEDS에 답하는 회사가 되어 나아갈 것입니다.",
+   "rect": {
+    "x": 257,
+    "y": 1505,
+    "w": 926,
+    "h": 69.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "지속적인 기술 개발을 통해 산업 발전에 기여하는 표면처리 분야의 최고의 기업으로 급변하는 시장 환경 속에서도 내실 있는 성장을 이루도록 노력해 나갈 것입니다.",
+   "rect": {
+    "x": 257,
+    "y": 1671.6,
+    "w": 926,
+    "h": 69.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "감사합니다.",
+   "rect": {
+    "x": 257,
+    "y": 1838.2,
+    "w": 926,
+    "h": 69.6
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "대표이사",
+   "rect": {
+    "x": 240,
+    "y": 2055.1,
+    "w": 470,
+    "h": 43
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "김○○",
+   "rect": {
+    "x": 730,
+    "y": 2055.1,
+    "w": 470,
+    "h": 43
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "HANIL METAL · ADMIN",
+   "rect": {
+    "x": 240,
+    "y": 31.4,
+    "w": 168.8,
+    "h": 17.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대시보드",
+   "rect": {
+    "x": 240,
+    "y": 97,
+    "w": 76,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수함 4",
+   "rect": {
+    "x": 320,
+    "y": 97,
+    "w": 92,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "콘텐츠",
+   "rect": {
+    "x": 416,
+    "y": 97,
+    "w": 64,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품 사진",
+   "rect": {
+    "x": 484,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배경 사진",
+   "rect": {
+    "x": 567,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 관리",
+   "rect": {
+    "x": 650,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실 관리",
+   "rect": {
+    "x": 733,
+    "y": 97,
+    "w": 91,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 설정",
+   "rect": {
+    "x": 828,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 계정",
+   "rect": {
+    "x": 911,
+    "y": 97,
+    "w": 67,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "← 콘텐츠 관리",
+   "rect": {
+    "x": 240,
+    "y": 171.3,
+    "w": 67,
+    "h": 14
+   }
+  }
+ ]
+}

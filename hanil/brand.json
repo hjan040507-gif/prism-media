@@ -1,0 +1,13 @@
+{
+  "primary": "#0B1B33",
+  "secondary": "#098FD6",
+  "accent": "#990033",
+  "palette": { "navy": "#0B1B33", "navy2": "#0c1f3a", "navy3": "#12294a", "navyDeep": "#081527", "blue": "#098FD6", "blueSoft": "#8fb0da", "blueMuted": "#6f8bb3", "burgundy": "#990033 (PRODUCT 영역 전용)", "bodyText": "#33445c", "surface": "#F7F8FA", "functionalBlue": "#0a6aa1" },
+  "fonts": ["Pretendard Variable"],
+  "source": [
+    "src/components/site/ui.ts:33-46 (color)",
+    "src/app/globals.css:2,6 (Pretendard Variable 자체호스팅 — --font-sans)",
+    "public/logo-mark.svg · logo-mark-white.svg · logo-mark-current.svg (src/components/site/Logo.tsx:5-7)"
+  ],
+  "note": "사본 = git archive 8a0ee85a (tmp/hanil-src, 촬영 후 삭제). 공개 화면은 운영 https://www.hanil-pnk.com 에서 GET 만으로 찍음."
+}

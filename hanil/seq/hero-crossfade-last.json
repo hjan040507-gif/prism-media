@@ -1,0 +1,217 @@
+{
+ "file": "hero-crossfade-last.png",
+ "kind": "seq-frame",
+ "seq": "hero-crossfade.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "scrollY": 0,
+ "frames": 240,
+ "fps": 60,
+ "durationMs": 4000,
+ "crf": 12,
+ "capturedAt": "2026-11-06T08:16:34.489Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "제품의 표면은 단순한 외관이 아닌, 수명을 좌우하는 핵심 기술 영역입니다",
+   "rect": {
+    "x": 112,
+    "y": 232.2,
+    "w": 896,
+    "h": 302.4
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 187.7,
+    "y": 857.9,
+    "w": 374.8,
+    "h": 3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 570.5,
+    "y": 857.9,
+    "w": 374.8,
+    "h": 3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 953.2,
+    "y": 857.9,
+    "w": 374.8,
+    "h": 3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주) HANIL METAL INDUSTRY CO.,LTD",
+   "rect": {
+    "x": 112,
+    "y": 26,
+    "w": 288.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사소개",
+   "rect": {
+    "x": 672.4,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 761.9,
+    "y": 27,
+    "w": 108.6,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설비현황",
+   "rect": {
+    "x": 874.5,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "R&D",
+   "rect": {
+    "x": 964,
+    "y": 27,
+    "w": 64.1,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG",
+   "rect": {
+    "x": 1032.1,
+    "y": 27,
+    "w": 62.1,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 1098.3,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "010-****-****",
+   "rect": {
+    "x": 1199.8,
+    "y": 24,
+    "w": 128.2,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "표면처리 공정 보기",
+   "rect": {
+    "x": 112,
+    "y": 667.5,
+    "w": 150,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전화 문의 010-****-****",
+   "rect": {
+    "x": 282,
+    "y": 667.5,
+    "w": 151,
+    "h": 48
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 112,
+    "y": 26,
+    "w": 48.9,
+    "h": 36
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": -36,
+    "y": -22.5,
+    "w": 1512,
+    "h": 945
+   }
+  }
+ ]
+}

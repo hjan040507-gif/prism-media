@@ -1,0 +1,733 @@
+{
+ "file": "product-isonite-tf1-full.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/product/isonite-tf1",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 6659,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:01:20.988Z",
+ "title": "ISONITE TF1 — SALT-BATH NITROCARBURIZING | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 4,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 1,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "ISONITE TF1",
+   "rect": {
+    "x": 24,
+    "y": 285.4,
+    "w": 342,
+    "h": 46.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "이 공정에 대한 상담이 필요하신가요?",
+   "rect": {
+    "x": 64,
+    "y": 4371.1,
+    "w": 262,
+    "h": 118.7
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 16,
+    "w": 40,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 876.8,
+    "w": 324,
+    "h": 202.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 1142.7,
+    "w": 324,
+    "h": 341
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 1546.9,
+    "w": 324,
+    "h": 305.1
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 3357.5,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 3663.7,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 3969.9,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주)",
+   "rect": {
+    "x": 20,
+    "y": 22,
+    "w": 165.3,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공정 GUIDE",
+   "rect": {
+    "x": 16,
+    "y": 82,
+    "w": 84,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "01 ISONITE TF1",
+   "rect": {
+    "x": 120,
+    "y": 82,
+    "w": 120,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "02 ISONITE TF+",
+   "rect": {
+    "x": 244,
+    "y": 82,
+    "w": 122,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "03 ISONITE LS",
+   "rect": {
+    "x": 370,
+    "y": 82,
+    "w": 112,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 24,
+    "y": 203.7,
+    "w": 58,
+    "h": 18
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전화 문의 010-****-****",
+   "rect": {
+    "x": 91.5,
+    "y": 4589.8,
+    "w": 207,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 140.5,
+    "y": 4649.8,
+    "w": 109,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주)",
+   "rect": {
+    "x": 24,
+    "y": 5091.3,
+    "w": 342,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사소개",
+   "rect": {
+    "x": 24,
+    "y": 5513.6,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대표인사말",
+   "rect": {
+    "x": 37,
+    "y": 5541.1,
+    "w": 55,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사현황",
+   "rect": {
+    "x": 37,
+    "y": 5566.9,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사연혁",
+   "rect": {
+    "x": 37,
+    "y": 5592.6,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "조직도",
+   "rect": {
+    "x": 37,
+    "y": 5618.4,
+    "w": 33,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "인증 / 수상현황",
+   "rect": {
+    "x": 37,
+    "y": 5644.1,
+    "w": 76,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오시는길",
+   "rect": {
+    "x": 37,
+    "y": 5669.9,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 24,
+    "y": 5705.6,
+    "w": 63,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설비현황",
+   "rect": {
+    "x": 24,
+    "y": 5741.1,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "R&D",
+   "rect": {
+    "x": 24,
+    "y": 5776.6,
+    "w": 25,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG",
+   "rect": {
+    "x": 24,
+    "y": 5812.1,
+    "w": 27,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "환경 (Environment)",
+   "rect": {
+    "x": 37,
+    "y": 5839.6,
+    "w": 104,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사회 (Social)",
+   "rect": {
+    "x": 37,
+    "y": 5865.4,
+    "w": 68,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지배구조 (Governance)",
+   "rect": {
+    "x": 37,
+    "y": 5891.1,
+    "w": 124,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 24,
+    "y": 5926.9,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "온라인 문의",
+   "rect": {
+    "x": 37,
+    "y": 5954.4,
+    "w": 58,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 37,
+    "y": 5980.1,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 사항",
+   "rect": {
+    "x": 37,
+    "y": 6005.9,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실",
+   "rect": {
+    "x": 37,
+    "y": 6031.6,
+    "w": 33,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오시는길",
+   "rect": {
+    "x": 37,
+    "y": 6057.4,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF1",
+   "rect": {
+    "x": 24,
+    "y": 6152.8,
+    "w": 74,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF+",
+   "rect": {
+    "x": 24,
+    "y": 6180.3,
+    "w": 76,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE LS",
+   "rect": {
+    "x": 24,
+    "y": 6207.8,
+    "w": 67,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가스질화",
+   "rect": {
+    "x": 24,
+    "y": 6235.3,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "DEFRIC (고체윤활)",
+   "rect": {
+    "x": 24,
+    "y": 6262.8,
+    "w": 98,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "DLC 코팅",
+   "rect": {
+    "x": 24,
+    "y": 6290.3,
+    "w": 50,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "화성처리",
+   "rect": {
+    "x": 24,
+    "y": 6317.8,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "T.D 코팅",
+   "rect": {
+    "x": 24,
+    "y": 6345.3,
+    "w": 46,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PVD 코팅",
+   "rect": {
+    "x": 24,
+    "y": 6372.8,
+    "w": 50,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진공열처리",
+   "rect": {
+    "x": 24,
+    "y": 6400.3,
+    "w": 55,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가스침탄",
+   "rect": {
+    "x": 24,
+    "y": 6427.8,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진공침탄",
+   "rect": {
+    "x": 24,
+    "y": 6455.3,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 처리방침",
+   "rect": {
+    "x": 24,
+    "y": 6578.3,
+    "w": 342,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 22,
+    "w": 38.1,
+    "h": 28
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": -9.7,
+    "y": 41.3,
+    "w": 409.5,
+    "h": 407.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "염욕 질화 라인 설비 전경",
+   "rect": {
+    "x": 33,
+    "y": 876.8,
+    "w": 324,
+    "h": 202.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "SEM 단면 사진",
+   "rect": {
+    "x": 38.5,
+    "y": 1142.7,
+    "w": 313,
+    "h": 341
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "질화층 모식도",
+   "rect": {
+    "x": 33,
+    "y": 1546.9,
+    "w": 324,
+    "h": 305.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "엔진 V/V",
+   "rect": {
+    "x": 33,
+    "y": 3357.5,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "오일펌프 CAGE",
+   "rect": {
+    "x": 33,
+    "y": 3663.7,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "중장비 BUSHING",
+   "rect": {
+    "x": 33,
+    "y": 3969.9,
+    "w": 324,
+    "h": 243
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 24,
+    "y": 5091.3,
+    "w": 48.9,
+    "h": 36
+   }
+  }
+ ]
+}

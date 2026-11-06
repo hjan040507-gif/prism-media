@@ -1,0 +1,519 @@
+{
+ "file": "admin-content-hub-full.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/content",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1773,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:02:34.283Z",
+ "title": "관리자 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /auth/v1/token",
+   "POST /__nextjs_original-stack-frames"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 16
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 11
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 21
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 20
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 11
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "콘텐츠 관리",
+   "rect": {
+    "x": 240,
+    "y": 165.3,
+    "w": 960,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "자주 쓰는 작업",
+   "rect": {
+    "x": 240,
+    "y": 254.4,
+    "w": 960,
+    "h": 18
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "메인 화면",
+   "rect": {
+    "x": 240,
+    "y": 606.1,
+    "w": 960,
+    "h": 18
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "회사소개",
+   "rect": {
+    "x": 240,
+    "y": 759.4,
+    "w": 960,
+    "h": 18
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "PRODUCT (공정)",
+   "rect": {
+    "x": 240,
+    "y": 1111.1,
+    "w": 960,
+    "h": 18
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "설비 · R&D · ESG",
+   "rect": {
+    "x": 240,
+    "y": 1264.4,
+    "w": 960,
+    "h": 18
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "고객지원",
+   "rect": {
+    "x": 240,
+    "y": 1516.9,
+    "w": 960,
+    "h": 18
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1134,
+    "y": 24,
+    "w": 66,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "HANIL METAL · ADMIN",
+   "rect": {
+    "x": 240,
+    "y": 31.4,
+    "w": 168.8,
+    "h": 17.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대시보드",
+   "rect": {
+    "x": 240,
+    "y": 97,
+    "w": 76,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수함 4",
+   "rect": {
+    "x": 320,
+    "y": 97,
+    "w": 92,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "콘텐츠",
+   "rect": {
+    "x": 416,
+    "y": 97,
+    "w": 64,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품 사진",
+   "rect": {
+    "x": 484,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배경 사진",
+   "rect": {
+    "x": 567,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 관리",
+   "rect": {
+    "x": 650,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실 관리",
+   "rect": {
+    "x": 733,
+    "y": 97,
+    "w": 91,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 설정",
+   "rect": {
+    "x": 828,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 계정",
+   "rect": {
+    "x": 911,
+    "y": 97,
+    "w": 67,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실 카탈로그·시험성적서 등 파일 올리기 / 내리기",
+   "rect": {
+    "x": 240,
+    "y": 284.4,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지사항 게시글 작성·수정·삭제",
+   "rect": {
+    "x": 726,
+    "y": 284.4,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사진 교체 각 화면 상단 배경·회사 전경 등 11곳",
+   "rect": {
+    "x": 240,
+    "y": 383.6,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품 사진 PRODUCT 공정 상세의 사진·그래프 교체 (공정별)",
+   "rect": {
+    "x": 726,
+    "y": 383.6,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사 정보 회사명·대표이사·전화·팩스·주소 (전역 반영)",
+   "rect": {
+    "x": 240,
+    "y": 482.9,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "메인 히어로 카피·버튼·배경 이미지 3장",
+   "rect": {
+    "x": 240,
+    "y": 636.1,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대표인사말 문단·인용문·서명",
+   "rect": {
+    "x": 240,
+    "y": 789.4,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사현황 지표·대지/건평·고객사·생산품",
+   "rect": {
+    "x": 726,
+    "y": 789.4,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사연혁 연·월·내용 (최신순 자동)",
+   "rect": {
+    "x": 240,
+    "y": 888.6,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "조직도 직위·팀·하위 파트 이름",
+   "rect": {
+    "x": 726,
+    "y": 888.6,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "인증 / 수상 명칭·이미지 카드",
+   "rect": {
+    "x": 240,
+    "y": 987.9,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오시는길 약도 랜드마크·안내 문구",
+   "rect": {
+    "x": 726,
+    "y": 987.9,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공정 GUIDE PRODUCT 첫 화면 제목·설명·그룹 라벨",
+   "rect": {
+    "x": 240,
+    "y": 1141.1,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공정 상세 12종 공정별 정의·특징·적용사례 문구",
+   "rect": {
+    "x": 726,
+    "y": 1141.1,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설비현황 3개 탭 표 + 상단 실사진 3컷",
+   "rect": {
+    "x": 240,
+    "y": 1294.4,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "R&D 방침·기간별 목표·연구 분야",
+   "rect": {
+    "x": 726,
+    "y": 1294.4,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG 이미지 환경·사회·지배구조 대표 이미지",
+   "rect": {
+    "x": 240,
+    "y": 1393.6,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG 본문 3개 영역 항목 제목·본문",
+   "rect": {
+    "x": 726,
+    "y": 1393.6,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의·견적 안내 문구 페이지 제목과 처리 흐름 안내",
+   "rect": {
+    "x": 240,
+    "y": 1546.9,
+    "w": 474,
+    "h": 87.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문의 접수함 접수된 문의·견적 확인, 처리 상태 변경",
+   "rect": {
+    "x": 726,
+    "y": 1546.9,
+    "w": 474,
+    "h": 87.3
+   }
+  }
+ ]
+}

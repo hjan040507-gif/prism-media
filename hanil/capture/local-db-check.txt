@@ -1,0 +1,5 @@
+API_URL="http://127.0.0.1:57031"
+DB_URL="postgresql://postgres:***@127.0.0.1:57032/postgres"
+API_URL="http://127.0.0.1:57031"
+DB_URL="postgresql://postgres:***@127.0.0.1:57032/postgres"
+--- seed 직전 확인: 127.0.0.1:57031/57032 둘 다 로컬 (2026-11-06T08:39:00Z)

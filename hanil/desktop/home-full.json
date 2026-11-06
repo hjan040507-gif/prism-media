@@ -1,0 +1,1063 @@
+{
+ "file": "home-full.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 5436,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T07:52:52.377Z",
+ "title": "표면처리 전문기업 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 5,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 2,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 1,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "제품의 표면은 단순한 외관이 아닌, 수명을 좌우하는 핵심 기술 영역입니다",
+   "rect": {
+    "x": 112,
+    "y": 232.2,
+    "w": 896,
+    "h": 302.4
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "표면에 최적의 물성을 새깁니다",
+   "rect": {
+    "x": 112,
+    "y": 1068.7,
+    "w": 513.5,
+    "h": 50.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "ISONITE TF1",
+   "rect": {
+    "x": 141,
+    "y": 1239.8,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "ISONITE TF+",
+   "rect": {
+    "x": 444.8,
+    "y": 1239.8,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "ISONITE LS",
+   "rect": {
+    "x": 748.5,
+    "y": 1239.8,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "가스질화",
+   "rect": {
+    "x": 1052.3,
+    "y": 1239.8,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "DEFRIC (고체윤활)",
+   "rect": {
+    "x": 141,
+    "y": 1462.6,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "DLC 코팅",
+   "rect": {
+    "x": 444.8,
+    "y": 1462.6,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "화성처리",
+   "rect": {
+    "x": 748.5,
+    "y": 1462.6,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "T.D 코팅",
+   "rect": {
+    "x": 1052.3,
+    "y": 1462.6,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "PVD 코팅",
+   "rect": {
+    "x": 141,
+    "y": 1663.5,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "진공열처리",
+   "rect": {
+    "x": 444.8,
+    "y": 1663.5,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "가스침탄",
+   "rect": {
+    "x": 748.5,
+    "y": 1663.5,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "진공침탄",
+   "rect": {
+    "x": 1052.3,
+    "y": 1663.5,
+    "w": 246.8,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "1986년부터, 표면처리 한 길",
+   "rect": {
+    "x": 112,
+    "y": 2158.2,
+    "w": 478.8,
+    "h": 50.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "기술과 지속가능성을 함께 설계합니다",
+   "rect": {
+    "x": 112,
+    "y": 3518,
+    "w": 625.5,
+    "h": 50.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "HYBRID 표면개질 연구",
+   "rect": {
+    "x": 144,
+    "y": 3843.1,
+    "w": 532,
+    "h": 32
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "환경·사회·지배구조",
+   "rect": {
+    "x": 764,
+    "y": 3843.1,
+    "w": 532,
+    "h": 32
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "어떤 표면이 필요하신가요?",
+   "rect": {
+    "x": 112,
+    "y": 4173.6,
+    "w": 1216,
+    "h": 50.6
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 187.7,
+    "y": 857.9,
+    "w": 374.8,
+    "h": 3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 570.5,
+    "y": 857.9,
+    "w": 374.8,
+    "h": 3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 953.2,
+    "y": 857.9,
+    "w": 374.8,
+    "h": 3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주) HANIL METAL INDUSTRY CO.,LTD",
+   "rect": {
+    "x": 112,
+    "y": 26,
+    "w": 288.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사소개",
+   "rect": {
+    "x": 672.4,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 761.9,
+    "y": 27,
+    "w": 108.6,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설비현황",
+   "rect": {
+    "x": 874.5,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "R&D",
+   "rect": {
+    "x": 964,
+    "y": 27,
+    "w": 64.1,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG",
+   "rect": {
+    "x": 1032.1,
+    "y": 27,
+    "w": 62.1,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 1098.3,
+    "y": 27,
+    "w": 85.5,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "010-****-****",
+   "rect": {
+    "x": 1199.8,
+    "y": 24,
+    "w": 128.2,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "표면처리 공정 보기",
+   "rect": {
+    "x": 112,
+    "y": 667.5,
+    "w": 150,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전화 문의 010-****-****",
+   "rect": {
+    "x": 282,
+    "y": 667.5,
+    "w": 151,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "01 SALT-BATH NITROCARBURIZING ISONITE TF1 양산중 마모와 피로에 강한 표면을, 변형 없이",
+   "rect": {
+    "x": 113,
+    "y": 1176.3,
+    "w": 302.8,
+    "h": 221.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "02 TF1 + POST OXIDATION ISONITE TF+ 양산중 산화철 피막으로 내식성까지 끌어올린 복합 표면개질",
+   "rect": {
+    "x": 416.8,
+    "y": 1176.3,
+    "w": 302.8,
+    "h": 221.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "03 LOW-STRAIN NITRIDING ISONITE LS 양산중 염수분무 1000시간 이상, 한층 UPGRADE된 내구 특성",
+   "rect": {
+    "x": 720.5,
+    "y": 1176.3,
+    "w": 302.8,
+    "h": 221.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "04 GAS NITRIDING 가스질화 양산중 Kn값 제어로 상구조를 설계하는 정밀 질화",
+   "rect": {
+    "x": 1024.3,
+    "y": 1176.3,
+    "w": 302.8,
+    "h": 221.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "05 SOLID LUBRICATION DEFRIC (고체윤활) 양산중 마찰계수를 낮추는 영구 윤활 피막",
+   "rect": {
+    "x": 113,
+    "y": 1399.1,
+    "w": 302.8,
+    "h": 199.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "06 DIAMOND-LIKE CARBON DLC 코팅 양산중 다이아몬드의 경도와 흑연의 윤활성을 동시에",
+   "rect": {
+    "x": 416.8,
+    "y": 1399.1,
+    "w": 302.8,
+    "h": 199.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "07 PHOSPHATE COATING 화성처리 양산중 금속 표면을 난용성 결정질 인산염으로",
+   "rect": {
+    "x": 720.5,
+    "y": 1399.1,
+    "w": 302.8,
+    "h": 199.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "08 THERMAL DIFFUSION T.D 코팅 컨설팅 서비스 고온 염욕 확산으로 형성하는 고경질 탄화물층",
+   "rect": {
+    "x": 1024.3,
+    "y": 1399.1,
+    "w": 302.8,
+    "h": 199.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "09 PHYSICAL VAPOR DEPOSITION PVD 코팅 컨설팅 서비스 플라즈마 진공 증착으로 만드는 내마모 코팅",
+   "rect": {
+    "x": 113,
+    "y": 1600,
+    "w": 302.8,
+    "h": 221.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "10 VACUUM HEAT TREATMENT 진공열처리 컨설팅 서비스 산화 없는 광휘 열처리, 균일한 품질 재현성",
+   "rect": {
+    "x": 416.8,
+    "y": 1600,
+    "w": 302.8,
+    "h": 221.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "11 GAS CARBURIZING 가스침탄 컨설팅 서비스 내마모 표면층과 인성 있는 중심부를 동시에",
+   "rect": {
+    "x": 720.5,
+    "y": 1600,
+    "w": 302.8,
+    "h": 221.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "12 VACUUM CARBURIZING 진공침탄 컨설팅 서비스 입계 산화 없는 고청정 침탄, EV 감속기 기어까지",
+   "rect": {
+    "x": 1024.3,
+    "y": 1600,
+    "w": 302.8,
+    "h": 221.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "R&D HYBRID 표면개질 연구 낮은 마찰·높은 내마모·높은 내식 특성을 갖춘 최고 수준의 HYBRID 양산 PROCESS를 확보합니다.",
+   "rect": {
+    "x": 112,
+    "y": 3624.6,
+    "w": 596,
+    "h": 340
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG 환경·사회·지배구조 환경 법령 준수와 온실가스·자원 관리, 안전보건, 투명경영을 기반으로 지속가능성을 높입니다.",
+   "rect": {
+    "x": 732,
+    "y": 3624.6,
+    "w": 596,
+    "h": 340
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전화 문의 010-****-****",
+   "rect": {
+    "x": 550,
+    "y": 4298.2,
+    "w": 207,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "온라인 문의",
+   "rect": {
+    "x": 769,
+    "y": 4298.2,
+    "w": 121,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "한일금속공업(주) HANIL METAL INDUSTRY CO.,LTD",
+   "rect": {
+    "x": 112,
+    "y": 4675.2,
+    "w": 365.3,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사소개",
+   "rect": {
+    "x": 800.9,
+    "y": 4712.9,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대표인사말",
+   "rect": {
+    "x": 813.9,
+    "y": 4740.4,
+    "w": 55,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사현황",
+   "rect": {
+    "x": 813.9,
+    "y": 4766.1,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "회사연혁",
+   "rect": {
+    "x": 813.9,
+    "y": 4791.9,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "조직도",
+   "rect": {
+    "x": 813.9,
+    "y": 4817.6,
+    "w": 33,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "인증 / 수상현황",
+   "rect": {
+    "x": 813.9,
+    "y": 4843.4,
+    "w": 76,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오시는길",
+   "rect": {
+    "x": 813.9,
+    "y": 4869.1,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PRODUCT",
+   "rect": {
+    "x": 800.9,
+    "y": 4904.9,
+    "w": 63,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설비현황",
+   "rect": {
+    "x": 800.9,
+    "y": 4940.4,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "R&D",
+   "rect": {
+    "x": 800.9,
+    "y": 4975.9,
+    "w": 25,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ESG",
+   "rect": {
+    "x": 800.9,
+    "y": 5011.4,
+    "w": 27,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "환경 (Environment)",
+   "rect": {
+    "x": 813.9,
+    "y": 5038.9,
+    "w": 104,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "사회 (Social)",
+   "rect": {
+    "x": 813.9,
+    "y": 5064.6,
+    "w": 68,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "지배구조 (Governance)",
+   "rect": {
+    "x": 813.9,
+    "y": 5090.4,
+    "w": 124,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고객지원",
+   "rect": {
+    "x": 800.9,
+    "y": 5126.1,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "온라인 문의",
+   "rect": {
+    "x": 813.9,
+    "y": 5153.6,
+    "w": 58,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "견적 요청",
+   "rect": {
+    "x": 813.9,
+    "y": 5179.4,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 사항",
+   "rect": {
+    "x": 813.9,
+    "y": 5205.1,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실",
+   "rect": {
+    "x": 813.9,
+    "y": 5230.9,
+    "w": 33,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오시는길",
+   "rect": {
+    "x": 813.9,
+    "y": 5256.6,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF1",
+   "rect": {
+    "x": 1084.4,
+    "y": 4712.9,
+    "w": 74,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE TF+",
+   "rect": {
+    "x": 1084.4,
+    "y": 4740.4,
+    "w": 76,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "ISONITE LS",
+   "rect": {
+    "x": 1084.4,
+    "y": 4767.9,
+    "w": 67,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가스질화",
+   "rect": {
+    "x": 1084.4,
+    "y": 4795.4,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "DEFRIC (고체윤활)",
+   "rect": {
+    "x": 1084.4,
+    "y": 4822.9,
+    "w": 98,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "DLC 코팅",
+   "rect": {
+    "x": 1084.4,
+    "y": 4850.4,
+    "w": 50,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "화성처리",
+   "rect": {
+    "x": 1084.4,
+    "y": 4877.9,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "T.D 코팅",
+   "rect": {
+    "x": 1084.4,
+    "y": 4905.4,
+    "w": 46,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "PVD 코팅",
+   "rect": {
+    "x": 1084.4,
+    "y": 4932.9,
+    "w": 50,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진공열처리",
+   "rect": {
+    "x": 1084.4,
+    "y": 4960.4,
+    "w": 55,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가스침탄",
+   "rect": {
+    "x": 1084.4,
+    "y": 4987.9,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진공침탄",
+   "rect": {
+    "x": 1084.4,
+    "y": 5015.4,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 처리방침",
+   "rect": {
+    "x": 1245,
+    "y": 5355.4,
+    "w": 83,
+    "h": 16.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "양산중",
+   "rect": {
+    "x": 112,
+    "y": 1842.8,
+    "w": 65,
+    "h": 18.8
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "Technical Consulting Service",
+   "rect": {
+    "x": 201,
+    "y": 1842.8,
+    "w": 213,
+    "h": 18.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 112,
+    "y": 26,
+    "w": 48.9,
+    "h": 36
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "한일금속공업 표면처리 현장",
+   "rect": {
+    "x": -36,
+    "y": -22.5,
+    "w": 1512,
+    "h": 945
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "한일금속공업(주) 시흥 본사·공장 전경",
+   "rect": {
+    "x": 113,
+    "y": 2689.2,
+    "w": 1214,
+    "h": 531.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "HYBRID 표면개질 연구",
+   "rect": {
+    "x": 112,
+    "y": 3624.6,
+    "w": 596,
+    "h": 340
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "환경·사회·지배구조",
+   "rect": {
+    "x": 732,
+    "y": 3624.6,
+    "w": 596,
+    "h": 340
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 112,
+    "y": 4675.2,
+    "w": 48.9,
+    "h": 36
+   }
+  }
+ ]
+}

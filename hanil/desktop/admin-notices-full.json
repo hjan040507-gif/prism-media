@@ -1,0 +1,374 @@
+{
+ "file": "admin-notices-full.png",
+ "kind": "page",
+ "project": "hanil",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/notices",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 900,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:03:29.284Z",
+ "title": "관리자 | 한일금속공업(주)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /auth/v1/token",
+   "POST /__nextjs_original-stack-frames"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 16
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 11
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 21
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 20
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 13
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 11
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 11
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "공지 관리",
+   "rect": {
+    "x": 240,
+    "y": 169,
+    "w": 73,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1134,
+    "y": 24,
+    "w": 66,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "고정해제",
+   "rect": {
+    "x": 951,
+    "y": 233.8,
+    "w": 66,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "비공개",
+   "rect": {
+    "x": 1023,
+    "y": 233.8,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 1137,
+    "y": 233.8,
+    "w": 46,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "고정",
+   "rect": {
+    "x": 971,
+    "y": 311.8,
+    "w": 46,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "비공개",
+   "rect": {
+    "x": 1023,
+    "y": 311.8,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 1137,
+    "y": 311.8,
+    "w": 46,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "HANIL METAL · ADMIN",
+   "rect": {
+    "x": 240,
+    "y": 31.4,
+    "w": 168.8,
+    "h": 17.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대시보드",
+   "rect": {
+    "x": 240,
+    "y": 97,
+    "w": 76,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수함 4",
+   "rect": {
+    "x": 320,
+    "y": 97,
+    "w": 92,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "콘텐츠",
+   "rect": {
+    "x": 416,
+    "y": 97,
+    "w": 64,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품 사진",
+   "rect": {
+    "x": 484,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배경 사진",
+   "rect": {
+    "x": 567,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지 관리",
+   "rect": {
+    "x": 650,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "자료실 관리",
+   "rect": {
+    "x": 733,
+    "y": 97,
+    "w": 91,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림 설정",
+   "rect": {
+    "x": 828,
+    "y": 97,
+    "w": 79,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 계정",
+   "rect": {
+    "x": 911,
+    "y": 97,
+    "w": 67,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "새 공지",
+   "rect": {
+    "x": 1132,
+    "y": 165.3,
+    "w": 68,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "수정",
+   "rect": {
+    "x": 1085,
+    "y": 233.8,
+    "w": 46,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "수정",
+   "rect": {
+    "x": 1085,
+    "y": 311.8,
+    "w": 46,
+    "h": 44
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "고정 홈페이지가 새롭게 오픈했습니다 2026.10.17 고정해제 비공개 수정 삭제",
+   "rect": {
+    "x": 240,
+    "y": 220.8,
+    "w": 960,
+    "h": 70
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "설 연휴 휴무 안내 2026.10.28 고정 비공개 수정 삭제",
+   "rect": {
+    "x": 240,
+    "y": 298.8,
+    "w": 960,
+    "h": 70
+   }
+  }
+ ]
+}
