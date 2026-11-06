@@ -1,0 +1,124 @@
+{
+ "file": "02-pin-pad-3digits.png",
+ "kind": "state",
+ "project": "nowflix",
+ "viewport": {
+  "width": 1280,
+  "height": 844,
+  "deviceScaleFactor": 2,
+  "name": "tablet"
+ },
+ "scrollY": 0,
+ "scrollX": 0,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:11:52Z",
+ "method": "existing CI emulator screenshot (pixel_c) + PIL mask + OCR boxes",
+ "density": {
+  "value": 2.0,
+  "basis": "pixel_c 에뮬레이터 프로필 320dpi 로 추정(미확인) → dp = px ÷ 2; rect 는 dp",
+  "px_size": [
+   2560,
+   1688
+  ]
+ },
+ "source": {
+  "path": "ci-viewer/screenshots/06_pin_pad.png",
+  "repo": "~/nowflix-kiosk",
+  "repo_head": "d5afa3a",
+  "file_last_commit": "",
+  "source_commit": "8801048ad294c9eb96f29c49238d7932ef8c4097",
+  "captured_at": "2026-08-25T12:04:05Z",
+  "sha256_original": "908961880cb36448b31fad236705361361592c102cf29e00003be96d1f1648a6",
+  "original_modified": false
+ },
+ "masked": [],
+ "elements": [
+  {
+   "text": "관리자",
+   "rect": {
+    "x": 593.0,
+    "y": 180.5,
+    "width": 55.5,
+    "height": 19.0
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "PIN",
+   "rect": {
+    "x": 655.5,
+    "y": 183.0,
+    "width": 32.0,
+    "height": 14.5
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "eee",
+   "rect": {
+    "x": 557.0,
+    "y": 223.5,
+    "width": 76.0,
+    "height": 16.0
+   },
+   "conf": 30,
+   "kind": "ocr-word"
+  }
+ ],
+ "lines": [
+  {
+   "text": "관리자 PIN",
+   "rect": {
+    "x": 593.0,
+    "y": 180.5,
+    "width": 94.5,
+    "height": 19.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "eee",
+   "rect": {
+    "x": 557.0,
+    "y": 223.5,
+    "width": 76.0,
+    "height": 16.0
+   },
+   "kind": "ocr-line"
+  }
+ ],
+ "elements_note": "tesseract kor+eng TSV 단어 상자(conf≥30). 이미지·아이콘 같은 비문자 요소는 상자가 없다.",
+ "pii_scan": {
+  "total": 0,
+  "by_pattern": {
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "url": 0,
+   "plate": 0
+  },
+  "samples": [],
+  "at": "tesseract kor+eng OCR text of the masked image (same PAT table as tools/ocr.py)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "url",
+   "plate"
+  ],
+  "before_mask": "QR·도메인은 픽셀 가림 전 원본에만 있었다(원본 OCR 대조는 shots.md)"
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": []
+ },
+ "flow": "lock-admin",
+ "step": 2,
+ "flow_note": "잠금 탈출구 흐름: 메인(우상단 숨은 핫스팟 3초 길게 누르기)→PIN 패드→관리자 화면 \"완전 잠금(device owner)\". 기존 CI 캡처 조합(같은 시점 연속 촬영 아님)."
+}

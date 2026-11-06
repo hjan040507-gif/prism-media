@@ -1,0 +1,533 @@
+{
+ "file": "main-view.png",
+ "kind": "page",
+ "project": "nowflix",
+ "viewport": {
+  "width": 1280,
+  "height": 844,
+  "deviceScaleFactor": 2,
+  "name": "tablet"
+ },
+ "scrollY": 0,
+ "scrollX": 0,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:11:52Z",
+ "method": "existing CI emulator screenshot (pixel_c) + PIL mask + OCR boxes",
+ "density": {
+  "value": 2.0,
+  "basis": "pixel_c 에뮬레이터 프로필 320dpi 로 추정(미확인) → dp = px ÷ 2; rect 는 dp",
+  "px_size": [
+   2560,
+   1688
+  ]
+ },
+ "source": {
+  "path": "ci-viewer/screenshots/01_main_6parts.png",
+  "repo": "~/nowflix-kiosk",
+  "repo_head": "d5afa3a",
+  "file_last_commit": "",
+  "source_commit": "8801048ad294c9eb96f29c49238d7932ef8c4097",
+  "captured_at": "2026-08-25T12:04:05Z",
+  "sha256_original": "14c1c321163d3d380950f56b25822877d6e3238979d721eb9c5d9e06ead1e1af",
+  "original_modified": false
+ },
+ "masked": [
+  {
+   "what": "QR 코드(상단 빨간 밴드 우측)",
+   "rect_px": [
+    2286,
+    52,
+    2486,
+    252
+   ],
+   "rect_dp": [
+    1143.0,
+    26.0,
+    1243.0,
+    126.0
+   ],
+   "fill_rgb": [
+    229,
+    9,
+    20
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "text": "NOWFLIX",
+   "rect": {
+    "x": 45.0,
+    "y": 56.0,
+    "width": 246.0,
+    "height": 38.0
+   },
+   "conf": 92,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "7006",
+   "rect": {
+    "x": 32.5,
+    "y": 334.5,
+    "width": 39.5,
+    "height": 10.5
+   },
+   "conf": 68,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "오늘",
+   "rect": {
+    "x": 95.0,
+    "y": 332.5,
+    "width": 32.0,
+    "height": 17.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "대",
+   "rect": {
+    "x": 138.0,
+    "y": 332.0,
+    "width": 10.5,
+    "height": 17.5
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "한",
+   "rect": {
+    "x": 155.5,
+    "y": 332.0,
+    "width": 11.0,
+    "height": 17.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "민",
+   "rect": {
+    "x": 174.0,
+    "y": 332.0,
+    "width": 19.0,
+    "height": 17.5
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "국",
+   "rect": {
+    "x": 202.0,
+    "y": 332.0,
+    "width": 10.0,
+    "height": 17.5
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "의",
+   "rect": {
+    "x": 211.5,
+    "y": 329.0,
+    "width": 13.0,
+    "height": 25.0
+   },
+   "conf": 83,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "Top",
+   "rect": {
+    "x": 223.0,
+    "y": 335.0,
+    "width": 35.0,
+    "height": 13.5
+   },
+   "conf": 90,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "6",
+   "rect": {
+    "x": 261.5,
+    "y": 329.0,
+    "width": 6.5,
+    "height": 25.0
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "콘텐츠",
+   "rect": {
+    "x": 280.5,
+    "y": 332.0,
+    "width": 49.5,
+    "height": 17.5
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "어깨",
+   "rect": {
+    "x": 871.5,
+    "y": 427.5,
+    "width": 28.0,
+    "height": 12.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "치",
+   "rect": {
+    "x": 915.5,
+    "y": 427.5,
+    "width": 9.5,
+    "height": 12.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "료",
+   "rect": {
+    "x": 933.0,
+    "y": 428.5,
+    "width": 11.5,
+    "height": 9.5
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "의",
+   "rect": {
+    "x": 951.0,
+    "y": 427.5,
+    "width": 10.0,
+    "height": 12.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "어",
+   "rect": {
+    "x": 865.0,
+    "y": 445.0,
+    "width": 36.0,
+    "height": 28.5
+   },
+   "conf": 91,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "깨",
+   "rect": {
+    "x": 915.5,
+    "y": 445.0,
+    "width": 11.0,
+    "height": 28.5
+   },
+   "conf": 92,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "으",
+   "rect": {
+    "x": 936.5,
+    "y": 448.5,
+    "width": 14.0,
+    "height": 12.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "어깨",
+   "rect": {
+    "x": 871.5,
+    "y": 489.0,
+    "width": 19.0,
+    "height": 10.5
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "At,",
+   "rect": {
+    "x": 895.0,
+    "y": 489.0,
+    "width": 23.0,
+    "height": 11.0
+   },
+   "conf": 44,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "당",
+   "rect": {
+    "x": 36.0,
+    "y": 558.0,
+    "width": 8.5,
+    "height": 9.5
+   },
+   "conf": 87,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "신",
+   "rect": {
+    "x": 47.0,
+    "y": 558.0,
+    "width": 7.5,
+    "height": 9.0
+   },
+   "conf": 81,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "의",
+   "rect": {
+    "x": 57.5,
+    "y": 564.0,
+    "width": 6.0,
+    "height": 1.5
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "지금",
+   "rect": {
+    "x": 110.5,
+    "y": 558.0,
+    "width": 19.0,
+    "height": 9.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "ot",
+   "rect": {
+    "x": 137.0,
+    "y": 558.0,
+    "width": 8.0,
+    "height": 9.0
+   },
+   "conf": 69,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "랜",
+   "rect": {
+    "x": 36.5,
+    "y": 577.5,
+    "width": 26.5,
+    "height": 28.0
+   },
+   "conf": 58,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "ew",
+   "rect": {
+    "x": 158.5,
+    "y": 564.5,
+    "width": 49.0,
+    "height": 57.0
+   },
+   "conf": 68,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "TV",
+   "rect": {
+    "x": 89.5,
+    "y": 647.5,
+    "width": 18.0,
+    "height": 10.0
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "NOW",
+   "rect": {
+    "x": 688.5,
+    "y": 647.5,
+    "width": 31.5,
+    "height": 10.5
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "어",
+   "rect": {
+    "x": 855.5,
+    "y": 645.5,
+    "width": 37.0,
+    "height": 13.5
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "깨",
+   "rect": {
+    "x": 871.0,
+    "y": 643.5,
+    "width": 12.5,
+    "height": 20.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "의",
+   "rect": {
+    "x": 883.5,
+    "y": 643.5,
+    "width": 9.0,
+    "height": 20.0
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "정석",
+   "rect": {
+    "x": 900.0,
+    "y": 645.5,
+    "width": 23.5,
+    "height": 13.0
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  }
+ ],
+ "lines": [
+  {
+   "text": "NOWFLIX",
+   "rect": {
+    "x": 45.0,
+    "y": 56.0,
+    "width": 246.0,
+    "height": 38.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "7006 오늘 대 한 민 국 의 Top 6 콘텐츠",
+   "rect": {
+    "x": 32.5,
+    "y": 329.0,
+    "width": 297.5,
+    "height": 25.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "어깨 치 료 의",
+   "rect": {
+    "x": 871.5,
+    "y": 427.5,
+    "width": 89.5,
+    "height": 12.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "어 깨 으",
+   "rect": {
+    "x": 865.0,
+    "y": 445.0,
+    "width": 85.5,
+    "height": 28.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "어깨 At,",
+   "rect": {
+    "x": 871.5,
+    "y": 489.0,
+    "width": 46.5,
+    "height": 11.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "당 신 의 지금 ot",
+   "rect": {
+    "x": 36.0,
+    "y": 558.0,
+    "width": 109.0,
+    "height": 9.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "랜 ew",
+   "rect": {
+    "x": 36.5,
+    "y": 564.5,
+    "width": 171.0,
+    "height": 57.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "TV NOW 어 깨 의 정석",
+   "rect": {
+    "x": 89.5,
+    "y": 643.5,
+    "width": 834.0,
+    "height": 20.0
+   },
+   "kind": "ocr-line"
+  }
+ ],
+ "elements_note": "tesseract kor+eng TSV 단어 상자(conf≥30). 이미지·아이콘 같은 비문자 요소는 상자가 없다.",
+ "pii_scan": {
+  "total": 0,
+  "by_pattern": {
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "url": 0,
+   "plate": 0
+  },
+  "samples": [],
+  "at": "tesseract kor+eng OCR text of the masked image (same PAT table as tools/ocr.py)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "url",
+   "plate"
+  ],
+  "before_mask": "QR·도메인은 픽셀 가림 전 원본에만 있었다(원본 OCR 대조는 shots.md)"
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": []
+ },
+ "screen": "메인(파트 6개)"
+}

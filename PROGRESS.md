@@ -21,6 +21,7 @@
 - 저장소: hjan040507-gif/prism-media 없음 + 이 서버에 GitHub API 인증 없음(gh 미로그인, 토큰 없음, SSH 로는 생성 불가) → ~/prism-media 에 커밋만, 보고에 '저장소 생성 필요'
 
 ## NOW
+- 00:45Z nowflix 검수 끝(check --tablet FAIL 0·OCR 0/36·QR·도메인 가림 확인, 태블릿=기존 CI 캡처 8장, 관리자 웹=로컬 사본+가짜 Supabase 1회 성공) → 커밋. 빌드 게이트: 스왑 여유 16% 로 회복, 지금은 load 만 걸림.
 - 00:40Z fordex 검수 끝(check FAIL 0·OCR 1건 오탐(카드 저작권 연도)·contact 확인, 로컬 복제 스택+가짜 데이터, 운영 관리자 컷·NICE 결제창·지급/정산 BLOCKED) → 커밋.
 - 00:33Z maieventic 검수 끝(check FAIL 0·OCR 1건 오탐·contact 확인, /create 빌더 BLOCKED — 서버가 analytics_events 에 씀) → 커밋.
 - 00:11Z sellfit 검수 끝(check FAIL 0·OCR 0/27·사람 사진 0 확인·관리자·교환 흐름 BLOCKED) → 커밋.
@@ -38,7 +39,8 @@
 
 ## 결정 필요
 1. heavy-run 스왑 여유 ≥15% 조건이 빌드를 막음(스왑 97%·가용 22G·PSI 0) → 빌드가 필요한 posco·jipyeong 관리자·nowflix 관리자·byclick 딜러/관리자가 대기. 추천: 스왑 조건을 메모리 PSI 기준으로 바꾸기(설정 변경이라 승인 필요). 알림 보냄.
-2. maieventic 빌더 4종(AI 대화 기획·디자인 3안·빌더 편집·확률·매장 QR): 운영 /create 를 QA 계정으로 1회 열면 analytics_events 1행 쓰기(create/page.tsx:151). 추천: 승인 시 1회 촬영, 아니면 레포 howto 이미지 26장(media/builder-captures)로 대체.
+2. nowflix '태블릿 실해상도' 2560×1688 은 CI 에뮬레이터(pixel_c) 값 — 병원 실기기 해상도 기록 없음. 추천: 자막·설명에 '실해상도' 대신 '2560×1688 태블릿 화면'으로.
+3. maieventic 빌더 4종(AI 대화 기획·디자인 3안·빌더 편집·확률·매장 QR): 운영 /create 를 QA 계정으로 1회 열면 analytics_events 1행 쓰기(create/page.tsx:151). 추천: 승인 시 1회 촬영, 아니면 레포 howto 이미지 26장(media/builder-captures)로 대체.
 
 ## 보고할 것 (운영 쓰기 가능성)
 - fordex: 운영 접속 0(외부 호스트 abort). 로컬 복제 스택(fordex-replica3, 다른 세션 도커 — 컨테이너는 손대지 않음)에 합성 계정 로그인 약 40회 → 복제 DB 세션 행만 남음.

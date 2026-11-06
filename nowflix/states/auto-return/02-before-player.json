@@ -1,0 +1,1241 @@
+{
+ "file": "02-before-player.png",
+ "kind": "state",
+ "project": "nowflix",
+ "viewport": {
+  "width": 1280,
+  "height": 844,
+  "deviceScaleFactor": 2,
+  "name": "tablet"
+ },
+ "scrollY": 0,
+ "scrollX": 0,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:11:52Z",
+ "method": "existing CI emulator screenshot (pixel_c) + PIL mask + OCR boxes",
+ "density": {
+  "value": 2.0,
+  "basis": "pixel_c 에뮬레이터 프로필 320dpi 로 추정(미확인) → dp = px ÷ 2; rect 는 dp",
+  "px_size": [
+   2560,
+   1688
+  ]
+ },
+ "source": {
+  "path": "ci-viewer/screenshots/04_player_controls_shown.png",
+  "repo": "~/nowflix-kiosk",
+  "repo_head": "d5afa3a",
+  "file_last_commit": "",
+  "source_commit": "8801048ad294c9eb96f29c49238d7932ef8c4097",
+  "captured_at": "2026-08-25T12:04:05Z",
+  "sha256_original": "ebf50be906f90601a02adaaf4032050de2d79cd8245fa44135e02253bec1c43b",
+  "original_modified": false
+ },
+ "masked": [],
+ "elements": [
+  {
+   "text": "~",
+   "rect": {
+    "x": 908.5,
+    "y": 21.5,
+    "width": 4.0,
+    "height": 9.0
+   },
+   "conf": 70,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "<0",
+   "rect": {
+    "x": 899.0,
+    "y": 22.5,
+    "width": 11.5,
+    "height": 13.5
+   },
+   "conf": 83,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "40",
+   "rect": {
+    "x": 870.0,
+    "y": 22.5,
+    "width": 13.0,
+    "height": 13.5
+   },
+   "conf": 74,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "00",
+   "rect": {
+    "x": 846.5,
+    "y": 21.5,
+    "width": 18.0,
+    "height": 14.5
+   },
+   "conf": 91,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "Aw",
+   "rect": {
+    "x": 1234.5,
+    "y": 76.0,
+    "width": 12.0,
+    "height": 12.5
+   },
+   "conf": 75,
+   "kind": "ocr-word"
+  },
+  {
+   "text": ",",
+   "rect": {
+    "x": 1106.0,
+    "y": 85.5,
+    "width": 2.5,
+    "height": 4.5
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "이",
+   "rect": {
+    "x": 1115.0,
+    "y": 75.5,
+    "width": 10.0,
+    "height": 13.0
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "스트레칭",
+   "rect": {
+    "x": 1132.0,
+    "y": 75.5,
+    "width": 51.0,
+    "height": 13.0
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "하나면",
+   "rect": {
+    "x": 1190.0,
+    "y": 75.5,
+    "width": 38.0,
+    "height": 13.5
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "KIO",
+   "rect": {
+    "x": 1092.5,
+    "y": 76.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "conf": 52,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "버",
+   "rect": {
+    "x": 1079.0,
+    "y": 76.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "conf": 72,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "0",
+   "rect": {
+    "x": 1075.0,
+    "y": 85.0,
+    "width": 20.0,
+    "height": 5.5
+   },
+   "conf": 95,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "배",
+   "rect": {
+    "x": 1061.5,
+    "y": 76.0,
+    "width": 12.0,
+    "height": 12.5
+   },
+   "conf": 64,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "마",
+   "rect": {
+    "x": 1048.0,
+    "y": 76.5,
+    "width": 12.0,
+    "height": 12.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "3:49",
+   "rect": {
+    "x": 1001.0,
+    "y": 121.0,
+    "width": 22.5,
+    "height": 8.0
+   },
+   "conf": 95,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "Ar",
+   "rect": {
+    "x": 1243.5,
+    "y": 158.5,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "conf": 85,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "보세요",
+   "rect": {
+    "x": 1048.0,
+    "y": 182.0,
+    "width": 38.5,
+    "height": 13.0
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "절",
+   "rect": {
+    "x": 1093.0,
+    "y": 359.0,
+    "width": 23.5,
+    "height": 13.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "염",
+   "rect": {
+    "x": 1108.0,
+    "y": 357.0,
+    "width": 9.0,
+    "height": 21.5
+   },
+   "conf": 92,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "초기",
+   "rect": {
+    "x": 1123.5,
+    "y": 359.0,
+    "width": 24.0,
+    "height": 13.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "신호",
+   "rect": {
+    "x": 1155.0,
+    "y": 359.0,
+    "width": 24.5,
+    "height": 13.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "3",
+   "rect": {
+    "x": 1185.5,
+    "y": 361.0,
+    "width": 6.5,
+    "height": 10.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "가",
+   "rect": {
+    "x": 1194.5,
+    "y": 359.0,
+    "width": 23.5,
+    "height": 13.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "지",
+   "rect": {
+    "x": 1209.0,
+    "y": 357.0,
+    "width": 11.0,
+    "height": 21.5
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "배",
+   "rect": {
+    "x": 1061.5,
+    "y": 359.5,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "conf": 65,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "마",
+   "rect": {
+    "x": 1048.0,
+    "y": 360.0,
+    "width": 11.5,
+    "height": 12.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "5:17",
+   "rect": {
+    "x": 1001.0,
+    "y": 404.5,
+    "width": 23.0,
+    "height": 8.0
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "Ｌ]",
+   "rect": {
+    "x": 625.0,
+    "y": 399.0,
+    "width": 14.0,
+    "height": 14.0
+   },
+   "conf": 79,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "전",
+   "rect": {
+    "x": 646.5,
+    "y": 400.5,
+    "width": 9.5,
+    "height": 12.0
+   },
+   "conf": 92,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "체",
+   "rect": {
+    "x": 658.5,
+    "y": 400.5,
+    "width": 10.0,
+    "height": 12.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "화면",
+   "rect": {
+    "x": 671.0,
+    "y": 400.5,
+    "width": 22.5,
+    "height": 12.0
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "0:00",
+   "rect": {
+    "x": 13.0,
+    "y": 401.5,
+    "width": 24.5,
+    "height": 8.5
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "/",
+   "rect": {
+    "x": 42.0,
+    "y": 401.5,
+    "width": 4.5,
+    "height": 9.5
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "0:00",
+   "rect": {
+    "x": 51.5,
+    "y": 401.5,
+    "width": 24.5,
+    "height": 8.5
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "바",
+   "rect": {
+    "x": 1242.5,
+    "y": 442.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "conf": 56,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "TH",
+   "rect": {
+    "x": 1225.0,
+    "y": 442.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "conf": 61,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "w",
+   "rect": {
+    "x": 1217.0,
+    "y": 443.5,
+    "width": 6.5,
+    "height": 10.0
+   },
+   "conf": 70,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "내",
+   "rect": {
+    "x": 1199.0,
+    "y": 442.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "conf": 90,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "0",
+   "rect": {
+    "x": 1196.0,
+    "y": 451.0,
+    "width": 16.5,
+    "height": 5.5
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "Ok!",
+   "rect": {
+    "x": 1185.5,
+    "y": 442.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "conf": 55,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "nO",
+   "rect": {
+    "x": 1155.0,
+    "y": 442.5,
+    "width": 9.5,
+    "height": 12.0
+   },
+   "conf": 34,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "배",
+   "rect": {
+    "x": 1137.0,
+    "y": 442.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "conf": 46,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "마",
+   "rect": {
+    "x": 1123.5,
+    "y": 442.5,
+    "width": 11.5,
+    "height": 12.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "did",
+   "rect": {
+    "x": 1106.0,
+    "y": 442.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "conf": 49,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "jo",
+   "rect": {
+    "x": 1092.5,
+    "y": 441.5,
+    "width": 12.0,
+    "height": 13.0
+   },
+   "conf": 86,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "x",
+   "rect": {
+    "x": 1075.5,
+    "y": 441.5,
+    "width": 10.0,
+    "height": 13.0
+   },
+   "conf": 74,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "RI",
+   "rect": {
+    "x": 1048.5,
+    "y": 441.5,
+    "width": 10.0,
+    "height": 13.0
+   },
+   "conf": 75,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "wd",
+   "rect": {
+    "x": 1049.0,
+    "y": 465.5,
+    "width": 10.0,
+    "height": 13.0
+   },
+   "conf": 61,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "고",
+   "rect": {
+    "x": 17.0,
+    "y": 520.0,
+    "width": 10.0,
+    "height": 8.5
+   },
+   "conf": 91,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "쳐",
+   "rect": {
+    "x": 31.0,
+    "y": 519.0,
+    "width": 6.5,
+    "height": 11.0
+   },
+   "conf": 92,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "줘",
+   "rect": {
+    "x": 43.0,
+    "y": 519.0,
+    "width": 6.0,
+    "height": 11.0
+   },
+   "conf": 92,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "NOW",
+   "rect": {
+    "x": 55.5,
+    "y": 520.5,
+    "width": 27.5,
+    "height": 8.5
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "에서",
+   "rect": {
+    "x": 1075.5,
+    "y": 536.0,
+    "width": 23.5,
+    "height": 13.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "소",
+   "rect": {
+    "x": 1107.0,
+    "y": 537.0,
+    "width": 10.5,
+    "height": 10.5
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "리",
+   "rect": {
+    "x": 1120.5,
+    "y": 536.0,
+    "width": 9.5,
+    "height": 13.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "가",
+   "rect": {
+    "x": 1133.5,
+    "y": 536.0,
+    "width": 10.0,
+    "height": 13.0
+   },
+   "conf": 86,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "나요,",
+   "rect": {
+    "x": 1151.0,
+    "y": 536.0,
+    "width": 29.0,
+    "height": 14.5
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "무릎",
+   "rect": {
+    "x": 1049.5,
+    "y": 536.5,
+    "width": 23.5,
+    "height": 7.0
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "ㅠㅜ",
+   "rect": {
+    "x": 1048.0,
+    "y": 543.5,
+    "width": 24.0,
+    "height": 5.5
+   },
+   "conf": 53,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "서",
+   "rect": {
+    "x": 1194.5,
+    "y": 630.5,
+    "width": 10.0,
+    "height": 13.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "대",
+   "rect": {
+    "x": 1208.0,
+    "y": 630.5,
+    "width": 24.5,
+    "height": 13.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "로",
+   "rect": {
+    "x": 1223.0,
+    "y": 628.5,
+    "width": 10.0,
+    "height": 21.5
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "하",
+   "rect": {
+    "x": 1238.5,
+    "y": 630.5,
+    "width": 12.0,
+    "height": 13.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "스",
+   "rect": {
+    "x": 1181.5,
+    "y": 631.0,
+    "width": 10.0,
+    "height": 5.0
+   },
+   "conf": 93,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "Tt",
+   "rect": {
+    "x": 1180.5,
+    "y": 637.0,
+    "width": 11.5,
+    "height": 6.5
+   },
+   "conf": 49,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "수술",
+   "rect": {
+    "x": 1079.0,
+    "y": 630.5,
+    "width": 25.0,
+    "height": 13.0
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "후",
+   "rect": {
+    "x": 1110.0,
+    "y": 630.5,
+    "width": 11.5,
+    "height": 13.0
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "재활,",
+   "rect": {
+    "x": 1127.5,
+    "y": 630.5,
+    "width": 29.5,
+    "height": 14.5
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "이",
+   "rect": {
+    "x": 1163.5,
+    "y": 630.5,
+    "width": 10.0,
+    "height": 13.0
+   },
+   "conf": 97,
+   "kind": "ocr-word"
+  },
+  {
+   "text": "15:08",
+   "rect": {
+    "x": 994.5,
+    "y": 688.0,
+    "width": 29.5,
+    "height": 8.0
+   },
+   "conf": 96,
+   "kind": "ocr-word"
+  }
+ ],
+ "lines": [
+  {
+   "text": "~",
+   "rect": {
+    "x": 908.5,
+    "y": 21.5,
+    "width": 4.0,
+    "height": 9.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "<0",
+   "rect": {
+    "x": 899.0,
+    "y": 22.5,
+    "width": 11.5,
+    "height": 13.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "40",
+   "rect": {
+    "x": 870.0,
+    "y": 22.5,
+    "width": 13.0,
+    "height": 13.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "00",
+   "rect": {
+    "x": 846.5,
+    "y": 21.5,
+    "width": 18.0,
+    "height": 14.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "Aw",
+   "rect": {
+    "x": 1234.5,
+    "y": 76.0,
+    "width": 12.0,
+    "height": 12.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": ", 이 스트레칭 하나면",
+   "rect": {
+    "x": 1106.0,
+    "y": 75.5,
+    "width": 122.0,
+    "height": 14.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "KIO",
+   "rect": {
+    "x": 1092.5,
+    "y": 76.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "버 0",
+   "rect": {
+    "x": 1075.0,
+    "y": 76.0,
+    "width": 20.0,
+    "height": 14.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "배",
+   "rect": {
+    "x": 1061.5,
+    "y": 76.0,
+    "width": 12.0,
+    "height": 12.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "마",
+   "rect": {
+    "x": 1048.0,
+    "y": 76.5,
+    "width": 12.0,
+    "height": 12.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "3:49",
+   "rect": {
+    "x": 1001.0,
+    "y": 121.0,
+    "width": 22.5,
+    "height": 8.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "Ar",
+   "rect": {
+    "x": 1243.5,
+    "y": 158.5,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "보세요",
+   "rect": {
+    "x": 1048.0,
+    "y": 182.0,
+    "width": 38.5,
+    "height": 13.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "절 염 초기 신호 3 가 지",
+   "rect": {
+    "x": 1093.0,
+    "y": 357.0,
+    "width": 127.0,
+    "height": 21.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "배",
+   "rect": {
+    "x": 1061.5,
+    "y": 359.5,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "마",
+   "rect": {
+    "x": 1048.0,
+    "y": 360.0,
+    "width": 11.5,
+    "height": 12.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "5:17",
+   "rect": {
+    "x": 1001.0,
+    "y": 404.5,
+    "width": 23.0,
+    "height": 8.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "Ｌ] 전 체 화면",
+   "rect": {
+    "x": 625.0,
+    "y": 399.0,
+    "width": 68.5,
+    "height": 14.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "0:00 / 0:00",
+   "rect": {
+    "x": 13.0,
+    "y": 401.5,
+    "width": 63.0,
+    "height": 9.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "바",
+   "rect": {
+    "x": 1242.5,
+    "y": 442.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "TH",
+   "rect": {
+    "x": 1225.0,
+    "y": 442.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "w",
+   "rect": {
+    "x": 1217.0,
+    "y": 443.5,
+    "width": 6.5,
+    "height": 10.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "내 0",
+   "rect": {
+    "x": 1196.0,
+    "y": 442.0,
+    "width": 16.5,
+    "height": 14.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "Ok!",
+   "rect": {
+    "x": 1185.5,
+    "y": 442.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "nO",
+   "rect": {
+    "x": 1155.0,
+    "y": 442.5,
+    "width": 9.5,
+    "height": 12.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "배",
+   "rect": {
+    "x": 1137.0,
+    "y": 442.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "마",
+   "rect": {
+    "x": 1123.5,
+    "y": 442.5,
+    "width": 11.5,
+    "height": 12.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "did",
+   "rect": {
+    "x": 1106.0,
+    "y": 442.0,
+    "width": 11.5,
+    "height": 12.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "jo",
+   "rect": {
+    "x": 1092.5,
+    "y": 441.5,
+    "width": 12.0,
+    "height": 13.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "x",
+   "rect": {
+    "x": 1075.5,
+    "y": 441.5,
+    "width": 10.0,
+    "height": 13.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "RI wd",
+   "rect": {
+    "x": 1048.5,
+    "y": 441.5,
+    "width": 10.5,
+    "height": 37.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "고 쳐 줘 NOW",
+   "rect": {
+    "x": 17.0,
+    "y": 519.0,
+    "width": 66.0,
+    "height": 11.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "에서 소 리 가 나요,",
+   "rect": {
+    "x": 1075.5,
+    "y": 536.0,
+    "width": 104.5,
+    "height": 14.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "무릎",
+   "rect": {
+    "x": 1049.5,
+    "y": 536.5,
+    "width": 23.5,
+    "height": 7.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "ㅠㅜ",
+   "rect": {
+    "x": 1048.0,
+    "y": 543.5,
+    "width": 24.0,
+    "height": 5.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "서 대 로 하",
+   "rect": {
+    "x": 1194.5,
+    "y": 628.5,
+    "width": 56.0,
+    "height": 21.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "스",
+   "rect": {
+    "x": 1181.5,
+    "y": 631.0,
+    "width": 10.0,
+    "height": 5.0
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "Tt",
+   "rect": {
+    "x": 1180.5,
+    "y": 637.0,
+    "width": 11.5,
+    "height": 6.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "수술 후 재활, 이",
+   "rect": {
+    "x": 1079.0,
+    "y": 630.5,
+    "width": 94.5,
+    "height": 14.5
+   },
+   "kind": "ocr-line"
+  },
+  {
+   "text": "15:08",
+   "rect": {
+    "x": 994.5,
+    "y": 688.0,
+    "width": 29.5,
+    "height": 8.0
+   },
+   "kind": "ocr-line"
+  }
+ ],
+ "elements_note": "tesseract kor+eng TSV 단어 상자(conf≥30). 이미지·아이콘 같은 비문자 요소는 상자가 없다.",
+ "pii_scan": {
+  "total": 0,
+  "by_pattern": {
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "url": 0,
+   "plate": 0
+  },
+  "samples": [],
+  "at": "tesseract kor+eng OCR text of the masked image (same PAT table as tools/ocr.py)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "url",
+   "plate"
+  ],
+  "before_mask": "QR·도메인은 픽셀 가림 전 원본에만 있었다(원본 OCR 대조는 shots.md)"
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": []
+ },
+ "flow": "auto-return",
+ "step": 2,
+ "flow_note": "자동 복귀(유휴 120초 → 메인) 전(파트 상세·재생)과 후(메인). 같은 시점 연속 촬영이 아니라 기존 캡처 조합이다."
+}

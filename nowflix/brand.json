@@ -1,0 +1,38 @@
+{
+  "primary": "#E50914",
+  "secondary": "#2563EB",
+  "app": {
+    "primary": "#E50914",
+    "background": "#0B0B0C",
+    "surface_detail": "#0F0F0F",
+    "card": "#17171A",
+    "muted_text": "#AAAAAA",
+    "progress_red": "#FF0000",
+    "fonts": ["시스템 기본(Compose 기본 = Android 시스템 폰트; 캡처에서는 Roboto 계열 + Noto Sans CJK KR)"],
+    "wordmark": "NOWFLIX 는 이미지가 아니라 텍스트(FontWeight.Black, 자간 = 밴드 높이 × 3%, 흰색)"
+  },
+  "web": {
+    "primary": "#2563EB",
+    "primary_dark": "#1D4ED8",
+    "ink": "#111827",
+    "subtle": "#6B7280",
+    "line": "#E5E7EB",
+    "canvas": "#F6F7F9",
+    "fonts": ["Pretendard"],
+    "font_load": "globals.css:1 — jsdelivr CDN 의 Pretendard Variable dynamic subset(1.3.9)"
+  },
+  "fonts": ["Pretendard", "Android 시스템 기본(Roboto/Noto Sans CJK)"],
+  "source": [
+    "app/src/main/java/kr/prism/nowflix/MainActivity.kt:99 (NowflixRed #E50914)",
+    "app/src/main/java/kr/prism/nowflix/MainActivity.kt:100 (BodyBg #0B0B0C)",
+    "app/src/main/java/kr/prism/nowflix/MainActivity.kt:514-518 (NOWFLIX 텍스트 워드마크)",
+    "app/src/main/java/kr/prism/nowflix/ui/PinPad.kt:36 (Accent #E50914)",
+    "app/src/main/java/kr/prism/nowflix/ui/AdminScreen.kt:38-41 (Bg #0F0F0F · Card #17171A · Accent #E50914 · Muted #AAAAAA)",
+    "app/src/main/java/kr/prism/nowflix/ui/VideoRowUi.kt:46 (NowRed #E50914)",
+    "app/src/main/java/kr/prism/nowflix/ui/PlayerScreen.kt:82,93 (Background #0F0F0F · ProgressRed #FF0000)",
+    "admin-web/tailwind.config.ts:9-14 (ink · subtle · line · canvas · brand #2563EB · brandDark #1D4ED8)",
+    "admin-web/tailwind.config.ts:20 (fontFamily.sans = Pretendard)",
+    "admin-web/src/app/globals.css:1 (Pretendard CDN @import)"
+  ],
+  "note": "앱(빨강/검정)과 관리자 웹(파랑/라이트)은 서로 다른 팔레트. 이 레포 기준(repo HEAD d5afa3a). 앱 폰트 지정 코드 없음(grep FontFamily 0건)."
+}
