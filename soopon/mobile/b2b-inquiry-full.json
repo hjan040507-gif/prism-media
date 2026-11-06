@@ -1,0 +1,438 @@
+{
+ "file": "b2b-inquiry-full.png",
+ "kind": "page",
+ "project": "soopon",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/b2b/inquiry",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 6522,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:17:17.998Z",
+ "title": "프로그램 상담 신청 | 숲ON페스타 2026",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 7,
+  "new": [
+   "GET /gtag/js (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "프로그램 상담 신청",
+   "rect": {
+    "x": 16,
+    "y": 93,
+    "w": 358,
+    "h": 35
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "1. 필수 개인정보 수집⁠·⁠이용",
+   "rect": {
+    "x": 61,
+    "y": 3981.3,
+    "w": 268,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "2. 선택 개인정보 수집⁠·⁠이용",
+   "rect": {
+    "x": 61,
+    "y": 4588.9,
+    "w": 268,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "3. 필수 개인정보 제3자 제공",
+   "rect": {
+    "x": 61,
+    "y": 5160.7,
+    "w": 268,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 14,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "상담 신청하기",
+   "rect": {
+    "x": 41,
+    "y": 5845,
+    "w": 308,
+    "h": 56
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 41,
+    "y": 309.4,
+    "w": 308,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: ○○공사 인사팀",
+   "rect": {
+    "x": 41,
+    "y": 416.6,
+    "w": 308,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 41,
+    "y": 523.8,
+    "w": 308,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "010-****-****",
+   "rect": {
+    "x": 41,
+    "y": 631,
+    "w": 308,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 30명",
+   "rect": {
+    "x": 41,
+    "y": 3379.1,
+    "w": 308,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 11월 둘째 주 평일",
+   "rect": {
+    "x": 41,
+    "y": 3486.3,
+    "w": 308,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "원하시는 프로그램 방향, 장소, 예산 등을 자유롭게 적어 주세요.",
+   "rect": {
+    "x": 41,
+    "y": 3593.5,
+    "w": 308,
+    "h": 169.9
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 61,
+    "y": 4512.6,
+    "w": 20,
+    "h": 20
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 61,
+    "y": 5084.3,
+    "w": 20,
+    "h": 20
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 61,
+    "y": 5656.1,
+    "w": 20,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 14,
+    "w": 76.8,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "「참여기업」 화면 (새 창)",
+   "rect": {
+    "x": 181,
+    "y": 5317.1,
+    "w": 79,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 처리방침 (새 창)",
+   "rect": {
+    "x": 61,
+    "y": 5775.1,
+    "w": 91,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 5986,
+    "w": 92.1,
+    "h": 76
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 찾기",
+   "rect": {
+    "x": 16,
+    "y": 6209.7,
+    "w": 69,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기획전과 이벤트",
+   "rect": {
+    "x": 211,
+    "y": 6209.7,
+    "w": 80,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여기업",
+   "rect": {
+    "x": 16,
+    "y": 6252.9,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON비즈",
+   "rect": {
+    "x": 211,
+    "y": 6252.9,
+    "w": 52,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON페스타 소개",
+   "rect": {
+    "x": 16,
+    "y": 6296.1,
+    "w": 88,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "상담·자료요청",
+   "rect": {
+    "x": 211,
+    "y": 6296.1,
+    "w": 69,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 처리방침",
+   "rect": {
+    "x": 16,
+    "y": 6360.3,
+    "w": 91,
+    "h": 15
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 6428.5,
+    "w": 73.9,
+    "h": 28
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "",
+   "rect": {
+    "x": 121.9,
+    "y": 6428.5,
+    "w": 123.6,
+    "h": 28
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 16,
+    "y": 14,
+    "w": 84.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 16,
+    "y": 6000,
+    "w": 92.1,
+    "h": 48
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "산림청",
+   "rect": {
+    "x": 16,
+    "y": 6428.5,
+    "w": 73.9,
+    "h": 28
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "한국산림복지진흥원",
+   "rect": {
+    "x": 121.9,
+    "y": 6428.5,
+    "w": 123.6,
+    "h": 28
+   }
+  }
+ ]
+}

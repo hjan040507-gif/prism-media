@@ -1,0 +1,17 @@
+{
+  "primary": "#006748",
+  "secondary": "#faa634",
+  "fonts": ["Pretendard Variable"],
+  "palette": { "primary_strong": "#05523a", "accent_orange": "#faa634", "leaf": "#5ebc5e", "cream": "#f6f0da", "surface_mint": "#edf5e4" },
+  "note": "primary=본문·주 버튼(--color-cta-primary-bg), secondary=예약 주 버튼(--color-cta-accent-bg 주황). 폰트는 셀프호스트 Pretendard Variable, 대체 'Pretendard Fallback'·시스템 한글 폰트. 포인트 폰트는 별도 없음(--font-point = --font-sans).",
+  "source": [
+    "~/Soopon/DESIGN.md:6 (primary #006748)",
+    "~/Soopon/DESIGN.md:7 (primary-strong #05523a)",
+    "~/Soopon/DESIGN.md:14 (tertiary #faa634)",
+    "~/Soopon/DESIGN.md:16-19 (neutral #f6f0da · surface-mint #edf5e4)",
+    "~/Soopon/app/globals.css:96 (--color-cta-primary-bg #006748)",
+    "~/Soopon/app/globals.css:100 (--color-cta-accent-bg #faa634)",
+    "~/Soopon/app/globals.css:109-113 (--font-sans Pretendard Variable · --font-point)",
+    "~/Soopon/app/fonts-pretendard.css (@font-face 'Pretendard Variable', public/fonts/pretendard)"
+  ]
+}

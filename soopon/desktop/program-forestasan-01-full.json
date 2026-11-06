@@ -1,0 +1,614 @@
+{
+ "file": "program-forestasan-01-full.png",
+ "kind": "page",
+ "project": "soopon",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/program/forestasan-01",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 3568,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:13:48.389Z",
+ "title": "오늘 좀 쉬고 싶茶 | 숲ON페스타 2026",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 1,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 4,
+  "new": [
+   "GET /gtag/js (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "오늘 좀 쉬고 싶茶",
+   "rect": {
+    "x": 140,
+    "y": 253.4,
+    "w": 664,
+    "h": 46
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "핵심 정보",
+   "rect": {
+    "x": 140,
+    "y": 572,
+    "w": 764,
+    "h": 35
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "프로그램 소개",
+   "rect": {
+    "x": 140,
+    "y": 989.3,
+    "w": 764,
+    "h": 35
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "주요 활동",
+   "rect": {
+    "x": 140,
+    "y": 1247.4,
+    "w": 764,
+    "h": 35
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "숲의 향과 맛 알아보기",
+   "rect": {
+    "x": 165,
+    "y": 1507.4,
+    "w": 320,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "나만의 숲차 만들기",
+   "rect": {
+    "x": 559,
+    "y": 1323.4,
+    "w": 320,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "차 한 잔의 쉼",
+   "rect": {
+    "x": 165,
+    "y": 1698.2,
+    "w": 320,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "계절 임산물 모종 심기",
+   "rect": {
+    "x": 559,
+    "y": 1882.2,
+    "w": 320,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "일상 속 식물 돌봄",
+   "rect": {
+    "x": 165,
+    "y": 2154.5,
+    "w": 320,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "이용 안내",
+   "rect": {
+    "x": 140,
+    "y": 2289.9,
+    "w": 764,
+    "h": 35
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "운영일정",
+   "rect": {
+    "x": 140,
+    "y": 2341.9,
+    "w": 764,
+    "h": 75.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "예약안내",
+   "rect": {
+    "x": 140,
+    "y": 2496.4,
+    "w": 764,
+    "h": 75.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "취소·환불",
+   "rect": {
+    "x": 140,
+    "y": 2572.6,
+    "w": 764,
+    "h": 75.2
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "운영 기업",
+   "rect": {
+    "x": 140,
+    "y": 2696.8,
+    "w": 764,
+    "h": 35
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "운영일정",
+   "rect": {
+    "x": 140,
+    "y": 2341.9,
+    "w": 764,
+    "h": 75.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "예약안내",
+   "rect": {
+    "x": 140,
+    "y": 2496.4,
+    "w": 764,
+    "h": 75.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "취소·환불",
+   "rect": {
+    "x": 140,
+    "y": 2572.6,
+    "w": 764,
+    "h": 75.2
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 140,
+    "y": 22,
+    "w": 84.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 찾기",
+   "rect": {
+    "x": 775,
+    "y": 22,
+    "w": 101,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기획전과 이벤트",
+   "rect": {
+    "x": 884,
+    "y": 22,
+    "w": 112,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여기업",
+   "rect": {
+    "x": 1004,
+    "y": 22,
+    "w": 76,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON비즈",
+   "rect": {
+    "x": 1088,
+    "y": 22,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON페스타 소개",
+   "rect": {
+    "x": 1180,
+    "y": 22,
+    "w": 120,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 소개",
+   "rect": {
+    "x": 140,
+    "y": 491,
+    "w": 101,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "주요 활동",
+   "rect": {
+    "x": 249,
+    "y": 491,
+    "w": 79,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용 안내",
+   "rect": {
+    "x": 336,
+    "y": 491,
+    "w": 79,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "운영 기업",
+   "rect": {
+    "x": 423,
+    "y": 491,
+    "w": 79,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈페이지 새 창으로 열림",
+   "rect": {
+    "x": 165,
+    "y": 2974.5,
+    "w": 68,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기업 상세보기",
+   "rect": {
+    "x": 165,
+    "y": 3026,
+    "w": 144,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "예약하기 (새 창 열림)",
+   "rect": {
+    "x": 985,
+    "y": 708.6,
+    "w": 290,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기업·기관 문의하기",
+   "rect": {
+    "x": 985,
+    "y": 776.6,
+    "w": 290,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 140,
+    "y": 3171,
+    "w": 92.1,
+    "h": 76
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 찾기",
+   "rect": {
+    "x": 1092,
+    "y": 3178,
+    "w": 69,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기획전과 이벤트",
+   "rect": {
+    "x": 1212,
+    "y": 3178,
+    "w": 80,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여기업",
+   "rect": {
+    "x": 1092,
+    "y": 3221.1,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON비즈",
+   "rect": {
+    "x": 1212,
+    "y": 3221.1,
+    "w": 52,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON페스타 소개",
+   "rect": {
+    "x": 1092,
+    "y": 3264.3,
+    "w": 88,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "상담·자료요청",
+   "rect": {
+    "x": 1212,
+    "y": 3264.3,
+    "w": 69,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 처리방침",
+   "rect": {
+    "x": 140,
+    "y": 3427.7,
+    "w": 91,
+    "h": 15
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "",
+   "rect": {
+    "x": 140,
+    "y": 3511.9,
+    "w": 84.4,
+    "h": 32
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "",
+   "rect": {
+    "x": 256.4,
+    "y": 3511.9,
+    "w": 140.9,
+    "h": 32
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 140,
+    "y": 19.8,
+    "w": 92.9,
+    "h": 48.4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "오늘 좀 쉬고 싶茶 대표 이미지",
+   "rect": {
+    "x": 860,
+    "y": 129,
+    "w": 440,
+    "h": 330
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 141,
+    "y": 1299.4,
+    "w": 368,
+    "h": 184
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 535,
+    "y": 1674.2,
+    "w": 368,
+    "h": 184
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 165,
+    "y": 2772.8,
+    "w": 64,
+    "h": 64
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 140,
+    "y": 3185,
+    "w": 92.1,
+    "h": 48
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "산림청",
+   "rect": {
+    "x": 140,
+    "y": 3511.9,
+    "w": 84.4,
+    "h": 32
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "한국산림복지진흥원",
+   "rect": {
+    "x": 256.4,
+    "y": 3511.9,
+    "w": 140.9,
+    "h": 32
+   }
+  }
+ ]
+}

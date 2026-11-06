@@ -1,0 +1,284 @@
+{
+ "file": "b2b-inquiry-done-full.png",
+ "kind": "page",
+ "project": "soopon",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/b2b/inquiry",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1130,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:25:59.381Z",
+ "title": "프로그램 상담 신청 | 숲ON페스타 2026",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 23,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 2,
+  "new": [
+   "POST /b2b/inquiry (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "프로그램 상담 신청",
+   "rect": {
+    "x": 16,
+    "y": 93,
+    "w": 358,
+    "h": 35
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 14,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 14,
+    "w": 76.8,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 더 둘러보기",
+   "rect": {
+    "x": 41,
+    "y": 377,
+    "w": 308,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈으로",
+   "rect": {
+    "x": 41,
+    "y": 437,
+    "w": 308,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 594,
+    "w": 92.1,
+    "h": 76
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 찾기",
+   "rect": {
+    "x": 16,
+    "y": 817.8,
+    "w": 69,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기획전과 이벤트",
+   "rect": {
+    "x": 211,
+    "y": 817.8,
+    "w": 80,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여기업",
+   "rect": {
+    "x": 16,
+    "y": 861,
+    "w": 44,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON비즈",
+   "rect": {
+    "x": 211,
+    "y": 861,
+    "w": 52,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON페스타 소개",
+   "rect": {
+    "x": 16,
+    "y": 904.2,
+    "w": 88,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "상담·자료요청",
+   "rect": {
+    "x": 211,
+    "y": 904.2,
+    "w": 69,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "개인정보 처리방침",
+   "rect": {
+    "x": 16,
+    "y": 968.4,
+    "w": 91,
+    "h": 15
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 1036.5,
+    "w": 73.9,
+    "h": 28
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "",
+   "rect": {
+    "x": 121.9,
+    "y": 1036.5,
+    "w": 123.6,
+    "h": 28
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 16,
+    "y": 14,
+    "w": 84.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 16,
+    "y": 608,
+    "w": 92.1,
+    "h": 48
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "산림청",
+   "rect": {
+    "x": 16,
+    "y": 1036.5,
+    "w": 73.9,
+    "h": 28
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "한국산림복지진흥원",
+   "rect": {
+    "x": 121.9,
+    "y": 1036.5,
+    "w": 123.6,
+    "h": 28
+   }
+  }
+ ]
+}

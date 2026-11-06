@@ -1,0 +1,205 @@
+{
+ "file": "program-forestasan-01-view.png",
+ "kind": "page",
+ "project": "soopon",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/program/forestasan-01",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 4182,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:15:34.829Z",
+ "title": "오늘 좀 쉬고 싶茶 | 숲ON페스타 2026",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 1,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 4,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "오늘 좀 쉬고 싶茶",
+   "rect": {
+    "x": 16,
+    "y": 127.8,
+    "w": 358,
+    "h": 35
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "핵심 정보",
+   "rect": {
+    "x": 16,
+    "y": 508.4,
+    "w": 358,
+    "h": 35
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 14,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 14,
+    "w": 76.8,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 소개",
+   "rect": {
+    "x": 16,
+    "y": 439.4,
+    "w": 89,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "주요 활동",
+   "rect": {
+    "x": 105,
+    "y": 439.4,
+    "w": 67,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이용 안내",
+   "rect": {
+    "x": 172,
+    "y": 439.4,
+    "w": 67,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "운영 기업",
+   "rect": {
+    "x": 239,
+    "y": 439.4,
+    "w": 67,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기업·기관 문의",
+   "rect": {
+    "x": 156,
+    "y": 788.5,
+    "w": 112,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "예약하기 (새 창 열림)",
+   "rect": {
+    "x": 274,
+    "y": 788.5,
+    "w": 100,
+    "h": 48
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 16,
+    "y": 14,
+    "w": 84.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "오늘 좀 쉬고 싶茶 대표 이미지",
+   "rect": {
+    "x": 16,
+    "y": 218,
+    "w": 358,
+    "h": 201.4
+   }
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "file": "header.png",
+ "kind": "header",
+ "project": "soopon",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/",
+ "scrollY": 600,
+ "scrollX": 0,
+ "docHeight": 3042,
+ "full": false,
+ "clip": {
+  "x": 0,
+  "y": 0,
+  "width": 1440,
+  "height": 73
+ },
+ "capturedAt": "2026-11-06T08:13:10.620Z",
+ "title": "숲ON페스타 2026 — 숲에서 만나는 특별한 하루",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "내게 맞는 숲 프로그램을 찾아보세요.",
+   "rect": {
+    "x": 140,
+    "y": -27,
+    "w": 1160,
+    "h": 46
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "전체 프로그램 52개",
+   "rect": {
+    "x": 965,
+    "y": 39,
+    "w": 335,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "혼자",
+   "rect": {
+    "x": 244,
+    "y": 39,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "친구·연인",
+   "rect": {
+    "x": 306,
+    "y": 39,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "가족",
+   "rect": {
+    "x": 394,
+    "y": 39,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "아이와",
+   "rect": {
+    "x": 456,
+    "y": 39,
+    "w": 67,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "단체",
+   "rect": {
+    "x": 529,
+    "y": 39,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기업·기관",
+   "rect": {
+    "x": 591,
+    "y": 39,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 140,
+    "y": 14,
+    "w": 84.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 찾기",
+   "rect": {
+    "x": 775,
+    "y": 14,
+    "w": 101,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기획전과 이벤트",
+   "rect": {
+    "x": 884,
+    "y": 14,
+    "w": 112,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여기업",
+   "rect": {
+    "x": 1004,
+    "y": 14,
+    "w": 76,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON비즈",
+   "rect": {
+    "x": 1088,
+    "y": 14,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON페스타 소개",
+   "rect": {
+    "x": 1180,
+    "y": 14,
+    "w": 120,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 140,
+    "y": 14,
+    "w": 84.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1209,
+    "y": -189.2,
+    "w": 123.8,
+    "h": 192.1
+   }
+  }
+ ]
+}

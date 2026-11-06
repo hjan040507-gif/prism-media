@@ -1,0 +1,194 @@
+{
+ "file": "02-purpose-education.png",
+ "kind": "state",
+ "project": "soopon",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/b2b/inquiry",
+ "scrollY": 1552,
+ "scrollX": 0,
+ "docHeight": 4099,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:25:24.976Z",
+ "title": "프로그램 상담 신청 | 숲ON페스타 2026",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 9,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "1. 필수 개인정보 수집⁠·⁠이용",
+   "rect": {
+    "x": 397,
+    "y": 699,
+    "w": 646,
+    "h": 27.2
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 30명",
+   "rect": {
+    "x": 373,
+    "y": 264.8,
+    "w": 335,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 11월 둘째 주 평일",
+   "rect": {
+    "x": 732,
+    "y": 264.8,
+    "w": 335,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "원하시는 프로그램 방향, 장소, 예산 등을 자유롭게 적어 주세요.",
+   "rect": {
+    "x": 373,
+    "y": 372,
+    "w": 694,
+    "h": 169.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 140,
+    "y": 14,
+    "w": 84.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 찾기",
+   "rect": {
+    "x": 773,
+    "y": 14,
+    "w": 101,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기획전과 이벤트",
+   "rect": {
+    "x": 882,
+    "y": 14,
+    "w": 112,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여기업",
+   "rect": {
+    "x": 1002,
+    "y": 14,
+    "w": 76,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON비즈",
+   "rect": {
+    "x": 1086,
+    "y": 14,
+    "w": 86,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON페스타 소개",
+   "rect": {
+    "x": 1180,
+    "y": 14,
+    "w": 120,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 140,
+    "y": 14,
+    "w": 84.5,
+    "h": 44
+   }
+  }
+ ]
+}

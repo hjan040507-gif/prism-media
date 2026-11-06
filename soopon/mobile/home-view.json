@@ -1,0 +1,304 @@
+{
+ "file": "home-view.png",
+ "kind": "page",
+ "project": "soopon",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 3722,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:14:48.486Z",
+ "title": "숲ON페스타 2026 — 숲에서 만나는 특별한 하루",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "요즘, 숲에서 쉬는 법",
+   "rect": {
+    "x": 16,
+    "y": 116.1,
+    "w": 358,
+    "h": 46
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "내게 맞는 숲 프로그램을 찾아보세요.",
+   "rect": {
+    "x": 16,
+    "y": 612.3,
+    "w": 358,
+    "h": 70
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 14,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "누구와 고르기",
+   "rect": {
+    "x": 16,
+    "y": 694.3,
+    "w": 114,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "어떤 경험 고르기",
+   "rect": {
+    "x": 138,
+    "y": 694.3,
+    "w": 114,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "어디에서 고르기",
+   "rect": {
+    "x": 260,
+    "y": 694.3,
+    "w": 114,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 14,
+    "w": 76.8,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 둘러보기",
+   "rect": {
+    "x": 16,
+    "y": 221.3,
+    "w": 188,
+    "h": 56
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 16,
+    "y": 14,
+    "w": 84.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "picture",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 73,
+    "w": 390,
+    "h": 523.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 81.9,
+    "y": 395.6,
+    "w": 30.8,
+    "h": 30.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 107.3,
+    "y": 368.7,
+    "w": 42.4,
+    "h": 36.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 287.3,
+    "y": 487.1,
+    "w": 97.8,
+    "h": 151.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 281.9,
+    "y": 405.7,
+    "w": 193.2,
+    "h": 223.4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲길을 걷는 가족과 길가에서 명상하고, 화관을 만들고, 숲해설을 듣고, 새를 보고, 숲을 관찰하는 사람들",
+   "rect": {
+    "x": 117,
+    "y": 434.1,
+    "w": 140,
+    "h": 141.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 7.8,
+    "y": 454.5,
+    "w": 90.9,
+    "h": 109.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 195,
+    "y": 376.5,
+    "w": 59,
+    "h": 41.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "나만의 숲을 발견하는 숲 큐레이션 플랫폼",
+   "rect": {
+    "x": 16,
+    "y": 89,
+    "w": 296.4,
+    "h": 19.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 51,
+    "y": 711.3,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 173,
+    "y": 711.3,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 295,
+    "y": 711.3,
+    "w": 44,
+    "h": 44
+   }
+  }
+ ]
+}

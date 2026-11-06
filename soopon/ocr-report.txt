@@ -1,0 +1,1 @@
+# OCR(tesseract kor+eng) 독립 검사 · 대상 63장 · 걸림 0

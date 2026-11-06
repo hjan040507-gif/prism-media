@@ -1,0 +1,801 @@
+{
+ "file": "01-all-52.png",
+ "kind": "state",
+ "project": "soopon",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/",
+ "scrollY": 540,
+ "scrollX": 0,
+ "docHeight": 3042,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:17:32.653Z",
+ "title": "숲ON페스타 2026 — 숲에서 만나는 특별한 하루",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [
+   "GET /gtag/js (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "내게 맞는 숲 프로그램을 찾아보세요.",
+   "rect": {
+    "x": 140,
+    "y": 33,
+    "w": 1160,
+    "h": 46
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "전체 프로그램 52개",
+   "rect": {
+    "x": 965,
+    "y": 99,
+    "w": 335,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "추천 프로그램",
+   "rect": {
+    "x": 140,
+    "y": 321.8,
+    "w": 309,
+    "h": 46
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "테마별 맞춤 숲수업",
+   "rect": {
+    "x": 336,
+    "y": 437.9,
+    "w": 360,
+    "h": 29.9
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "함께 걷개, 함께 쉬개",
+   "rect": {
+    "x": 928,
+    "y": 437.9,
+    "w": 360,
+    "h": 29.9
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "[프라이빗 쉼표] 단체 자율형",
+   "rect": {
+    "x": 336,
+    "y": 596.1,
+    "w": 360,
+    "h": 29.9
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "[강동구 일자산] 와글와글 다랭이 숲 탐험대",
+   "rect": {
+    "x": 928,
+    "y": 596.1,
+    "w": 360,
+    "h": 59.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "기관 및 단체 행사",
+   "rect": {
+    "x": 336,
+    "y": 754.1,
+    "w": 360,
+    "h": 29.9
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "테이블용 한산모시 전통빗자루",
+   "rect": {
+    "x": 928,
+    "y": 754.1,
+    "w": 360,
+    "h": 29.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "혼자",
+   "rect": {
+    "x": 244,
+    "y": 99,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "친구·연인",
+   "rect": {
+    "x": 306,
+    "y": 99,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "가족",
+   "rect": {
+    "x": 394,
+    "y": 99,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "아이와",
+   "rect": {
+    "x": 456,
+    "y": 99,
+    "w": 67,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "단체",
+   "rect": {
+    "x": 529,
+    "y": 99,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기업·기관",
+   "rect": {
+    "x": 591,
+    "y": 99,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "힐링·휴식",
+   "rect": {
+    "x": 244,
+    "y": 151,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "웰니스·건강",
+   "rect": {
+    "x": 332,
+    "y": 151,
+    "w": 93,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "자연체험",
+   "rect": {
+    "x": 431,
+    "y": 151,
+    "w": 78,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "아웃도어·활동",
+   "rect": {
+    "x": 515,
+    "y": 151,
+    "w": 104,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "교육·놀이",
+   "rect": {
+    "x": 625,
+    "y": 151,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "문화·예술",
+   "rect": {
+    "x": 713,
+    "y": 151,
+    "w": 82,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "서울",
+   "rect": {
+    "x": 244,
+    "y": 203,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "경기",
+   "rect": {
+    "x": 306,
+    "y": 203,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "인천",
+   "rect": {
+    "x": 368,
+    "y": 203,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "강원",
+   "rect": {
+    "x": 430,
+    "y": 203,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "충청",
+   "rect": {
+    "x": 492,
+    "y": 203,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전라",
+   "rect": {
+    "x": 554,
+    "y": 203,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "경상",
+   "rect": {
+    "x": 616,
+    "y": 203,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제주",
+   "rect": {
+    "x": 678,
+    "y": 203,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기타",
+   "rect": {
+    "x": 740,
+    "y": 203,
+    "w": 56,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 140,
+    "y": 14,
+    "w": 84.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 찾기",
+   "rect": {
+    "x": 775,
+    "y": 14,
+    "w": 101,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기획전과 이벤트",
+   "rect": {
+    "x": 884,
+    "y": 14,
+    "w": 112,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "참여기업",
+   "rect": {
+    "x": 1004,
+    "y": 14,
+    "w": 76,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON비즈",
+   "rect": {
+    "x": 1088,
+    "y": 14,
+    "w": 84,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "숲ON페스타 소개",
+   "rect": {
+    "x": 1180,
+    "y": 14,
+    "w": 120,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "프로그램 모두 보기",
+   "rect": {
+    "x": 965,
+    "y": 197.4,
+    "w": 178,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "전체보기",
+   "rect": {
+    "x": 1236,
+    "y": 359,
+    "w": 64,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "테마별 맞춤 숲수업",
+   "rect": {
+    "x": 336,
+    "y": 437.9,
+    "w": 360,
+    "h": 29.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "함께 걷개, 함께 쉬개",
+   "rect": {
+    "x": 928,
+    "y": 437.9,
+    "w": 360,
+    "h": 29.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "[프라이빗 쉼표] 단체 자율형",
+   "rect": {
+    "x": 336,
+    "y": 596.1,
+    "w": 360,
+    "h": 29.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "[강동구 일자산] 와글와글 다랭이 숲 탐험대",
+   "rect": {
+    "x": 928,
+    "y": 596.1,
+    "w": 360,
+    "h": 59.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기관 및 단체 행사",
+   "rect": {
+    "x": 336,
+    "y": 754.1,
+    "w": 360,
+    "h": 29.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "테이블용 한산모시 전통빗자루",
+   "rect": {
+    "x": 928,
+    "y": 754.1,
+    "w": 360,
+    "h": 29.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "주식회사 자라나다어스 테마별 맞춤 숲수업 지역 경기 이천시 시간 미정 가격 가격 문의",
+   "rect": {
+    "x": 140,
+    "y": 407,
+    "w": 568,
+    "h": 146
+   }
+  },
+  {
+   "type": "card",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 152,
+    "y": 417,
+    "w": 168,
+    "h": 126
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "포레스트아산 함께 걷개, 함께 쉬개 지역 충청 충남 아산시 · 동천리애 충남 아산시 시간 90분 가격 1인 (VAT 포함, 보호자 1명 + 반려견 1마리) 25,000원",
+   "rect": {
+    "x": 732,
+    "y": 407,
+    "w": 568,
+    "h": 146.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 744,
+    "y": 417,
+    "w": 168,
+    "h": 126
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "숲에서멍 [프라이빗 쉼표] 단체 자율형 지역 전라 전북 임실 시간 5시간 가격 1팀 (베타 특가, 정상가 300,000원) 180,000원",
+   "rect": {
+    "x": 140,
+    "y": 565.3,
+    "w": 568,
+    "h": 146
+   }
+  },
+  {
+   "type": "card",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 152,
+    "y": 575.3,
+    "w": 168,
+    "h": 126
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "숲해랑 [강동구 일자산] 와글와글 다랭이 숲 탐험대 지역 서울 서울시 강동구 시간 120 가격 1인 34,900원",
+   "rect": {
+    "x": 732,
+    "y": 565.3,
+    "w": 568,
+    "h": 146
+   }
+  },
+  {
+   "type": "card",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 744,
+    "y": 575.3,
+    "w": 168,
+    "h": 126
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "주식회사 자라나다어스 기관 및 단체 행사 지역 경기 이천시 시간 미정 가격 가격 문의",
+   "rect": {
+    "x": 140,
+    "y": 723.3,
+    "w": 568,
+    "h": 146
+   }
+  },
+  {
+   "type": "card",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 152,
+    "y": 733.3,
+    "w": 168,
+    "h": 126
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "주식회사 숲이야 테이블용 한산모시 전통빗자루 지역 충청 천안시 시간 미정 가격 1개 13,000원",
+   "rect": {
+    "x": 732,
+    "y": 723.3,
+    "w": 568,
+    "h": 146
+   }
+  },
+  {
+   "type": "card",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 744,
+    "y": 733.3,
+    "w": 168,
+    "h": 126
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 140,
+    "y": 14,
+    "w": 84.5,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "picture",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": -451,
+    "w": 1440,
+    "h": 460
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1209,
+    "y": -129.2,
+    "w": 123.8,
+    "h": 192.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 1202.1,
+    "y": -243.1,
+    "w": 244.6,
+    "h": 282.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 152,
+    "y": 417,
+    "w": 168,
+    "h": 126
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 744,
+    "y": 417,
+    "w": 168,
+    "h": 126
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 152,
+    "y": 575.3,
+    "w": 168,
+    "h": 126
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 744,
+    "y": 575.3,
+    "w": 168,
+    "h": 126
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 152,
+    "y": 733.3,
+    "w": 168,
+    "h": 126
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 744,
+    "y": 733.3,
+    "w": 168,
+    "h": 126
+   }
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "file": "03-headcount-period.png",
+ "kind": "state",
+ "project": "soopon",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/b2b/inquiry",
+ "scrollY": 3133,
+ "scrollX": 0,
+ "docHeight": 6568,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:25:53.444Z",
+ "title": "프로그램 상담 신청 | 숲ON페스타 2026",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 11,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 10,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "30명",
+   "rect": {
+    "x": 41,
+    "y": 246.1,
+    "w": 308,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "11월 둘째 주 평일",
+   "rect": {
+    "x": 41,
+    "y": 353.3,
+    "w": 308,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "원하시는 프로그램 방향, 장소, 예산 등을 자유롭게 적어 주세요.",
+   "rect": {
+    "x": 41,
+    "y": 460.5,
+    "w": 308,
+    "h": 169.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 10,
+    "w": 76.8,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "숲ON페스타 2026",
+   "rect": {
+    "x": 16,
+    "y": 12,
+    "w": 76.8,
+    "h": 40
+   }
+  }
+ ]
+}
