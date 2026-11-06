@@ -21,6 +21,11 @@
 - 저장소: hjan040507-gif/prism-media 없음 + 이 서버에 GitHub API 인증 없음(gh 미로그인, 토큰 없음, SSH 로는 생성 불가) → ~/prism-media 에 커밋만, 보고에 '저장소 생성 필요'
 
 ## NOW
+- 2026-11-06 03:40Z 끝남: 9편 모두 커밋, 독립 검증 '완료'(FAIL 0, 판단 필요 3 — 운영 쓰기 흔적·push 불가·기준선 DIFF 2곳은 형제 세션). 증거 docs/evidence/final-2026-11-06.txt.
+- 도구 구멍 2개 발견·수정: 중첩 span 으로 쪼갠 번호(48eb3c3, byclick 진짜 원인) · <html> 교체 시 실시간 가림 끊김(09603a2). selftest 27/27, code-review medium 5회.
+- 남은 것: 저장소 생성(hjan040507-gif/prism-media) 후 push · 결정 필요 3건(아래 절).
+
+## 지난 NOW (2026-11-06 재개 이후, 위가 최신)
 - 03:36Z 9편 모두 커밋(posco 42c49dd). 증거 docs/evidence/final-2026-11-06.txt(tools/final-evidence.sh): check FAIL 0 ×9 · pii_scan≠0 0/569 · 요소 재검사 0 · 95MB 초과 0 · 임시 사본·포트 0 · 기준선 같음 7/9(sealkitt·maimai-event-builder 는 형제 세션 문서 작업, '기록' 절). 독립 검증 서브에이전트 대조 중. ※ 이번 재개 이후 아래 NOW 줄의 시각(02:40Z~03:55Z)은 추정으로 적은 값이라 실제와 다르다(실제 9편 완료 03:34Z).
 - 03:55Z byclick 검수 끝 → 커밋 9261fbe(check FAIL 0·OCR 1건 오탐(정산서 문서번호, PNG 직접 확인)·elements 0·관리자 재촬영 가림 확인·기준선 같음·서버 0). 운영 딜러 로그인·가입 하단 회사 정보(대표자 실명·주소·1566 번호) 숨기고 재촬영. lib 쪼갠 글자 처리는 리뷰 8건 반영해 run(같은 블록 인라인 텍스트 노드) 방식으로 재설계 — 시험 25/25, 3회차 리뷰 중(미커밋). 남은 것: posco.
 - 03:40Z 정정: byclick 연락처 노출의 진짜 원인은 앱이 번호를 중첩 span 으로 쪼개 그린 것(노드 단위 가림·검사가 못 잡음, byclick 서브에이전트 발견). 09603a2 의 루트 교체 수정은 재현된 별개 구멍. lib 에 쪼갠 글자 가림·검사 추가(작은 요소 innerText 역순 + body.innerText 검사), 회귀 시험 2건(원래 lib FAIL·지금 PASS, 22/22), code-review medium 중. 커밋분 6편+jipyeong 은 elements(요소 묶음 글자) 재검사 0 이라 영향 없음.
@@ -60,5 +65,6 @@
 - medimajor 조사 중 curl GET 1회(일반 UA)로 매물 MQE-102 조회수 +1 가능성(lot-stats.ts:16 BOT 정규식에 안 걸림).
 
 ## 기록
+- maimai-event-builder 고객 레포 status 가 기준선과 다름(변경 약 500건 docs/mvp/q2-7/… JSON·PROGRESS.md, 수정 01~03시): 형제 세션 작업 — 이 작업의 maieventic 촬영은 00:33Z 에 끝났고 운영 URL 만 찍음(로컬 사본 없음, 스크립트에 이 레포로 쓰는 경로 없음). 독립 검증 03:40Z 확인.
 - sealkitt 고객 레포 status 가 기준선과 다름: 형제 sealkitt 세션이 23:44Z WIP 커밋(1ec0355e)·docs/handoff/HANDOFF.md 수정·docs/audit/2026-11-06/w342-s1/ 생성 — 이 작업은 ~/sealkitt 에 쓰지 않음(로컬 사본·서버 없음, 운영 URL 만).
 - 기준선: docs/baseline/<repo>.status·.worktrees·SUMMARY.txt (22:44Z)
