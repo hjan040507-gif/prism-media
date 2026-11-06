@@ -1,0 +1,139 @@
+{
+ "file": "04-q5-empty.png",
+ "kind": "state",
+ "project": "posco",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/posco-ox",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 880,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:24:46.846Z",
+ "title": "포스코 OX 퀴즈 챌린지 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 8,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 9,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "포스코 그룹 전시관을 관람하신 소감을 자유롭게 적어주세요!",
+   "rect": {
+    "x": 20,
+    "y": 124,
+    "w": 350,
+    "h": 58.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 12,
+    "y": 56,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제출하고 추첨하기",
+   "rect": {
+    "x": 20,
+    "y": 800.5,
+    "w": 350,
+    "h": 59.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "textarea",
+   "text": "자유롭게 적어주세요",
+   "rect": {
+    "x": 20,
+    "y": 214.9,
+    "w": 350,
+    "h": 156
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "POSCO",
+   "rect": {
+    "x": 20,
+    "y": 12,
+    "w": 59.1,
+    "h": 16
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "5문항 중 5문항",
+   "rect": {
+    "x": 60,
+    "y": 71,
+    "w": 310,
+    "h": 6
+   }
+  }
+ ]
+}

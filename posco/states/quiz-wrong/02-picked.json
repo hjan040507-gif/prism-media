@@ -1,0 +1,174 @@
+{
+ "file": "02-picked.png",
+ "kind": "state",
+ "project": "posco",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/posco-ox",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 864,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:24:11.347Z",
+ "title": "포스코 OX 퀴즈 챌린지 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 8,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 5,
+  "new": [
+   "POST /api/posco/quiz/answer (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "아쉬워요",
+   "rect": {
+    "x": 24,
+    "y": 662.8,
+    "w": 342,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 342,
+    "y": 56,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 570.8,
+    "w": 167,
+    "h": 253.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 203,
+    "y": 570.8,
+    "w": 167,
+    "h": 253.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "다시 풀기",
+   "rect": {
+    "x": 24,
+    "y": 780,
+    "w": 342,
+    "h": 56
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "무탄소 에너지 Q2 무탄소에너지는 재생에너지만을 의미하며 수소를 포함하지 않는다. 힌트 그린수소를 생산할 때 탄소가 거의 발생하지 않아요.",
+   "rect": {
+    "x": 20,
+    "y": 116,
+    "w": 350,
+    "h": 434.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "POSCO",
+   "rect": {
+    "x": 20,
+    "y": 12,
+    "w": 59.1,
+    "h": 16
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "5문제 중 1문제 완료",
+   "rect": {
+    "x": 20,
+    "y": 71,
+    "w": 310,
+    "h": 6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "무탄소에너지 존 문항 헤더",
+   "rect": {
+    "x": 20,
+    "y": 116,
+    "w": 350,
+    "h": 130
+   }
+  }
+ ]
+}

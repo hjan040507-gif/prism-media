@@ -1,0 +1,161 @@
+{
+ "file": "02-q1-picked.png",
+ "kind": "state",
+ "project": "posco",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/posco-ox",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 880,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:24:39.820Z",
+ "title": "포스코 OX 퀴즈 챌린지 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 8,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 9,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "포스코 그룹 전시관을 방문하게 된 계기가 무엇인가요?",
+   "rect": {
+    "x": 20,
+    "y": 151.5,
+    "w": 350,
+    "h": 58.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "평소 포스코 그룹 또는 포스코 그룹의 사업에 관심이 있어서",
+   "rect": {
+    "x": 20,
+    "y": 271.4,
+    "w": 350,
+    "h": 70
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "탄소중립·친환경 기술 및 관련 산업에 관심이 있어서",
+   "rect": {
+    "x": 20,
+    "y": 351.4,
+    "w": 350,
+    "h": 70
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전시부스의 디자인이나 콘텐츠가 눈에 띄어서",
+   "rect": {
+    "x": 20,
+    "y": 431.4,
+    "w": 350,
+    "h": 49
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "행사 안내, 홍보물 또는 주변 추천을 통해 알게 되어서",
+   "rect": {
+    "x": 20,
+    "y": 490.4,
+    "w": 350,
+    "h": 49
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "\"포스코\"라는 기업 이름을 처음 접하고 호기심이 생겨서",
+   "rect": {
+    "x": 20,
+    "y": 549.5,
+    "w": 350,
+    "h": 70
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "POSCO",
+   "rect": {
+    "x": 20,
+    "y": 12,
+    "w": 59.1,
+    "h": 16
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "5문항 중 1문항",
+   "rect": {
+    "x": 60,
+    "y": 71,
+    "w": 310,
+    "h": 6
+   }
+  }
+ ]
+}

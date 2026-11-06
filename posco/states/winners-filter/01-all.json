@@ -1,0 +1,326 @@
+{
+ "file": "01-all.png",
+ "kind": "state",
+ "project": "posco",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/posco-ox/ops/winners",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2689,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:19:20.057Z",
+ "title": "당첨자 · 포스코 OX 퀴즈 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 2,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "당첨자",
+   "rect": {
+    "x": 356,
+    "y": 46,
+    "w": 728,
+    "h": 33
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "필터",
+   "rect": {
+    "x": 373,
+    "y": 195.5,
+    "w": 22,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체 일차",
+   "rect": {
+    "x": 373,
+    "y": 227,
+    "w": 71,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "DAY 1",
+   "rect": {
+    "x": 450,
+    "y": 227,
+    "w": 61,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "DAY 2",
+   "rect": {
+    "x": 517,
+    "y": 227,
+    "w": 63,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "DAY 3",
+   "rect": {
+    "x": 586,
+    "y": 227,
+    "w": 63,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체 등급",
+   "rect": {
+    "x": 373,
+    "y": 271,
+    "w": 71,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "골드",
+   "rect": {
+    "x": 450,
+    "y": 271,
+    "w": 48,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "블루",
+   "rect": {
+    "x": 504,
+    "y": 271,
+    "w": 48,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "스틸",
+   "rect": {
+    "x": 558,
+    "y": 271,
+    "w": 48,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "수령 전체",
+   "rect": {
+    "x": 373,
+    "y": 315,
+    "w": 71,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "수령 완료",
+   "rect": {
+    "x": 450,
+    "y": 315,
+    "w": 73,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "미수령",
+   "rect": {
+    "x": 529,
+    "y": 315,
+    "w": 59,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "새로고침",
+   "rect": {
+    "x": 930,
+    "y": 446,
+    "w": 78,
+    "h": 41.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "상세",
+   "rect": {
+    "x": 1011,
+    "y": 588.5,
+    "w": 56,
+    "h": 41.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "상세",
+   "rect": {
+    "x": 1011,
+    "y": 744,
+    "w": 56,
+    "h": 41.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "상세",
+   "rect": {
+    "x": 1011,
+    "y": 899.5,
+    "w": 56,
+    "h": 41.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "확인코드 검색 (예: P4Z-0827)",
+   "rect": {
+    "x": 373,
+    "y": 363,
+    "w": 694,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "현황",
+   "rect": {
+    "x": 361,
+    "y": 122,
+    "w": 175,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "당첨자",
+   "rect": {
+    "x": 542,
+    "y": 122,
+    "w": 175,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설문",
+   "rect": {
+    "x": 723,
+    "y": 122,
+    "w": 175,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "쿠폰",
+   "rect": {
+    "x": 904,
+    "y": 122,
+    "w": 175,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내보내기",
+   "rect": {
+    "x": 1014,
+    "y": 446,
+    "w": 70,
+    "h": 41.5
+   }
+  }
+ ]
+}

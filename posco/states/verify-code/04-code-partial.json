@@ -1,0 +1,139 @@
+{
+ "file": "04-code-partial.png",
+ "kind": "state",
+ "project": "posco",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/posco-ox",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 844,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:23:24.634Z",
+ "title": "포스코 OX 퀴즈 챌린지 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 8,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 2,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "인증번호를 입력해 주세요",
+   "rect": {
+    "x": 20,
+    "y": 84,
+    "w": 350,
+    "h": 31.7
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 12,
+    "y": 20,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "번호 수정",
+   "rect": {
+    "x": 190,
+    "y": 124.7,
+    "w": 51,
+    "h": 20.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "재발송 29초 후",
+   "rect": {
+    "x": 287,
+    "y": 244.1,
+    "w": 83,
+    "h": 20.3
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "483",
+   "rect": {
+    "x": 20,
+    "y": 174.1,
+    "w": 350,
+    "h": 54
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "3단계 중 2단계 문자 인증",
+   "rect": {
+    "x": 286,
+    "y": 36,
+    "w": 84,
+    "h": 4
+   }
+  }
+ ]
+}

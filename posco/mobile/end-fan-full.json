@@ -1,0 +1,131 @@
+{
+ "file": "end-fan-full.png",
+ "kind": "page",
+ "project": "posco",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/posco-ox",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 880,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:12:16.894Z",
+ "title": "포스코 OX 퀴즈 챌린지 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 4,
+  "new": [
+   "POST /api/posco/notify-win (fake)",
+   "GET /api/posco/session (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "당첨 안내 문자를 보내드렸어요",
+   "rect": {
+    "x": 20,
+    "y": 103.5,
+    "w": 350,
+    "h": 69.1
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 697.5,
+    "w": 350,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "다음 참가자",
+   "rect": {
+    "x": 143.5,
+    "y": 819.8,
+    "w": 103,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "문자를 못 받으셨나요?",
+   "rect": {
+    "x": 139,
+    "y": 753.5,
+    "w": 112,
+    "h": 23.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "POSCO",
+   "rect": {
+    "x": 20,
+    "y": 12,
+    "w": 59.1,
+    "h": 16
+   }
+  }
+ ]
+}

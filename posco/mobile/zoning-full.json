@@ -1,0 +1,238 @@
+{
+ "file": "zoning-full.png",
+ "kind": "page",
+ "project": "posco",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/posco-ox",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1376,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:23:42.936Z",
+ "title": "포스코 OX 퀴즈 챌린지 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 8,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 3,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "포스코그룹의 K-GX 생태계를 5개 존에서 만나보세요",
+   "rect": {
+    "x": 20,
+    "y": 74.8,
+    "w": 350,
+    "h": 64.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 247.5,
+    "w": 350,
+    "h": 421.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "퀴즈 시작하기",
+   "rect": {
+    "x": 20,
+    "y": 764.5,
+    "w": 350,
+    "h": 59.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "대한민국 산업 GX의 시작, 포스코 철강 GX로 열어가는 대한민국 탈탄소 산업 생태계 성공모델",
+   "rect": {
+    "x": 20,
+    "y": 723.5,
+    "w": 350,
+    "h": 92
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "무탄소 에너지 원전 및 재생에너지 등 무탄소 에너지 기술과 솔루션",
+   "rect": {
+    "x": 20,
+    "y": 827.5,
+    "w": 350,
+    "h": 92
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "AX·GX시대의 산업 자원, 철 AI와 녹색전환 시대의 산업 인프라를 구현하는 핵심 소재인 포스코 강재",
+   "rect": {
+    "x": 20,
+    "y": 931.5,
+    "w": 350,
+    "h": 92
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "철강 탈탄소 혁신 기술 HyREX를 중심으로 철강 생산 과정의 탄소 배출을 줄이는 포스코의 혁신 기술 소개",
+   "rect": {
+    "x": 20,
+    "y": 1035.5,
+    "w": 350,
+    "h": 92
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "K-GX 생태계 시너지 산업·에너지·기술과 정책적 지원이 연결될 때 완성되는 K-GX 생태계의 시너지",
+   "rect": {
+    "x": 20,
+    "y": 1139.5,
+    "w": 350,
+    "h": 92
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "POSCO",
+   "rect": {
+    "x": 20,
+    "y": 12,
+    "w": 59.1,
+    "h": 16
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "전시 평면도",
+   "rect": {
+    "x": 20,
+    "y": 247.5,
+    "w": 350,
+    "h": 421.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "K-GX존 전경",
+   "rect": {
+    "x": 32,
+    "y": 735.5,
+    "w": 68,
+    "h": 68
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "무탄소에너지 존 전경",
+   "rect": {
+    "x": 32,
+    "y": 839.5,
+    "w": 68,
+    "h": 68
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "강재전시 존 전경",
+   "rect": {
+    "x": 32,
+    "y": 943.5,
+    "w": 68,
+    "h": 68
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "수소환원제철 존 전경",
+   "rect": {
+    "x": 32,
+    "y": 1047.5,
+    "w": 68,
+    "h": 68
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "시너지 콘텐츠 존 전경",
+   "rect": {
+    "x": 32,
+    "y": 1151.5,
+    "w": 68,
+    "h": 68
+   }
+  }
+ ]
+}

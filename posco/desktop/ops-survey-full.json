@@ -1,0 +1,196 @@
+{
+ "file": "ops-survey-full.png",
+ "kind": "page",
+ "project": "posco",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/posco-ox/ops/survey",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2197,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:19:33.684Z",
+ "title": "설문 · 포스코 OX 퀴즈 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 6,
+  "new": [
+   "GET /api/posco/ops/survey (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "설문",
+   "rect": {
+    "x": 356,
+    "y": 46,
+    "w": 728,
+    "h": 33
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "평균 (5점) · 주관식",
+   "rect": {
+    "x": 373,
+    "y": 253,
+    "w": 97,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "방문 계기 분포 (Q1)",
+   "rect": {
+    "x": 373,
+    "y": 414,
+    "w": 101,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "인상 깊은 컨텐츠 분포 (Q3)",
+   "rect": {
+    "x": 373,
+    "y": 633,
+    "w": 139,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "주관식 소감 (Q5) · 16건",
+   "rect": {
+    "x": 373,
+    "y": 873,
+    "w": 125,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "새로고침",
+   "rect": {
+    "x": 930,
+    "y": 178.5,
+    "w": 78,
+    "h": 41.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "현황",
+   "rect": {
+    "x": 361,
+    "y": 122,
+    "w": 175,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "당첨자",
+   "rect": {
+    "x": 542,
+    "y": 122,
+    "w": 175,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설문",
+   "rect": {
+    "x": 723,
+    "y": 122,
+    "w": 175,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "쿠폰",
+   "rect": {
+    "x": 904,
+    "y": 122,
+    "w": 175,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내보내기",
+   "rect": {
+    "x": 1014,
+    "y": 178.5,
+    "w": 70,
+    "h": 41.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "file": "prize-coffee-full.png",
+ "kind": "page",
+ "project": "posco",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/posco-ox",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 880,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:25:05.874Z",
+ "title": "포스코 OX 퀴즈 챌린지 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 8,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 11,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "경품에 당첨되셨어요",
+   "rect": {
+    "x": 44,
+    "y": 112.5,
+    "w": 302,
+    "h": 42
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 346,
+    "y": 52,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "경품 받으러 가기",
+   "rect": {
+    "x": 44,
+    "y": 726.8,
+    "w": 302,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "다음 참가자",
+   "rect": {
+    "x": 143.5,
+    "y": 794.8,
+    "w": 103,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "축하합니다 경품에 당첨되셨어요 아메리카노 커피 수령 확인 코드 HTN-6238 기프티콘 수령 안내 아래 버튼을 누르시면 개별 문자로 '당첨 안내 문자'가 발송됩니다. 문자 속 링크에서 기프티콘을 바로 받으실 수 있습니다 경품 받으러 가기 다음 참가자",
+   "rect": {
+    "x": 20,
+    "y": 57,
+    "w": 350,
+    "h": 802
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "POSCO",
+   "rect": {
+    "x": 20,
+    "y": 12,
+    "w": 59.1,
+    "h": 16
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "아메리카노 커피",
+   "rect": {
+    "x": 117,
+    "y": 206.1,
+    "w": 155.9,
+    "h": 248
+   }
+  }
+ ]
+}

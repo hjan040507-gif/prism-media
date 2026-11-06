@@ -1,0 +1,31 @@
+{
+  "primary": "#005eb8",
+  "secondary": "#0072ce",
+  "fonts": ["Pretendard Variable", "Paperlogy Dyn", "Geist Mono"],
+  "palette": {
+    "posco-blue (CI 스왑 포인트, 주석상 '코퍼레이트 블루 근사치')": "#005eb8",
+    "accent-blue": "#0072ce",
+    "lit-blue": "#3aa0f0",
+    "cyan": "#00a6d8",
+    "stage-abyss": "#001233",
+    "stage-navy": "#001d42",
+    "stage-steel": "#0d2c52",
+    "correct-O": "#00c471",
+    "wrong-X": "#ff5a5f",
+    "gold": "#f5c451",
+    "silver": "#cdd9ea",
+    "logo-original": "#00588a"
+  },
+  "roles": {
+    "Pretendard Variable": "본문 (font-family 첫 순위)",
+    "Paperlogy Dyn 800": "디스플레이·제목 (.px-display)",
+    "Geist Mono": "숫자·확인코드 (.px-mono)"
+  },
+  "source": [
+    "src/app/demo/posco-ox/posco.css:22-24 (--px-posco-blue #005eb8 · --px-blue #0072ce · --px-lit #3aa0f0)",
+    "src/app/demo/posco-ox/posco.css:14-18 (abyss #001233 · navy #001d42 · steel #0d2c52 · cyan #00a6d8)",
+    "src/app/demo/posco-ox/posco.css:25-33 (O #00c471 · X #ff5a5f · gold #f5c451 · silver #cdd9ea)",
+    "src/app/demo/posco-ox/posco.css:44-46 (Pretendard Variable) · :81-85 (.px-display Paperlogy Dyn 800) · :89 (Geist Mono)",
+    "public/posco/posco-logo.svg (공식 POSCO 로고 SVG, 원본색 #00588a)"
+  ]
+}

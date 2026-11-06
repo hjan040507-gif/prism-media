@@ -1,0 +1,172 @@
+{
+ "file": "01-empty.png",
+ "kind": "state",
+ "project": "posco",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/posco-ox",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 844,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:23:18.237Z",
+ "title": "포스코 OX 퀴즈 챌린지 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "포스코 K-GX OX 퀴즈 챌린지",
+   "rect": {
+    "x": 20,
+    "y": 147,
+    "w": 350,
+    "h": 65
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "참여 정보를 입력해 주세요",
+   "rect": {
+    "x": 40,
+    "y": 260,
+    "w": 310,
+    "h": 27.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보기",
+   "rect": {
+    "x": 328,
+    "y": 533.2,
+    "w": 22,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "참여 시작하기",
+   "rect": {
+    "x": 40,
+    "y": 597.5,
+    "w": 310,
+    "h": 59.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "이름을 입력해 주세요",
+   "rect": {
+    "x": 40,
+    "y": 361.7,
+    "w": 310,
+    "h": 54
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "010-****-****",
+   "rect": {
+    "x": 40,
+    "y": 459.2,
+    "w": 310,
+    "h": 54
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 40,
+    "y": 534.2,
+    "w": 18,
+    "h": 18
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "참여 정보를 입력해 주세요 문자 인증으로 중복 참여를 방지합니다 이름 휴대폰 번호 이벤트 참여를 위한 이름·휴대폰 번호 수집·이용에 동의합니다 (행사 종료 후 파기) 보기 참여 시작하기",
+   "rect": {
+    "x": 20,
+    "y": 236,
+    "w": 350,
+    "h": 445
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "포스코 K-GX 키비주얼 — 지구본 위 강재(코일·후판·강관)",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 248
+   }
+  }
+ ]
+}

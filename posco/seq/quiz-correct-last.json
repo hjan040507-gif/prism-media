@@ -1,0 +1,156 @@
+{
+ "file": "quiz-correct-last.png",
+ "kind": "seq-frame",
+ "seq": "quiz-correct.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "scrollY": 0,
+ "frames": 144,
+ "fps": 60,
+ "durationMs": 2400,
+ "crf": 12,
+ "capturedAt": "2026-11-06T03:18:44.265Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 4,
+  "new": [
+   "GET /api/posco/session (fake)",
+   "POST /api/posco/otp/send (fake)",
+   "POST /api/posco/otp/verify (fake)",
+   "POST /api/posco/quiz/answer (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "정답입니다",
+   "rect": {
+    "x": 24,
+    "y": 645.6,
+    "w": 342,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 342,
+    "y": 56,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 570.8,
+    "w": 167,
+    "h": 253.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 203,
+    "y": 570.8,
+    "w": 167,
+    "h": 253.2
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "정답 선택 후 다음 문제로",
+   "rect": {
+    "x": 24,
+    "y": 760,
+    "w": 342,
+    "h": 56
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "대한민국 산업 GX의 시작, 포스코 Q1 K-GX는 산업의 탄소감축과 에너지 전환을 정부와 기업이 함께 추진하는 국가 성장 전략이다.",
+   "rect": {
+    "x": 20,
+    "y": 116,
+    "w": 350,
+    "h": 434.8
+   }
+  },
+  {
+   "type": "card",
+   "tag": "span",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 246,
+    "w": 350,
+    "h": 304.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "POSCO",
+   "rect": {
+    "x": 20,
+    "y": 12,
+    "w": 59.1,
+    "h": 16
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "5문제 중 0문제 완료",
+   "rect": {
+    "x": 20,
+    "y": 71,
+    "w": 310,
+    "h": 6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "K-GX존 문항 헤더",
+   "rect": {
+    "x": 20,
+    "y": 116,
+    "w": 350,
+    "h": 130
+   }
+  }
+ ]
+}

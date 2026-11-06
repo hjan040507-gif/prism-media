@@ -1,0 +1,117 @@
+{
+ "file": "ops-stock-view.png",
+ "kind": "page",
+ "project": "posco",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/posco-ox/ops",
+ "scrollY": 528,
+ "scrollX": 0,
+ "docHeight": 1978,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:19:09.503Z",
+ "title": "운영 현황 · 포스코 OX 퀴즈 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "경품별 재고 (지급 / 한도 · 남은 수)",
+   "rect": {
+    "x": 373,
+    "y": 97,
+    "w": 694,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "쿠폰(기프티콘) 재고 · 켜진 배치만",
+   "rect": {
+    "x": 373,
+    "y": 472.5,
+    "w": 694,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "설문 평균 (5점) · 주관식",
+   "rect": {
+    "x": 373,
+    "y": 627,
+    "w": 694,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "방문 계기 분포 (Q1)",
+   "rect": {
+    "x": 373,
+    "y": 805,
+    "w": 694,
+    "h": 19.5
+   }
+  }
+ ]
+}

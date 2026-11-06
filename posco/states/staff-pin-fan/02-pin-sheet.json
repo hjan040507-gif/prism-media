@@ -1,0 +1,150 @@
+{
+ "file": "02-pin-sheet.png",
+ "kind": "state",
+ "project": "posco",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/posco-ox/claim/7d3f9a1c5e8b2046a9d1c7f3e5b80246",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 860,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:13:05.928Z",
+ "title": "경품 수령 · 포스코 OX 퀴즈 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 2,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "탁상 미니선풍기",
+   "rect": {
+    "x": 20,
+    "y": 67.5,
+    "w": 350,
+    "h": 34.7
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "스탭 확인 현장 스탭 전용",
+   "rect": {
+    "x": 20,
+    "y": 789.3,
+    "w": 350,
+    "h": 47
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 844
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 528,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "확인",
+   "rect": {
+    "x": 153,
+    "y": 697.3,
+    "w": 84,
+    "h": 84
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 621.3,
+    "w": 350,
+    "h": 52
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "탁상 미니선풍기",
+   "rect": {
+    "x": 90.9,
+    "y": 122.2,
+    "w": 208.2,
+    "h": 248
+   }
+  }
+ ]
+}
