@@ -92,7 +92,11 @@ const BROWSER_FN = String.raw`
 window.__prism = window.__prism || (function () {
   const P = __PII__;
   const ACC_MIN = __ACC__;
-  const mk = (k) => new RegExp(P[k], 'g');
+  const RX = {};
+  const mk = (k) => { const r = RX[k] || (RX[k] = new RegExp(P[k], 'g')); r.lastIndex = 0; return r; };
+  // 가림 대체 글자 — 노드 단위(scrubText)와 쪼갠 글자(scrubSplit)가 같은 표를 쓴다. 순서도 같다.
+  const PII_ORDER = ['email', 'url', 'rrn', 'phone', 'account', 'passport', 'plate', 'addr'];
+  const REP = { email: () => '', url: () => '', rrn: () => '', phone: () => '010-****-****', account: () => '', passport: () => '', plate: () => '12가 ****', addr: (m) => m.split(/\s+/).slice(0, 2).join(' ') };
   const SKIP = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEMPLATE']);
   const stats = { phone: 0, email: 0, rrn: 0, account: 0, passport: 0, url: 0, plate: 0, addr: 0, names: 0, ids: 0, address: 0, biz: 0, textMap: 0, fake: 0, removed: 0, qr: 0 };
   let rules = {};
@@ -100,14 +104,7 @@ window.__prism = window.__prism || (function () {
   function scrubText(s) {
     if (!s) return s;
     let o = s;
-    o = o.replace(mk('email'), () => { stats.email++; return ''; });
-    o = o.replace(mk('url'), () => { stats.url++; return ''; });
-    o = o.replace(mk('rrn'), () => { stats.rrn++; return ''; });
-    o = o.replace(mk('phone'), () => { stats.phone++; return '010-****-****'; });
-    o = o.replace(mk('account'), (m) => { if (digits(m) < ACC_MIN) return m; stats.account++; return ''; });
-    o = o.replace(mk('passport'), () => { stats.passport++; return ''; });
-    o = o.replace(mk('plate'), () => { stats.plate++; return '12가 ****'; });
-    o = o.replace(mk('addr'), (m) => { stats.addr++; return m.split(/\s+/).slice(0, 2).join(' '); });
+    for (const k of PII_ORDER) o = o.replace(mk(k), (m) => { if (k === 'account' && digits(m) < ACC_MIN) return m; stats[k]++; return REP[k](m); });
     if (rules.textMap) for (const [k, v] of Object.entries(rules.textMap)) if (o.includes(k)) { o = o.split(k).join(v); stats.textMap++; }
     if (rules.bizMap) for (const [k, v] of Object.entries(rules.bizMap)) if (o.includes(k)) { o = o.split(k).join(v); stats.biz++; }
     return o;
@@ -116,14 +113,20 @@ window.__prism = window.__prism || (function () {
     const m = s.match(/^(.*?(?:특별시|광역시|특별자치시|특별자치도|도|시)\s*\S*?(?:구|군|시))(?:\s|$)/);
     return m ? m[1] : s.split(/\s+/).slice(0, 2).join(' ');
   }
-  const curText = (el) => (el.matches && el.matches('input,textarea') ? el.value : (el.textContent || '')).trim();
+  // <style>·<script> 안 글자는 빼고 본다
+  const curText = (el) => {
+    if (el.matches && el.matches('input,textarea')) return (el.value || '').trim();
+    const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, accept);
+    let o = '', t; while ((t = tw.nextNode())) o += t.nodeValue;
+    return o.trim();
+  };
   function setText(el, v) {
     if (curText(el) === v) return false;
     if (el.matches('input,textarea')) { el.value = v; return true; }
-    const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, accept);
     let first = null, t;
     while ((t = tw.nextNode())) { if (t.nodeValue.trim()) { if (!first) { first = t; t.nodeValue = v; } else t.nodeValue = ''; } }
-    if (!first) el.textContent = v;
+    if (!first) el.appendChild(document.createTextNode(v)); // textContent 대입은 자식 <style> 까지 지운다
     return true;
   }
   // 규칙은 매번 다시 건다(React 가 글자를 되돌려도 다음 호출에서 다시 바꾼다).
@@ -147,7 +150,9 @@ window.__prism = window.__prism || (function () {
     for (const f of rules.fake || []) q(f.selector).forEach((el) => { if (setText(el, f.value)) stats.fake++; });
     if (rules.qr !== false) {
       q('img,canvas,svg,picture').forEach((el) => {
-        const hint = ((el.getAttribute('alt') || '') + ' ' + (el.getAttribute('src') || '') + ' ' + (el.getAttribute('aria-label') || '') + ' ' + (el.getAttribute('class') || '') + ' ' + (el.id || '') + ' ' + (el.dataset.testid || '')).toLowerCase();
+        // data: 주소는 base64 본문이라 'qr' 이 우연히 들어 있을 수 있다 — 힌트에서 뺀다(posco 쿠폰 이미지 오탐)
+        const src = el.getAttribute('src') || '';
+        const hint = ((el.getAttribute('alt') || '') + ' ' + (src.startsWith('data:') ? '' : src) + ' ' + (el.getAttribute('aria-label') || '') + ' ' + (el.getAttribute('class') || '') + ' ' + (el.id || '') + ' ' + (el.dataset.testid || '')).toLowerCase();
         if (/(^|[^a-z])qr/.test(hint)) { if (!el.dataset.prQr) { el.dataset.prQr = 1; stats.qr++; } el.style.setProperty('visibility', 'hidden', 'important'); }
       });
       for (const sel of rules.qrSelectors || []) q(sel).forEach((el) => { if (!el.dataset.prQr) { el.dataset.prQr = 1; stats.qr++; } el.style.setProperty('visibility', 'hidden', 'important'); });
@@ -161,11 +166,71 @@ window.__prism = window.__prism || (function () {
     return out;
   }
   const accept = { acceptNode: (n) => (n.parentElement && SKIP.has(n.parentElement.nodeName) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT) };
+  // 여러 요소로 쪼개 그린 글자(<span>010-<span>3456</span>-<span>7890</span></span>)는 텍스트 노드 하나씩 보면 안 걸린다.
+  // 같은 블록 안에서 인라인 요소로만 이어진 텍스트 노드를 한 줄(run)로 이어 보고, 걸린 글자만 그 노드들 안에서 바꾼다
+  // (칸·블록·<br> 경계는 넘지 않는다 — 표의 이웃 칸이 이어져 번호로 보이는 오탐 방지, 요소 구조는 그대로).
+  // 인라인 판정은 태그가 아니라 실제 표시값으로 한다(사용자 요소·display:inline 인 div·SVG tspan 도 같은 줄).
+  // inline-block 류도 잇는다 — 오탐이면 글자가 가려질 뿐이지만, 놓치면 번호가 PNG 에 남는다.
+  // display:none 요소는 줄을 끊지 않고 통째로 건너뛴다(숨긴 미끼 글자가 번호를 둘로 나누지 못하게).
+  function disp(el, cache) {
+    let d = cache.get(el);
+    if (d === undefined) { d = getComputedStyle(el).display; cache.set(el, d); }
+    return d;
+  }
+  const isInline = (el, cache) => { const d = disp(el, cache); return d.startsWith('inline') || d === 'contents' || d === 'ruby' || d === 'ruby-text'; };
+  function blockOf(n, cache) { let e = n.parentElement; while (e && isInline(e, cache)) e = e.parentElement; return e; }
+  function textRuns(base) {
+    const runs = [], cache = new Map();
+    let cur = [], curBlock = null;
+    const flush = () => { if (cur.length) runs.push(cur); cur = []; curBlock = null; };
+    const tw = document.createTreeWalker(base, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT, {
+      acceptNode: (n) => (n.nodeType === 1 && (SKIP.has(n.nodeName) || disp(n, cache) === 'none') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT),
+    });
+    let n;
+    while ((n = tw.nextNode())) {
+      // <br> 은 표시값이 inline 이지만 줄을 바꾼다 — 경계로 본다
+      if (n.nodeType === 1) { if (n.nodeName === 'BR' || !isInline(n, cache)) flush(); continue; }
+      if (!n.nodeValue) continue;
+      const b = blockOf(n, cache);
+      if (cur.length && b !== curBlock) flush();
+      curBlock = b; cur.push(n);
+    }
+    flush();
+    return runs;
+  }
+  const mayHavePii = (s) => /[\d@.]/.test(s) || /(?:시|도)\s/.test(s);
+  function scrubSplit(base) {
+    for (const run of textRuns(base)) {
+      if (run.length < 2) continue;
+      if (!mayHavePii(run.map((t) => t.nodeValue).join(''))) continue;
+      for (const k of PII_ORDER) {
+        // 대체 글자는 어떤 정규식에도 다시 안 걸린다 — 걸린 것이 없어질 때까지 돈다(줄 길이가 상한)
+        for (let left = run.reduce((a, t) => a + t.nodeValue.length, 0) + 1; left > 0; left--) {
+          const joined = run.map((t) => t.nodeValue).join('');
+          let hit = null;
+          for (const m of joined.matchAll(mk(k))) { if (k === 'account' && digits(m[0]) < ACC_MIN) continue; hit = m; break; }
+          if (!hit) break;
+          const start = hit.index, end = start + hit[0].length;
+          let off = 0, placed = false;
+          for (const t of run) {
+            const v = t.nodeValue, a = off, z = off + v.length;
+            off = z;
+            if (z <= start || a >= end) continue;
+            const s0 = Math.max(start - a, 0), e0 = Math.min(end - a, v.length);
+            t.nodeValue = v.slice(0, s0) + (placed ? '' : REP[k](hit[0])) + v.slice(e0);
+            placed = true;
+          }
+          stats[k]++;
+        }
+      }
+    }
+  }
   function scrubRoot(r) {
     const base = r.nodeType === 9 ? r.body || r.documentElement : r;
     if (!base) return;
     const tw = document.createTreeWalker(base, NodeFilter.SHOW_TEXT, accept);
     let t; while ((t = tw.nextNode())) { const v = scrubText(t.nodeValue); if (v !== t.nodeValue) t.nodeValue = v; }
+    scrubSplit(base);
     for (const el of base.querySelectorAll('*')) {
       if (el.matches('input,textarea')) { const v = scrubText(el.value); if (v !== el.value) el.value = v; }
       for (const a of ['placeholder', 'title', 'alt', 'aria-label', 'value', 'data-tooltip']) {
@@ -190,8 +255,8 @@ window.__prism = window.__prism || (function () {
     for (const r of roots()) {
       const base = r.nodeType === 9 ? r.body || r.documentElement : r;
       if (!base) continue;
-      const tw = document.createTreeWalker(base, NodeFilter.SHOW_TEXT, accept);
-      let t; while ((t = tw.nextNode())) parts.push(t.nodeValue);
+      // 텍스트 노드를 가림과 같은 줄(run) 단위로 이어서 본다 — 쪼개 그린 글자도 걸린다
+      for (const run of textRuns(base)) parts.push(run.map((t) => t.nodeValue).join(''));
       for (const el of base.querySelectorAll('*')) {
         if (el.matches('input,textarea')) parts.push(el.value || '');
         for (const a of ['placeholder', 'title', 'alt', 'aria-label', 'data-tooltip']) { const v = el.getAttribute(a); if (v) parts.push(v); }
@@ -201,10 +266,11 @@ window.__prism = window.__prism || (function () {
         }
       }
     }
-    const text = parts.join('\n');
     const out = { phone: 0, email: 0, rrn: 0, account: 0, passport: 0, url: 0, plate: 0, addr: 0 };
     const samples = [];
-    for (const k of Object.keys(out)) {
+    // 조각(줄·속성·입력값)마다 따로 본다 — 줄바꿈으로 이어 붙이면 표의 이웃 칸('07' '1234' '5678')이 번호로 보인다
+    for (const k of Object.keys(out)) for (const text of parts) {
+      if (!text) continue;
       for (const m of text.matchAll(mk(k))) {
         if (k === 'account' && digits(m[0]) < ACC_MIN) continue;
         out[k]++;

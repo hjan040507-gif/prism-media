@@ -93,6 +93,39 @@ try {
     try { await saveShot(page, f); } catch (e) { err = e.message; }
     page.screenshot = shoot;
     check('찍는 사이 생긴 PII 는 가리기 전 검사가 잡음', /PII \d+건이 찍는 사이 생김/.test(err) && !fs.existsSync(f), err.slice(0, 80));
+    // 회귀(2026-11-06 byclick 진짜 원인): 번호를 중첩 span 으로 쪼개 그리면 노드 단위 가림·검사가 못 잡았다
+    const longText = '가'.repeat(320);
+    const SPLIT_HTML = `<!doctype html><html><body>
+<table><tr><td class=nm2>정○○</td><td class=ph><span class=p>010-<span>3456</span>-<span>7890</span></span></td></tr>
+<tr class=fp><td>07</td><td>1234</td><td>5678</td></tr></table>
+<div class=st><style>.zz{color:red}</style>대표 010-<b>3456</b>-<b>7890</b></div>
+<p id=long>${longText} <b>010-</b><b>2345</b>-<b>6789</b> 끝</p>
+<div class=decoy>연락 <span>010-</span><span style="display:none">x</span><span>3456-7890</span></div>
+<div class=cust>연락 <span>010-</span><x-digit>3456</x-digit><span>-7890</span></div>
+<div class=dinl>연락 <div style="display:inline">010-</div><div style="display:inline">3456-7890</div></div>
+<div class=brb>07<br>1234-5678</div>
+<div id=sh2></div><script>document.getElementById('sh2').attachShadow({mode:'open'}).innerHTML='<span>010-</span><span>3456-7890</span>';</script>
+</body></html>`;
+    await page.route('https://split.local/**', (r) => r.fulfill({ status: 200, contentType: 'text/html; charset=utf-8', body: SPLIT_HTML }));
+    await page.goto('https://split.local/');
+    const fs1 = path.join(out, 'desktop', 'regress-split.png');
+    let e1 = '';
+    try { await saveShot(page, fs1); } catch (e) { e1 = e.message; }
+    const r1 = await page.evaluate(() => ({
+      cell: document.querySelector('.ph').textContent, spans: document.querySelectorAll('.ph span').length, nm: document.querySelector('.nm2').textContent,
+      fp: [...document.querySelectorAll('.fp td')].map((t) => t.textContent).join('|'),
+      st: document.querySelector('.st').textContent.replace(/\s+/g, ' ').trim(), style: document.querySelector('.st style').textContent,
+      long: document.getElementById('long').textContent.slice(-20), shadow: document.getElementById('sh2').shadowRoot.textContent,
+      decoy: document.querySelector('.decoy').innerText, cust: document.querySelector('.cust').innerText, dinl: document.querySelector('.dinl').innerText,
+      brb: document.querySelector('.brb').innerText,
+    }));
+    check('쪼갠 span 번호 가림·구조 유지·저장', !e1 && fs.existsSync(fs1) && r1.cell === '010-****-****' && r1.spans === 3 && r1.nm === '정○○', e1 || JSON.stringify([r1.cell, r1.spans, r1.nm]));
+    check('표 이웃 칸은 이어 보지 않음(오탐 없음)', r1.fp === '07|1234|5678', r1.fp);
+    check('<style> 은 그대로, 보이는 글자만 가림', r1.style === '.zz{color:red}' && r1.st.endsWith('대표 010-****-****'), JSON.stringify([r1.style, r1.st]));
+    check('긴 문단 속 쪼갠 번호도 가림', r1.long.endsWith('010-****-**** 끝'), JSON.stringify(r1.long));
+    check('shadow root 속 쪼갠 번호도 가림', r1.shadow === '010-****-****', JSON.stringify(r1.shadow));
+    check('숨긴 미끼 span·사용자 요소·inline div 로 쪼갠 번호도 가림', [r1.decoy, r1.cust, r1.dinl].every((t) => !/\d{4}-\d{4}/.test(t)), JSON.stringify([r1.decoy, r1.cust, r1.dinl]));
+    check('<br> 경계는 잇지 않음(오탐 없음)', r1.brb.replace(/\s+/g, ' ') === '07 1234-5678', JSON.stringify(r1.brb));
     await ctx.close();
   }
 } finally {
