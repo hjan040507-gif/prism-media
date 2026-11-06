@@ -1,0 +1,254 @@
+{
+ "file": "escrow-checkout-view.png",
+ "kind": "page",
+ "project": "fordex",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 844,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:30:19.529Z",
+ "title": "결제",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 15
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "매물 상세",
+   "rect": {
+    "x": 56,
+    "y": 20,
+    "w": 77.7,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "결제",
+   "rect": {
+    "x": 56,
+    "y": 20,
+    "w": 36,
+    "h": 24
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "홍길동",
+   "rect": {
+    "x": 24,
+    "y": 309,
+    "w": 342,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "010-****-****",
+   "rect": {
+    "x": 24,
+    "y": 397,
+    "w": 342,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "검색 버튼 사용",
+   "rect": {
+    "x": 24,
+    "y": 485,
+    "w": 244.4,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "검색으로 자동 입력",
+   "rect": {
+    "x": 24,
+    "y": 573,
+    "w": 342,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "101동 1502호",
+   "rect": {
+    "x": 24,
+    "y": 661,
+    "w": 342,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "부재 시 경비실에 맡겨주세요",
+   "rect": {
+    "x": 24,
+    "y": 749,
+    "w": 342,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 11,
+    "y": 17,
+    "w": 30,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "  홈",
+   "rect": {
+    "x": 0,
+    "y": 788,
+    "w": 78,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "  검색",
+   "rect": {
+    "x": 78,
+    "y": 788,
+    "w": 78,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "  상품등록",
+   "rect": {
+    "x": 156,
+    "y": 788,
+    "w": 78,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "  MY컬렉션",
+   "rect": {
+    "x": 234,
+    "y": 788,
+    "w": 78,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "  MY",
+   "rect": {
+    "x": 312,
+    "y": 788,
+    "w": 78,
+    "h": 48
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 64,
+    "w": 390,
+    "h": 390
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 40,
+    "y": 104,
+    "w": 80,
+    "h": 108
+   }
+  }
+ ]
+}

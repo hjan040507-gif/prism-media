@@ -21,6 +21,7 @@
 - 저장소: hjan040507-gif/prism-media 없음 + 이 서버에 GitHub API 인증 없음(gh 미로그인, 토큰 없음, SSH 로는 생성 불가) → ~/prism-media 에 커밋만, 보고에 '저장소 생성 필요'
 
 ## NOW
+- 00:40Z fordex 검수 끝(check FAIL 0·OCR 1건 오탐(카드 저작권 연도)·contact 확인, 로컬 복제 스택+가짜 데이터, 운영 관리자 컷·NICE 결제창·지급/정산 BLOCKED) → 커밋.
 - 00:33Z maieventic 검수 끝(check FAIL 0·OCR 1건 오탐·contact 확인, /create 빌더 BLOCKED — 서버가 analytics_events 에 씀) → 커밋.
 - 00:11Z sellfit 검수 끝(check FAIL 0·OCR 0/27·사람 사진 0 확인·관리자·교환 흐름 BLOCKED) → 커밋.
 - 00:10Z medimajor 검수 끝(check FAIL 0·OCR 5건 오탐 판정·contact 확인·관리자 GET 쓰기 없음) → 커밋 d4e391f.
@@ -40,6 +41,7 @@
 2. maieventic 빌더 4종(AI 대화 기획·디자인 3안·빌더 편집·확률·매장 QR): 운영 /create 를 QA 계정으로 1회 열면 analytics_events 1행 쓰기(create/page.tsx:151). 추천: 승인 시 1회 촬영, 아니면 레포 howto 이미지 26장(media/builder-captures)로 대체.
 
 ## 보고할 것 (운영 쓰기 가능성)
+- fordex: 운영 접속 0(외부 호스트 abort). 로컬 복제 스택(fordex-replica3, 다른 세션 도커 — 컨테이너는 손대지 않음)에 합성 계정 로그인 약 40회 → 복제 DB 세션 행만 남음.
 - maieventic: 로그인 POST 1회(QA 풀 #1). 가로챈 요청 19. 관리자 화면 GET 렌더 쓰기 못 찾음(관리자 클라이언트의 읽기 API 내부 쓰기는 끝까지 추적 못 함).
 - medimajor: 로그인 POST 2회(테스트 판매자 1·qa-admin 1, 인증 세션 행). 상세는 MQE-102 1건만 8회, 모든 UA 가 BOT 정규식(lot-stats.ts:16)에 걸림(조회수 미기록). 판매 마법사 쓰기 RPC 3종 9건은 가로챔. 관리자 경로에 GET 렌더 쓰기·접근 로그 없음(src/app/admin grep).
 - sealkitt: `/api/suggest` 15회·`/api/search` 7회(첫 촬영 3 + 페이지 재촬영 4)마다 `rpc api_rate_take` 가 `api_rate_hits` upsert(IP별 속도 제한 카운터, 0190_api_rate_limit.sql:40-41 — 헤더로 못 피함). 카드 상세 약 24회 열람 때 `/api/ebay-*`·`/api/snkr-*` GET 자동 호출(캐시 미스 때 서버 쓰기 여부 미확인). 시세 축 조사로 카드 상세 HTML 4,331건 GET(JS 없음, 브라우저 비콘 없음). Realtime presence 웹소켓 접속.

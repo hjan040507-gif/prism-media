@@ -1,0 +1,58 @@
+{
+ "file": "bid-place-first.png",
+ "kind": "seq-frame",
+ "seq": "bid-place.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "scrollY": 0,
+ "frames": 360,
+ "fps": 60,
+ "durationMs": 6000,
+ "crf": 12,
+ "capturedAt": "2026-11-06T00:27:35.598Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [
+   "POST /rest/v1/rpc/place_bid_v2 (fake: 입찰 가짜 응답)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 8
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 8
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 6
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 6
+   }
+  ]
+ }
+}

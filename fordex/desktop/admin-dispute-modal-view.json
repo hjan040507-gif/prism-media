@@ -1,0 +1,221 @@
+{
+ "file": "admin-dispute-modal-view.png",
+ "kind": "page",
+ "project": "fordex",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 900,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:28:47.962Z",
+ "title": "거래 관리 (어드민)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 5
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "거래 관리 (어드민)",
+   "rect": {
+    "x": 56,
+    "y": 20,
+    "w": 151.5,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 13,
+    "w": 104,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1288,
+    "y": 16,
+    "w": 22,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1326,
+    "y": 16,
+    "w": 22,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": " 99+",
+   "rect": {
+    "x": 1364,
+    "y": 16,
+    "w": 22,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1402,
+    "y": 16,
+    "w": 22,
+    "h": 24
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "매물번호 검색 (예: FDX-000001)",
+   "rect": {
+    "x": 16,
+    "y": 251,
+    "w": 1348,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 11,
+    "y": 17,
+    "w": 30,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "  홈",
+   "rect": {
+    "x": 0,
+    "y": 844,
+    "w": 288,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "  검색",
+   "rect": {
+    "x": 288,
+    "y": 844,
+    "w": 288,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "  상품등록",
+   "rect": {
+    "x": 576,
+    "y": 844,
+    "w": 288,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "  MY컬렉션",
+   "rect": {
+    "x": 864,
+    "y": 844,
+    "w": 288,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "  MY",
+   "rect": {
+    "x": 1152,
+    "y": 844,
+    "w": 288,
+    "h": 48
+   }
+  }
+ ]
+}
