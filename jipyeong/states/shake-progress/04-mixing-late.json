@@ -1,0 +1,150 @@
+{
+ "file": "04-mixing-late.png",
+ "kind": "state",
+ "project": "jipyeong",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/jipyeong-shake",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 844,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:44:22.257Z",
+ "title": "지평생막걸리 SHAKE",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 2,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 342,
+    "y": 2,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "흔들기가 안 되거나 PC 접속의 경우 막걸리 병을 꾹 눌러 진행하기",
+   "rect": {
+    "x": 24,
+    "y": 772,
+    "w": 342,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "흔들면 이야기가 시작된다",
+   "rect": {
+    "x": 124,
+    "y": 14,
+    "w": 142,
+    "h": 20
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "지평생막걸리 병 — 휴대폰을 흔들어 주세요",
+   "rect": {
+    "x": 139,
+    "y": 238.3,
+    "w": 112.1,
+    "h": 354.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "canvas",
+   "text": "",
+   "rect": {
+    "x": 131.2,
+    "y": 233.7,
+    "w": 124.1,
+    "h": 359.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 142.1,
+    "y": 280.1,
+    "w": 103.2,
+    "h": 293.2
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 165.9,
+    "y": 253.1,
+    "w": 44.3,
+    "h": 29.8
+   }
+  }
+ ]
+}

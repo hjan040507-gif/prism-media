@@ -1,0 +1,199 @@
+{
+ "file": "admin-dash-full.png",
+ "kind": "page",
+ "project": "jipyeong",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/jipyeong-shake/admin",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1279,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:05:10.430Z",
+ "title": "지평 SHAKE 운영",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 4,
+  "new": [
+   "GET /jipyeong-shake/api/admin/overview (fake)",
+   "GET /jipyeong-shake/api/admin/flow (fake)",
+   "GET /jipyeong-shake/api/admin/js-errors (fake)",
+   "GET /jipyeong-shake/api/admin/otp-status (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "현황",
+   "rect": {
+    "x": 16,
+    "y": 118,
+    "w": 1408,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "오늘 참여 흐름(KST)",
+   "rect": {
+    "x": 16,
+    "y": 334.5,
+    "w": 1408,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "브라우저 오류(오늘)",
+   "rect": {
+    "x": 16,
+    "y": 521,
+    "w": 1408,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "오늘 인증번호 받은 번호(재참여 포함)",
+   "rect": {
+    "x": 16,
+    "y": 707.5,
+    "w": 1408,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "최근 기록 50건",
+   "rect": {
+    "x": 16,
+    "y": 866.5,
+    "w": 1408,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1358,
+    "y": 12,
+    "w": 66,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "대시보드",
+   "rect": {
+    "x": 8,
+    "y": 57,
+    "w": 72,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "명단",
+   "rect": {
+    "x": 84,
+    "y": 57,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "추첨",
+   "rect": {
+    "x": 136,
+    "y": 57,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "문자",
+   "rect": {
+    "x": 188,
+    "y": 57,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "설정",
+   "rect": {
+    "x": 240,
+    "y": 57,
+    "w": 48,
+    "h": 44
+   }
+  }
+ ]
+}

@@ -1,0 +1,252 @@
+{
+ "file": "landing-full.png",
+ "kind": "page",
+ "project": "jipyeong",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/jipyeong-shake",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 3248,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:44:01.804Z",
+ "title": "지평생막걸리 SHAKE",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 2,
+  "new": [
+   "GET /kakao_js_sdk/2.7.6/kakao.min.js (fake)",
+   "GET /gtm.js (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "오늘 같이 막걸리 한 잔 할 친구는?",
+   "rect": {
+    "x": 24,
+    "y": 64,
+    "w": 342,
+    "h": 86.3
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "경품 안내",
+   "rect": {
+    "x": 24,
+    "y": 836,
+    "w": 342,
+    "h": 32.4
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "[ 유의사항 ]",
+   "rect": {
+    "x": 24,
+    "y": 2043.9,
+    "w": 342,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "[ 개인정보 수집에 관한 안내사항 ]",
+   "rect": {
+    "x": 24,
+    "y": 2490.3,
+    "w": 342,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "[ 개인정보 취급/위탁에 관한 안내사항 ]",
+   "rect": {
+    "x": 24,
+    "y": 2778.3,
+    "w": 342,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "지평생 흔들고 친구 소환하기",
+   "rect": {
+    "x": 24,
+    "y": 660,
+    "w": 342,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "경품보러 가기",
+   "rect": {
+    "x": 132,
+    "y": 724,
+    "w": 126,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "흔들면 이야기가 시작된다",
+   "rect": {
+    "x": 124,
+    "y": 14,
+    "w": 142,
+    "h": 20
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "지평생막걸리 병",
+   "rect": {
+    "x": 111.8,
+    "y": 193.4,
+    "w": 148.3,
+    "h": 437.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 124.7,
+    "y": 250.1,
+    "w": 123.4,
+    "h": 357.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 154.9,
+    "y": 217.4,
+    "w": 53.4,
+    "h": 34.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "추억 기록 키트",
+   "rect": {
+    "x": 25,
+    "y": 950.9,
+    "w": 340,
+    "h": 140
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "우정 티셔츠",
+   "rect": {
+    "x": 25,
+    "y": 1257.7,
+    "w": 340,
+    "h": 140
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "지평 잔 세트",
+   "rect": {
+    "x": 25,
+    "y": 1567.6,
+    "w": 340,
+    "h": 140
+   }
+  },
+  {
+   "type": "image",
+   "tag": "span",
+   "text": "흔들면 이야기가 시작된다",
+   "rect": {
+    "x": 103.1,
+    "y": 3191.8,
+    "w": 114,
+    "h": 16
+   }
+  },
+  {
+   "type": "image",
+   "tag": "span",
+   "text": "지평생막걸리",
+   "rect": {
+    "x": 232.9,
+    "y": 3192.3,
+    "w": 54,
+    "h": 15
+   }
+  }
+ ]
+}

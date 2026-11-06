@@ -1,0 +1,161 @@
+{
+ "file": "invite-3-view.png",
+ "kind": "page",
+ "project": "jipyeong",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/jipyeong-shake",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 844,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:45:27.904Z",
+ "title": "지평생막걸리 SHAKE",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 31,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 20,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 4,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "랜덤으로 받기",
+   "rect": {
+    "x": 156,
+    "y": 695,
+    "w": 78,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "친구에게 초대장 보내기",
+   "rect": {
+    "x": 58.2,
+    "y": 747,
+    "w": 273.6,
+    "h": 48
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "지평막걸리 한잔하자. 이유는 만나서 말해",
+   "rect": {
+    "x": 32.3,
+    "y": 32,
+    "w": 325.3,
+    "h": 529.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "지평막걸리 같이 마실 사람, 너 당첨.",
+   "rect": {
+    "x": 4,
+    "y": 610,
+    "w": 62,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "지평막걸리 한잔 어때? 대답은 짠으로",
+   "rect": {
+    "x": 84,
+    "y": 610,
+    "w": 62,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "지평막걸리 한잔하자. 이유는 만나서 말해",
+   "rect": {
+    "x": 165,
+    "y": 607,
+    "w": 60,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "지평막걸리 핑계로 한번 보자",
+   "rect": {
+    "x": 244,
+    "y": 610,
+    "w": 62,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "지평막걸리 흔들 사람 구함 (1/2)",
+   "rect": {
+    "x": 324,
+    "y": 610,
+    "w": 62,
+    "h": 44
+   }
+  }
+ ]
+}

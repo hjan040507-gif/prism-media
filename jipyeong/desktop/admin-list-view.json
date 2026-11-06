@@ -1,0 +1,513 @@
+{
+ "file": "admin-list-view.png",
+ "kind": "page",
+ "project": "jipyeong",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/jipyeong-shake/admin",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 10068,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:05:33.150Z",
+ "title": "지평 SHAKE 운영",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 200,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 5,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1358,
+    "y": 12,
+    "w": 66,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "대시보드",
+   "rect": {
+    "x": 8,
+    "y": 57,
+    "w": 72,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "명단",
+   "rect": {
+    "x": 84,
+    "y": 57,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "추첨",
+   "rect": {
+    "x": 136,
+    "y": 57,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "문자",
+   "rect": {
+    "x": 188,
+    "y": 57,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "설정",
+   "rect": {
+    "x": 240,
+    "y": 57,
+    "w": 48,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "현재 필터 CSV",
+   "rect": {
+    "x": 1217,
+    "y": 118,
+    "w": 113,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체 CSV",
+   "rect": {
+    "x": 1338,
+    "y": 118,
+    "w": 86,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이전",
+   "rect": {
+    "x": 1328,
+    "y": 172,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "다음",
+   "rect": {
+    "x": 1380,
+    "y": 172,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 265.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 259.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 314.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 308.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 363.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 357.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 412.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 406.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 461.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 455.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 510.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 504.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 559.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 553.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 608.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 602.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 657.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 651.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 706.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 700.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 755.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 749.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 804.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 798.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "010-****-****",
+   "rect": {
+    "x": 322.7,
+    "y": 853.8,
+    "w": 90,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 847.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제외",
+   "rect": {
+    "x": 1340.1,
+    "y": 896.5,
+    "w": 44,
+    "h": 32
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "이름 또는 전화 뒷자리",
+   "rect": {
+    "x": 16,
+    "y": 118,
+    "w": 211,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "",
+   "rect": {
+    "x": 235,
+    "y": 118,
+    "w": 273,
+    "h": 44
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "",
+   "rect": {
+    "x": 516,
+    "y": 118,
+    "w": 102,
+    "h": 44
+   }
+  }
+ ]
+}

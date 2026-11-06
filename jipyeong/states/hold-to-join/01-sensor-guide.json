@@ -1,0 +1,153 @@
+{
+ "file": "01-sensor-guide.png",
+ "kind": "state",
+ "project": "jipyeong",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/jipyeong-shake",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 844,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:46:58.352Z",
+ "title": "지평생막걸리 SHAKE",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 2,
+  "new": [
+   "GET /gtm.js (fake)",
+   "GET /kakao_js_sdk/2.7.6/kakao.min.js (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 342,
+    "y": 2,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "막걸리 흔들기 시작",
+   "rect": {
+    "x": 24,
+    "y": 716,
+    "w": 342,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "흔들기가 안 되거나 PC 접속의 경우 막걸리 병을 꾹 눌러 진행하기",
+   "rect": {
+    "x": 24,
+    "y": 772,
+    "w": 342,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "흔들면 이야기가 시작된다",
+   "rect": {
+    "x": 124,
+    "y": 14,
+    "w": 142,
+    "h": 20
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "지평생막걸리 병 — 꾹 눌러 흔들기",
+   "rect": {
+    "x": 139,
+    "y": 202.3,
+    "w": 112.1,
+    "h": 354.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 148.3,
+    "y": 248.3,
+    "w": 93.4,
+    "h": 289.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 173.7,
+    "y": 220.9,
+    "w": 42.9,
+    "h": 27.4
+   }
+  }
+ ]
+}

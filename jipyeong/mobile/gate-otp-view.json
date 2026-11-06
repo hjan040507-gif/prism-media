@@ -1,0 +1,172 @@
+{
+ "file": "gate-otp-view.png",
+ "kind": "page",
+ "project": "jipyeong",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/jipyeong-shake",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 844,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:44:55.656Z",
+ "title": "지평생막걸리 SHAKE",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 19,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 14,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 3,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 12,
+    "y": 0,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "재발송",
+   "rect": {
+    "x": 273,
+    "y": 142,
+    "w": 72,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "확인하고 초대장 고르기",
+   "rect": {
+    "x": 24,
+    "y": 776,
+    "w": 342,
+    "h": 56
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 45,
+    "y": 82,
+    "w": 43.3,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 96.3,
+    "y": 82,
+    "w": 43.3,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 147.7,
+    "y": 82,
+    "w": 43.3,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 199,
+    "y": 82,
+    "w": 43.3,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 250.3,
+    "y": 82,
+    "w": 43.3,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 301.7,
+    "y": 82,
+    "w": 43.3,
+    "h": 52
+   }
+  }
+ ]
+}

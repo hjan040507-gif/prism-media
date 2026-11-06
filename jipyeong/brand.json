@@ -1,0 +1,20 @@
+{
+  "primary": "#12345f",
+  "secondary": "#3d5e9e",
+  "colors": {
+    "blue": "#12345f",
+    "blue-deep": "#0d2347",
+    "blue-soft": "#3d5e9e",
+    "white": "#fafaf7",
+    "cream": "#f3efe6",
+    "ink": "#1a1a1a"
+  },
+  "fonts": ["Pretendard Variable", "MaruBuri", "Nanum Brush Script"],
+  "source": [
+    "src/app/jipyeong-shake/jipyeong.css:25-35 (--jp-blue #12345f · --jp-blue-deep #0d2347 · --jp-blue-soft #3d5e9e · --jp-white #fafaf7 · --jp-cream #f3efe6 · --jp-ink #1a1a1a)",
+    "src/app/jipyeong-shake/jipyeong.css:40 (본문 Pretendard Variable, self-host src/components/event/pretendard-fonts.css)",
+    "src/app/jipyeong-shake/jipyeong.css:184-202 (MaruBuri SemiBold/Light 서브셋 public/jipyeong/fonts/*.subset.woff2, 헤드·타이틀 .jp-serif)",
+    "src/app/jipyeong-shake/jipyeong.css:221 + layout.tsx (--font-jip-brush = Nanum Brush Script, next/font)"
+  ],
+  "note": "레포 CLAUDE.md 의 #C81E3A 는 마이이벤틱 빌더/마케팅 포인트색이라 지평 화면과 무관. 슬로건 '흔들면 이야기가 시작된다'는 작가 손글씨 이미지(media/title-handwriting.*)."
+}

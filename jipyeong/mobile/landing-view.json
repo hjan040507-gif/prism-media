@@ -1,0 +1,161 @@
+{
+ "file": "landing-view.png",
+ "kind": "page",
+ "project": "jipyeong",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/jipyeong-shake",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 3248,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:44:04.058Z",
+ "title": "지평생막걸리 SHAKE",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 2,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "오늘 같이 막걸리 한 잔 할 친구는?",
+   "rect": {
+    "x": 24,
+    "y": 64,
+    "w": 342,
+    "h": 86.3
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "경품 안내",
+   "rect": {
+    "x": 24,
+    "y": 836,
+    "w": 342,
+    "h": 32.4
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "지평생 흔들고 친구 소환하기",
+   "rect": {
+    "x": 24,
+    "y": 660,
+    "w": 342,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "경품보러 가기",
+   "rect": {
+    "x": 132,
+    "y": 724,
+    "w": 126,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "흔들면 이야기가 시작된다",
+   "rect": {
+    "x": 124,
+    "y": 14,
+    "w": 142,
+    "h": 20
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "지평생막걸리 병",
+   "rect": {
+    "x": 119.9,
+    "y": 200,
+    "w": 142.2,
+    "h": 436
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 132,
+    "y": 256.5,
+    "w": 118.4,
+    "h": 356
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 162.7,
+    "y": 223.3,
+    "w": 52.9,
+    "h": 34.1
+   }
+  }
+ ]
+}
