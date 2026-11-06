@@ -1,0 +1,68 @@
+# 2차 완료 조건 증거 · 2026-11-06T10:23:05Z · prism-media 4145e37 · origin 4145e37
+
+## 1. check.py 요약 줄 + BLOCKED.md 유무
+okjob: PASS 8 · FAIL 0 · 폴더 19.8MB · 가로챈 요청 합계 0 · 허용한 비GET ['POST /rest/v1/rpc/assignment_batch_list', 'POST /rest/v1/rpc/farm_assignment_history'] · BLOCKED.md 있음
+matchsat: PASS 8 · FAIL 0 · 폴더 9.6MB · 가로챈 요청 합계 0 · 허용한 비GET ['POST /rfqs/5b32a2bf-1274-419d-aba3-518bbd1e4c15'] · BLOCKED.md 있음
+hanil: PASS 8 · FAIL 0 · 폴더 163.1MB · 가로챈 요청 합계 0 · 허용한 비GET ['POST /__nextjs_original-stack-frames', 'POST /admin/backgrounds', 'POST /admin/content/home', 'POST /admin/inquiries/1c2089a3-19ca-48d4-935f-87c55cb67e00', 'POST /admin/product-photos/gas-nitriding', 'POST /auth/v1/token', 'POST /storage/v1/object/product-media/bg.home.p1-i2/1793955888820-q3lzixu2.webp', 'POST /storage/v1/object/product-media/gas-nitriding.gas-nitriding-furnace/1793955992618-owl9rs3n.webp', 'POST /support/quote'] · BLOCKED.md 있음
+eureka: PASS 8 · FAIL 0 · 폴더 142.1MB · 가로챈 요청 합계 57 · 허용한 비GET [] · BLOCKED.md 있음
+sy-motors: PASS 4 · FAIL 7 · 폴더 0.1MB · 가로챈 요청 합계 0 · 허용한 비GET [] · BLOCKED.md 있음
+pscompany: PASS 8 · FAIL 0 · 폴더 7.3MB · 가로챈 요청 합계 3 · 허용한 비GET [] · BLOCKED.md 있음
+edubily: PASS 1 · FAIL 7 · 폴더 0.0MB · 가로챈 요청 합계 0 · 허용한 비GET [] · BLOCKED.md 있음
+switin: PASS 1 · FAIL 7 · 폴더 0.0MB · 가로챈 요청 합계 0 · 허용한 비GET [] · BLOCKED.md 있음
+soopon: PASS 8 · FAIL 0 · 폴더 80.0MB · 가로챈 요청 합계 25 · 허용한 비GET [] · BLOCKED.md 있음
+waylog: PASS 8 · FAIL 0 · 폴더 75.0MB · 가로챈 요청 합계 75 · 허용한 비GET [] · BLOCKED.md 있음
+
+## 2. OCR 보고서 첫 줄
+okjob: # OCR(tesseract kor+eng) 독립 검사 · 대상 43장 · 걸림 0
+matchsat: # OCR(tesseract kor+eng) 독립 검사 · 대상 31장 · 걸림 0
+hanil: # OCR(tesseract kor+eng) 독립 검사 · 대상 76장 · 걸림 0
+eureka: # OCR(tesseract kor+eng) 독립 검사 · 대상 54장 · 걸림 0
+sy-motors: (PNG 없음 또는 미실행)
+pscompany: # OCR(tesseract kor+eng) 독립 검사 · 대상 25장 · 걸림 0
+edubily: (PNG 없음 또는 미실행)
+switin: (PNG 없음 또는 미실행)
+soopon: # OCR(tesseract kor+eng) 독립 검사 · 대상 63장 · 걸림 0
+waylog: # OCR(tesseract kor+eng) 독립 검사 · 대상 39장 · 걸림 0
+
+## 3. json pii_scan.total != 0 인 파일(capture/ 제외)
+pii_scan 있는 json 455 · total≠0 0
+
+## 4. 95MB 넘는 파일 · 폴더 크기
+count=0
+21M	okjob 9.9M	matchsat 164M	hanil 143M	eureka 244K	sy-motors 7.5M	pscompany 8.0K	edubily 8.0K	switin 81M	soopon 76M	waylog 
+
+## 5. 고객 레포 git status 기준선 대조(docs/baseline2, 소스 없는 eureka·pscompany·edubily·switin 제외)
+  Okjob: same
+     worktree 목록 same
+  satorder: same
+     worktree 목록 same
+  hanil: same
+     worktree 목록 same
+  kakaoauto: same
+     worktree 목록 same
+  Soopon: same
+     worktree 목록 same
+  waylog1: same
+     worktree 목록 same
+
+## 6. 임시 사본·서버·로컬 Supabase
+  tmp/*-src: 0
+  배정 포트(57010-57039·3611-3616) LISTEN: 0
+  pm-* 컨테이너: 0  · pm-* 볼륨: 0
+
+## 7. 2차 커밋(push 상태: ## main...origin/main)
+4145e37 eureka: 운영 공개 화면(nomorenusu.com, GET만·비GET 가로챔) — 데스크톱 8·모바일 7, 상태 흐름 10, seq 2(히어로 캐러셀), facts 11, shots, contact (check FAIL 0, OCR 0/54, pii 0, 빈 구간 0 — 16,384px 넘는 full 은 조각 이어 붙임으로 재촬영); 관리자 BLOCKED(계정·소스 없음), 운영 상호 「노모어누수」
+1f8758d PROGRESS: okjob·eureka 재촬영, 2차 증거 스크립트
+f4cd57f okjob: 로컬 사본+로컬 Supabase(pm-okjob, 가짜 시드, 운영 로그인 0) — 데스크톱 13·모바일 2, 상태 흐름 4(배정하기 6단계·중복 확인창·매트릭스 hover·모바일), seq 2, 엑셀 2종 첫 쪽 PNG, facts 8, shots, contact (check FAIL 0, OCR 0/43, pii 0, 기준선 같음, 컨테이너 0); next dev 렌더 · RECON 문서의 실명·휴대폰 2건 가림(okjob·soopon)
+b151bc1 PROGRESS: hanil
+74979f2 hanil: 공개=운영 GET(로그인 0·제출 0), 관리자=로컬 사본+로컬 Supabase(pm-hanil, 가짜 관리자·접수) — 데스크톱 30(공개 17·관리자 13)·모바일 5, 상태 흐름 9, seq 2(히어로 크로스페이드·체계도→상세), facts 8(접근성 실측 95~100), shots, contact (check FAIL 0, OCR 0/76, pii 0, 기준선 같음, 컨테이너 0); 관리자 next dev 렌더
+d9a7d2e PROGRESS: 시각 정정
+c1d18ab PROGRESS: waylog
+575da0a waylog: 웹 PWA 1.9.0(3cbb43c) 사본+가짜 응답(운영 접속 0·AI 호출 0) — 모바일 10·데스크톱 7, 상태 흐름 4, seq 2, facts 10, shots, contact, 브랜드 글자 제거(OCR 브랜드 0/56) (check FAIL 0, OCR 0/39, pii 0, 기준선 같음); vite dev 렌더(빌드 게이트), Play 버전·스토어 스크린샷 BLOCKED
+fb4d780 PROGRESS: soopon·matchsat
+de7196e matchsat: 로컬 사본+로컬 Supabase(pm-matchsat, 가짜 데이터, 운영 Supabase 정지) — 데스크톱 12·모바일 4, 상태 흐름 3(주문 4단계·입찰 제출·관리자 재지정), seq 1, facts 10(RLS·뷰 근거), shots, contact (check FAIL 0, OCR 0/31, pii 0, 기준선 같음, 컨테이너 0); next dev 렌더(빌드 게이트 75)
+ba05d68 soopon: 운영 공개 화면(GET만, GA 막음) — 데스크톱 8·모바일 8, 상태 흐름 8(칩 누적·필터 시트·상담 폼, 제출 가로챔), seq 2(page.clock), facts 11, shots, contact (check FAIL 0, OCR 0/63, pii 0, 기준선 같음)
+1d2817d PROGRESS: 2차 진행
+0137908 pscompany: 운영 공개 화면(GET만) — 데스크톱 3(/recruit·/recruit/sales·/manage/login)·모바일 2, 지원서 흐름 4개 14장(서버 액션 가로챔), seq 1(제출 성공), facts 8, shots, contact (check FAIL 0, OCR 0/25, pii 0); 관리자 BLOCKED(계정·소스 없음)
+46760b1 sy-motors: 응답 JSON 3흐름(방문정비 12·사고/긴급 10·장애문의 10, 로컬 사본 드라이런+목 DB), 알림 분기 드라이런 로그 3, facts 8, shots, BLOCKED(카카오톡 채널 — 화면 PNG 해당 없음·실단말 캡처 0) (pii_scan 0/34, 운영 요청 0)
+4592832 2차 준비: 지시 원문·사전 조사 8건(RECON)·지침·기준선, edubily·switin BLOCKED(소스·주소 없음)
