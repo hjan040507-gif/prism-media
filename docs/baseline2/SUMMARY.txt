@@ -1,0 +1,7 @@
+Okjob head=ea28ba36 dirty=2 worktrees=1 branch=main
+hanil head=8a0ee85a dirty=0 worktrees=1 branch=main
+Soopon head=f1f890c4 dirty=92 worktrees=1 branch=main
+waylog1 head=5492691b dirty=1 worktrees=2 branch=v3
+kakaoauto head=8788360c dirty=0 worktrees=1 branch=main
+satorder head=6aa098e7 dirty=2 worktrees=1 branch=main
+2026-11-06T07:26:58Z

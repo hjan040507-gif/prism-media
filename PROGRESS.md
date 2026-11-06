@@ -1,4 +1,35 @@
-# PROGRESS — 숨고 포트폴리오 영상 재료 9편 (prism-media)
+# PROGRESS — 숨고 포트폴리오 영상 재료 (prism-media)
+
+# 2차 — 남은 10편 (2026-11-06 07:20Z~, 원문 docs/specs/portfolio-capture-2.md)
+순서: okjob → matchsat → hanil → eureka → sy-motors → pscompany → edubily → switin → soopon → waylog. 프로젝트마다 커밋·push. 1차 9개 폴더는 다시 찍지 않는다.
+
+## 2차 지시와 코드가 다른 점 (2026-11-06 07:30~08:00Z 사전 조사 · 근거 <proj>/RECON.md)
+- **okjob**(~/Okjob): '월간 대시보드 가동률 히트맵'은 「월간 현황」(/dashboard) 달력 칸 안 미니 게이지. 중복 배정은 차단이 아니라 확인창(같은 날 2건은 허용 사양). 저장된 배정 탭은 일별·월별(날짜별 목록)·근로자별(=매트릭스, 기본 탭)·기간 배정. 단가표는 「시간 단가」「일당 단가」 2탭, 알림톡 메뉴는 「알림톡 발송」. 모바일 홈은 /dashboard 반응형(PWA 시작 주소). 엑셀은 서버 라우트(로그인 필요) → 로컬에서 받아 soffice 로 PNG. supabase/config.toml 없음·seed-dev.ts 는 1~2행 exit 로 막힘·db 스크립트는 항상 운영 API → 사본에서 `supabase init` + `db reset --local` 만. '엑셀에서 옮긴 배정 건수'는 전제 불성립(배정은 앱 입력, 엑셀 이관은 근로자 187명·농가). manual/shots 는 36장(문서는 60)·옛 UI.
+- **matchsat**(~/satorder, satorder.kr): 패키지는 pnpm 아닌 npm·웹은 루트. '수요 등록'=「위성영상주문」(/rfqs/new 4단계), '수요 목록·입찰'=「주문 입찰」(/rfqs, 공급자 전용). '지정 매칭'·'매칭 재지정'은 독립 화면 아님(특별주문 하위 흐름·/admin 하단 섹션, 거절된 지정 매칭 있을 때만). 주문 수정 조건 4가지(본인·open·입찰 0·imaging). 입찰은 주문당 1회(재입찰=수정), 밀봉·횟수 제한 없음. 운영 Supabase 정지(DNS 안 풀림) → 운영 데이터 화면 촬영 불가, 로컬 Supabase+사본(마이그레이션 23·시드 없음). 계약서·견적서 서버에 없음 → 조항 인용 불가.
+- **hanil**(~/hanil): 10-02 오픈 끝(www.hanil-pnk.com) — 브리프 preopen 방침은 낡음. 사진 교체는 2화면(배경 /admin/backgrounds 만 초점 지정, 제품 사진 /admin/product-photos 는 교체·순서만). 문구 수정은 폼 17개. 문의·견적은 한 접수함(/admin/inquiries). 제출은 서버 액션(견적 첨부는 고르는 즉시 운영 Storage 업로드·제출 시 메일 발송) → 운영에선 파일 선택·제출 안 함. 설비현황 3탭 24행(브리프 49항목과 다름). 기획서 원문·대조 스크립트 레포에 없음. config.toml·seed 없음(마이그레이션 12).
+- **eureka**: 소스 없음(서버·GitHub). 상호가 운영에선 「노모어누수」(유레카 0건, 같은 프로젝트 근거 ~/easysite/src/config/portfolio.ts:113). leak-site.vercel.app 은 404, 운영 nomorenusu.com(Cloudflare). 견적 폼은 단계 없는 한 장(사진 선택 최대 3장). 현황판은 데모 모드(NEXT_PUBLIC_LIVE_BOARD_DEMO). 상태 4단계 이름 작업접수·상담진행·작업출동·작업완료. 지역 파라미터는 ?city= 가 아니라 /seoul/<구>/<동> 경로. 게시판 이름 「작업사례」(/posts, 550건). GA ID 비어 GA 꺼짐. 관리자 계정·소스 없음 → 관리자 BLOCKED.
+- **sy-motors**(~/kakaoauto): 실단말 캡처 0건 → 응답 JSON 3흐름이 본선. '문자' 알림 없음(사고/긴급만 알림톡, 나머지 6종은 카카오 '나에게 보내기' 메모). 알림톡은 대표 폰 푸시라 고객 화면에 없음·템플릿 본문 레포에 없음. 전달 버튼 이름 「담당자에게 전달하기」. 요약 확인 단계 없어짐. 카테고리 7종(문서의 6종은 낡음). 코드 상호 「에스와이모터스」(지시 SY모터스).
+- **pscompany**: 소스 없음·관리자 계정 없음 → 관리자 BLOCKED. 지원서는 단계 없는 한 페이지 폼(/recruit#apply), 사진 첨부 칸 없음(type=file 0). 직군은 폼 라디오 3개(코드 고정) — '모집 직군 관리' 화면 없음. 모바일 폼은 같은 반응형.
+- **edubily**: 소스·쇼핑몰 주소 모두 서버에 없음 → 전부 BLOCKED(edubily/BLOCKED.md).
+- **switin**: 소스·주소·계정 기록 0(지시 문서 한 줄뿐) → 전부 BLOCKED(switin/BLOCKED.md).
+- **soopon**(~/Soopon, sooponfesta.com = 레포 main): '숲ON 처방전' 이름 없음(「내게 맞는 숲 프로그램을 찾아보세요」). 4단계 필터·일정 필터 없음 — 한 화면 3축 칩(누구와 6·어떤 경험 6·지역 9). B2B 는 「숲ON비즈」(/b2b), 상담 폼은 서버 액션. 예약 링크 주소 글자는 화면에 없음(href 만). 프로그램 페이지에 담당자 휴대폰 노출(가림). GA4 켜져 있음(막음).
+- **waylog**(~/waylog1): Play 프로덕션은 기록상 1.5.1(vc33), 1.9.0 은 내부 테스트까지(확정 불가). 웹 PWA 운영 = 1.9.0(커밋 3cbb43c) — 작업 트리 v3(초록 개편)는 라이브에 없음. 8주 챌린지는 「8주 식단 챌린지」 오버레이. 'AI 인바디 분석 결과' 전용 화면 없음(「체성분」 탭+「AI 권장 생활습관」 카드). 푸시 설정은 설정 안 「알림」 묶음. '관리자 게시물 관리' 없음(신고 관리·소식 보내기·가입 코드, 신고 0건). Play 스크린샷 원본 없음(옛 시안 1장뿐). 비공개 테스트 인원·기간 서버 기록 없음.
+
+## 2차 완료 조건
+- 끝 상태: 10폴더 각각 `python3 tools/check.py <proj>` FAIL 0 또는 못 채운 항목이 BLOCKED.md 에 사유·시도·대안(sy-motors 는 화면 대신 응답 JSON 3흐름 인정) · 모든 캡처 json pii_scan 0 + ocr.py 걸림 0(걸린 건 판정 기록) · 비GET 은 가로챔 · 파일 <95MB · 프로젝트별 커밋 push 해시 · 고객 레포 git status 가 docs/baseline2 와 같고 임시 서버·사본·로컬 Supabase 스택 0
+- 증거: check.py·ocr.py 출력, git log·push, baseline2 비교 출력, `ss -ltnp`·`docker ps` 출력 → docs/evidence/final2-2026-11-06.txt
+- 바꾸면 안 되는 것: 고객 레포 코드·git 상태·DB·설정·배포, okjob·hanil 운영 로그인 0, 새 계정 0, 유료 호출(AI·문자·알림톡) 0, 1차 9폴더, 가림 정규식·게이트 기준
+- 최대 턴: 200
+- 기준선: docs/baseline2/<repo>.status·.worktrees·SUMMARY.txt (07:40Z)
+
+## 2차 NOW
+- 07:45Z 사전 조사 10건 끝(<proj>/RECON.md), 다른 점 위에 적음. edubily·switin 은 소스·주소가 서버에 없어 BLOCKED.md(시도 2번·대안: 주소 받으면 바로 촬영).
+- 07:50Z 촬영 서브에이전트 6건 시작(종료 11:00Z, waylog 11:30Z): okjob(로컬 Supabase pm-okjob 57010~·3611) · matchsat(pm-matchsat 57020~·3612) · hanil(공개=운영 GET, 관리자=pm-hanil 57030~·3613) · eureka(운영 nomorenusu.com GET, 관리자 BLOCKED) · sy-motors(사본 드라이런 3615 + 목 PostgREST 3616, 응답 JSON 3흐름) · waylog(v1.9.0 사본 3614 + 가짜 응답). 남은 것: pscompany·soopon(운영 공개 화면, 1묶음 하나 끝나면 시작).
+- 공통 지침 docs/CAPTURE-BRIEF-2.md(로컬 Supabase 안전 8단계), 기준선 docs/baseline2. 검수 절차는 1차와 같음: check.py FAIL 0 · ocr.py 판정 · contact.jpg 직접 보기 · 비밀값 grep · 기준선 diff · 포트·컨테이너·사본 0 → 프로젝트별 커밋·push.
+- 결정(세션): 사본은 지시의 worktree 대신 git archive(원본 git 상태 무변경, 1차와 같음). 커밋 순서는 지시 순서를 따르되 촬영은 병렬.
+
+---
+# 1차 — 9편 (끝남)
 
 순서(추가 지시 2026-11-06): sealkitt → posco → byclick → fordex → jipyeong → maieventic → medimajor → sellfit → nowflix. 원문 docs/specs/portfolio-capture.md(끝에 추가 지시). 끝낸 프로젝트는 다시 찍지 않는다.
 
