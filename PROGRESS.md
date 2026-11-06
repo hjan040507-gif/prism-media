@@ -21,6 +21,9 @@
 - 저장소: hjan040507-gif/prism-media 없음 + 이 서버에 GitHub API 인증 없음(gh 미로그인, 토큰 없음, SSH 로는 생성 불가) → ~/prism-media 에 커밋만, 보고에 '저장소 생성 필요'
 
 ## NOW
+- 03:25Z jipyeong 검수 끝 → 커밋 6e56787(check FAIL 0·OCR 0/110·elements 0·비밀값 0·기준선 같음·서버 0). shake-mix 끝 0.37초 흰 전환은 shots.md 메모. 촬영 스크립트가 전화번호 타이핑 중에만 lib 입력 가림 리스너를 끔(`__noLiveInput`, React 상태 깨짐 때문) — 저장 전후 검사는 그대로. 남은 것: posco(재빌드 중)·byclick 6장(빌드 중).
+- 03:10Z 사용자 지시 '바로 해주라' → heavy-run 게이트 대기 중단, posco·jipyeong 관리자·byclick 6장 빌드를 `nice -n 10 npm run build` 로 직접 실행(게이트는 CPU 95%·load 17.6 으로만 닫힘, 가용 22.6G·스왑 여유 28%). 04:00Z/03:30Z BLOCKED 기한 없앰.
+- 03:05Z lib 수정 커밋 09603a2(관찰자 document+shadow root·try/finally·입력 리스너 1개, 저장·녹화 뒤 검사→가림). 리뷰 medium 2회: 1회차 8건 반영, 2회차는 '찍기 전후 가림 건수 비교'가 정상 화면을 버린다는 지적(관찰자는 마이크로태스크라 그리기 전에 끝남) → 건수 비교 빼고 가리기 전 검사만 유지. 회귀 시험 3건 추가(원래 lib FAIL·지금 PASS, selftest 20/20).
 - 02:40Z byclick 검수 FAIL: 관리자 6장(접수·결정 view/full, 상세 2 full)에 가짜 연락처가 가려지지 않고 찍힘(서브에이전트가 OCR 23건을 '오탐'으로 판정했으나 실제 노출). 원인 lib 구멍 2개 — live 관찰자가 documentElement 에 붙어 <html> 교체 시 끊김 · 저장 뒤 '가림→검사' 순서라 찍는 사이 생긴 PII 를 지우고 통과(screencast 루프도 같음). tools/lib.mjs 수정(document 관찰·검사→가림), 재현 시험: 원본은 루트 교체 뒤 번호 노출, 수정본은 가림. 커밋분 6편+jipyeong json elements 재검사 걸림 0(tmp/elements-scan.py) — byclick 만 해당. byclick 6장 재촬영 맡김(종료 05:00Z), code-review medium 진행 중.
 - 02:10Z 컨텍스트 40만 인계 → /home/dev/.config/cc/manager/docs/handoff/HANDOFF.md 마지막 항목(백그라운드 3건 ID·검수 절차). /clear 뒤 '이어서'로 재개.
 - 02:03Z 정정: 완전한 빌드는 byclick 만(BUILD_EXIT 0). posco 는 빌드 시작 전, jipyeong 은 중간에 끊긴 빌드(prerender-manifest 없음) → 둘 다 heavy-run 재빌드 대기(게이트는 load 로 닫힘). 기한: jipyeong 03:30Z, posco 04:00Z 까지 안 되면 로컬 화면 BLOCKED.
