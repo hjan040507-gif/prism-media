@@ -1,0 +1,348 @@
+{
+ "file": "admin-home-view.png",
+ "kind": "page",
+ "project": "maieventic",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 3764,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:21:06.375Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 2,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 2,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "관리 홈",
+   "rect": {
+    "x": 224,
+    "y": 109,
+    "w": 992,
+    "h": 32
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "프로필을 완성해 주세요",
+   "rect": {
+    "x": 241,
+    "y": 489,
+    "w": 271,
+    "h": 20
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "이벤트 목록",
+   "rect": {
+    "x": 224,
+    "y": 774,
+    "w": 992,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1156,
+    "y": 12,
+    "w": 60,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "나중에",
+   "rect": {
+    "x": 1172,
+    "y": 489,
+    "w": 27,
+    "h": 16
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 241,
+    "y": 689,
+    "w": 54,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "URL 복사",
+   "rect": {
+    "x": 957,
+    "y": 872,
+    "w": 63,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "배포용 QR",
+   "rect": {
+    "x": 1028,
+    "y": 872,
+    "w": 67,
+    "h": 30
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "회사·브랜드명 (선택)",
+   "rect": {
+    "x": 241,
+    "y": 539,
+    "w": 958,
+    "h": 38
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "국가 (선택 · 예: 대한민국)",
+   "rect": {
+    "x": 241,
+    "y": 589,
+    "w": 958,
+    "h": 38
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "",
+   "rect": {
+    "x": 241,
+    "y": 639,
+    "w": 958,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "mai-eventic 관리자",
+   "rect": {
+    "x": 224,
+    "y": 24,
+    "w": 127.8,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈으로",
+   "rect": {
+    "x": 1027,
+    "y": 18,
+    "w": 51,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "+ 새 이벤트",
+   "rect": {
+    "x": 1082,
+    "y": 18,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "당첨자 명단",
+   "rect": {
+    "x": 224,
+    "y": 278.4,
+    "w": 992,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "의견 남기기",
+   "rect": {
+    "x": 1099,
+    "y": 387,
+    "w": 100,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "페이지 보기 ↗",
+   "rect": {
+    "x": 868,
+    "y": 872,
+    "w": 81,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "수정하기",
+   "rect": {
+    "x": 1103,
+    "y": 872,
+    "w": 58,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "상세 →",
+   "rect": {
+    "x": 1169,
+    "y": 879,
+    "w": 30,
+    "h": 16
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "오늘 참여 0",
+   "rect": {
+    "x": 224,
+    "y": 181,
+    "w": 325.3,
+    "h": 85.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "누적 참여 5",
+   "rect": {
+    "x": 557.3,
+    "y": 181,
+    "w": 325.3,
+    "h": 85.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "남은 경품 176",
+   "rect": {
+    "x": 890.7,
+    "y": 181,
+    "w": 325.3,
+    "h": 85.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "써 보신 의견을 1분으로 남겨 주세요 의견 남기기",
+   "rect": {
+    "x": 224,
+    "y": 374,
+    "w": 992,
+    "h": 74
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "프로필을 완성해 주세요 회사·국가·사용 목적을 남기면 더 잘 맞는 안내를 받을 수 있어요. (선택) 나중에 사용 목적 (선택) 고객·연락처 확보 브랜드·상품 홍보 사내 이벤트·복지 설문·리서치 기타 저장",
+   "rect": {
+    "x": 224,
+    "y": 472,
+    "w": 992,
+    "h": 270
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "이벤트(slug) 상태 생성일 참여 당첨 꽝 qa-m5a-past-mvi4wd0i 기간만료 2026. 10. 21. 0 0 0 페이지 보기 ↗ URL 복사 배포용 QR 수정하기 상세 → qa-m5a-draw-mvi4wccj 기간만료 2026. 10. 21. 0 0 0 페이지 보기 ↗ U",
+   "rect": {
+    "x": 224,
+    "y": 818,
+    "w": 992,
+    "h": 2242
+   }
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "file": "scratch-reveal-last.png",
+ "kind": "seq-frame",
+ "seq": "scratch-reveal.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "scrollY": 250,
+ "frames": 360,
+ "fps": 60,
+ "durationMs": 6000,
+ "crf": 12,
+ "capturedAt": "2026-11-06T00:16:59.801Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [
+   "POST /rest/v1/rpc/play_event (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "스크래치 복권",
+   "rect": {
+    "x": 125.7,
+    "y": 10.7,
+    "w": 138.6,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "경품 안내",
+   "rect": {
+    "x": 16,
+    "y": 369.5,
+    "w": 358,
+    "h": 28.8
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "1등 신세계 상품권 5만원 총 3개",
+   "rect": {
+    "x": 16,
+    "y": 414.3,
+    "w": 358,
+    "h": 231.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "2등 스타벅스 1만원권 총 20개",
+   "rect": {
+    "x": 16,
+    "y": 657.7,
+    "w": 173,
+    "h": 178.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "3등 아메리카노 총 300개",
+   "rect": {
+    "x": 201,
+    "y": 657.7,
+    "w": 173,
+    "h": 178.6
+   }
+  }
+ ]
+}

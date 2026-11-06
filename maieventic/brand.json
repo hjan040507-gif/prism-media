@@ -1,0 +1,44 @@
+{
+  "primary": "#C81E3A",
+  "secondary": "#191F28",
+  "name": {
+    "primary": "포인트 레드 (--mai-red-600 → --color-point)",
+    "secondary": "본문 잉크 (ink)"
+  },
+  "palette": {
+    "point": "#C81E3A",
+    "point-strong(hover)": "#9F1239",
+    "point-weak(옅은 배경)": "#FDECEE",
+    "ink": "#191F28",
+    "sub": "#4E5968",
+    "line": "#E5E8EB",
+    "base": "#F9FAFB",
+    "success": "#047857"
+  },
+  "fonts": [
+    "Paperlogy",
+    "Pretendard Variable"
+  ],
+  "font_roles": {
+    "Paperlogy": "마케팅 4화면(랜딩·요금제·쇼케이스·로그인) 제목·본문, 워드마크 'mai-eventic'(font-black) — .font-display/.font-paper",
+    "Pretendard Variable": "빌더·관리자(.builder-ui, Geist 우선·Pretendard 폴백) 한글 본문; /e 발행물은 이벤트별 폰트(Paperlogy Dyn·Pretendard Dyn 등)"
+  },
+  "font_files": [
+    "public/fonts/Paperlogy-4Regular.subset.woff2",
+    "public/fonts/Paperlogy-5Medium.subset.woff2",
+    "public/fonts/Paperlogy-6SemiBold.subset.woff2",
+    "public/fonts/Paperlogy-8ExtraBold.subset.woff2",
+    "public/fonts/Paperlogy-9Black.subset.woff2"
+  ],
+  "font_files_copied_to": "maieventic/media/fonts/ (Paperlogy 5종 — Pretendard 는 다이나믹 서브셋 폴더(public/fonts/pretendard-dyn)라 복사하지 않음)",
+  "source": [
+    "/home/dev/maimai-event-builder/src/app/tokens.css:17-19 (--mai-red-600 #c81e3a · --mai-red-700 #9f1239 · --mai-red-50 #fdecee)",
+    "/home/dev/maimai-event-builder/src/app/globals.css:42-44 (--color-point / --color-point-strong / --color-point-weak)",
+    "/home/dev/maimai-event-builder/src/app/globals.css:1768-1776 (.font-display / .font-paper → var(--font-display), Paperlogy)",
+    "/home/dev/maimai-event-builder/src/app/globals.css:122-128 (.builder-ui — Geist · Pretendard Variable)",
+    "/home/dev/maimai-event-builder/src/lib/config/brand.ts:12 (BRAND.name 'mai-eventic' — 텍스트 워드마크) · 슬로건 :19 '딸깍, 이벤트는 AI가'",
+    "/home/dev/maimai-event-builder/src/components/marketing/SiteHeader.tsx:51-57 (워드마크 = font-display text-lg font-black, 별도 로고 SVG/PNG 없음)",
+    "tokens.css:21-24,27 — base #f9fafb(:21) line #e5e8eb(:22) sub #4e5968(:23) ink #191f28(:24) success #047857(:27) (모두 라이브 코드에서 직접 확인)"
+  ],
+  "note": "별도 로고 SVG/PNG 원본이 없다(텍스트 워드마크). media/wordmark-header.png = 라이브 헤더 렌더 추출, media/icons/ = public/brand 아이콘(앱 아이콘·파비콘)."
+}

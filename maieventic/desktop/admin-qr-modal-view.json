@@ -1,0 +1,338 @@
+{
+ "file": "admin-qr-modal-view.png",
+ "kind": "page",
+ "project": "maieventic",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/events/qa-chromium-roulette",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 3432,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:21:19.631Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "note": "배포용 QR 모달 — QR 캔버스는 가림(qrSelectors:canvas)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 2,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 1,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 2,
+  "qr": 1
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "qa-chromium-roulette",
+   "rect": {
+    "x": 224,
+    "y": 126.6,
+    "w": 252,
+    "h": 32
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "배포용 QR 내보내기",
+   "rect": {
+    "x": 580,
+    "y": 253.1,
+    "w": 103,
+    "h": 20
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "참여 통계",
+   "rect": {
+    "x": 224,
+    "y": 245.6,
+    "w": 46,
+    "h": 20
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "경품별 현황",
+   "rect": {
+    "x": 224,
+    "y": 408.2,
+    "w": 992,
+    "h": 20
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "운영 제어 (실시간 수정)",
+   "rect": {
+    "x": 224,
+    "y": 819.4,
+    "w": 992,
+    "h": 20
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "이벤트 상태",
+   "rect": {
+    "x": 241,
+    "y": 886,
+    "w": 958,
+    "h": 16
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1156,
+    "y": 12,
+    "w": 60,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "URL 복사",
+   "rect": {
+    "x": 313,
+    "y": 190.6,
+    "w": 63,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "배포용 QR",
+   "rect": {
+    "x": 384,
+    "y": 190.6,
+    "w": 67,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "✕",
+   "rect": {
+    "x": 833.9,
+    "y": 254.1,
+    "w": 26.1,
+    "h": 18
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "PNG 내려받기",
+   "rect": {
+    "x": 580,
+    "y": 509.1,
+    "w": 280,
+    "h": 36.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "URL 복사",
+   "rect": {
+    "x": 580,
+    "y": 553.9,
+    "w": 280,
+    "h": 38.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "mai-eventic 관리자",
+   "rect": {
+    "x": 224,
+    "y": 24,
+    "w": 127.8,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈으로",
+   "rect": {
+    "x": 1027,
+    "y": 18,
+    "w": 51,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "+ 새 이벤트",
+   "rect": {
+    "x": 1082,
+    "y": 18,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "← 이벤트 목록",
+   "rect": {
+    "x": 224,
+    "y": 99,
+    "w": 59,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "페이지 보기 ↗",
+   "rect": {
+    "x": 224,
+    "y": 190.6,
+    "w": 81,
+    "h": 30
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "결과보고 보기 →",
+   "rect": {
+    "x": 1122,
+    "y": 240.6,
+    "w": 94,
+    "h": 30
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "총 참여 1",
+   "rect": {
+    "x": 224,
+    "y": 278.6,
+    "w": 239,
+    "h": 105.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "당첨 1",
+   "rect": {
+    "x": 475,
+    "y": 278.6,
+    "w": 239,
+    "h": 105.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "꽝 0",
+   "rect": {
+    "x": 726,
+    "y": 278.6,
+    "w": 239,
+    "h": 105.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "당첨률 100% 1/1",
+   "rect": {
+    "x": 977,
+    "y": 278.6,
+    "w": 239,
+    "h": 105.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "경품명 가중치 전체 당첨 잔여 소진율 QA경품1-chromium 17% 무제한 0 무제한 — QA경품2-chromium 17% 무제한 1 무제한 — QA경품3-chromium 17% 무제한 0 무제한 — QA경품4-chromium 17% 무제한 0 무제한 — QA경품5-chromium ",
+   "rect": {
+    "x": 224,
+    "y": 457.8,
+    "w": 992,
+    "h": 312
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "이벤트 상태 일시중지·종료 시 신규 참여가 차단돼요(진행 중 데이터는 보존). 진행중 일시중지 종료 꽝 없는 이벤트 · 대체 경품 QA경품6-chromium 추첨이 꽝이 될 자리를 QA경품6-chromium(으)로 대신 지급해요.이 경품이 소진(재고·하루 한도)되면 다른 경품으로 이어 ",
+   "rect": {
+    "x": 224,
+    "y": 869,
+    "w": 992,
+    "h": 872.7
+   }
+  }
+ ]
+}

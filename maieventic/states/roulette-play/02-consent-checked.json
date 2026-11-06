@@ -1,0 +1,172 @@
+{
+ "file": "02-consent-checked.png",
+ "kind": "state",
+ "project": "maieventic",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/e/demo-roulette-mz-bright",
+ "scrollY": 380,
+ "scrollX": 0,
+ "docHeight": 2043,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:02:16.118Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "경품 안내 경품 안내",
+   "rect": {
+    "x": 16,
+    "y": 505.8,
+    "w": 358,
+    "h": 35.1
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "개인정보 수집·이용",
+   "rect": {
+    "x": 91,
+    "y": 330.8,
+    "w": 86,
+    "h": 16
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "룰렛 시작",
+   "rect": {
+    "x": 36,
+    "y": 394.8,
+    "w": 318,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 36,
+    "y": 332.8,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 36,
+    "y": 362.8,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "1등 스타벅스 아메리카노 총 50개",
+   "rect": {
+    "x": 16,
+    "y": 556.9,
+    "w": 358,
+    "h": 231.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "2등 편의점 5천원 상품권 총 100개",
+   "rect": {
+    "x": 16,
+    "y": 800.3,
+    "w": 358,
+    "h": 178.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "경품 룰렛",
+   "rect": {
+    "x": 36,
+    "y": -3.2,
+    "w": 318,
+    "h": 318
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "",
+   "rect": {
+    "x": 149.9,
+    "y": 505.8,
+    "w": 90.2,
+    "h": 35.1
+   }
+  }
+ ]
+}

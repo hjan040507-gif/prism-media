@@ -1,0 +1,238 @@
+{
+ "file": "admin-members-view.png",
+ "kind": "page",
+ "project": "maieventic",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/members",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1086,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:21:26.210Z",
+ "title": "관리자 초대 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 3,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 2,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "관리자 초대",
+   "rect": {
+    "x": 352,
+    "y": 130.6,
+    "w": 736,
+    "h": 32
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "초대 링크 만들기",
+   "rect": {
+    "x": 352,
+    "y": 332.2,
+    "w": 736,
+    "h": 20
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "보낸 초대",
+   "rect": {
+    "x": 352,
+    "y": 529.8,
+    "w": 736,
+    "h": 20
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "관리자 목록",
+   "rect": {
+    "x": 352,
+    "y": 697.8,
+    "w": 736,
+    "h": 20
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1156,
+    "y": 12,
+    "w": 60,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "초대 링크 만들기",
+   "rect": {
+    "x": 972,
+    "y": 445.8,
+    "w": 99,
+    "h": 32
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예) 매장 매니저 김OO",
+   "rect": {
+    "x": 369,
+    "y": 442.8,
+    "w": 595,
+    "h": 38
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "mai-eventic 관리자",
+   "rect": {
+    "x": 224,
+    "y": 24,
+    "w": 127.8,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈으로",
+   "rect": {
+    "x": 1027,
+    "y": 18,
+    "w": 51,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "+ 새 이벤트",
+   "rect": {
+    "x": 1082,
+    "y": 18,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "← 이벤트 목록",
+   "rect": {
+    "x": 352,
+    "y": 97,
+    "w": 71,
+    "h": 18
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "관리자 자리 4석 중 1석 사용 소유자 계정을 포함한 자리예요.",
+   "rect": {
+    "x": 352,
+    "y": 206.6,
+    "w": 736,
+    "h": 101.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "메모 (선택) 누구에게 준 링크인지 구분하려고 쓰는 메모예요. 초대받은 사람에게는 보이지 않아요. 초대 링크 만들기",
+   "rect": {
+    "x": 352,
+    "y": 382.2,
+    "w": 736,
+    "h": 115.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "p",
+   "text": "아직 보낸 초대가 없어요.",
+   "rect": {
+    "x": 352,
+    "y": 579.8,
+    "w": 736,
+    "h": 86
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "(나) 2026. 09. 25. 가입 소유자",
+   "rect": {
+    "x": 352,
+    "y": 747.8,
+    "w": 736,
+    "h": 65.6
+   }
+  }
+ ]
+}

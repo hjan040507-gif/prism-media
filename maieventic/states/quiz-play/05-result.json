@@ -1,0 +1,164 @@
+{
+ "file": "05-result.png",
+ "kind": "state",
+ "project": "maieventic",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/e/demo-quiz-minimal",
+ "scrollY": 150,
+ "scrollX": 0,
+ "docHeight": 1403,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:08:06.431Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "note": "가짜 play_event 응답(quiz_passed·score 3/3)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [
+   "POST /rest/v1/rpc/play_event (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "도전! 퀴즈 이벤트 도전! 퀴즈 이벤트",
+   "rect": {
+    "x": 36,
+    "y": -62.5,
+    "w": 318,
+    "h": 79.4
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "OX·퀴즈",
+   "rect": {
+    "x": 154.9,
+    "y": 152.3,
+    "w": 80.2,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "경품 안내",
+   "rect": {
+    "x": 16,
+    "y": 630.1,
+    "w": 358,
+    "h": 26
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "QR코드는 한국에서 처음 개발되었다? (O/X) QR코드는 1994년 일본 덴소웨이브가 개발했어요.",
+   "rect": {
+    "x": 53,
+    "y": 402.1,
+    "w": 284,
+    "h": 34
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "와이파이(Wi-Fi)는 'Wireless Fidelity'의 공식 약자다? (O/X) 마케팅용 이름일 뿐, 공식 약자가 아니에요.",
+   "rect": {
+    "x": 53,
+    "y": 444.1,
+    "w": 284,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "이모지(emoji)는 일본어에서 온 말이다? (O/X) '에모지(絵文字)' — 그림(絵)+문자(文字)에서 왔어요.",
+   "rect": {
+    "x": 53,
+    "y": 502.1,
+    "w": 284,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "아메리카노 기프티콘",
+   "rect": {
+    "x": 16,
+    "y": 672.1,
+    "w": 358,
+    "h": 171.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "",
+   "rect": {
+    "x": 36,
+    "y": -62.5,
+    "w": 318,
+    "h": 79.4
+   }
+  }
+ ]
+}

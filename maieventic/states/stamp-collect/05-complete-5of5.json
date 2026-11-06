@@ -1,0 +1,231 @@
+{
+ "file": "05-complete-5of5.png",
+ "kind": "state",
+ "project": "maieventic",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/e/demo-stamp-mz-bright",
+ "scrollY": 200,
+ "scrollX": 0,
+ "docHeight": 1085,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:12:01.110Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "note": "새 방문 가정: GET /api/stamp/status 가짜 응답(count=4) → 도장 찍기 → 가짜 accrue 응답(count=5)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 7,
+  "new": [
+   "GET /api/stamp/status (fake count=4)",
+   "POST /api/stamp/accrue (fake count=5)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "경품 안내 경품 안내",
+   "rect": {
+    "x": 16,
+    "y": 193.8,
+    "w": 358,
+    "h": 35.1
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "참여 방법 참여 방법",
+   "rect": {
+    "x": 36,
+    "y": 473.5,
+    "w": 318,
+    "h": 35.1
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "유의사항 유의사항",
+   "rect": {
+    "x": 36,
+    "y": 706,
+    "w": 318,
+    "h": 35.1
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "✕",
+   "rect": {
+    "x": 324,
+    "y": 261.8,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "개인정보 수집·이용",
+   "rect": {
+    "x": 170,
+    "y": 484.2,
+    "w": 86,
+    "h": 16
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제출하고 완료",
+   "rect": {
+    "x": 36,
+    "y": 518.2,
+    "w": 318,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "휴대폰 번호",
+   "rect": {
+    "x": 36,
+    "y": 427.8,
+    "w": 318,
+    "h": 44.4
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 36,
+    "y": 486.2,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "아메리카노 기프티콘",
+   "rect": {
+    "x": 16,
+    "y": 244.9,
+    "w": 358,
+    "h": 171.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "참여 방법 참여 방법 1 개인정보 수집·이용에 동의해요. 2 방문할 때마다 도장을 찍고, 다 모으면 경품을 받아요! 참여 한도: 이벤트 기간 중 1회",
+   "rect": {
+    "x": 16,
+    "y": 453.5,
+    "w": 358,
+    "h": 224.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "유의사항 유의사항 경품 수량 소진 시 이벤트가 조기 종료될 수 있어요. 부정 참여가 확인되면 당첨이 취소될 수 있어요. 개인정보는 이벤트 운영 목적으로만 이용돼요. 마케팅 수신 동의는 선택이며 언제든 철회할 수 있어요.",
+   "rect": {
+    "x": 16,
+    "y": 686,
+    "w": 358,
+    "h": 175.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "",
+   "rect": {
+    "x": 149.9,
+    "y": 193.8,
+    "w": 90.2,
+    "h": 35.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "",
+   "rect": {
+    "x": 149.9,
+    "y": 473.5,
+    "w": 90.2,
+    "h": 35.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "",
+   "rect": {
+    "x": 152.7,
+    "y": 706,
+    "w": 84.6,
+    "h": 35.1
+   }
+  }
+ ]
+}

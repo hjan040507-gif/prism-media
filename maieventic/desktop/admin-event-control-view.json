@@ -1,0 +1,382 @@
+{
+ "file": "admin-event-control-view.png",
+ "kind": "page",
+ "project": "maieventic",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/events/qa-chromium-roulette",
+ "scrollY": 795,
+ "scrollX": 0,
+ "docHeight": 3432,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:21:16.588Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "note": "이벤트 상세의 운영 제어(상태·대체 경품·가중치 확률·일 당첨 한도) 구간으로 스크롤한 첫 화면",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 2,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 2,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "운영 제어 (실시간 수정)",
+   "rect": {
+    "x": 224,
+    "y": 24.4,
+    "w": 992,
+    "h": 20
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "이벤트 상태",
+   "rect": {
+    "x": 241,
+    "y": 91,
+    "w": 958,
+    "h": 16
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "가중치(확률) 수정",
+   "rect": {
+    "x": 241,
+    "y": 281.4,
+    "w": 958,
+    "h": 16
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "경품별 일 당첨 한도",
+   "rect": {
+    "x": 241,
+    "y": 642,
+    "w": 958,
+    "h": 16
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "진행중",
+   "rect": {
+    "x": 242,
+    "y": 135.6,
+    "w": 51,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일시중지",
+   "rect": {
+    "x": 293,
+    "y": 135.6,
+    "w": 61,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "종료",
+   "rect": {
+    "x": 354,
+    "y": 135.6,
+    "w": 43,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "확률 저장",
+   "rect": {
+    "x": 1129,
+    "y": 577,
+    "w": 70,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 1157,
+    "y": 688.6,
+    "w": 42,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 1157,
+    "y": 730.6,
+    "w": 42,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 1157,
+    "y": 772.6,
+    "w": 42,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 1157,
+    "y": 814.6,
+    "w": 42,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 1157,
+    "y": 856.6,
+    "w": 42,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 1157,
+    "y": 898.6,
+    "w": 42,
+    "h": 28
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "16.667",
+   "rect": {
+    "x": 1106,
+    "y": 325,
+    "w": 80,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "16.667",
+   "rect": {
+    "x": 1106,
+    "y": 367,
+    "w": 80,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "16.667",
+   "rect": {
+    "x": 1106,
+    "y": 409,
+    "w": 80,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "16.667",
+   "rect": {
+    "x": 1106,
+    "y": 451,
+    "w": 80,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "16.666",
+   "rect": {
+    "x": 1106,
+    "y": 493,
+    "w": 80,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "16.666",
+   "rect": {
+    "x": 1106,
+    "y": 535,
+    "w": 80,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "무제한",
+   "rect": {
+    "x": 1053,
+    "y": 685.6,
+    "w": 96,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "무제한",
+   "rect": {
+    "x": 1053,
+    "y": 727.6,
+    "w": 96,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "무제한",
+   "rect": {
+    "x": 1053,
+    "y": 769.6,
+    "w": 96,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "무제한",
+   "rect": {
+    "x": 1053,
+    "y": 811.6,
+    "w": 96,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "무제한",
+   "rect": {
+    "x": 1053,
+    "y": 853.6,
+    "w": 96,
+    "h": 34
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "무제한",
+   "rect": {
+    "x": 1053,
+    "y": 895.6,
+    "w": 96,
+    "h": 34
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "이벤트 상태 일시중지·종료 시 신규 참여가 차단돼요(진행 중 데이터는 보존). 진행중 일시중지 종료 꽝 없는 이벤트 · 대체 경품 QA경품6-chromium 추첨이 꽝이 될 자리를 QA경품6-chromium(으)로 대신 지급해요.이 경품이 소진(재고·하루 한도)되면 다른 경품으로 이어 ",
+   "rect": {
+    "x": 224,
+    "y": 74,
+    "w": 992,
+    "h": 872.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "꽝 없는 이벤트 · 대체 경품 QA경품6-chromium 추첨이 꽝이 될 자리를 QA경품6-chromium(으)로 대신 지급해요.이 경품이 소진(재고·하루 한도)되면 다른 경품으로 이어 지급하고, 모두 소진됐을 때만 꽝이 돼요. 경품이 모두 소진되면 이벤트가 조기 종료될 수 있어요.",
+   "rect": {
+    "x": 241,
+    "y": 180.6,
+    "w": 958,
+    "h": 63.9
+   }
+  }
+ ]
+}

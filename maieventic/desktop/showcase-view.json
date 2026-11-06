@@ -1,0 +1,271 @@
+{
+ "file": "showcase-view.png",
+ "kind": "page",
+ "project": "maieventic",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/showcase",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1901,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:57:03.367Z",
+ "title": "제작 사례 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 2,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "이렇게 만들 수 있어요",
+   "rect": {
+    "x": 164,
+    "y": 177,
+    "w": 672,
+    "h": 41.4
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "실제로 이렇게 활용했어요",
+   "rect": {
+    "x": 164,
+    "y": 444.9,
+    "w": 1112,
+    "h": 36
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "고봉민김밥인",
+   "rect": {
+    "x": 185,
+    "y": 787.5,
+    "w": 154,
+    "h": 25.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "마라공방",
+   "rect": {
+    "x": 562.3,
+    "y": 787.5,
+    "w": 143,
+    "h": 25.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "VDOC",
+   "rect": {
+    "x": 939.7,
+    "y": 787.5,
+    "w": 209,
+    "h": 25.6
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "mai-eventic",
+   "rect": {
+    "x": 168,
+    "y": 18,
+    "w": 116.1,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제작 사례",
+   "rect": {
+    "x": 1057,
+    "y": 14,
+    "w": 70,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "요금제",
+   "rect": {
+    "x": 1133,
+    "y": 14,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시작하기",
+   "rect": {
+    "x": 1196,
+    "y": 14,
+    "w": 76,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "고봉민김밥인",
+   "rect": {
+    "x": 185,
+    "y": 790.5,
+    "w": 81.6,
+    "h": 19
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마라공방",
+   "rect": {
+    "x": 562.3,
+    "y": 790.5,
+    "w": 54.4,
+    "h": 19
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "VDOC",
+   "rect": {
+    "x": 939.7,
+    "y": 790.5,
+    "w": 50.4,
+    "h": 19
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "스크래치 룰렛 방문 증가 고봉민김밥인 매장 신규·기존고객 방문 증가 자세히 보기",
+   "rect": {
+    "x": 164,
+    "y": 558.5,
+    "w": 196,
+    "h": 342.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "룰렛 방문 증가 마라공방 매장 신규·기존고객 방문 증가 자세히 보기",
+   "rect": {
+    "x": 541.3,
+    "y": 558.5,
+    "w": 185,
+    "h": 342.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "스크래치 앱 가입·연동 VDOC AI 건강 앱 신규가입 및 건강기록 연동 유도 자세히 보기",
+   "rect": {
+    "x": 918.7,
+    "y": 558.5,
+    "w": 251,
+    "h": 342.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "고봉민김밥인 스크래치·룰렛 방문 이벤트 랜딩 화면",
+   "rect": {
+    "x": 165,
+    "y": 559.5,
+    "w": 194,
+    "h": 175
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "마라공방 테이블 QR 룰렛 이벤트 랜딩 화면",
+   "rect": {
+    "x": 542.3,
+    "y": 559.5,
+    "w": 183,
+    "h": 175
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "VDOC 건강기록 연동 스크래치 이벤트 안내 화면",
+   "rect": {
+    "x": 919.7,
+    "y": 559.5,
+    "w": 249,
+    "h": 175
+   }
+  }
+ ]
+}

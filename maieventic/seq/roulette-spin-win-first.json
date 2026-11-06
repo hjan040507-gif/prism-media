@@ -1,0 +1,41 @@
+{
+ "file": "roulette-spin-win-first.png",
+ "kind": "seq-frame",
+ "seq": "roulette-spin-win.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "scrollY": 380,
+ "frames": 360,
+ "fps": 60,
+ "durationMs": 6000,
+ "crf": 12,
+ "capturedAt": "2026-11-06T00:14:42.528Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [
+   "POST /rest/v1/rpc/play_event (fake)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "file": "header.png",
+ "kind": "header",
+ "project": "maieventic",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/",
+ "scrollY": 600,
+ "scrollX": 0,
+ "docHeight": 13513,
+ "full": false,
+ "clip": {
+  "x": 0,
+  "y": 0,
+  "width": 390,
+  "height": 65
+ },
+ "capturedAt": "2026-11-06T00:22:43.477Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 2,
+  "qr": 1
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "mai-eventic",
+   "rect": {
+    "x": 24,
+    "y": 18,
+    "w": 116.1,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제작 사례",
+   "rect": {
+    "x": 151,
+    "y": 14,
+    "w": 70,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "요금제",
+   "rect": {
+    "x": 227,
+    "y": 14,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시작하기",
+   "rect": {
+    "x": 290,
+    "y": 14,
+    "w": 76,
+    "h": 36
+   }
+  }
+ ]
+}

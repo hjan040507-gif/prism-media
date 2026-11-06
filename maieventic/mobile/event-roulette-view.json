@@ -1,0 +1,161 @@
+{
+ "file": "event-roulette-view.png",
+ "kind": "page",
+ "project": "maieventic",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/e/demo-roulette-mz-bright",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2043,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:01:05.701Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "행운의 행운의 룰렛 이벤트 룰렛 이벤트",
+   "rect": {
+    "x": 36,
+    "y": 87.5,
+    "w": 318,
+    "h": 109.9
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "행운의 룰렛",
+   "rect": {
+    "x": 134.6,
+    "y": 332.8,
+    "w": 120.8,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "개인정보 수집·이용",
+   "rect": {
+    "x": 91,
+    "y": 710.8,
+    "w": 86,
+    "h": 16
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "룰렛 시작",
+   "rect": {
+    "x": 36,
+    "y": 774.8,
+    "w": 318,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 36,
+    "y": 712.8,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 36,
+    "y": 742.8,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "",
+   "rect": {
+    "x": 92.4,
+    "y": 87.5,
+    "w": 205.1,
+    "h": 109.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "경품 룰렛",
+   "rect": {
+    "x": 36,
+    "y": 376.8,
+    "w": 318,
+    "h": 318
+   }
+  }
+ ]
+}

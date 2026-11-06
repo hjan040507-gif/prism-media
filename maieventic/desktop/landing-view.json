@@ -1,0 +1,194 @@
+{
+ "file": "landing-view.png",
+ "kind": "page",
+ "project": "maieventic",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 10642,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:50:47.871Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 2,
+  "qr": 1
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "고르기만 하면, AI가 이벤트를 만들어요.",
+   "rect": {
+    "x": 168,
+    "y": 253,
+    "w": 1024,
+    "h": 168
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "만드는 방법 보기",
+   "rect": {
+    "x": 325.8,
+    "y": 558,
+    "w": 173.1,
+    "h": 62
+   }
+  },
+  {
+   "type": "button",
+   "tag": "div",
+   "text": "아메리카노",
+   "rect": {
+    "x": 966.4,
+    "y": 160.5,
+    "w": 560,
+    "h": 560
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "mai-eventic",
+   "rect": {
+    "x": 168,
+    "y": 18,
+    "w": 116.1,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제작 사례",
+   "rect": {
+    "x": 1057,
+    "y": 14,
+    "w": 70,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "요금제",
+   "rect": {
+    "x": 1133,
+    "y": 14,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시작하기",
+   "rect": {
+    "x": 1196,
+    "y": 14,
+    "w": 76,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시작하기",
+   "rect": {
+    "x": 168,
+    "y": 559,
+    "w": 133.8,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "데모 보기",
+   "rect": {
+    "x": 523,
+    "y": 576.2,
+    "w": 55,
+    "h": 25.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "경품 룰렛",
+   "rect": {
+    "x": 963.6,
+    "y": 157.7,
+    "w": 565.5,
+    "h": 565.5
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "아메리카노",
+   "rect": {
+    "x": 1188.5,
+    "y": 527,
+    "w": 114.3,
+    "h": 114.3
+   }
+  }
+ ]
+}

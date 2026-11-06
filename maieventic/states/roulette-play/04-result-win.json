@@ -1,0 +1,129 @@
+{
+ "file": "04-result-win.png",
+ "kind": "state",
+ "project": "maieventic",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/e/demo-roulette-mz-bright",
+ "scrollY": 380,
+ "scrollX": 0,
+ "docHeight": 2081,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:02:28.794Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "note": "가짜 play_event 응답 {result:\"스타벅스 아메리카노\"} — 서버 응답을 가로채 채움",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "경품 안내 경품 안내",
+   "rect": {
+    "x": 16,
+    "y": 543.8,
+    "w": 358,
+    "h": 35.1
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "1등 스타벅스 아메리카노 총 50개",
+   "rect": {
+    "x": 16,
+    "y": 594.9,
+    "w": 358,
+    "h": 231.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "2등 편의점 5천원 상품권 총 100개",
+   "rect": {
+    "x": 16,
+    "y": 838.3,
+    "w": 358,
+    "h": 178.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "경품 룰렛",
+   "rect": {
+    "x": 36,
+    "y": -3.2,
+    "w": 318,
+    "h": 318
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "",
+   "rect": {
+    "x": 149.9,
+    "y": 543.8,
+    "w": 90.2,
+    "h": 35.1
+   }
+  }
+ ]
+}

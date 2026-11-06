@@ -1,0 +1,207 @@
+# maieventic shots — 파일마다 한 줄
+
+촬영: Playwright 1.64.1(chromiumSandbox), 운영 https://mai-eventic.com. 공개 화면은 비로그인, 관리자 화면은 QA 풀 계정(~/.q1r/qa-pool.json — 값 미출력)으로 **로그인 POST 1회**(`POST …supabase.co/auth/v1/token` 허용, 이후 세션 재사용). 모든 비GET 요청은 guard 가 가로챔·`/e` 진입 비콘 가로채기·DNT 신호. 서버가 GET 렌더 중 쓰는 `/create` 와 `/api/stamp/store-qr` 는 열지 않았다(BLOCKED.md). 문자(send-code·verify-code·notify-win·session-verify)·play_event·AI 는 전부 가짜 응답(운영 호출 0). 가린 것: 푸터 사업자 정보 블록(상호·대표자·사업자번호·통신판매업·주소·대표전화·이메일·책임자)·사업자정보확인 링크 visibility:hidden, 챗 위젯 FAB·오류/의견 FAB 숨김, 이메일·도메인·URL 글자 자동 제거, 관리자 QR 캔버스 가림. 가짜 값: 발행번호 1개(관리자 이벤트 상세)·게임 결과/적립 개수·입력 번호 표시(010-****-****). 모든 PNG 곁 .json 의 pii_scan.total = 0.
+
+- `desktop/admin-event-control-view.json` — [로그인] 위 이벤트 상세에서 "운영 제어"(이벤트 상태·대체 경품·가중치(확률) 수정·경품별 일 당첨 한도) 구간으로 스크롤한 첫 화면 — 확률·재고 입력 UI · view(첫 화면 스크롤 0 — 스크롤한 구간 화면은 위 설명대로) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/admin-event-control-view.png` — [로그인] 위 이벤트 상세에서 "운영 제어"(이벤트 상태·대체 경품·가중치(확률) 수정·경품별 일 당첨 한도) 구간으로 스크롤한 첫 화면 — 확률·재고 입력 UI · view(첫 화면 스크롤 0 — 스크롤한 구간 화면은 위 설명대로)
+- `desktop/admin-event-full.json` — [로그인·QA 풀 계정] 참여 데이터·경품 확률/재고 `/admin/events/qa-chromium-roulette` — 참여 통계·경품별 현황(가중치 17%·재고·소진율)·운영 제어(가중치 수정·일 한도)·날짜별 참여 로그·당첨자 명단. 발행번호 `E0J27JHV`→`A7K2M9QX` 가짜 값(textMap), 당첨자 이름은 원래 "—"·번호 "기기 참여" · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/admin-event-full.png` — [로그인·QA 풀 계정] 참여 데이터·경품 확률/재고 `/admin/events/qa-chromium-roulette` — 참여 통계·경품별 현황(가중치 17%·재고·소진율)·운영 제어(가중치 수정·일 한도)·날짜별 참여 로그·당첨자 명단. 발행번호 `E0J27JHV`→`A7K2M9QX` 가짜 값(textMap), 당첨자 이름은 원래 "—"·번호 "기기 참여" · full(끝까지 스크롤한 전체)
+- `desktop/admin-event-view.json` — [로그인·QA 풀 계정] 참여 데이터·경품 확률/재고 `/admin/events/qa-chromium-roulette` — 참여 통계·경품별 현황(가중치 17%·재고·소진율)·운영 제어(가중치 수정·일 한도)·날짜별 참여 로그·당첨자 명단. 발행번호 `E0J27JHV`→`A7K2M9QX` 가짜 값(textMap), 당첨자 이름은 원래 "—"·번호 "기기 참여" · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/admin-event-view.png` — [로그인·QA 풀 계정] 참여 데이터·경품 확률/재고 `/admin/events/qa-chromium-roulette` — 참여 통계·경품별 현황(가중치 17%·재고·소진율)·운영 제어(가중치 수정·일 한도)·날짜별 참여 로그·당첨자 명단. 발행번호 `E0J27JHV`→`A7K2M9QX` 가짜 값(textMap), 당첨자 이름은 원래 "—"·번호 "기기 참여" · view(첫 화면 스크롤 0)
+- `desktop/admin-home-full.json` — [로그인·QA 풀 계정] 관리 홈 `/admin` — 이벤트 목록 40개·초안 영역. 관리자 이메일은 자동 지움, "관리자가 맞습니까?" 확인 모달은 클라이언트 전용 버튼으로 통과. QA 워크스페이스라 슬러그가 qa-… · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/admin-home-full.png` — [로그인·QA 풀 계정] 관리 홈 `/admin` — 이벤트 목록 40개·초안 영역. 관리자 이메일은 자동 지움, "관리자가 맞습니까?" 확인 모달은 클라이언트 전용 버튼으로 통과. QA 워크스페이스라 슬러그가 qa-… · full(끝까지 스크롤한 전체)
+- `desktop/admin-home-view.json` — [로그인·QA 풀 계정] 관리 홈 `/admin` — 이벤트 목록 40개·초안 영역. 관리자 이메일은 자동 지움, "관리자가 맞습니까?" 확인 모달은 클라이언트 전용 버튼으로 통과. QA 워크스페이스라 슬러그가 qa-… · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/admin-home-view.png` — [로그인·QA 풀 계정] 관리 홈 `/admin` — 이벤트 목록 40개·초안 영역. 관리자 이메일은 자동 지움, "관리자가 맞습니까?" 확인 모달은 클라이언트 전용 버튼으로 통과. QA 워크스페이스라 슬러그가 qa-… · view(첫 화면 스크롤 0)
+- `desktop/admin-members-full.json` — [로그인·QA 풀 계정] 관리자 초대 `/admin/members` — 좌석 "4석 중 1석", 초대 링크 만들기·보낸 초대·관리자 목록. 이메일은 자동 지움 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/admin-members-full.png` — [로그인·QA 풀 계정] 관리자 초대 `/admin/members` — 좌석 "4석 중 1석", 초대 링크 만들기·보낸 초대·관리자 목록. 이메일은 자동 지움 · full(끝까지 스크롤한 전체)
+- `desktop/admin-members-view.json` — [로그인·QA 풀 계정] 관리자 초대 `/admin/members` — 좌석 "4석 중 1석", 초대 링크 만들기·보낸 초대·관리자 목록. 이메일은 자동 지움 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/admin-members-view.png` — [로그인·QA 풀 계정] 관리자 초대 `/admin/members` — 좌석 "4석 중 1석", 초대 링크 만들기·보낸 초대·관리자 목록. 이메일은 자동 지움 · view(첫 화면 스크롤 0)
+- `desktop/admin-qr-modal-view.json` — [로그인] "배포용 QR 내보내기" 모달 — 공개 URL QR. QR 캔버스는 가림(qrSelectors canvas)이라 빈 사각형 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/admin-qr-modal-view.png` — [로그인] "배포용 QR 내보내기" 모달 — 공개 URL QR. QR 캔버스는 가림(qrSelectors canvas)이라 빈 사각형 · view(첫 화면 스크롤 0)
+- `desktop/game-quiz-full.json` — 게임 ③ OX 퀴즈 `/e/demo-quiz-minimal` 데스크톱 1440 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/game-quiz-full.png` — 게임 ③ OX 퀴즈 `/e/demo-quiz-minimal` 데스크톱 1440 · full(끝까지 스크롤한 전체)
+- `desktop/game-quiz-view.json` — 게임 ③ OX 퀴즈 `/e/demo-quiz-minimal` 데스크톱 1440 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/game-quiz-view.png` — 게임 ③ OX 퀴즈 `/e/demo-quiz-minimal` 데스크톱 1440 · view(첫 화면 스크롤 0)
+- `desktop/game-roulette-full.json` — 게임 ① 룰렛 `/e/demo-roulette-mz-bright` 를 데스크톱 1440 에서(시연 이벤트, 이벤트 화면은 모바일 우선 열 레이아웃) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/game-roulette-full.png` — 게임 ① 룰렛 `/e/demo-roulette-mz-bright` 를 데스크톱 1440 에서(시연 이벤트, 이벤트 화면은 모바일 우선 열 레이아웃) · full(끝까지 스크롤한 전체)
+- `desktop/game-roulette-view.json` — 게임 ① 룰렛 `/e/demo-roulette-mz-bright` 를 데스크톱 1440 에서(시연 이벤트, 이벤트 화면은 모바일 우선 열 레이아웃) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/game-roulette-view.png` — 게임 ① 룰렛 `/e/demo-roulette-mz-bright` 를 데스크톱 1440 에서(시연 이벤트, 이벤트 화면은 모바일 우선 열 레이아웃) · view(첫 화면 스크롤 0)
+- `desktop/game-scratch-full.json` — 게임 ② 스크래치 `/e/demo-scratch-premium` 데스크톱 1440 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/game-scratch-full.png` — 게임 ② 스크래치 `/e/demo-scratch-premium` 데스크톱 1440 · full(끝까지 스크롤한 전체)
+- `desktop/game-scratch-view.json` — 게임 ② 스크래치 `/e/demo-scratch-premium` 데스크톱 1440 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/game-scratch-view.png` — 게임 ② 스크래치 `/e/demo-scratch-premium` 데스크톱 1440 · view(첫 화면 스크롤 0)
+- `desktop/game-stamp-full.json` — 게임 ④ 스탬프·출석 `/e/demo-stamp-mz-bright` 데스크톱 1440 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/game-stamp-full.png` — 게임 ④ 스탬프·출석 `/e/demo-stamp-mz-bright` 데스크톱 1440 · full(끝까지 스크롤한 전체)
+- `desktop/game-stamp-view.json` — 게임 ④ 스탬프·출석 `/e/demo-stamp-mz-bright` 데스크톱 1440 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/game-stamp-view.png` — 게임 ④ 스탬프·출석 `/e/demo-stamp-mz-bright` 데스크톱 1440 · view(첫 화면 스크롤 0)
+- `desktop/header.json` — 고정 헤더(마케팅 SiteHeader sticky) 스크롤된 상태 · desktop · 곁 json
+- `desktop/header.png` — 고정 헤더(마케팅 SiteHeader sticky) 스크롤된 상태 · desktop
+- `desktop/landing-full.json` — 랜딩 `/` 데스크톱 1440 — 히어로(룰렛)·기능 4카드·만드는 순서 4단계(빌더 실캡처 이미지)·요금제 요약 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/landing-full.png` — 랜딩 `/` 데스크톱 1440 — 히어로(룰렛)·기능 4카드·만드는 순서 4단계(빌더 실캡처 이미지)·요금제 요약 · full(끝까지 스크롤한 전체)
+- `desktop/landing-view.json` — 랜딩 `/` 데스크톱 1440 — 히어로(룰렛)·기능 4카드·만드는 순서 4단계(빌더 실캡처 이미지)·요금제 요약 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/landing-view.png` — 랜딩 `/` 데스크톱 1440 — 히어로(룰렛)·기능 4카드·만드는 순서 4단계(빌더 실캡처 이미지)·요금제 요약 · view(첫 화면 스크롤 0)
+- `desktop/pricing-full.json` — 요금제 `/pricing` — Free·One-Time ₩300,000·Pro ₩200,000·Business 상담 후 견적 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/pricing-full.png` — 요금제 `/pricing` — Free·One-Time ₩300,000·Pro ₩200,000·Business 상담 후 견적 · full(끝까지 스크롤한 전체)
+- `desktop/pricing-view.json` — 요금제 `/pricing` — Free·One-Time ₩300,000·Pro ₩200,000·Business 상담 후 견적 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/pricing-view.png` — 요금제 `/pricing` — Free·One-Time ₩300,000·Pro ₩200,000·Business 상담 후 견적 · view(첫 화면 스크롤 0)
+- `desktop/showcase-full.json` — 쇼케이스 `/showcase` — 제작 사례 5건(고봉민김밥인·마라공방·VDOC·TOPS·새마을금고) 카드. 사례 이미지 alt 의 "QR" 단어에 자동 QR 가림이 걸려 이 페이지만 자동 QR 가림을 껐다(QR 이미지 없음) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/showcase-full.png` — 쇼케이스 `/showcase` — 제작 사례 5건(고봉민김밥인·마라공방·VDOC·TOPS·새마을금고) 카드. 사례 이미지 alt 의 "QR" 단어에 자동 QR 가림이 걸려 이 페이지만 자동 QR 가림을 껐다(QR 이미지 없음) · full(끝까지 스크롤한 전체)
+- `desktop/showcase-view.json` — 쇼케이스 `/showcase` — 제작 사례 5건(고봉민김밥인·마라공방·VDOC·TOPS·새마을금고) 카드. 사례 이미지 alt 의 "QR" 단어에 자동 QR 가림이 걸려 이 페이지만 자동 QR 가림을 껐다(QR 이미지 없음) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `desktop/showcase-view.png` — 쇼케이스 `/showcase` — 제작 사례 5건(고봉민김밥인·마라공방·VDOC·TOPS·새마을금고) 카드. 사례 이미지 alt 의 "QR" 단어에 자동 QR 가림이 걸려 이 페이지만 자동 QR 가림을 껐다(QR 이미지 없음) · view(첫 화면 스크롤 0)
+- `media/builder-captures/ai-answers.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/ai-answers.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/ai-confirm.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/ai-confirm.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/ai-content.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/ai-content.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/ai-design.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/ai-design.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/ai-entry-step.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/ai-entry-step.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/ai-entry.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/ai-entry.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/ai-game.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/ai-game.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/ai-industry.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/ai-industry.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/ai-name.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/ai-name.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/ai-prizes.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/ai-prizes.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/ai-review.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/ai-review.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/coach-1.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/coach-1.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/coach-2.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/coach-2.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/coach-3.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/coach-3.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/entry-ai.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/entry-ai.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/entry-mine.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/entry-mine.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/journey-01-game.webp` — 랜딩 "만드는 순서"에 쓰는 실제 /create 빌더 캡처 원본 ← 레포 public/journey/ui/01-game.webp(2880×1800)
+- `media/builder-captures/journey-02-design.webp` — 랜딩 "만드는 순서"에 쓰는 실제 /create 빌더 캡처 원본 ← 레포 public/journey/ui/02-design.webp(2880×1800)
+- `media/builder-captures/journey-03-edit.webp` — 랜딩 "만드는 순서"에 쓰는 실제 /create 빌더 캡처 원본 ← 레포 public/journey/ui/03-edit.webp(2880×1800)
+- `media/builder-captures/journey-04-publish.webp` — 랜딩 "만드는 순서"에 쓰는 실제 /create 빌더 캡처 원본 ← 레포 public/journey/ui/04-publish.webp(2880×1800)
+- `media/builder-captures/journey-05-live.webp` — 랜딩 "만드는 순서"에 쓰는 실제 /create 빌더 캡처 원본 ← 레포 public/journey/ui/05-live.webp(폰 화면)
+- `media/builder-captures/mine-brand.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/mine-brand.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/mine-design.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/mine-design.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/mine-entry.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/mine-entry.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/mine-game.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/mine-game.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/builder-captures/mine-goal.webp` — 빌더 "만드는 방법" 가이드용 실제 /create 화면 조각(AI 대화·질문·디자인·경품 등) 원본 ← 레포 public/howto/mine-goal.webp — /create 를 운영에서 열 수 없어 이것이 빌더 화면의 대체 원본(BLOCKED.md)
+- `media/fonts/Paperlogy-4Regular.subset.woff2` — 마케팅 서체 Paperlogy 서브셋 woff2 원본 ← 레포 public/fonts/Paperlogy-4Regular.subset.woff2
+- `media/fonts/Paperlogy-5Medium.subset.woff2` — 마케팅 서체 Paperlogy 서브셋 woff2 원본 ← 레포 public/fonts/Paperlogy-5Medium.subset.woff2
+- `media/fonts/Paperlogy-6SemiBold.subset.woff2` — 마케팅 서체 Paperlogy 서브셋 woff2 원본 ← 레포 public/fonts/Paperlogy-6SemiBold.subset.woff2
+- `media/fonts/Paperlogy-8ExtraBold.subset.woff2` — 마케팅 서체 Paperlogy 서브셋 woff2 원본 ← 레포 public/fonts/Paperlogy-8ExtraBold.subset.woff2
+- `media/fonts/Paperlogy-9Black.subset.woff2` — 마케팅 서체 Paperlogy 서브셋 woff2 원본 ← 레포 public/fonts/Paperlogy-9Black.subset.woff2
+- `media/icons/apple-touch-icon.png` — 앱 아이콘·파비콘 원본 ← 레포 public/apple-touch-icon.png
+- `media/icons/favicon.ico` — 앱 아이콘·파비콘 원본 ← 레포 public/brand/favicon.ico
+- `media/icons/icon-192.png` — 앱 아이콘·파비콘 원본 ← 레포 public/brand/icon-192.png
+- `media/icons/icon-512.png` — 앱 아이콘·파비콘 원본 ← 레포 public/brand/icon-512.png
+- `media/landing-gallery/quiz-game.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/quiz-game.webp
+- `media/landing-gallery/quiz-game@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/quiz-game@2x.webp
+- `media/landing-gallery/quiz-main.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/quiz-main.webp
+- `media/landing-gallery/quiz-main@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/quiz-main@2x.webp
+- `media/landing-gallery/quiz-result.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/quiz-result.webp
+- `media/landing-gallery/quiz-result@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/quiz-result@2x.webp
+- `media/landing-gallery/roulette-game.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/roulette-game.webp
+- `media/landing-gallery/roulette-game@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/roulette-game@2x.webp
+- `media/landing-gallery/roulette-main.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/roulette-main.webp
+- `media/landing-gallery/roulette-main@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/roulette-main@2x.webp
+- `media/landing-gallery/roulette-result.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/roulette-result.webp
+- `media/landing-gallery/roulette-result@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/roulette-result@2x.webp
+- `media/landing-gallery/scratch-game.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/scratch-game.webp
+- `media/landing-gallery/scratch-game@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/scratch-game@2x.webp
+- `media/landing-gallery/scratch-main.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/scratch-main.webp
+- `media/landing-gallery/scratch-main@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/scratch-main@2x.webp
+- `media/landing-gallery/scratch-result.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/scratch-result.webp
+- `media/landing-gallery/scratch-result@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/scratch-result@2x.webp
+- `media/landing-gallery/stamp-done.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/stamp-done.webp
+- `media/landing-gallery/stamp-done@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/stamp-done@2x.webp
+- `media/landing-gallery/stamp-game.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/stamp-game.webp
+- `media/landing-gallery/stamp-game@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/stamp-game@2x.webp
+- `media/landing-gallery/stamp-main.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/stamp-main.webp
+- `media/landing-gallery/stamp-main@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/stamp-main@2x.webp
+- `media/landing-gallery/stamp-result.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/stamp-result.webp
+- `media/landing-gallery/stamp-result@2x.webp` — 랜딩 게임 갤러리 실캡처(게임별 main·game·result, @2x 포함) 원본 ← 레포 public/landing-gallery/stamp-result@2x.webp
+- `media/wordmark-header.json` — 워드마크 렌더 곁 json
+- `media/wordmark-header.png` — 헤더 워드마크 "mai-eventic"(Paperlogy 900) 라이브 렌더 원본(DSF2). 별도 로고 SVG/PNG 원본이 없다 — components/marketing/SiteHeader.tsx:56
+- `mobile/event-quiz-full.json` — 완성 이벤트 ③ OX 퀴즈 `/e/demo-quiz-minimal` 모바일 390 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/event-quiz-full.png` — 완성 이벤트 ③ OX 퀴즈 `/e/demo-quiz-minimal` 모바일 390 · full(끝까지 스크롤한 전체)
+- `mobile/event-quiz-view.json` — 완성 이벤트 ③ OX 퀴즈 `/e/demo-quiz-minimal` 모바일 390 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/event-quiz-view.png` — 완성 이벤트 ③ OX 퀴즈 `/e/demo-quiz-minimal` 모바일 390 · view(첫 화면 스크롤 0)
+- `mobile/event-roulette-full.json` — 완성 이벤트 ① 룰렛 `/e/demo-roulette-mz-bright` 모바일 390 — 가린 것 없음(공개 시연 이벤트) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/event-roulette-full.png` — 완성 이벤트 ① 룰렛 `/e/demo-roulette-mz-bright` 모바일 390 — 가린 것 없음(공개 시연 이벤트) · full(끝까지 스크롤한 전체)
+- `mobile/event-roulette-sms-full.json` — 문자 인증 칸이 보이는 룰렛 이벤트(휴대폰 번호·인증번호 버튼) 모바일 390 — **응답 가공**: 운영 시연 이벤트는 auth.phone=false 로 발행돼 칸이 없어, 문서 응답의 config.auth.phone 한 값만 true 로 바꿈(코드 lib/showcase/demos.ts:94 의 값) · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/event-roulette-sms-full.png` — 문자 인증 칸이 보이는 룰렛 이벤트(휴대폰 번호·인증번호 버튼) 모바일 390 — **응답 가공**: 운영 시연 이벤트는 auth.phone=false 로 발행돼 칸이 없어, 문서 응답의 config.auth.phone 한 값만 true 로 바꿈(코드 lib/showcase/demos.ts:94 의 값) · full(끝까지 스크롤한 전체)
+- `mobile/event-roulette-sms-view.json` — 문자 인증 칸이 보이는 룰렛 이벤트(휴대폰 번호·인증번호 버튼) 모바일 390 — **응답 가공**: 운영 시연 이벤트는 auth.phone=false 로 발행돼 칸이 없어, 문서 응답의 config.auth.phone 한 값만 true 로 바꿈(코드 lib/showcase/demos.ts:94 의 값) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/event-roulette-sms-view.png` — 문자 인증 칸이 보이는 룰렛 이벤트(휴대폰 번호·인증번호 버튼) 모바일 390 — **응답 가공**: 운영 시연 이벤트는 auth.phone=false 로 발행돼 칸이 없어, 문서 응답의 config.auth.phone 한 값만 true 로 바꿈(코드 lib/showcase/demos.ts:94 의 값) · view(첫 화면 스크롤 0)
+- `mobile/event-roulette-view.json` — 완성 이벤트 ① 룰렛 `/e/demo-roulette-mz-bright` 모바일 390 — 가린 것 없음(공개 시연 이벤트) · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/event-roulette-view.png` — 완성 이벤트 ① 룰렛 `/e/demo-roulette-mz-bright` 모바일 390 — 가린 것 없음(공개 시연 이벤트) · view(첫 화면 스크롤 0)
+- `mobile/event-scratch-full.json` — 완성 이벤트 ② 스크래치 `/e/demo-scratch-premium` 모바일 390 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/event-scratch-full.png` — 완성 이벤트 ② 스크래치 `/e/demo-scratch-premium` 모바일 390 · full(끝까지 스크롤한 전체)
+- `mobile/event-scratch-view.json` — 완성 이벤트 ② 스크래치 `/e/demo-scratch-premium` 모바일 390 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/event-scratch-view.png` — 완성 이벤트 ② 스크래치 `/e/demo-scratch-premium` 모바일 390 · view(첫 화면 스크롤 0)
+- `mobile/event-stamp-full.json` — 완성 이벤트 ④ 스탬프·출석 `/e/demo-stamp-mz-bright` 모바일 390 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/event-stamp-full.png` — 완성 이벤트 ④ 스탬프·출석 `/e/demo-stamp-mz-bright` 모바일 390 · full(끝까지 스크롤한 전체)
+- `mobile/event-stamp-view.json` — 완성 이벤트 ④ 스탬프·출석 `/e/demo-stamp-mz-bright` 모바일 390 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/event-stamp-view.png` — 완성 이벤트 ④ 스탬프·출석 `/e/demo-stamp-mz-bright` 모바일 390 · view(첫 화면 스크롤 0)
+- `mobile/header.json` — 고정 헤더 스크롤된 상태 · mobile · 곁 json
+- `mobile/header.png` — 고정 헤더 스크롤된 상태 · mobile
+- `mobile/landing-full.json` — 랜딩 `/` 모바일 390 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/landing-full.png` — 랜딩 `/` 모바일 390 · full(끝까지 스크롤한 전체)
+- `mobile/landing-view.json` — 랜딩 `/` 모바일 390 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/landing-view.png` — 랜딩 `/` 모바일 390 · view(첫 화면 스크롤 0)
+- `mobile/pricing-full.json` — 요금제 `/pricing` 모바일 390 · full(끝까지 스크롤한 전체) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/pricing-full.png` — 요금제 `/pricing` 모바일 390 · full(끝까지 스크롤한 전체)
+- `mobile/pricing-view.json` — 요금제 `/pricing` 모바일 390 · view(첫 화면 스크롤 0) 곁 json(요소 사각형·글자·pii_scan)
+- `mobile/pricing-view.png` — 요금제 `/pricing` 모바일 390 · view(첫 화면 스크롤 0)
+- `seq/roulette-spin-win-first.json` — 룰렛 회전→당첨 6.0s 60fps(모바일 1170×2532) · 방식: page.clock 가상 시간 1/60초씩 runFor + getAnimations currentTime 동기화(회전 애니메이션은 시계에 묶임 — 확인함), 프레임마다 스크린샷 → H.264 CRF 12. play_event 가짜 응답(당첨). 시작은 영상 0프레임에 "룰렛 시작" 클릭 · 첫 프레임 곁 json
+- `seq/roulette-spin-win-first.png` — 룰렛 회전→당첨 6.0s 60fps(모바일 1170×2532) · 방식: page.clock 가상 시간 1/60초씩 runFor + getAnimations currentTime 동기화(회전 애니메이션은 시계에 묶임 — 확인함), 프레임마다 스크린샷 → H.264 CRF 12. play_event 가짜 응답(당첨). 시작은 영상 0프레임에 "룰렛 시작" 클릭 · 첫 프레임
+- `seq/roulette-spin-win-last.json` — 룰렛 회전→당첨 6.0s 60fps(모바일 1170×2532) · 방식: page.clock 가상 시간 1/60초씩 runFor + getAnimations currentTime 동기화(회전 애니메이션은 시계에 묶임 — 확인함), 프레임마다 스크린샷 → H.264 CRF 12. play_event 가짜 응답(당첨). 시작은 영상 0프레임에 "룰렛 시작" 클릭 · 끝 프레임 곁 json
+- `seq/roulette-spin-win-last.png` — 룰렛 회전→당첨 6.0s 60fps(모바일 1170×2532) · 방식: page.clock 가상 시간 1/60초씩 runFor + getAnimations currentTime 동기화(회전 애니메이션은 시계에 묶임 — 확인함), 프레임마다 스크린샷 → H.264 CRF 12. play_event 가짜 응답(당첨). 시작은 영상 0프레임에 "룰렛 시작" 클릭 · 끝 프레임
+- `seq/roulette-spin-win.mp4` — 룰렛 회전→당첨 6.0s 60fps(모바일 1170×2532) · 방식: page.clock 가상 시간 1/60초씩 runFor + getAnimations currentTime 동기화(회전 애니메이션은 시계에 묶임 — 확인함), 프레임마다 스크린샷 → H.264 CRF 12. play_event 가짜 응답(당첨). 시작은 영상 0프레임에 "룰렛 시작" 클릭 · 영상
+- `seq/scratch-reveal-first.json` — 스크래치 긁기→당첨 공개 6.0s 60fps(모바일 1170×2532) · 방식: page.clock 가상 시간 1/60초씩 + 프레임마다 마우스 한 걸음(실제 포인터 이벤트로 은박을 긁음), H.264 CRF 12. play_event 가짜 응답. "스크래치 시작" 클릭은 영상 시작 전(응답이 먼저 도착) · 첫 프레임 곁 json
+- `seq/scratch-reveal-first.png` — 스크래치 긁기→당첨 공개 6.0s 60fps(모바일 1170×2532) · 방식: page.clock 가상 시간 1/60초씩 + 프레임마다 마우스 한 걸음(실제 포인터 이벤트로 은박을 긁음), H.264 CRF 12. play_event 가짜 응답. "스크래치 시작" 클릭은 영상 시작 전(응답이 먼저 도착) · 첫 프레임
+- `seq/scratch-reveal-last.json` — 스크래치 긁기→당첨 공개 6.0s 60fps(모바일 1170×2532) · 방식: page.clock 가상 시간 1/60초씩 + 프레임마다 마우스 한 걸음(실제 포인터 이벤트로 은박을 긁음), H.264 CRF 12. play_event 가짜 응답. "스크래치 시작" 클릭은 영상 시작 전(응답이 먼저 도착) · 끝 프레임 곁 json
+- `seq/scratch-reveal-last.png` — 스크래치 긁기→당첨 공개 6.0s 60fps(모바일 1170×2532) · 방식: page.clock 가상 시간 1/60초씩 + 프레임마다 마우스 한 걸음(실제 포인터 이벤트로 은박을 긁음), H.264 CRF 12. play_event 가짜 응답. "스크래치 시작" 클릭은 영상 시작 전(응답이 먼저 도착) · 끝 프레임
+- `seq/scratch-reveal.mp4` — 스크래치 긁기→당첨 공개 6.0s 60fps(모바일 1170×2532) · 방식: page.clock 가상 시간 1/60초씩 + 프레임마다 마우스 한 걸음(실제 포인터 이벤트로 은박을 긁음), H.264 CRF 12. play_event 가짜 응답. "스크래치 시작" 클릭은 영상 시작 전(응답이 먼저 도착) · 영상
+- `states/admin-invite/01-empty.json` — 관리자 초대 상태 흐름(데스크톱 1440, scrollY 0) — 단계 01-empty. POST /api/invite 가짜 응답(링크 미발급·DB 쓰기 없음). 발급 링크 글자는 URL 가림 규칙으로 지워져 입력칸이 빈 상태 곁 json
+- `states/admin-invite/01-empty.png` — 관리자 초대 상태 흐름(데스크톱 1440, scrollY 0) — 단계 01-empty. POST /api/invite 가짜 응답(링크 미발급·DB 쓰기 없음). 발급 링크 글자는 URL 가림 규칙으로 지워져 입력칸이 빈 상태
+- `states/admin-invite/02-memo-typed.json` — 관리자 초대 상태 흐름(데스크톱 1440, scrollY 0) — 단계 02-memo-typed. POST /api/invite 가짜 응답(링크 미발급·DB 쓰기 없음). 발급 링크 글자는 URL 가림 규칙으로 지워져 입력칸이 빈 상태 곁 json
+- `states/admin-invite/02-memo-typed.png` — 관리자 초대 상태 흐름(데스크톱 1440, scrollY 0) — 단계 02-memo-typed. POST /api/invite 가짜 응답(링크 미발급·DB 쓰기 없음). 발급 링크 글자는 URL 가림 규칙으로 지워져 입력칸이 빈 상태
+- `states/admin-invite/03-link-issued.json` — 관리자 초대 상태 흐름(데스크톱 1440, scrollY 0) — 단계 03-link-issued. POST /api/invite 가짜 응답(링크 미발급·DB 쓰기 없음). 발급 링크 글자는 URL 가림 규칙으로 지워져 입력칸이 빈 상태 곁 json
+- `states/admin-invite/03-link-issued.png` — 관리자 초대 상태 흐름(데스크톱 1440, scrollY 0) — 단계 03-link-issued. POST /api/invite 가짜 응답(링크 미발급·DB 쓰기 없음). 발급 링크 글자는 URL 가림 규칙으로 지워져 입력칸이 빈 상태
+- `states/quiz-play/01-ready.json` — OX 퀴즈 참여 상태 흐름(모바일 390, scrollY 150) — 단계 01-ready. 문항·정답 판정은 라이브 코드대로, 마지막 play_event 응답(quiz_passed·score 3/3·해설)은 가짜 곁 json
+- `states/quiz-play/01-ready.png` — OX 퀴즈 참여 상태 흐름(모바일 390, scrollY 150) — 단계 01-ready. 문항·정답 판정은 라이브 코드대로, 마지막 play_event 응답(quiz_passed·score 3/3·해설)은 가짜
+- `states/quiz-play/02-question-1.json` — OX 퀴즈 참여 상태 흐름(모바일 390, scrollY 150) — 단계 02-question-1. 문항·정답 판정은 라이브 코드대로, 마지막 play_event 응답(quiz_passed·score 3/3·해설)은 가짜 곁 json
+- `states/quiz-play/02-question-1.png` — OX 퀴즈 참여 상태 흐름(모바일 390, scrollY 150) — 단계 02-question-1. 문항·정답 판정은 라이브 코드대로, 마지막 play_event 응답(quiz_passed·score 3/3·해설)은 가짜
+- `states/quiz-play/03-question-2.json` — OX 퀴즈 참여 상태 흐름(모바일 390, scrollY 150) — 단계 03-question-2. 문항·정답 판정은 라이브 코드대로, 마지막 play_event 응답(quiz_passed·score 3/3·해설)은 가짜 곁 json
+- `states/quiz-play/03-question-2.png` — OX 퀴즈 참여 상태 흐름(모바일 390, scrollY 150) — 단계 03-question-2. 문항·정답 판정은 라이브 코드대로, 마지막 play_event 응답(quiz_passed·score 3/3·해설)은 가짜
+- `states/quiz-play/04-question-3.json` — OX 퀴즈 참여 상태 흐름(모바일 390, scrollY 150) — 단계 04-question-3. 문항·정답 판정은 라이브 코드대로, 마지막 play_event 응답(quiz_passed·score 3/3·해설)은 가짜 곁 json
+- `states/quiz-play/04-question-3.png` — OX 퀴즈 참여 상태 흐름(모바일 390, scrollY 150) — 단계 04-question-3. 문항·정답 판정은 라이브 코드대로, 마지막 play_event 응답(quiz_passed·score 3/3·해설)은 가짜
+- `states/quiz-play/05-result.json` — OX 퀴즈 참여 상태 흐름(모바일 390, scrollY 150) — 단계 05-result. 문항·정답 판정은 라이브 코드대로, 마지막 play_event 응답(quiz_passed·score 3/3·해설)은 가짜 곁 json
+- `states/quiz-play/05-result.png` — OX 퀴즈 참여 상태 흐름(모바일 390, scrollY 150) — 단계 05-result. 문항·정답 판정은 라이브 코드대로, 마지막 play_event 응답(quiz_passed·score 3/3·해설)은 가짜
+- `states/roulette-play/01-ready-unchecked.json` — 룰렛 참여 상태 흐름(모바일 390, scrollY 380) — 단계 01-ready-unchecked. play_event(Supabase RPC) 응답을 가짜로 채움(당첨 "스타벅스 아메리카노"; spinning 은 응답을 잡아 둔 "돌리는 중…") 곁 json
+- `states/roulette-play/01-ready-unchecked.png` — 룰렛 참여 상태 흐름(모바일 390, scrollY 380) — 단계 01-ready-unchecked. play_event(Supabase RPC) 응답을 가짜로 채움(당첨 "스타벅스 아메리카노"; spinning 은 응답을 잡아 둔 "돌리는 중…")
+- `states/roulette-play/02-consent-checked.json` — 룰렛 참여 상태 흐름(모바일 390, scrollY 380) — 단계 02-consent-checked. play_event(Supabase RPC) 응답을 가짜로 채움(당첨 "스타벅스 아메리카노"; spinning 은 응답을 잡아 둔 "돌리는 중…") 곁 json
+- `states/roulette-play/02-consent-checked.png` — 룰렛 참여 상태 흐름(모바일 390, scrollY 380) — 단계 02-consent-checked. play_event(Supabase RPC) 응답을 가짜로 채움(당첨 "스타벅스 아메리카노"; spinning 은 응답을 잡아 둔 "돌리는 중…")
+- `states/roulette-play/03-spinning.json` — 룰렛 참여 상태 흐름(모바일 390, scrollY 380) — 단계 03-spinning. play_event(Supabase RPC) 응답을 가짜로 채움(당첨 "스타벅스 아메리카노"; spinning 은 응답을 잡아 둔 "돌리는 중…") 곁 json
+- `states/roulette-play/03-spinning.png` — 룰렛 참여 상태 흐름(모바일 390, scrollY 380) — 단계 03-spinning. play_event(Supabase RPC) 응답을 가짜로 채움(당첨 "스타벅스 아메리카노"; spinning 은 응답을 잡아 둔 "돌리는 중…")
+- `states/roulette-play/04-result-win.json` — 룰렛 참여 상태 흐름(모바일 390, scrollY 380) — 단계 04-result-win. play_event(Supabase RPC) 응답을 가짜로 채움(당첨 "스타벅스 아메리카노"; spinning 은 응답을 잡아 둔 "돌리는 중…") 곁 json
+- `states/roulette-play/04-result-win.png` — 룰렛 참여 상태 흐름(모바일 390, scrollY 380) — 단계 04-result-win. play_event(Supabase RPC) 응답을 가짜로 채움(당첨 "스타벅스 아메리카노"; spinning 은 응답을 잡아 둔 "돌리는 중…")
+- `states/scratch-play/01-ready-unchecked.json` — 스크래치 참여 상태 흐름(모바일 390, scrollY 250) — 단계 01-ready-unchecked. play_event 가짜 응답(당첨 "스타벅스 1만원권"), 은박은 마우스 드래그로 실제로 긁음 곁 json
+- `states/scratch-play/01-ready-unchecked.png` — 스크래치 참여 상태 흐름(모바일 390, scrollY 250) — 단계 01-ready-unchecked. play_event 가짜 응답(당첨 "스타벅스 1만원권"), 은박은 마우스 드래그로 실제로 긁음
+- `states/scratch-play/02-consent-checked.json` — 스크래치 참여 상태 흐름(모바일 390, scrollY 250) — 단계 02-consent-checked. play_event 가짜 응답(당첨 "스타벅스 1만원권"), 은박은 마우스 드래그로 실제로 긁음 곁 json
+- `states/scratch-play/02-consent-checked.png` — 스크래치 참여 상태 흐름(모바일 390, scrollY 250) — 단계 02-consent-checked. play_event 가짜 응답(당첨 "스타벅스 1만원권"), 은박은 마우스 드래그로 실제로 긁음
+- `states/scratch-play/03-started.json` — 스크래치 참여 상태 흐름(모바일 390, scrollY 250) — 단계 03-started. play_event 가짜 응답(당첨 "스타벅스 1만원권"), 은박은 마우스 드래그로 실제로 긁음 곁 json
+- `states/scratch-play/03-started.png` — 스크래치 참여 상태 흐름(모바일 390, scrollY 250) — 단계 03-started. play_event 가짜 응답(당첨 "스타벅스 1만원권"), 은박은 마우스 드래그로 실제로 긁음
+- `states/scratch-play/04-scratching.json` — 스크래치 참여 상태 흐름(모바일 390, scrollY 250) — 단계 04-scratching. play_event 가짜 응답(당첨 "스타벅스 1만원권"), 은박은 마우스 드래그로 실제로 긁음 곁 json
+- `states/scratch-play/04-scratching.png` — 스크래치 참여 상태 흐름(모바일 390, scrollY 250) — 단계 04-scratching. play_event 가짜 응답(당첨 "스타벅스 1만원권"), 은박은 마우스 드래그로 실제로 긁음
+- `states/scratch-play/05-result-win.json` — 스크래치 참여 상태 흐름(모바일 390, scrollY 250) — 단계 05-result-win. play_event 가짜 응답(당첨 "스타벅스 1만원권"), 은박은 마우스 드래그로 실제로 긁음 곁 json
+- `states/scratch-play/05-result-win.png` — 스크래치 참여 상태 흐름(모바일 390, scrollY 250) — 단계 05-result-win. play_event 가짜 응답(당첨 "스타벅스 1만원권"), 은박은 마우스 드래그로 실제로 긁음
+- `states/sms-verify/01-phone-empty.json` — 문자 인증 상태 흐름(모바일 390, scrollY 420) — 단계 01-phone-empty: 번호 입력→인증번호 받기→인증번호 6자리→인증 완료. send-code·verify-code 응답 가짜(문자 미발송), 응답 가공(auth.phone=true)·입력 번호는 가짜 1000000000 을 010-****-**** 로 표시 곁 json
+- `states/sms-verify/01-phone-empty.png` — 문자 인증 상태 흐름(모바일 390, scrollY 420) — 단계 01-phone-empty: 번호 입력→인증번호 받기→인증번호 6자리→인증 완료. send-code·verify-code 응답 가짜(문자 미발송), 응답 가공(auth.phone=true)·입력 번호는 가짜 1000000000 을 010-****-**** 로 표시
+- `states/sms-verify/02-phone-entered.json` — 문자 인증 상태 흐름(모바일 390, scrollY 420) — 단계 02-phone-entered: 번호 입력→인증번호 받기→인증번호 6자리→인증 완료. send-code·verify-code 응답 가짜(문자 미발송), 응답 가공(auth.phone=true)·입력 번호는 가짜 1000000000 을 010-****-**** 로 표시 곁 json
+- `states/sms-verify/02-phone-entered.png` — 문자 인증 상태 흐름(모바일 390, scrollY 420) — 단계 02-phone-entered: 번호 입력→인증번호 받기→인증번호 6자리→인증 완료. send-code·verify-code 응답 가짜(문자 미발송), 응답 가공(auth.phone=true)·입력 번호는 가짜 1000000000 을 010-****-**** 로 표시
+- `states/sms-verify/03-code-field.json` — 문자 인증 상태 흐름(모바일 390, scrollY 420) — 단계 03-code-field: 번호 입력→인증번호 받기→인증번호 6자리→인증 완료. send-code·verify-code 응답 가짜(문자 미발송), 응답 가공(auth.phone=true)·입력 번호는 가짜 1000000000 을 010-****-**** 로 표시 곁 json
+- `states/sms-verify/03-code-field.png` — 문자 인증 상태 흐름(모바일 390, scrollY 420) — 단계 03-code-field: 번호 입력→인증번호 받기→인증번호 6자리→인증 완료. send-code·verify-code 응답 가짜(문자 미발송), 응답 가공(auth.phone=true)·입력 번호는 가짜 1000000000 을 010-****-**** 로 표시
+- `states/sms-verify/04-code-entered.json` — 문자 인증 상태 흐름(모바일 390, scrollY 420) — 단계 04-code-entered: 번호 입력→인증번호 받기→인증번호 6자리→인증 완료. send-code·verify-code 응답 가짜(문자 미발송), 응답 가공(auth.phone=true)·입력 번호는 가짜 1000000000 을 010-****-**** 로 표시 곁 json
+- `states/sms-verify/04-code-entered.png` — 문자 인증 상태 흐름(모바일 390, scrollY 420) — 단계 04-code-entered: 번호 입력→인증번호 받기→인증번호 6자리→인증 완료. send-code·verify-code 응답 가짜(문자 미발송), 응답 가공(auth.phone=true)·입력 번호는 가짜 1000000000 을 010-****-**** 로 표시
+- `states/sms-verify/05-verified.json` — 문자 인증 상태 흐름(모바일 390, scrollY 420) — 단계 05-verified: 번호 입력→인증번호 받기→인증번호 6자리→인증 완료. send-code·verify-code 응답 가짜(문자 미발송), 응답 가공(auth.phone=true)·입력 번호는 가짜 1000000000 을 010-****-**** 로 표시 곁 json
+- `states/sms-verify/05-verified.png` — 문자 인증 상태 흐름(모바일 390, scrollY 420) — 단계 05-verified: 번호 입력→인증번호 받기→인증번호 6자리→인증 완료. send-code·verify-code 응답 가짜(문자 미발송), 응답 가공(auth.phone=true)·입력 번호는 가짜 1000000000 을 010-****-**** 로 표시
+- `states/stamp-collect/01-empty-0of5.json` — 스탬프·출석 상태 흐름(모바일 390, scrollY 200) — 단계 01-empty-0of5. 하루 1번 적립이라 단계마다 새 방문을 가정해 GET /api/stamp/status·POST /api/stamp/accrue 응답을 가짜로 채움(1→3→4→5칸, 완주 시 당첨 연출). 가짜 값: 도장 개수 곁 json
+- `states/stamp-collect/01-empty-0of5.png` — 스탬프·출석 상태 흐름(모바일 390, scrollY 200) — 단계 01-empty-0of5. 하루 1번 적립이라 단계마다 새 방문을 가정해 GET /api/stamp/status·POST /api/stamp/accrue 응답을 가짜로 채움(1→3→4→5칸, 완주 시 당첨 연출). 가짜 값: 도장 개수
+- `states/stamp-collect/02-stamped-1of5.json` — 스탬프·출석 상태 흐름(모바일 390, scrollY 200) — 단계 02-stamped-1of5. 하루 1번 적립이라 단계마다 새 방문을 가정해 GET /api/stamp/status·POST /api/stamp/accrue 응답을 가짜로 채움(1→3→4→5칸, 완주 시 당첨 연출). 가짜 값: 도장 개수 곁 json
+- `states/stamp-collect/02-stamped-1of5.png` — 스탬프·출석 상태 흐름(모바일 390, scrollY 200) — 단계 02-stamped-1of5. 하루 1번 적립이라 단계마다 새 방문을 가정해 GET /api/stamp/status·POST /api/stamp/accrue 응답을 가짜로 채움(1→3→4→5칸, 완주 시 당첨 연출). 가짜 값: 도장 개수
+- `states/stamp-collect/03-stamped-3of5.json` — 스탬프·출석 상태 흐름(모바일 390, scrollY 200) — 단계 03-stamped-3of5. 하루 1번 적립이라 단계마다 새 방문을 가정해 GET /api/stamp/status·POST /api/stamp/accrue 응답을 가짜로 채움(1→3→4→5칸, 완주 시 당첨 연출). 가짜 값: 도장 개수 곁 json
+- `states/stamp-collect/03-stamped-3of5.png` — 스탬프·출석 상태 흐름(모바일 390, scrollY 200) — 단계 03-stamped-3of5. 하루 1번 적립이라 단계마다 새 방문을 가정해 GET /api/stamp/status·POST /api/stamp/accrue 응답을 가짜로 채움(1→3→4→5칸, 완주 시 당첨 연출). 가짜 값: 도장 개수
+- `states/stamp-collect/04-stamped-4of5.json` — 스탬프·출석 상태 흐름(모바일 390, scrollY 200) — 단계 04-stamped-4of5. 하루 1번 적립이라 단계마다 새 방문을 가정해 GET /api/stamp/status·POST /api/stamp/accrue 응답을 가짜로 채움(1→3→4→5칸, 완주 시 당첨 연출). 가짜 값: 도장 개수 곁 json
+- `states/stamp-collect/04-stamped-4of5.png` — 스탬프·출석 상태 흐름(모바일 390, scrollY 200) — 단계 04-stamped-4of5. 하루 1번 적립이라 단계마다 새 방문을 가정해 GET /api/stamp/status·POST /api/stamp/accrue 응답을 가짜로 채움(1→3→4→5칸, 완주 시 당첨 연출). 가짜 값: 도장 개수
+- `states/stamp-collect/05-complete-5of5.json` — 스탬프·출석 상태 흐름(모바일 390, scrollY 200) — 단계 05-complete-5of5. 하루 1번 적립이라 단계마다 새 방문을 가정해 GET /api/stamp/status·POST /api/stamp/accrue 응답을 가짜로 채움(1→3→4→5칸, 완주 시 당첨 연출). 가짜 값: 도장 개수 곁 json
+- `states/stamp-collect/05-complete-5of5.png` — 스탬프·출석 상태 흐름(모바일 390, scrollY 200) — 단계 05-complete-5of5. 하루 1번 적립이라 단계마다 새 방문을 가정해 GET /api/stamp/status·POST /api/stamp/accrue 응답을 가짜로 채움(1→3→4→5칸, 완주 시 당첨 연출). 가짜 값: 도장 개수

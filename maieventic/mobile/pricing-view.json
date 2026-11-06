@@ -1,0 +1,205 @@
+{
+ "file": "pricing-view.png",
+ "kind": "page",
+ "project": "maieventic",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/pricing",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 4592,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:22:52.920Z",
+ "title": "요금제 — mai-eventic",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 2,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "필요한 만큼 고르세요",
+   "rect": {
+    "x": 24,
+    "y": 165,
+    "w": 342,
+    "h": 40
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Free",
+   "rect": {
+    "x": 54,
+    "y": 500.8,
+    "w": 282,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "li",
+   "text": "무료 Free 가볍게 체험 무료 이벤트 발행 1회 AI 질문 10회 디자인 1회 무료 브랜드 디자인 활용 가능 기능 더 보기 (2) 이럴 때 FREE 플랜을 사용하세요 마이이벤틱을 처음 체험하거나, 간단한 테스트 이벤트를 만들 때 적합해요. 기획부터 제작·발행·CMS 확인까지 무료로 경",
+   "rect": {
+    "x": 24,
+    "y": 440.8,
+    "w": 342,
+    "h": 1159.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "mai-eventic",
+   "rect": {
+    "x": 24,
+    "y": 18,
+    "w": 116.1,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제작 사례",
+   "rect": {
+    "x": 151,
+    "y": 14,
+    "w": 70,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "요금제",
+   "rect": {
+    "x": 227,
+    "y": 14,
+    "w": 57,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시작하기",
+   "rect": {
+    "x": 290,
+    "y": 14,
+    "w": 76,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "무료 Free 가볍게 체험 무료 이벤트 발행 1회 AI 질문 10회 디자인 1회 무료 브랜드 디자인 활용 가능 기능 더 보기 (2) 이럴 때 FREE 플랜을 사용하세요 마이이벤틱을 처음 체험하거나, 간단한 테스트 이벤트를 만들 때 적합해요. 기획부터 제작·발행·CMS 확인까지 무료로 경",
+   "rect": {
+    "x": 24,
+    "y": 440.8,
+    "w": 342,
+    "h": 1159.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "이벤트 발행 1회",
+   "rect": {
+    "x": 54,
+    "y": 702.8,
+    "w": 282,
+    "h": 25.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "AI 질문 10회",
+   "rect": {
+    "x": 54,
+    "y": 738.3,
+    "w": 282,
+    "h": 25.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "디자인 1회 무료",
+   "rect": {
+    "x": 54,
+    "y": 773.9,
+    "w": 282,
+    "h": 25.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "브랜드 디자인 활용 가능",
+   "rect": {
+    "x": 54,
+    "y": 809.5,
+    "w": 282,
+    "h": 25.6
+   }
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "file": "02-question-1.png",
+ "kind": "state",
+ "project": "maieventic",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/e/demo-quiz-minimal",
+ "scrollY": 150,
+ "scrollX": 0,
+ "docHeight": 1277,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:07:53.537Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "도전! 퀴즈 이벤트 도전! 퀴즈 이벤트",
+   "rect": {
+    "x": 36,
+    "y": -62.5,
+    "w": 318,
+    "h": 79.4
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "OX·퀴즈",
+   "rect": {
+    "x": 154.9,
+    "y": 152.3,
+    "w": 80.2,
+    "h": 20.8
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "경품 안내",
+   "rect": {
+    "x": 16,
+    "y": 504.6,
+    "w": 358,
+    "h": 26
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "참여 방법",
+   "rect": {
+    "x": 36,
+    "y": 775.2,
+    "w": 318,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "O",
+   "rect": {
+    "x": 89,
+    "y": 347.6,
+    "w": 96,
+    "h": 96
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "X",
+   "rect": {
+    "x": 205,
+    "y": 347.6,
+    "w": 96,
+    "h": 96
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "QR코드는 한국에서 처음 개발되었다? (O/X)",
+   "rect": {
+    "x": 36,
+    "y": 221.1,
+    "w": 318,
+    "h": 110.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "아메리카노 기프티콘",
+   "rect": {
+    "x": 16,
+    "y": 546.6,
+    "w": 358,
+    "h": 171.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "참여 방법 1 개인정보 수집·이용에 동의해요. 2 퀴즈를 풀고 결과를 확인해요! 참여 한도: 이벤트 기간 중 1회",
+   "rect": {
+    "x": 16,
+    "y": 755.2,
+    "w": 358,
+    "h": 194
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "",
+   "rect": {
+    "x": 36,
+    "y": -62.5,
+    "w": 318,
+    "h": 79.4
+   }
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "file": "04-scratching.png",
+ "kind": "state",
+ "project": "maieventic",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/e/demo-scratch-premium",
+ "scrollY": 250,
+ "scrollX": 0,
+ "docHeight": 1797,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T00:06:18.067Z",
+ "title": "mai-eventic — 누구나 만드는 AI 이벤트",
+ "note": "은박 일부를 긁은 상태(마우스 드래그)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "스크래치 복권",
+   "rect": {
+    "x": 125.7,
+    "y": 10.7,
+    "w": 138.6,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "경품 안내",
+   "rect": {
+    "x": 16,
+    "y": 414.7,
+    "w": 358,
+    "h": 28.8
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "1등 신세계 상품권 5만원 총 3개",
+   "rect": {
+    "x": 16,
+    "y": 459.5,
+    "w": 358,
+    "h": 231.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "2등 스타벅스 1만원권 총 20개",
+   "rect": {
+    "x": 16,
+    "y": 702.9,
+    "w": 173,
+    "h": 178.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "3등 아메리카노 총 300개",
+   "rect": {
+    "x": 201,
+    "y": 702.9,
+    "w": 173,
+    "h": 178.6
+   }
+  },
+  {
+   "type": "image",
+   "tag": "canvas",
+   "text": "",
+   "rect": {
+    "x": 52,
+    "y": 118.5,
+    "w": 286,
+    "h": 174
+   }
+  }
+ ]
+}
