@@ -21,6 +21,7 @@
 - 저장소: hjan040507-gif/prism-media 없음 + 이 서버에 GitHub API 인증 없음(gh 미로그인, 토큰 없음, SSH 로는 생성 불가) → ~/prism-media 에 커밋만, 보고에 '저장소 생성 필요'
 
 ## NOW
+- 02:03Z 정정: 완전한 빌드는 byclick 만(BUILD_EXIT 0). posco 는 빌드 시작 전, jipyeong 은 중간에 끊긴 빌드(prerender-manifest 없음) → 둘 다 heavy-run 재빌드 대기(게이트는 load 로 닫힘). 기한: jipyeong 03:30Z, posco 04:00Z 까지 안 되면 로컬 화면 BLOCKED.
 - 02:02Z Claude Code 재시작으로 jipyeong·byclick·posco 서브에이전트 끊김 → 재개(posco·jipyeong 빌드는 끝나 있음 → 바로 촬영, byclick 은 재빌드). 남은 3건 종료 03:30~04:30Z.
 - 00:45Z nowflix 검수 끝(check --tablet FAIL 0·OCR 0/36·QR·도메인 가림 확인, 태블릿=기존 CI 캡처 8장, 관리자 웹=로컬 사본+가짜 Supabase 1회 성공) → 커밋. 빌드 게이트: 스왑 여유 16% 로 회복, 지금은 load 만 걸림.
 - 00:40Z fordex 검수 끝(check FAIL 0·OCR 1건 오탐(카드 저작권 연도)·contact 확인, 로컬 복제 스택+가짜 데이터, 운영 관리자 컷·NICE 결제창·지급/정산 BLOCKED) → 커밋.
