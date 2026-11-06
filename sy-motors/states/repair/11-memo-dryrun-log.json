@@ -1,0 +1,25 @@
+{
+  "request": null,
+  "response": null,
+  "note": "알림 분기 증거: 사고/긴급이 아닌 접수는 카카오 「나에게 보내기」 메모 경로. 로컬은 드라이런이라 [DRY-RUN] kakao/memo 로그만 남는다(운영 호출 0). 알림 대상 토큰은 목 DB 에 넣은 가짜.",
+  "server_log": [
+    "[notify] start (receipt=SY-3FFAD0, category=repair)",
+    "[DRY-RUN] would send: kakao/memo — 🔔 [백업] 새 접수 [방문 정비] 접수번호: SY-3FFAD0 성함: 김○○ 연락처: 010-****-**** 차량: 어코드 2.4 2017 12가 **** 요청/증상: 엔진오일 … 📷 사진 1장 (아래 링크에서 [link=[이미지 URL 가림]]",
+    "[notify] 카카오 알림 발송 (role=owner, receipt=SY-3FFAD0)"
+  ],
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

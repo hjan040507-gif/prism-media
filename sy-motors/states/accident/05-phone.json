@@ -1,0 +1,46 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "010-****-****",
+      "user": {
+        "id": "prism-fake-accident",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "어떤 사고인지 간단히 알려주세요. (예: 주차 중 접촉사고, 후방 추돌)"
+          }
+        }
+      ]
+    }
+  },
+  "note": "검사를 통과하는 가짜 번호(저장 시 가림).",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 37
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

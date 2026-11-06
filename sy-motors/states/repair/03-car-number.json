@@ -1,0 +1,46 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "12가 ****",
+      "user": {
+        "id": "prism-fake-repair",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "성함을 입력해 주세요."
+          }
+        }
+      ]
+    }
+  },
+  "note": "입력은 가짜 번호판. 저장 JSON 은 「12가 ****」로 가림.",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 26
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

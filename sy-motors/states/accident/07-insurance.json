@@ -1,0 +1,53 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "보험 처리",
+      "user": {
+        "id": "prism-fake-accident",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "차량 사진이나 문제 부위 사진을 보내주세요. (선택)\n사진 첨부 후 전송하거나, 없으면 아래 버튼을 눌러주세요."
+          }
+        }
+      ],
+      "quickReplies": [
+        {
+          "label": "사진 없이 진행",
+          "action": "message",
+          "messageText": "사진 없이 진행"
+        }
+      ]
+    }
+  },
+  "note": "보험 처리 여부(빠른 답변 「보험 처리」) → 사진 단계.",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 22
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

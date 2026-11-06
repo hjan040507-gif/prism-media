@@ -1,0 +1,46 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "파일럿 3.5 엘리트 2020",
+      "user": {
+        "id": "prism-fake-trouble",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "차량번호를 입력해 주세요. (예: 12가 ****)"
+          }
+        }
+      ]
+    }
+  },
+  "note": "차량 입력에 연식(2020)이 있어 연식 질문 생략.",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 24
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

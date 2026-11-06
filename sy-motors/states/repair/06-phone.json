@@ -1,0 +1,53 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "010-****-****",
+      "user": {
+        "id": "prism-fake-repair",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "어떤 점이 불편하신가요? 증상이나 요청 사항을 간단히 적어주세요. (선택)\n방문 희망 날짜·시간이 있으면 함께 적어주세요."
+          }
+        }
+      ],
+      "quickReplies": [
+        {
+          "label": "건너뛰기",
+          "action": "message",
+          "messageText": "건너뛰기"
+        }
+      ]
+    }
+  },
+  "note": "검사를 통과하는 가짜 번호. 저장 JSON 은 「010-****-****」로 가림.",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 314
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

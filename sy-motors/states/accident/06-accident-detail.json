@@ -1,0 +1,63 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "주차 중 접촉사고가 났어요. 앞범퍼 파손",
+      "user": {
+        "id": "prism-fake-accident",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "보험으로 처리하실 예정인가요? 아래에서 선택하시거나 직접 입력해 주세요."
+          }
+        }
+      ],
+      "quickReplies": [
+        {
+          "label": "보험 처리",
+          "action": "message",
+          "messageText": "보험 처리"
+        },
+        {
+          "label": "자비(일반) 처리",
+          "action": "message",
+          "messageText": "자비(일반) 처리"
+        },
+        {
+          "label": "아직 미정",
+          "action": "message",
+          "messageText": "아직 미정"
+        }
+      ]
+    }
+  },
+  "note": "사고 경위(필수 질문) → 보험 처리 질문(빠른 답변 3개).",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 20
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "CRV 2.4 AWD 2016",
+      "user": {
+        "id": "prism-fake-accident",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "차량번호를 입력해 주세요. (예: 12가 ****)"
+          }
+        }
+      ]
+    }
+  },
+  "note": "차량 입력에 연식(2016)이 있어 연식 질문 생략.",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 23
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

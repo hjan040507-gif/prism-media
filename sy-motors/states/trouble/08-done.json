@@ -1,0 +1,58 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "다음으로",
+      "user": {
+        "id": "prism-fake-trouble",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "📝 접수 내용이 저장되었어요 (접수번호 SY-DF8011)\n박○○ 고객님, 파일럿 3.5 엘리트 2020 12가 **** 접수 확인되었습니다.\n\n[접수 내용]\n접수번호: SY-DF8011\n접수유형: 차량 장애 문의\n성함: 박○○\n연락처: 010-****-****\n차량: 파일럿 3.5 엘리트 2020 12가 ****\n요청/증상: 시동이 안 걸려요\n접수 시각: 2026. 11. 06. PM 04:52\n\n잘못 적힌 내용은 담당자 연결 후 채팅으로 알려주세요.\n👇 아래 버튼을 한 번 누르고 '접수했어요'라고 보내주세요."
+          }
+        },
+        {
+          "textCard": {
+            "title": "버튼 누른 뒤 '접수했어요'라고 보내주세요",
+            "description": "① 아래 버튼을 한 번 누르세요. '현재 상담원과 채팅 중입니다'가 뜨면 연결된 거예요.\n② [확인]을 누르고 '접수했어요'라고 한마디 보내주세요. 그래야 담당자에게 알림이 가요.\n답변은 일과시간에 이 채팅방에서 순서대로 드립니다.",
+            "buttons": [
+              {
+                "action": "operator",
+                "label": "담당자에게 전달하기"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "note": "장애 문의는 사진이 마지막 단계라 곧바로 접수 확정 → 완료 요약 + 「담당자에게 전달하기」 카드. 「자가 점검 영상 보기」 버튼은 운영 env(YOUTUBE_CHANNEL_URL)에만 있어 로컬엔 없다.",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 51
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

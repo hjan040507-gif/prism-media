@@ -1,0 +1,28 @@
+{
+  "mock_requests": {
+    "total": 166,
+    "byTable": {
+      "chat_sessions": 105,
+      "customers": 12,
+      "intakes": 6,
+      "intake_media": 4,
+      "owner_tokens": 8,
+      "bot_events": 12
+    },
+    "storageUploads": 4,
+    "storageSigns": 4
+  },
+  "mock_rows": {
+    "owner_tokens": 1,
+    "chat_sessions": 0,
+    "customers": 3,
+    "intakes": 3,
+    "intake_media": 2,
+    "bot_events": 3
+  },
+  "masked_counts": {
+    "plate": 14,
+    "phone": 15
+  },
+  "production_requests": 0
+}

@@ -1,0 +1,60 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "",
+      "user": {
+        "id": "prism-fake-trouble",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {
+        "secureimage": "{\"secureUrls\":[\"[이미지 URL 가림]\"]}"
+      }
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "사진 1장 받았어요 📷 추가로 더 보내시거나, 다음으로 진행해 주세요."
+          }
+        }
+      ],
+      "quickReplies": [
+        {
+          "label": "다음으로",
+          "action": "message",
+          "messageText": "다음으로"
+        },
+        {
+          "label": "사진 없이 진행",
+          "action": "message",
+          "messageText": "사진 없이 진행"
+        }
+      ]
+    }
+  },
+  "note": "사진 1장(가짜 이미지 URL, 저장 시 글자 가림).",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 42
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

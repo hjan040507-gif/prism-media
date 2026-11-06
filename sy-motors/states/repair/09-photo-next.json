@@ -1,0 +1,58 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "다음으로",
+      "user": {
+        "id": "prism-fake-repair",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "추가 정보를 더 입력하시겠어요? 입력하시면 더 정확한 상담이 가능해요."
+          }
+        }
+      ],
+      "quickReplies": [
+        {
+          "label": "추가 입력",
+          "action": "message",
+          "messageText": "추가 입력"
+        },
+        {
+          "label": "바로 접수",
+          "action": "message",
+          "messageText": "바로 접수"
+        }
+      ]
+    }
+  },
+  "note": "사진 단계 종료 → 방문 정비만 있는 「추가 정보」 게이트.",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 148
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

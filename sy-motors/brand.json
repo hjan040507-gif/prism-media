@@ -1,0 +1,7 @@
+{
+  "primary": null,
+  "secondary": null,
+  "fonts": null,
+  "reason": "레포에 SY모터스 주색·폰트·로고 근거가 없다: src/app/page.tsx 는 인라인 system-ui 안내 페이지, globals.css·page.module.css 는 Next 스캐폴드 기본 회색, public/ 은 Next 기본 svg 5개. 챗봇 화면의 색·글꼴은 카카오톡 UI(카카오 소유)라 SY 브랜드가 아니다.",
+  "source": ["미확인 — 근거 파일 없음 (src/app/globals.css, src/app/page.tsx, public/ 확인)"]
+}

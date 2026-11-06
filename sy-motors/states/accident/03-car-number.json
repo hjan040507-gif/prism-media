@@ -1,0 +1,46 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "12가 ****",
+      "user": {
+        "id": "prism-fake-accident",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "성함을 입력해 주세요."
+          }
+        }
+      ]
+    }
+  },
+  "note": "가짜 번호판(저장 시 가림).",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 21
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

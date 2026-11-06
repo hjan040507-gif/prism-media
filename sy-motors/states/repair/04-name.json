@@ -1,0 +1,46 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "김○○",
+      "user": {
+        "id": "prism-fake-repair",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "연락 받으실 휴대폰 번호를 입력해 주세요. (예: 010-****-****)"
+          }
+        }
+      ]
+    }
+  },
+  "note": "이미 가린 꼴의 이름.",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 123
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

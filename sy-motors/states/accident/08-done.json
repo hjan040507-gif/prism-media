@@ -1,0 +1,58 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "사진 없이 진행",
+      "user": {
+        "id": "prism-fake-accident",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "📝 접수 내용이 저장되었어요 (접수번호 SY-192A8A)\n이○○ 고객님, CRV 2.4 AWD 2016 12가 **** 접수 확인되었습니다.\n🚨 긴급 건이라 담당자에게 알림이 바로 전달돼요.\n\n[접수 내용]\n접수번호: SY-192A8A\n접수유형: 사고/긴급\n성함: 이○○\n연락처: 010-****-****\n차량: CRV 2.4 AWD 2016 12가 ****\n사고 경위: 주차 중 접촉사고가 났어요. 앞범퍼 파손\n보험 처리: 보험 처리\n접수 시각: 2026. 11. 06. PM 04:52\n\n잘못 적힌 내용은 담당자 연결 후 채팅으로 알려주세요.\n👇 아래 버튼을 한 번 누르고 '접수했어요'라고 보내주세요."
+          }
+        },
+        {
+          "textCard": {
+            "title": "버튼 누른 뒤 '접수했어요'라고 보내주세요",
+            "description": "① 아래 버튼을 한 번 누르세요. '현재 상담원과 채팅 중입니다'가 뜨면 연결된 거예요.\n② [확인]을 누르고 '접수했어요'라고 한마디 보내주세요. 그래야 담당자에게 알림이 가요.\n답변은 일과시간에 이 채팅방에서 순서대로 드립니다.",
+            "buttons": [
+              {
+                "action": "operator",
+                "label": "담당자에게 전달하기"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "note": "사진 건너뛰기 → 곧바로 접수 확정. 알림톡 env 5개가 가짜로 설정돼 완료 요약에 「🚨 긴급 건이라 담당자에게 알림이 바로 전달돼요」 줄이 켜진다(운영에서도 같은 조건).",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 35
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

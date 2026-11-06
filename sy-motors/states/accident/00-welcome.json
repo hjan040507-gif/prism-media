@@ -1,0 +1,83 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "메뉴",
+      "user": {
+        "id": "prism-fake-accident",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "안녕하세요, 에스와이모터스입니다 🚗\n무엇을 도와드릴까요? 아래에서 선택해 주세요.\n\n접수가 끝나면 [담당자에게 전달하기]를 한 번 누르고 '접수했어요'라고 보내주세요."
+          }
+        }
+      ],
+      "quickReplies": [
+        {
+          "label": "사고/긴급",
+          "action": "message",
+          "messageText": "사고/긴급"
+        },
+        {
+          "label": "부품 구매",
+          "action": "message",
+          "messageText": "부품 구매"
+        },
+        {
+          "label": "방문 정비",
+          "action": "message",
+          "messageText": "방문 정비"
+        },
+        {
+          "label": "용품 시공",
+          "action": "message",
+          "messageText": "용품 시공"
+        },
+        {
+          "label": "차량 장애 문의",
+          "action": "message",
+          "messageText": "차량 장애 문의"
+        },
+        {
+          "label": "쇼핑몰 문의",
+          "action": "message",
+          "messageText": "쇼핑몰 문의"
+        },
+        {
+          "label": "기타",
+          "action": "message",
+          "messageText": "기타"
+        }
+      ]
+    }
+  },
+  "note": "처음 화면. 전역 명령 「메뉴」 → 세션 삭제 후 웰컴(simpleText + 빠른 답변 7개).",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 16
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "request": null,
+  "response": null,
+  "note": "알림 분기 증거: 사고/긴급만 솔라피 알림톡. 서버 로그의 [DRY-RUN] solapi/alimtalk 줄 = 수신 번호(가짜 env)·템플릿 ID(가짜)·변수 6개 JSON. 번호는 가림. 알림톡 템플릿 본문은 레포에 없다(솔라피 콘솔 승인본).",
+  "server_log": [
+    "[notify] start (receipt=SY-192A8A, category=accident)",
+    "[DRY-RUN] would send: solapi/alimtalk — to=[010-****-****, 010-****-****] template=FAKE-TEMPLATE-ID vars={\"#{접수번호}\":\"SY-192A8A\",\"#{성함}\":\"이○○\",\"#{연락처}\":\"010-****-****\",\"#{차량정보}\":\"CRV 2.4 AWD 2016 12가 ****\",\"#{사고경위}\":\"주차 중 접촉사고가 났어요. 앞범퍼 파손\",\"#{보험여부}\":\"보험 처리\"}",
+    "[notify] 알림톡 발송 (receipt=SY-192A8A, sent=2, failed=0)"
+  ],
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "차량 장애 문의",
+      "user": {
+        "id": "prism-fake-trouble",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "어떤 증상이 있으신가요? 자세히 적어주실수록 정확한 상담이 가능해요.\n(예: 시동이 안 걸려요 / 주행 중 경고등이 떠요 / 소음이 나요)"
+          }
+        }
+      ]
+    }
+  },
+  "note": "카테고리 선택 → 증상 질문(진단·조치 안내는 일절 하지 않는 접수 전용).",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 236
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

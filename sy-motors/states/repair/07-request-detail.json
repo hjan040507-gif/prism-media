@@ -1,0 +1,53 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "엔진오일 교환하고 싶어요. 토요일 오전 방문 희망",
+      "user": {
+        "id": "prism-fake-repair",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "차량 사진이나 문제 부위 사진을 보내주세요. (선택)\n사진 첨부 후 전송하거나, 없으면 아래 버튼을 눌러주세요."
+          }
+        }
+      ],
+      "quickReplies": [
+        {
+          "label": "사진 없이 진행",
+          "action": "message",
+          "messageText": "사진 없이 진행"
+        }
+      ]
+    }
+  },
+  "note": "선택 질문(요청 내용) 입력.",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 152
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

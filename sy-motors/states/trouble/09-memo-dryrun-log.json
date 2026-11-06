@@ -1,0 +1,25 @@
+{
+  "request": null,
+  "response": null,
+  "note": "알림 분기 증거: 장애 문의는 사고/긴급이 아니라 카카오 「나에게 보내기」 메모 경로(드라이런 로그).",
+  "server_log": [
+    "[notify] start (receipt=SY-DF8011, category=trouble)",
+    "[DRY-RUN] would send: kakao/memo — 🔔 [백업] 새 접수 [차량 장애 문의] 접수번호: SY-DF8011 성함: 박○○ 연락처: 010-****-**** 차량: 파일럿 3.5 엘리트 2020 56다7… 요청/증상: … 📷 사진 1장 (아래 링크에서 [link=[이미지 URL 가림]]",
+    "[notify] 카카오 알림 발송 (role=owner, receipt=SY-DF8011)"
+  ],
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

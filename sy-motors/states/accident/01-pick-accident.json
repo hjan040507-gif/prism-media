@@ -1,0 +1,46 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "사고/긴급",
+      "user": {
+        "id": "prism-fake-accident",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "차량 정보를 알려주세요. (예: 어코드 2.4 2017 / CRV 2.4 AWD 2016 / 파일럿 3.5 엘리트 2020)"
+          }
+        }
+      ]
+    }
+  },
+  "note": "카테고리 선택 → 첫 질문.",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 20
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}

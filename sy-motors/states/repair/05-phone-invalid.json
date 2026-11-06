@@ -1,0 +1,46 @@
+{
+  "request": {
+    "userRequest": {
+      "utterance": "010-12",
+      "user": {
+        "id": "prism-fake-repair",
+        "type": "botUserKey"
+      }
+    },
+    "action": {
+      "params": {}
+    }
+  },
+  "response": {
+    "version": "2.0",
+    "template": {
+      "outputs": [
+        {
+          "simpleText": {
+            "text": "연락처 형식을 확인해 주세요. 예: 010-****-****"
+          }
+        }
+      ]
+    }
+  },
+  "note": "전화번호 검사 실패 → 재질문(검사: 숫자만 남겨 /^01[016789]\\d{7,8}$/).",
+  "http": {
+    "status": 200,
+    "elapsed_ms": 387
+  },
+  "pii_scan": {
+    "total": 0,
+    "samples": [],
+    "patterns": [
+      "phone",
+      "email",
+      "rrn",
+      "account",
+      "passport",
+      "url",
+      "plate",
+      "addr"
+    ],
+    "at": "saved JSON strings (request + response + server_log) after masking"
+  }
+}
