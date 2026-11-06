@@ -26,7 +26,7 @@
 - 07:45Z 사전 조사 10건 끝(<proj>/RECON.md), 다른 점 위에 적음. edubily·switin 은 소스·주소가 서버에 없어 BLOCKED.md(시도 2번·대안: 주소 받으면 바로 촬영).
 - 07:50Z 촬영 서브에이전트 6건 시작(종료 11:00Z, waylog 11:30Z): okjob(로컬 Supabase pm-okjob 57010~·3611) · matchsat(pm-matchsat 57020~·3612) · hanil(공개=운영 GET, 관리자=pm-hanil 57030~·3613) · eureka(운영 nomorenusu.com GET, 관리자 BLOCKED) · sy-motors(사본 드라이런 3615 + 목 PostgREST 3616, 응답 JSON 3흐름) · waylog(v1.9.0 사본 3614 + 가짜 응답). 남은 것: pscompany·soopon(운영 공개 화면, 1묶음 하나 끝나면 시작).
 - 커밋(push 됨): 준비 4592832 · sy-motors 46760b1(JSON 3흐름 32+로그 3, pii 0/34, 화면 FAIL 7 은 BLOCKED 사유) · pscompany 0137908(check FAIL 0·OCR 0/25, 관리자 BLOCKED, 수익 문구 가림 — 결정 필요 후보). · soopon ba05d68(FAIL 0·OCR 0/63) · matchsat de7196e(FAIL 0·OCR 0/31, 로컬 DB, next dev 렌더 — 빌드 게이트 75, danger-guard 가 db reset --local 막음 → 우회 없이 seed-tail.sql, 3→4단계 예산 오류 배너는 고객 앱 실제 동작). · waylog 575da0a(FAIL 0·OCR 0/39·브랜드 OCR 0/56, vite dev 렌더, Play 버전·스토어 스크린샷 BLOCKED).
-- 09:55Z 서버 스왑 24.4/24.5G(남의 세션: safefile tsserver 3.4G·Medimajor next 3.2G·gochingphone Gradle 2.8G — 사용 중이라 안 건드림), PSI 낮음. 남은 촬영: okjob·hanil·eureka.
+- 09:13Z 서버 스왑 24.4/24.5G(남의 세션: safefile tsserver 3.4G·Medimajor next 3.2G·gochingphone Gradle 2.8G — 사용 중이라 안 건드림), PSI 낮음. 남은 촬영: okjob·hanil·eureka.
 - 결정 필요 후보: sy-motors 상호(코드 「에스와이모터스」 vs 방침 SY모터스) · 질문 속 예시 번호(12가3456·010-1234-5678)도 가림에 걸림 · eureka 상호(운영 노모어누수) · pscompany 수익 문구 가림 여부 · waylog Play 버전.
 - 서버 부하: load ~40/8코어(남의 빌드들) → heavy-run build 대기 13. 우리 빌드는 대기열에서 차례.
 - 공통 지침 docs/CAPTURE-BRIEF-2.md(로컬 Supabase 안전 8단계), 기준선 docs/baseline2. 검수 절차는 1차와 같음: check.py FAIL 0 · ocr.py 판정 · contact.jpg 직접 보기 · 비밀값 grep · 기준선 diff · 포트·컨테이너·사본 0 → 프로젝트별 커밋·push.
