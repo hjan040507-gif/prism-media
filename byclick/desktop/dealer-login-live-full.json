@@ -1,0 +1,172 @@
+{
+ "file": "dealer-login-live-full.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/dealer/login",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 980,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:19:54.849Z",
+ "title": "바이클릭 딜러 로그인 - 매입은 간편하게, 번거로운 응대는 줄이고.",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 2,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 2,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 1,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "딜러 로그인",
+   "rect": {
+    "x": 528,
+    "y": 143,
+    "w": 384,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그인",
+   "rect": {
+    "x": 553,
+    "y": 517.8,
+    "w": 334,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 553,
+    "y": 277.5,
+    "w": 334,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 553,
+    "y": 359,
+    "w": 334,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 553,
+    "y": 429,
+    "w": 20,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 DEALER",
+   "rect": {
+    "x": 648.1,
+    "y": 83,
+    "w": 143.8,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "딜러 가입",
+   "rect": {
+    "x": 748,
+    "y": 604.8,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "card",
+   "tag": "form",
+   "text": "이메일 비밀번호 아이디 저장 로그인 상태는 로그아웃 전까지 유지됩니다. 로그인",
+   "rect": {
+    "x": 528,
+    "y": 227,
+    "w": 384,
+    "h": 355.8
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "로그인",
+   "rect": {
+    "x": 553,
+    "y": 517.8,
+    "w": 334,
+    "h": 40
+   }
+  }
+ ]
+}

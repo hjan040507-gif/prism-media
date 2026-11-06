@@ -1,0 +1,515 @@
+{
+ "file": "admin-payments-view.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/payments",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1563,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T02:06:06.655Z",
+ "title": "대금 · 바이클릭 관리자",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/vehicle_catalog"
+  ],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "대금",
+   "rect": {
+    "x": 352,
+    "y": 88,
+    "w": 960,
+    "h": 32
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "비용 체크리스트",
+   "rect": {
+    "x": 373,
+    "y": 181,
+    "w": 94,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "낙찰 대금 입금 확인",
+   "rect": {
+    "x": 373,
+    "y": 662,
+    "w": 113,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "차량 관리",
+   "rect": {
+    "x": 12,
+    "y": 112.3,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "경매 관리",
+   "rect": {
+    "x": 12,
+    "y": 306.5,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거래 관리",
+   "rect": {
+    "x": 12,
+    "y": 386,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "딜러 관리",
+   "rect": {
+    "x": 12,
+    "y": 618.5,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "운영 관리",
+   "rect": {
+    "x": 12,
+    "y": 736.3,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "신청·매물·경매·딜러 검색 ⌘K",
+   "rect": {
+    "x": 248,
+    "y": 9.5,
+    "w": 448,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 857,
+    "y": 11.8,
+    "w": 64,
+    "h": 31.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "정상 입금 확인",
+   "rect": {
+    "x": 1178,
+    "y": 559,
+    "w": 96,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "확인 취소",
+   "rect": {
+    "x": 1204,
+    "y": 803.9,
+    "w": 71,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "확인 취소",
+   "rect": {
+    "x": 1204,
+    "y": 890.5,
+    "w": 71,
+    "h": 32
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 390,
+    "y": 403,
+    "w": 20,
+    "h": 20
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 390,
+    "y": 477,
+    "w": 20,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 관리자",
+   "rect": {
+    "x": 12,
+    "y": 4,
+    "w": 135.5,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오늘 할 일",
+   "rect": {
+    "x": 12,
+    "y": 64,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수",
+   "rect": {
+    "x": 12,
+    "y": 143.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "픽업·입고",
+   "rect": {
+    "x": 12,
+    "y": 181.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검수",
+   "rect": {
+    "x": 12,
+    "y": 220,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매물",
+   "rect": {
+    "x": 12,
+    "y": 258.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 12,
+    "y": 337.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "결정·위탁",
+   "rect": {
+    "x": 12,
+    "y": 417.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대금",
+   "rect": {
+    "x": 12,
+    "y": 455.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "출고",
+   "rect": {
+    "x": 12,
+    "y": 493.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "정산",
+   "rect": {
+    "x": 12,
+    "y": 532,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래 내역",
+   "rect": {
+    "x": 12,
+    "y": 570.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "딜러",
+   "rect": {
+    "x": 12,
+    "y": 649.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "딜러제재",
+   "rect": {
+    "x": 12,
+    "y": 688,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림",
+   "rect": {
+    "x": 12,
+    "y": 767.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지·정책",
+   "rect": {
+    "x": 12,
+    "y": 805.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래 사례",
+   "rect": {
+    "x": 12,
+    "y": 844,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매설정",
+   "rect": {
+    "x": 12,
+    "y": 882.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 대기 1",
+   "rect": {
+    "x": 373,
+    "y": 258,
+    "w": 94,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 완료 3",
+   "rect": {
+    "x": 475,
+    "y": 258,
+    "w": 97,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "상세 · 확인 취소 · 환불",
+   "rect": {
+    "x": 1163,
+    "y": 339,
+    "w": 111,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "비용 체크리스트 입금 대기 거래 1건 입금 대기 1 입금 완료 3 트라이엄프 본네빌 T120 남은 항목 2개 상세 · 확인 취소 · 환불 차량대금 입금 대기 7,350,000원 발생 근거 낙찰 · 즉시판매 결정 납부자 딜러 받는 계좌 회사 계좌 · 계좌 안내 준비 중 운송료 입금 대기 ",
+   "rect": {
+    "x": 352,
+    "y": 164,
+    "w": 960,
+    "h": 461
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "트라이엄프 본네빌 T120 남은 항목 2개 상세 · 확인 취소 · 환불 차량대금 입금 대기 7,350,000원 발생 근거 낙찰 · 즉시판매 결정 납부자 딜러 받는 계좌 회사 계좌 · 계좌 안내 준비 중 운송료 입금 대기 150,000원 발생 근거 입고 운송(낙찰자 부담) 납부자 딜러 받",
+   "rect": {
+    "x": 373,
+    "y": 322,
+    "w": 918,
+    "h": 286
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "정상 입금 확인",
+   "rect": {
+    "x": 1178,
+    "y": 559,
+    "w": 96,
+    "h": 32
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "낙찰 대금 입금 확인 5건 매물 낙찰 판매점 낙찰가 대금 기한 상태 처리 야마하 MT-07 A모터스 5,280,000원 2026. 11. 06. 01:02 입금 확인 확인 기록 없음 최종 입금 완료 확인 취소 혼다 CB650R A모터스 4,960,000원 2026. 11. 06. 01:",
+   "rect": {
+    "x": 352,
+    "y": 645,
+    "w": 960,
+    "h": 532.9
+   }
+  }
+ ]
+}

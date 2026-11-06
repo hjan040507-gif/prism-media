@@ -1,0 +1,205 @@
+{
+ "file": "02-model-N.png",
+ "kind": "state",
+ "project": "byclick",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/my/apply",
+ "scrollY": 300,
+ "scrollX": 0,
+ "docHeight": 2640,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:49:38.831Z",
+ "title": "내 바이크 최고가 확인하기 · 바이클릭",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 2,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 4,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "견적 확인",
+   "rect": {
+    "x": 36,
+    "y": 80.3,
+    "w": 218,
+    "h": 35.6
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "☰",
+   "rect": {
+    "x": 330,
+    "y": 12,
+    "w": 42,
+    "h": 42
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "야 야마하 ⌄",
+   "rect": {
+    "x": 35,
+    "y": 210.6,
+    "w": 320,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "N",
+   "rect": {
+    "x": 35,
+    "y": 306.8,
+    "w": 320,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "",
+   "rect": {
+    "x": 35,
+    "y": 402.9,
+    "w": 320,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 12,000",
+   "rect": {
+    "x": 36,
+    "y": 501.1,
+    "w": 286,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 300,000",
+   "rect": {
+    "x": 36,
+    "y": 597.2,
+    "w": 293,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "있어요",
+   "rect": {
+    "x": 84.8,
+    "y": 709.8,
+    "w": 13,
+    "h": 13
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "없어요",
+   "rect": {
+    "x": 249.3,
+    "y": 709.8,
+    "w": 13,
+    "h": 13
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 18,
+    "y": 17.5,
+    "w": 175,
+    "h": 31
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 신청 보기 →",
+   "rect": {
+    "x": 207,
+    "y": 17.9,
+    "w": 76,
+    "h": 30.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "바이클릭 로고",
+   "rect": {
+    "x": 18,
+    "y": 17.5,
+    "w": 175,
+    "h": 31
+   }
+  }
+ ]
+}

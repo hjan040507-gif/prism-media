@@ -1,0 +1,364 @@
+{
+ "file": "header.png",
+ "kind": "header",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/dealer/auctions",
+ "scrollY": 600,
+ "scrollX": 0,
+ "docHeight": 1580,
+ "full": false,
+ "clip": {
+  "x": 0,
+  "y": 0,
+  "width": 1440,
+  "height": 72
+ },
+ "capturedAt": "2026-11-06T00:50:31.443Z",
+ "title": "경매 · 바이클릭 딜러",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 1,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "PCX125",
+   "rect": {
+    "x": 456,
+    "y": 18.9,
+    "w": 242,
+    "h": 31.9
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "NMAX155",
+   "rect": {
+    "x": 747,
+    "y": 18.9,
+    "w": 242,
+    "h": 31.9
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Z900",
+   "rect": {
+    "x": 1038,
+    "y": 18.9,
+    "w": 242,
+    "h": 31.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1248,
+    "y": 11.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 DEALER",
+   "rect": {
+    "x": 144,
+    "y": 11.5,
+    "w": 143.8,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 331.8,
+    "y": 0,
+    "w": 24,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 입찰",
+   "rect": {
+    "x": 382.8,
+    "y": 0,
+    "w": 40,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세찾기",
+   "rect": {
+    "x": 449.8,
+    "y": 0,
+    "w": 48,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "낙찰·대금",
+   "rect": {
+    "x": 524.8,
+    "y": 0,
+    "w": 52,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "계정",
+   "rect": {
+    "x": 603.8,
+    "y": 0,
+    "w": 24,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "운영안내",
+   "rect": {
+    "x": 654.8,
+    "y": 0,
+    "w": 48,
+    "h": 71
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "혼다 PCX125 2022년 · 8,200km 마감까지 02:17:18 내 입찰가 입찰함 3,200,000원 차량 상세 보기",
+   "rect": {
+    "x": 440,
+    "y": -192.6,
+    "w": 274,
+    "h": 466.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "혼다 PCX125 2022년 · 8,200km 마감까지 02:17:18 내 입찰가 입찰함 3,200,000원 차량 상세 보기",
+   "rect": {
+    "x": 441,
+    "y": -20.6,
+    "w": 272,
+    "h": 293.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "p",
+   "text": "혼다",
+   "rect": {
+    "x": 456,
+    "y": -3.6,
+    "w": 242,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "h3",
+   "text": "PCX125",
+   "rect": {
+    "x": 456,
+    "y": 18.9,
+    "w": 242,
+    "h": 31.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "2022년 · 8,200km",
+   "rect": {
+    "x": 456,
+    "y": 58.8,
+    "w": 242,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "야마하 NMAX155 2021년 · 15,400km 마감까지 08:35:18 내 입찰가 입찰함 4,200,000원 차량 상세 보기",
+   "rect": {
+    "x": 731,
+    "y": -192.6,
+    "w": 274,
+    "h": 466.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "야마하 NMAX155 2021년 · 15,400km 마감까지 08:35:18 내 입찰가 입찰함 4,200,000원 차량 상세 보기",
+   "rect": {
+    "x": 732,
+    "y": -20.6,
+    "w": 272,
+    "h": 293.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "p",
+   "text": "야마하",
+   "rect": {
+    "x": 747,
+    "y": -3.6,
+    "w": 242,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "h3",
+   "text": "NMAX155",
+   "rect": {
+    "x": 747,
+    "y": 18.9,
+    "w": 242,
+    "h": 31.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "2021년 · 15,400km",
+   "rect": {
+    "x": 747,
+    "y": 58.8,
+    "w": 242,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "가와사키 Z900 2020년 · 21,800km 마감까지 19:11:18 내 입찰가 입찰함 6,200,000원 차량 상세 보기",
+   "rect": {
+    "x": 1022,
+    "y": -192.6,
+    "w": 274,
+    "h": 466.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "가와사키 Z900 2020년 · 21,800km 마감까지 19:11:18 내 입찰가 입찰함 6,200,000원 차량 상세 보기",
+   "rect": {
+    "x": 1023,
+    "y": -20.6,
+    "w": 272,
+    "h": 293.2
+   }
+  },
+  {
+   "type": "card",
+   "tag": "p",
+   "text": "가와사키",
+   "rect": {
+    "x": 1038,
+    "y": -3.6,
+    "w": 242,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "h3",
+   "text": "Z900",
+   "rect": {
+    "x": 1038,
+    "y": 18.9,
+    "w": 242,
+    "h": 31.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "2020년 · 21,800km",
+   "rect": {
+    "x": 1038,
+    "y": 58.8,
+    "w": 242,
+    "h": 19.5
+   }
+  }
+ ]
+}

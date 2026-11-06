@@ -1,0 +1,277 @@
+{
+ "file": "dealer-auction-detail-won-view.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/dealer/auctions/a1a1a1a1-0000-4000-8000-000000000008",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2793,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T02:03:35.601Z",
+ "title": "경매 상세 · 바이클릭 딜러",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 3,
+  "websockets": [
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "야마하 MT-07",
+   "rect": {
+    "x": 144,
+    "y": 152,
+    "w": 117.5,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1248,
+    "y": 11.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "☆ 찜",
+   "rect": {
+    "x": 1248,
+    "y": 152,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 145,
+    "y": 275.5,
+    "w": 1150,
+    "h": 646.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1295,
+    "y": 275.5,
+    "w": 1150,
+    "h": 646.9
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 DEALER",
+   "rect": {
+    "x": 144,
+    "y": 11.5,
+    "w": 143.8,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 331.8,
+    "y": 0,
+    "w": 24,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 입찰",
+   "rect": {
+    "x": 382.8,
+    "y": 0,
+    "w": 40,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세찾기",
+   "rect": {
+    "x": 449.8,
+    "y": 0,
+    "w": 48,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "낙찰·대금",
+   "rect": {
+    "x": 524.8,
+    "y": 0,
+    "w": 52,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "계정",
+   "rect": {
+    "x": 603.8,
+    "y": 0,
+    "w": 24,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "운영안내",
+   "rect": {
+    "x": 654.8,
+    "y": 0,
+    "w": 48,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "← 경매 목록",
+   "rect": {
+    "x": 140,
+    "y": 88,
+    "w": 82,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검수 결과 확인",
+   "rect": {
+    "x": 144,
+    "y": 210.5,
+    "w": 86,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "1 / 6",
+   "rect": {
+    "x": 144,
+    "y": 274.5,
+    "w": 1152,
+    "h": 736.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "야마하 MT-07 사진 1",
+   "rect": {
+    "x": 145,
+    "y": 275.5,
+    "w": 1150,
+    "h": 646.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "야마하 MT-07 사진 2",
+   "rect": {
+    "x": 1295,
+    "y": 275.5,
+    "w": 1150,
+    "h": 646.9
+   }
+  }
+ ]
+}

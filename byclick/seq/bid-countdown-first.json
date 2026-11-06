@@ -1,0 +1,52 @@
+{
+ "file": "bid-countdown-first.png",
+ "kind": "seq-frame",
+ "seq": "bid-countdown.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "scrollY": 873,
+ "frames": 180,
+ "fps": 60,
+ "durationMs": 3000,
+ "crf": 12,
+ "capturedAt": "2026-11-06T02:07:44.686Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 1,
+  "websockets": [
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   }
+  ]
+ }
+}

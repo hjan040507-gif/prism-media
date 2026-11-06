@@ -1,0 +1,249 @@
+{
+ "file": "dealer-signup-live-view.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/dealer/signup",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1570,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:20:01.287Z",
+ "title": "바이클릭 딜러 - 매입은 간편하게, 번거로운 응대는 줄이고.",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 2,
+  "email": 2,
+  "rrn": 0,
+  "account": 1,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 2,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 2,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "딜러 가입",
+   "rect": {
+    "x": 496,
+    "y": 156,
+    "w": 448,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "중복확인",
+   "rect": {
+    "x": 837,
+    "y": 372.5,
+    "w": 82,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 521,
+    "y": 372.5,
+    "w": 308,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 521,
+    "y": 479.5,
+    "w": 398,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 521,
+    "y": 595.8,
+    "w": 398,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 521,
+    "y": 665.8,
+    "w": 20,
+    "h": 20
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "○○모터스",
+   "rect": {
+    "x": 521,
+    "y": 783.3,
+    "w": 398,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 521,
+    "y": 864.8,
+    "w": 193,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "홍길동",
+   "rect": {
+    "x": 726,
+    "y": 864.8,
+    "w": 193,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인으로 돌아가기",
+   "rect": {
+    "x": 488,
+    "y": 40,
+    "w": 161,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 딜러",
+   "rect": {
+    "x": 671.6,
+    "y": 96,
+    "w": 96.9,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 772,
+    "y": 220,
+    "w": 36,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "form",
+   "text": "계정 이메일 중복확인 중복확인을 눌러 사용할 수 있는 이메일인지 확인해 주세요. 비밀번호영문·숫자를 포함해 10자 이상 입력해 주세요. ○ 10자 이상 ○ 영문 포함 ○ 숫자 포함 비밀번호 조건 3개 중 0개 충족 비밀번호 확인 비밀번호 표시 사업자 정보 상호(업체명) 사업자번호 대표자",
+   "rect": {
+    "x": 496,
+    "y": 300,
+    "w": 448,
+    "h": 1110.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "○ 10자 이상",
+   "rect": {
+    "x": 521,
+    "y": 527.5,
+    "w": 81,
+    "h": 26.8
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "○ 영문 포함",
+   "rect": {
+    "x": 614,
+    "y": 527.5,
+    "w": 78,
+    "h": 26.8
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "○ 숫자 포함",
+   "rect": {
+    "x": 704,
+    "y": 527.5,
+    "w": 78,
+    "h": 26.8
+   }
+  }
+ ]
+}

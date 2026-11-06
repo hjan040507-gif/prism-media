@@ -1,0 +1,150 @@
+[
+[
+"^desktop/dealer-auctions-(full|view)\\.png$",
+"딜러 「경매」 목록 `/dealer/auctions`(데스크톱 1440) — 진행 중 경매 6건 카드(내 입찰가·마감까지 남은 시간·찜). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과). 딜러 화면은 page.clock.setFixedTime 으로 시계를 고정해 「마감까지」 카운트다운이 찍는 사이 변하지 않는다."
+],
+[
+"^desktop/dealer-auction-detail-(full|view)\\.png$",
+"딜러 경매 상세 `/dealer/auctions/[id]` — 사진 갤러리·검수 리포트(성능기록부 항목)·입찰 패널(남은 입찰 기회·마감까지). 진행 중 경매(혼다 PCX125, A모터스 입찰 1건). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과). 딜러 화면은 page.clock.setFixedTime 으로 시계를 고정해 「마감까지」 카운트다운이 찍는 사이 변하지 않는다."
+],
+[
+"^desktop/dealer-auction-detail-won-(full|view)\\.png$",
+"딜러 경매 상세(종료·낙찰 건: 야마하 MT-07) — 낙찰 후 보이는 상세(차량번호 가림 「12가 ****」). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과). 딜러 화면은 page.clock.setFixedTime 으로 시계를 고정해 「마감까지」 카운트다운이 찍는 사이 변하지 않는다."
+],
+[
+"^desktop/dealer-bids-(full|view)\\.png$",
+"딜러 「내 입찰」 `/dealer/bids`(진행 중 탭 4건 — 입찰 금액·마감까지). 입찰 목록은 RPC dealer_my_bids(가짜 응답). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과). 딜러 화면은 page.clock.setFixedTime 으로 시계를 고정해 「마감까지」 카운트다운이 찍는 사이 변하지 않는다."
+],
+[
+"^desktop/dealer-wins-(full|view)\\.png$",
+"딜러 「낙찰·대금」 `/dealer/wins` — 낙찰 3건(입금 필요·구매확정 필요·출고 신청 가능 단계). 입금 계좌 줄은 「계좌 안내 준비 중」(가짜 env 에 계좌 없음). 낙찰가·운송료·총 입금액은 가짜 값. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과). 딜러 화면은 page.clock.setFixedTime 으로 시계를 고정해 「마감까지」 카운트다운이 찍는 사이 변하지 않는다."
+],
+[
+"^desktop/dealer-interest-models-(full|view)\\.png$",
+"딜러 「관심차」 `/dealer/interest-models` — 관심 조건(혼다 PCX125·야마하 전체·BMW R 1250 GS)에 맞는 진행 중 경매 3건. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과). 딜러 화면은 page.clock.setFixedTime 으로 시계를 고정해 「마감까지」 카운트다운이 찍는 사이 변하지 않는다."
+],
+[
+"^states/sealed-bid/01-before-empty\\.png$",
+"상태 흐름 sealed-bid(밀봉 입찰, 데스크톱 1440 · scrollY 고정) 1/4 입력 전: 야마하 NMAX155 경매, 남은 입찰 기회 3회(총 3회), 금액 칸 빔. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과). 딜러 화면은 page.clock.setFixedTime 으로 시계를 고정해 「마감까지」 카운트다운이 찍는 사이 변하지 않는다."
+],
+[
+"^states/sealed-bid/02-amount-typed\\.png$",
+"상태 흐름 sealed-bid 2/4 입력 중: 금액 칸에 4200000 을 실제 키 입력(「4,200,000」· 420만 원 표시). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/sealed-bid/03-confirm-dialog\\.png$",
+"상태 흐름 sealed-bid 3/4: 「이 금액으로 입찰하시겠습니까?」 확인창 — 4,200,000원 · 남은 입찰 기회 3회 → 제출하면 2회. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/sealed-bid/04-after-submitted\\.png$",
+"상태 흐름 sealed-bid 4/4 제출 후: 「입찰을 접수했습니다.」 토스트 + 서버 재렌더로 남은 입찰 기회 2회 · 내 입찰가 4,200,000원 · 버튼 「금액 수정 제출」. 입찰 RPC place_bid_v2 는 로컬 가짜 DB(메모리)로만 가서 통과시킴(허용한 비GET — 운영 아님). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/release-request/01-deal-card\\.png$",
+"상태 흐름 release-request(출고 신청, 데스크톱 1440) 1/3: 낙찰·대금 목록의 구매확정 끝난 건(야마하 MT-07) 카드 — 「출고 신청」 버튼. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/release-request/02-release-dialog-open\\.png$",
+"상태 흐름 release-request 2/3: 「출고 방법을 선택해 주세요」 창 — 상품화 후·바로 출고 × 직접 인수·화물 운송 4가지 라디오(기본 첫째). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/release-request/03-release-option-selected\\.png$",
+"상태 흐름 release-request 3/3: 두 번째 방법(상품화 후 · 화물 운송) 선택. 「출고 신청」 제출은 누르지 않음(서버 액션은 가로챔 대상). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/payment-guide/01-deal-card\\.png$",
+"상태 흐름 payment-guide(입금 안내, 데스크톱 1440) 1/3: 낙찰 후 입금 필요 건(트라이엄프 본네빌 T120) 카드 — 「입금 안내」 버튼. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/payment-guide/02-payment-guide-open\\.png$",
+"상태 흐름 payment-guide 2/3: 입금 안내 창(입금 계좌는 「계좌 안내 준비 중」 · 총 입금액은 가짜 값). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/payment-guide/03-closed-again\\.png$",
+"상태 흐름 payment-guide 3/3: 창을 닫고 목록으로 복귀. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/interest-conditions/01-page\\.png$",
+"상태 흐름 interest-conditions(관심차 조건 등록, 데스크톱 1440) 1/4: 관심차 화면. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/interest-conditions/02-conditions-window-open\\.png$",
+"상태 흐름 interest-conditions 2/4: 「관심차 조건」 창 열림 — 제조사·모델 선택 + 등록된 조건 3개. 웹푸시 알림 자체는 화면 캡처 불가(BLOCKED.md). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/interest-conditions/03-maker-chosen-models-loaded\\.png$",
+"상태 흐름 interest-conditions 3/4: 제조사(가와사키) 선택 → 모델 목록 로드. 모델 목록은 읽기 전용 서버 액션 `listModelsByManufacturer`(Next-Action id 는 .next/static 청크에서 이름으로 찾아 이 하나만 route.continue 로 통과, 나머지 서버 액션은 가로챔 — 로컬 앱 → 로컬 가짜 DB 읽기). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^states/interest-conditions/04-model-chosen\\.png$",
+"상태 흐름 interest-conditions 4/4: 모델(Ninja 400) 선택. 「추가」는 누르지 않음. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-dashboard-(full|view)\\.png$",
+"관리자 「오늘 할 일」 `/admin`(최고관리자 세션) — 신규 접수·픽업 예정·검수 대기·마감 임박·결정 대기·대금·정산 등 카운트 카드. 카운트는 가짜 데이터에서 센 값. 관리자 이름 「김○○」. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-requests-(full|view)\\.png$",
+"관리자 「접수」 목록 `/admin/requests` — 접수 37건 중 첫 쪽(상태 칩·판매자 이름 「김○○」꼴·전화 「010-****-****」·차량번호 「12가 ****」). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-request-detail-new-(full|view)\\.png$",
+"관리자 접수 상세(신규 접수 · 배차 전: 혼다 PCX125) — 차량 정보·소비자 문진·타임라인·상담 메모·동의 기록. 판매자 연락처·주소는 가림(전화 010-****-****, 주소 시·구까지). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-request-detail-dispatched-(full|view)\\.png$",
+"관리자 접수 상세(픽업 예정 · 배차 등록 후: 베스파 GTS 300) — 배차 정보(기사 이름·연락처는 가림)·「입고 완료」 버튼. 접수·배차 화면. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-request-detail-auctioning-(full|view)\\.png$",
+"관리자 접수 상세(경매 진행 중: 혼다 PCX125) — 타임라인 전 단계 이력. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-inspections-(full|view)\\.png$",
+"관리자 「검수」 목록 `/admin/inspections`(입고·검수 중 2건). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-inspection-form-(full|view)\\.png$",
+"관리자 검수 입력 `/admin/inspections/[신청 id]`(진행 중 검수: 가와사키 Ninja 400) — 차량 기본 정보·차량 확인값·검수 항목·사진. 검수 서명 전 상태. 차종 선택 목록은 RPC vehicle_catalog(읽기 전용 STABLE 함수, 로컬 가짜 DB) 통과. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-auctions-(full|view)\\.png$",
+"관리자 「경매」 운영 `/admin/auctions` — 경매 10건(진행 중 6·종료 4, 방식 「비공개(밀봉)」). 진행 중 경매 금액은 최고관리자도 못 봄(`admin-permissions.ts:27-30`) — 제안 건수·참여 업체 수만. 개설(제출) 화면은 열지 않음. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-auction-detail-(full|view)\\.png$",
+"관리자 경매 상세 `/admin/auctions/[id]`(진행 중: 혼다 PCX125) — 사진·검수 리포트 요약·입찰 피드(진행 중이라 금액 비공개). 「검수 종료」 등 쓰기 버튼은 누르지 않음. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-settlements-(full|view)\\.png$",
+"관리자 「정산」 장부 `/admin/settlements`(11월) — 정산 4건·판매대금 입금액 23,710,000원·소비자 지급 예정 12,630,000원 등 모두 가짜 값. 지급 예정 큐·정산 장부 표. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-roles-(full|view)\\.png$",
+"관리자 「역할」 `/admin/settings/roles`(최고관리자 전용) — 역할 4종(최고관리자·운영·검수·정산) 설명 + 관리자 계정별 역할 체크(계정 이름 「김○○」꼴, 이메일은 자동 삭제). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-decisions-(full|view)\\.png$",
+"관리자 「결정·위탁」 `/admin/decisions` — 소비자 응답 대기 1건·결정 완료 4건(판매 방식 「즉시 판매」, 금액 가짜 값). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-payments-(full|view)\\.png$",
+"관리자 「대금」 `/admin/payments` — 비용 체크리스트(차량대금·운송료 입금 확인 행). 금액 가짜 값, 입금 계좌 칸은 「계좌 안내 준비 중」. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/admin-releases-(full|view)\\.png$",
+"관리자 「출고」 `/admin/releases` — 출고 요청 1건(베스파 GTS 300, 딜러 B모터스). 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^seq/bid-countdown\\.mp4$",
+"seq: 딜러 경매 상세(혼다 PCX125)의 마감 카운트다운 3초(데스크톱 1440 → 2880×1800). 방식 = page.clock 1/60초씩 runFor + getAnimations currentTime 동기화 프레임 180장 → H.264 CRF 12 · 60fps. 머리 아래 띠와 입찰 패널 「마감까지」가 1초씩 줄어든다. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^seq/bid-countdown-(first|last)\\.png$",
+"seq bid-countdown 의 첫/끝 프레임 PNG. 로컬 사본(레포 HEAD 863d2c26 git archive → tmp/byclick-src, next build·start) + 가짜 Supabase(capture/mock-supabase.mjs · 전부 지어낸 데이터 — 이름 「김○○」꼴 · 상호 「A모터스」꼴 · 금액·검수값 가짜 · 차량번호 「12가 ****」, 사진은 레포 public/media 의 합성 바이크 사진). 운영 접속 0. 딜러/관리자 화면은 가짜 JWT 쿠키 세션으로 열었다(로그인·2단계 인증 화면은 거치지 않음 — my_admin_context.mfa_required=false · ADMIN_MFA_SCHEDULE_OVERRIDE={} → src/lib/mfa-gate.ts:21·67 가 통과)."
+],
+[
+"^desktop/header\\.png$",
+"딜러 화면 고정 머리(스크롤된 상태) `/dealer/auctions` — 워드마크 「바이클릭 DEALER」·메뉴(경매·내 입찰·시세찾기·낙찰·대금·계정·운영안내)·상호 「A모터스」. 로컬 사본+가짜 Supabase. 가짜 데이터, 운영 접속 0."
+]
+]

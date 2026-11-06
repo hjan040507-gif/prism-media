@@ -1,0 +1,95 @@
+{
+ "file": "admin-request-detail-new-full.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/requests/c3c3c3c3-0000-4000-8000-000000000013",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 900,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T02:04:52.418Z",
+ "title": "접수 상세 · 바이클릭 관리자",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "404",
+   "rect": {
+    "x": 570.7,
+    "y": 425.5,
+    "w": 69.8,
+    "h": 49
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "This page could not be found.",
+   "rect": {
+    "x": 660.5,
+    "y": 425.5,
+    "w": 208.8,
+    "h": 49
+   }
+  }
+ ]
+}

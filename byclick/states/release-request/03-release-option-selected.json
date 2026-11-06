@@ -1,0 +1,526 @@
+{
+ "file": "03-release-option-selected.png",
+ "kind": "state",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/dealer/wins",
+ "scrollY": 509,
+ "scrollX": 0,
+ "docHeight": 1450,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T02:04:08.887Z",
+ "title": "낙찰·대금 · 바이클릭 딜러",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/place_bid_v2"
+  ],
+  "trackers_blocked": 7,
+  "websockets": [
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "야마하 MT-07",
+   "rect": {
+    "x": 337,
+    "y": 174.7,
+    "w": 116,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "혼다 CB650R",
+   "rect": {
+    "x": 337,
+    "y": 482.3,
+    "w": 124,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "출고 방법을 선택해 주세요",
+   "rect": {
+    "x": 516,
+    "y": 77,
+    "w": 408,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1248,
+    "y": 11.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거래 상세",
+   "rect": {
+    "x": 1073,
+    "y": 72.7,
+    "w": 98,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "입금 안내",
+   "rect": {
+    "x": 1179,
+    "y": 72.7,
+    "w": 96,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거래 상세",
+   "rect": {
+    "x": 1073,
+    "y": 380.3,
+    "w": 98,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "출고 신청",
+   "rect": {
+    "x": 1179,
+    "y": 380.3,
+    "w": 96,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거래 상세",
+   "rect": {
+    "x": 1077,
+    "y": 760.3,
+    "w": 98,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "구매확정",
+   "rect": {
+    "x": 1183,
+    "y": 760.3,
+    "w": 92,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "돌아가기",
+   "rect": {
+    "x": 726,
+    "y": 775,
+    "w": 94,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "출고 신청",
+   "rect": {
+    "x": 828,
+    "y": 775,
+    "w": 96,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 533,
+    "y": 348,
+    "w": 20,
+    "h": 20
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 533,
+    "y": 456,
+    "w": 20,
+    "h": 20
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 533,
+    "y": 564,
+    "w": 20,
+    "h": 20
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 533,
+    "y": 672,
+    "w": 20,
+    "h": 20
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 DEALER",
+   "rect": {
+    "x": 144,
+    "y": 11.5,
+    "w": 143.8,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 331.8,
+    "y": 0,
+    "w": 24,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 입찰",
+   "rect": {
+    "x": 382.8,
+    "y": 0,
+    "w": 40,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세찾기",
+   "rect": {
+    "x": 449.8,
+    "y": 0,
+    "w": 48,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "낙찰·대금",
+   "rect": {
+    "x": 524.8,
+    "y": 0,
+    "w": 52,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "계정",
+   "rect": {
+    "x": 603.8,
+    "y": 0,
+    "w": 24,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "운영안내",
+   "rect": {
+    "x": 654.8,
+    "y": 0,
+    "w": 48,
+    "h": 71
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "트라이엄프 본네빌 T120 2019년 · 18,600km 입금 필요 낙찰가 7,350,000원 대금 납부 기한 2026. 11. 07. 17:02 남은 시간 29:58:39 남음 입금 확인 미확인 ✓ 낙찰 완료 완료 입금 대기 진행 중 구매확정·출고 대기 거래 상세 입금 안내",
+   "rect": {
+    "x": 144,
+    "y": -154,
+    "w": 1152,
+    "h": 295.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "✓ 낙찰 완료 완료",
+   "rect": {
+    "x": 165,
+    "y": 6.7,
+    "w": 370,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "입금 대기 진행 중",
+   "rect": {
+    "x": 535,
+    "y": 6.7,
+    "w": 370,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "구매확정·출고 대기",
+   "rect": {
+    "x": 905,
+    "y": 6.7,
+    "w": 370,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "야마하 MT-07 2021년 · 9,700km 구매확정 완료 낙찰가 5,280,000원 입금 확인 입금 완료 출고 상태 출고 신청 전 ✓ 낙찰 완료 완료 ✓ 입금 완료 완료 구매확정·출고 진행 중 거래 상세 출고 신청",
+   "rect": {
+    "x": 144,
+    "y": 153.7,
+    "w": 1152,
+    "h": 295.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "✓ 낙찰 완료 완료",
+   "rect": {
+    "x": 165,
+    "y": 314.3,
+    "w": 370,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "✓ 입금 완료 완료",
+   "rect": {
+    "x": 535,
+    "y": 314.3,
+    "w": 370,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "구매확정·출고 진행 중",
+   "rect": {
+    "x": 905,
+    "y": 314.3,
+    "w": 370,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "혼다 CB650R 2020년 · 14,300km 입금 완료 낙찰가 4,960,000원 입금 확인 입금 완료 출고 상태 출고 신청 전 구매확정 후 출고를 신청할 수 있습니다. 실제 입금 시각부터 48시간(감액 청구 기한)이 지나면 자동으로 구매확정됩니다. ✓ 낙찰 완료 완료 ✓ 입금 완료",
+   "rect": {
+    "x": 144,
+    "y": 461.3,
+    "w": 1152,
+    "h": 368
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "✓ 낙찰 완료 완료",
+   "rect": {
+    "x": 165,
+    "y": 694.3,
+    "w": 370,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "✓ 입금 완료 완료",
+   "rect": {
+    "x": 535,
+    "y": 694.3,
+    "w": 370,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "구매확정·출고 진행 중",
+   "rect": {
+    "x": 905,
+    "y": 694.3,
+    "w": 370,
+    "h": 50
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "출고 방법을 선택해 주세요 상품화 작업 여부와 인수 방법을 함께 고릅니다. 선택 후에는 변경할 수 없습니다. 낙찰 차량의 입고 운송료는 바이크 대금과 함께 회사 계좌로 입금해요. 금액은 담당자가 배차 때 확정한 금액이에요. 출고는 바이크 대금과 입고 운송료 입금이 모두 확인되고, 상품화",
+   "rect": {
+    "x": 496,
+    "y": 57,
+    "w": 448,
+    "h": 786
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 165,
+    "y": 174.7,
+    "w": 160,
+    "h": 106.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 165,
+    "y": 482.3,
+    "w": 160,
+    "h": 106.7
+   }
+  }
+ ]
+}

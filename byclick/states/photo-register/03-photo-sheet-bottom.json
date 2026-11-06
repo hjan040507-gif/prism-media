@@ -1,0 +1,315 @@
+{
+ "file": "03-photo-sheet-bottom.png",
+ "kind": "state",
+ "project": "byclick",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/my/apply",
+ "scrollY": 999,
+ "scrollX": 0,
+ "docHeight": 2640,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:49:52.554Z",
+ "title": "내 바이크 최고가 확인하기 · 바이클릭",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 2,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 5,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "바이크 사진 등록",
+   "rect": {
+    "x": 24,
+    "y": 71,
+    "w": 293,
+    "h": 31
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "견적 등록 후 안내를 받을 정보를 입력하세요",
+   "rect": {
+    "x": 35,
+    "y": 512.5,
+    "w": 296.9,
+    "h": 27.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "☰",
+   "rect": {
+    "x": 330,
+    "y": 12,
+    "w": 42,
+    "h": 42
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 등록하기 필수 4장 · 추가 최대 6장",
+   "rect": {
+    "x": 35,
+    "y": 199.5,
+    "w": 320,
+    "h": 148.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "×",
+   "rect": {
+    "x": 331,
+    "y": 48.5,
+    "w": 35,
+    "h": 35
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 선택",
+   "rect": {
+    "x": 25,
+    "y": 212.6,
+    "w": 165,
+    "h": 113.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 선택",
+   "rect": {
+    "x": 200,
+    "y": 212.6,
+    "w": 165,
+    "h": 113.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 선택",
+   "rect": {
+    "x": 25,
+    "y": 368.3,
+    "w": 165,
+    "h": 113.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 선택",
+   "rect": {
+    "x": 200,
+    "y": 368.3,
+    "w": 165,
+    "h": 113.8
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 추가 사진 한 번에 업로드 여러 장 동시 선택 가능 · JPG, PNG, WebP",
+   "rect": {
+    "x": 39,
+    "y": 542.2,
+    "w": 312,
+    "h": 88
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진 등록 완료",
+   "rect": {
+    "x": 244,
+    "y": 788.5,
+    "w": 122,
+    "h": 46.1
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "있어요",
+   "rect": {
+    "x": 84.8,
+    "y": 10.8,
+    "w": 13,
+    "h": 13
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "없어요",
+   "rect": {
+    "x": 249.3,
+    "y": 10.8,
+    "w": 13,
+    "h": 13
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "성함을 입력해 주세요",
+   "rect": {
+    "x": 35,
+    "y": 634.5,
+    "w": 320,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "010-****-****",
+   "rect": {
+    "x": 35,
+    "y": 730.7,
+    "w": 320,
+    "h": 50
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 18,
+    "y": 17.5,
+    "w": 175,
+    "h": 31
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 신청 보기 →",
+   "rect": {
+    "x": 207,
+    "y": 17.9,
+    "w": 76,
+    "h": 30.1
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "바이크 좌측 필수 ＋ 사진 선택",
+   "rect": {
+    "x": 24,
+    "y": 179.6,
+    "w": 167,
+    "h": 147.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "바이크 우측 필수 ＋ 사진 선택",
+   "rect": {
+    "x": 199,
+    "y": 179.6,
+    "w": 167,
+    "h": 147.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "계기판 필수 ＋ 사진 선택",
+   "rect": {
+    "x": 24,
+    "y": 335.4,
+    "w": 167,
+    "h": 147.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "차량등록증 또는 폐지증명서 필수 ＋ 사진 선택",
+   "rect": {
+    "x": 199,
+    "y": 335.4,
+    "w": 167,
+    "h": 147.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "바이클릭 로고",
+   "rect": {
+    "x": 18,
+    "y": 17.5,
+    "w": 175,
+    "h": 31
+   }
+  }
+ ]
+}

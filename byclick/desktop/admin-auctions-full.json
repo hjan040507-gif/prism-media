@@ -1,0 +1,592 @@
+{
+ "file": "admin-auctions-full.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/auctions",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 941,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T02:05:31.864Z",
+ "title": "경매 · 바이클릭 관리자",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/vehicle_catalog"
+  ],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "경매",
+   "rect": {
+    "x": 352,
+    "y": 88,
+    "w": 304,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "차량 관리",
+   "rect": {
+    "x": 12,
+    "y": 112.3,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "경매 관리",
+   "rect": {
+    "x": 12,
+    "y": 306.5,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거래 관리",
+   "rect": {
+    "x": 12,
+    "y": 386,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "딜러 관리",
+   "rect": {
+    "x": 12,
+    "y": 618.5,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "운영 관리",
+   "rect": {
+    "x": 12,
+    "y": 736.3,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "신청·매물·경매·딜러 검색 ⌘K",
+   "rect": {
+    "x": 248,
+    "y": 9.5,
+    "w": 448,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 857,
+    "y": 11.8,
+    "w": 64,
+    "h": 31.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "마감 처리 실행",
+   "rect": {
+    "x": 1214,
+    "y": 112,
+    "w": 98,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "마감 임박",
+   "rect": {
+    "x": 352,
+    "y": 160,
+    "w": 75,
+    "h": 32.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "유찰(재경매 대상)",
+   "rect": {
+    "x": 431,
+    "y": 160,
+    "w": 121,
+    "h": 32.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체",
+   "rect": {
+    "x": 352,
+    "y": 259.3,
+    "w": 46,
+    "h": 31.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "진행중 6",
+   "rect": {
+    "x": 404,
+    "y": 258.3,
+    "w": 72,
+    "h": 33.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "종료 5",
+   "rect": {
+    "x": 482,
+    "y": 258.3,
+    "w": 60,
+    "h": 33.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "매물 차량명으로 검색",
+   "rect": {
+    "x": 352,
+    "y": 206.3,
+    "w": 832,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "ending",
+   "rect": {
+    "x": 1192,
+    "y": 206.3,
+    "w": 120,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 관리자",
+   "rect": {
+    "x": 12,
+    "y": 4,
+    "w": 135.5,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오늘 할 일",
+   "rect": {
+    "x": 12,
+    "y": 64,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수",
+   "rect": {
+    "x": 12,
+    "y": 143.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "픽업·입고",
+   "rect": {
+    "x": 12,
+    "y": 181.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검수",
+   "rect": {
+    "x": 12,
+    "y": 220,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매물",
+   "rect": {
+    "x": 12,
+    "y": 258.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 12,
+    "y": 337.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "결정·위탁",
+   "rect": {
+    "x": 12,
+    "y": 417.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대금",
+   "rect": {
+    "x": 12,
+    "y": 455.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "출고",
+   "rect": {
+    "x": 12,
+    "y": 493.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "정산",
+   "rect": {
+    "x": 12,
+    "y": 532,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래 내역",
+   "rect": {
+    "x": 12,
+    "y": 570.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "딜러",
+   "rect": {
+    "x": 12,
+    "y": 649.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "딜러제재",
+   "rect": {
+    "x": 12,
+    "y": 688,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림",
+   "rect": {
+    "x": 12,
+    "y": 767.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지·정책",
+   "rect": {
+    "x": 12,
+    "y": 805.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래 사례",
+   "rect": {
+    "x": 12,
+    "y": 844,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매설정",
+   "rect": {
+    "x": 12,
+    "y": 882.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "수수료 고지",
+   "rect": {
+    "x": 12,
+    "y": 920.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "베스파 GTS 300",
+   "rect": {
+    "x": 369,
+    "y": 392.9,
+    "w": 98,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "혼다 CB650R",
+   "rect": {
+    "x": 369,
+    "y": 440.5,
+    "w": 81,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "야마하 MT-07",
+   "rect": {
+    "x": 369,
+    "y": 488,
+    "w": 85,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "스즈키 GSX-R750",
+   "rect": {
+    "x": 369,
+    "y": 535.6,
+    "w": 107,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "트라이엄프 본네빌 T120",
+   "rect": {
+    "x": 369,
+    "y": 583.2,
+    "w": 136,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "혼다 PCX125",
+   "rect": {
+    "x": 369,
+    "y": 631.5,
+    "w": 78,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "야마하 NMAX155",
+   "rect": {
+    "x": 369,
+    "y": 680.5,
+    "w": 102,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가와사키 Z900",
+   "rect": {
+    "x": 369,
+    "y": 729.5,
+    "w": 87,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "BMW R 1250 GS",
+   "rect": {
+    "x": 369,
+    "y": 778.5,
+    "w": 105,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "할리데이비슨 스포스터 S",
+   "rect": {
+    "x": 369,
+    "y": 827.5,
+    "w": 135,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "두카티 몬스터 937",
+   "rect": {
+    "x": 369,
+    "y": 876.5,
+    "w": 105,
+    "h": 16
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "매물 방식 상태 현재가/제안 참여 마감 베스파 GTS 300 비공개 종료 제안 2건 2개사 — 혼다 CB650R 비공개 종료 제안 2건 2개사 — 야마하 MT-07 비공개 종료 제안 2건 2개사 — 스즈키 GSX-R750 비공개 종료 제안 0건 0개사 — 트라이엄프 본네빌 T120 비공",
+   "rect": {
+    "x": 352,
+    "y": 338.5,
+    "w": 960,
+    "h": 571
+   }
+  }
+ ]
+}

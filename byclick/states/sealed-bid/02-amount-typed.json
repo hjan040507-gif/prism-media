@@ -1,0 +1,487 @@
+{
+ "file": "02-amount-typed.png",
+ "kind": "state",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/dealer/auctions/a1a1a1a1-0000-4000-8000-000000000002",
+ "scrollY": 873,
+ "scrollX": 0,
+ "docHeight": 2838,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T02:03:42.256Z",
+ "title": "경매 상세 · 바이클릭 딜러",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 4,
+  "websockets": [
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "입찰",
+   "rect": {
+    "x": 823.1,
+    "y": 220.4,
+    "w": 166,
+    "h": 27
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "검수 리포트",
+   "rect": {
+    "x": 165,
+    "y": 216.4,
+    "w": 105,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1248,
+    "y": 11.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 145,
+    "y": -552.5,
+    "w": 1150,
+    "h": 646.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1295,
+    "y": -552.5,
+    "w": 1150,
+    "h": 646.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 157,
+    "y": 106.4,
+    "w": 96,
+    "h": 64
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 261,
+    "y": 106.4,
+    "w": 96,
+    "h": 64
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 365,
+    "y": 106.4,
+    "w": 96,
+    "h": 64
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 469,
+    "y": 106.4,
+    "w": 96,
+    "h": 64
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 573,
+    "y": 106.4,
+    "w": 96,
+    "h": 64
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "−",
+   "rect": {
+    "x": 823.1,
+    "y": 460.4,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "+",
+   "rect": {
+    "x": 1227,
+    "y": 460.4,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "입찰 금액 제출",
+   "rect": {
+    "x": 823.1,
+    "y": 547.4,
+    "w": 451.9,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "4,200,000",
+   "rect": {
+    "x": 879.1,
+    "y": 460.4,
+    "w": 339.9,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 DEALER",
+   "rect": {
+    "x": 144,
+    "y": 11.5,
+    "w": 143.8,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 331.8,
+    "y": 0,
+    "w": 24,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 입찰",
+   "rect": {
+    "x": 382.8,
+    "y": 0,
+    "w": 40,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세찾기",
+   "rect": {
+    "x": 449.8,
+    "y": 0,
+    "w": 48,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "낙찰·대금",
+   "rect": {
+    "x": 524.8,
+    "y": 0,
+    "w": 52,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "계정",
+   "rect": {
+    "x": 603.8,
+    "y": 0,
+    "w": 24,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "운영안내",
+   "rect": {
+    "x": 654.8,
+    "y": 0,
+    "w": 48,
+    "h": 71
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "1 / 5",
+   "rect": {
+    "x": 144,
+    "y": -553.5,
+    "w": 1152,
+    "h": 736.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "입찰 마감까지 09:29:03 남음 남은 입찰 기회 3회 총 3회 내 입찰 · 나에게만 표시됩니다. 내 입찰가 입찰 전 경매 종료 전까지 다른 업체의 입찰가와 순위는 공개되지 않습니다. 입찰 금액 10,000원 단위 − + 420만 원 입찰 금액 제출 검수 결과를 확인한 후 입찰해 주세",
+   "rect": {
+    "x": 802.1,
+    "y": 199.4,
+    "w": 493.9,
+    "h": 706
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "입찰 금액 제출",
+   "rect": {
+    "x": 823.1,
+    "y": 547.4,
+    "w": 451.9,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "검수 리포트 성능기록부·점검 항목 이상 없음 대략적인 옵션 금액 300,000원 총평 2021년식 NMAX155. 외관 상태 양호, 엔진·구동계 이상 없음. 정기 점검 이력 확인. 운송료(낙찰자 부담) 125,000원 상품화 비용(선택사항) 170,000원 연식 2021년 주행거리 15",
+   "rect": {
+    "x": 144,
+    "y": 199.4,
+    "w": 642.1,
+    "h": 1653.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "카울·외장 양호",
+   "rect": {
+    "x": 165,
+    "y": 796.8,
+    "w": 298,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "프레임 양호",
+   "rect": {
+    "x": 467,
+    "y": 796.8,
+    "w": 298,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "휠 스크래치 양호",
+   "rect": {
+    "x": 165,
+    "y": 836.8,
+    "w": 298,
+    "h": 36
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "야마하 NMAX155 사진 1",
+   "rect": {
+    "x": 145,
+    "y": -552.5,
+    "w": 1150,
+    "h": 646.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "야마하 NMAX155 사진 2",
+   "rect": {
+    "x": 1295,
+    "y": -552.5,
+    "w": 1150,
+    "h": 646.9
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 157,
+    "y": 106.4,
+    "w": 96,
+    "h": 64
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 261,
+    "y": 106.4,
+    "w": 96,
+    "h": 64
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 365,
+    "y": 106.4,
+    "w": 96,
+    "h": 64
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 469,
+    "y": 106.4,
+    "w": 96,
+    "h": 64
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 573,
+    "y": 106.4,
+    "w": 96,
+    "h": 64
+   }
+  }
+ ]
+}

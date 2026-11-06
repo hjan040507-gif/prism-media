@@ -1,0 +1,30 @@
+{
+ "file": "performance-record.png",
+ "kind": "pdf",
+ "project": "byclick",
+ "title": "성능·상태 점검기록부",
+ "source": "src/lib/pdf/documents.tsx render*Pdf (사본 tmp/byclick-src) · 가짜 데이터(mock-supabase)",
+ "pdf_pages": 3,
+ "dpi": 200,
+ "page": 1,
+ "capturedAt": "2026-11-05T23:51:17.594122Z",
+ "pii_scan": {
+  "total": 0,
+  "by_pattern": {
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "url": 0,
+   "plate": 0
+  },
+  "checked": "pdftotext -layout (all pages) × tools/ocr.py PAT"
+ },
+ "intercepted": {
+  "total": 0,
+  "note": "운영 접속 없음(로컬 가짜 DB)"
+ },
+ "viewport": {
+  "name": "pdf-200dpi"
+ }
+}

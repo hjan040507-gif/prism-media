@@ -1,0 +1,16 @@
+{
+  "primary": "#f45108",
+  "secondary": "#14161a",
+  "fonts": ["Pretendard Variable", "Wanted Sans Variable"],
+  "primary_candidates": {
+    "live_production": { "primary": "#f45108", "accent": "#f45112", "hover": "#e65110", "soft_surface": "#fff4ec", "gray_surface": "#f7f8fa", "ink": "#14161a",
+      "source": "운영 https://byclick.co.kr 랜딩 CSS(/_next/static/immutable/chunks/185lexi3z-g9s.css) 최빈 주황 #f45108(22회) · .by-live-kicker 등 #f45112 · 운영 11-04 배포 sian-v9 (레포에 없음) — RECON.md §8, 2026-11-05 22:5xZ 실측",
+      "fonts": "Pretendard Variable → Pretendard → Noto Sans KR → Apple SD Gothic Neo (본문) + 히어로 제목 Wanted Sans 서브셋(WantedSansVariable_hero_*.woff2)" },
+    "repo_head_863d2c26": { "primary": "#e8560a", "button_dark": "#be4406", "soft": "#fdeee3", "ink": "#14161a", "logo_original_orange": "#f84000",
+      "source": "src/app/globals.css:31(--color-accent) · :32(#be4406) · :33(#fdeee3) · :20(#14161a) · src/app/consumer-v3.css:117(--c-orange) · docs/BRAND-LANGUAGE.md:39(로고 원본 #f84000)",
+      "fonts": "Wanted Sans Variable(디스플레이) + Pretendard Variable(본문) — src/app/(consumer)/fonts.ts · consumer-v3.css:72-79 · 딜러·관리자 Pretendard Variable(globals.css:61)" }
+  },
+  "recommended_for_video": "live_production(#f45108) — 소비자 화면(mobile/*)은 운영 라이브를 찍은 것이라 이 값. desktop/dealer·admin 화면(레포 코드 = 운영과 같음)은 레포 토큰 #e8560a 를 쓴다.",
+  "logo_files": ["media/live/logo.png (운영 /sian-v9/logo.png)", "media/repo/byclick-wordmark.png", "media/repo/byclick-lockup.png", "media/repo/byclick-app-icon-1024.png"],
+  "source": ["운영 CSS /_next/static/immutable/chunks/185lexi3z-g9s.css (RECON.md §8)", "src/app/globals.css:31", "src/app/consumer-v3.css:117", "docs/BRAND-LANGUAGE.md:39", "src/app/(consumer)/fonts.ts"]
+}

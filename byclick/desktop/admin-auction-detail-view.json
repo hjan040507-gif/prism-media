@@ -1,0 +1,471 @@
+{
+ "file": "admin-auction-detail-view.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/auctions/a1a1a1a1-0000-4000-8000-000000000001",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 900,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T02:05:39.171Z",
+ "title": "경매 상세 · 바이클릭 관리자",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/vehicle_catalog"
+  ],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "PCX125",
+   "rect": {
+    "x": 336,
+    "y": 72,
+    "w": 60,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "입찰 피드",
+   "rect": {
+    "x": 373,
+    "y": 595.2,
+    "w": 108,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "검수 리포트",
+   "rect": {
+    "x": 924.3,
+    "y": 201.5,
+    "w": 68,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "차량 관리",
+   "rect": {
+    "x": 12,
+    "y": 112.3,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "경매 관리",
+   "rect": {
+    "x": 12,
+    "y": 306.5,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거래 관리",
+   "rect": {
+    "x": 12,
+    "y": 386,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "딜러 관리",
+   "rect": {
+    "x": 12,
+    "y": 618.5,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "운영 관리",
+   "rect": {
+    "x": 12,
+    "y": 736.3,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "신청·매물·경매·딜러 검색 ⌘K",
+   "rect": {
+    "x": 248,
+    "y": 9.5,
+    "w": 448,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 857,
+    "y": 11.8,
+    "w": 64,
+    "h": 31.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "강제 종료",
+   "rect": {
+    "x": 1261,
+    "y": 68,
+    "w": 73,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1340,
+    "y": 66,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 관리자",
+   "rect": {
+    "x": 12,
+    "y": 4,
+    "w": 135.5,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오늘 할 일",
+   "rect": {
+    "x": 12,
+    "y": 64,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수",
+   "rect": {
+    "x": 12,
+    "y": 143.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "픽업·입고",
+   "rect": {
+    "x": 12,
+    "y": 181.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검수",
+   "rect": {
+    "x": 12,
+    "y": 220,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매물",
+   "rect": {
+    "x": 12,
+    "y": 258.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 12,
+    "y": 337.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "결정·위탁",
+   "rect": {
+    "x": 12,
+    "y": 417.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대금",
+   "rect": {
+    "x": 12,
+    "y": 455.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "출고",
+   "rect": {
+    "x": 12,
+    "y": 493.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "정산",
+   "rect": {
+    "x": 12,
+    "y": 532,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래 내역",
+   "rect": {
+    "x": 12,
+    "y": 570.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "딜러",
+   "rect": {
+    "x": 12,
+    "y": 649.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "딜러제재",
+   "rect": {
+    "x": 12,
+    "y": 688,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림",
+   "rect": {
+    "x": 12,
+    "y": 767.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지·정책",
+   "rect": {
+    "x": 12,
+    "y": 805.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래 사례",
+   "rect": {
+    "x": 12,
+    "y": 844,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매설정",
+   "rect": {
+    "x": 12,
+    "y": 882.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 288,
+    "y": 66,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검수 화면 열기 →",
+   "rect": {
+    "x": 924.3,
+    "y": 356.5,
+    "w": 87,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "최고 제안(관리자) 진행 중 비공개 마감까지 03:09:01 남음 마감 임박 마감 임박 호가 단위 10,000원 연장 0/0회",
+   "rect": {
+    "x": 352,
+    "y": 184.5,
+    "w": 531.3,
+    "h": 373.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "입찰 피드 입찰 4건 · 참여 4개사 진행 중에는 입찰 금액을 볼 수 없습니다. 마감 후 공개됩니다.",
+   "rect": {
+    "x": 352,
+    "y": 578.2,
+    "w": 531.3,
+    "h": 130.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "검수 리포트 검수 요약 2022년식 PCX125. 외관 상태 양호, 엔진·구동계 이상 없음. 정기 점검 이력 확인. 검수 화면 열기 →",
+   "rect": {
+    "x": 903.3,
+    "y": 184.5,
+    "w": 408.7,
+    "h": 210
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "PCX125",
+   "rect": {
+    "x": 353,
+    "y": 185.5,
+    "w": 529.3,
+    "h": 297.7
+   }
+  }
+ ]
+}

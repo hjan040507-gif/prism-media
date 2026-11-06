@@ -1,0 +1,449 @@
+{
+ "file": "dealer-bids-full.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/dealer/bids",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 980,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T02:03:52.703Z",
+ "title": "내 입찰 · 바이클릭 딜러",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/place_bid_v2"
+  ],
+  "trackers_blocked": 5,
+  "websockets": [
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   },
+   {
+    "url": "/realtime/v1/websocket",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "내 입찰",
+   "rect": {
+    "x": 144,
+    "y": 88,
+    "w": 1152,
+    "h": 32
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "혼다 PCX125",
+   "rect": {
+    "x": 341,
+    "y": 315.3,
+    "w": 778,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "야마하 NMAX155",
+   "rect": {
+    "x": 341,
+    "y": 455,
+    "w": 778,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "가와사키 Z900",
+   "rect": {
+    "x": 341,
+    "y": 594.6,
+    "w": 778,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "할리데이비슨 스포스터 S",
+   "rect": {
+    "x": 341,
+    "y": 734.3,
+    "w": 778,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 1248,
+    "y": 11.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 DEALER",
+   "rect": {
+    "x": 144,
+    "y": 11.5,
+    "w": 143.8,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 331.8,
+    "y": 0,
+    "w": 24,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 입찰",
+   "rect": {
+    "x": 382.8,
+    "y": 0,
+    "w": 39,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "시세찾기",
+   "rect": {
+    "x": 448.8,
+    "y": 0,
+    "w": 48,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "낙찰·대금",
+   "rect": {
+    "x": 523.8,
+    "y": 0,
+    "w": 52,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "계정",
+   "rect": {
+    "x": 602.8,
+    "y": 0,
+    "w": 24,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "운영안내",
+   "rect": {
+    "x": 653.8,
+    "y": 0,
+    "w": 48,
+    "h": 71
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "진행 중 4",
+   "rect": {
+    "x": 144,
+    "y": 162.5,
+    "w": 62,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "낙찰 3",
+   "rect": {
+    "x": 230,
+    "y": 162.5,
+    "w": 44,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "미낙찰 0",
+   "rect": {
+    "x": 298,
+    "y": 162.5,
+    "w": 59,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "최근순",
+   "rect": {
+    "x": 1161,
+    "y": 226.5,
+    "w": 59,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오래된순",
+   "rect": {
+    "x": 1224,
+    "y": 226.5,
+    "w": 72,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "혼다 PCX125",
+   "rect": {
+    "x": 341,
+    "y": 317.3,
+    "w": 92,
+    "h": 19
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "야마하 NMAX155",
+   "rect": {
+    "x": 341,
+    "y": 457,
+    "w": 121,
+    "h": 19
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "가와사키 Z900",
+   "rect": {
+    "x": 341,
+    "y": 596.6,
+    "w": 103,
+    "h": 19
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "할리데이비슨 스포스터 S",
+   "rect": {
+    "x": 341,
+    "y": 736.3,
+    "w": 158,
+    "h": 19
+   }
+  },
+  {
+   "type": "card",
+   "tag": "ul",
+   "text": "혼다 PCX125 2022년 · 8,200km 진행 중 내 입찰가 3,200,000원 마감까지 03:10:51 남음 야마하 NMAX155 2021년 · 15,400km 진행 중 내 입찰가 4,200,000원 마감까지 09:28:51 남음 가와사키 Z900 2020년 · 21,800km ",
+   "rect": {
+    "x": 144,
+    "y": 286.5,
+    "w": 1152,
+    "h": 559.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "혼다 PCX125 2022년 · 8,200km 진행 중 내 입찰가 3,200,000원 마감까지 03:10:51 남음",
+   "rect": {
+    "x": 145,
+    "y": 287.5,
+    "w": 1150,
+    "h": 139.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "야마하 NMAX155 2021년 · 15,400km 진행 중 내 입찰가 4,200,000원 마감까지 09:28:51 남음",
+   "rect": {
+    "x": 145,
+    "y": 427.2,
+    "w": 1150,
+    "h": 139.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "가와사키 Z900 2020년 · 21,800km 진행 중 내 입찰가 6,200,000원 마감까지 20:04:51 남음",
+   "rect": {
+    "x": 145,
+    "y": 566.8,
+    "w": 1150,
+    "h": 139.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "할리데이비슨 스포스터 S 2022년 · 4,300km 진행 중 내 입찰가 11,350,000원 마감까지 45:10:51 남음",
+   "rect": {
+    "x": 145,
+    "y": 706.5,
+    "w": 1150,
+    "h": 138.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 161,
+    "y": 303.5,
+    "w": 160,
+    "h": 106.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 161,
+    "y": 443.2,
+    "w": 160,
+    "h": 106.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 161,
+    "y": 582.8,
+    "w": 160,
+    "h": 106.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 161,
+    "y": 722.5,
+    "w": 160,
+    "h": 106.7
+   }
+  }
+ ]
+}

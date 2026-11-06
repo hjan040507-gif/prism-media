@@ -1,0 +1,447 @@
+{
+ "file": "admin-inspections-full.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/inspections",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 900,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T02:05:13.717Z",
+ "title": "검수 · 바이클릭 관리자",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "검수",
+   "rect": {
+    "x": 352,
+    "y": 88,
+    "w": 364,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "차량 관리",
+   "rect": {
+    "x": 12,
+    "y": 112.3,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "경매 관리",
+   "rect": {
+    "x": 12,
+    "y": 306.5,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거래 관리",
+   "rect": {
+    "x": 12,
+    "y": 386,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "딜러 관리",
+   "rect": {
+    "x": 12,
+    "y": 618.5,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "운영 관리",
+   "rect": {
+    "x": 12,
+    "y": 736.3,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "신청·매물·경매·딜러 검색 ⌘K",
+   "rect": {
+    "x": 248,
+    "y": 9.5,
+    "w": 448,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 857,
+    "y": 11.8,
+    "w": 64,
+    "h": 31.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "대기+검수중",
+   "rect": {
+    "x": 352,
+    "y": 213,
+    "w": 87,
+    "h": 31.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "검수 대기 1",
+   "rect": {
+    "x": 445,
+    "y": 212,
+    "w": 85,
+    "h": 33.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "검수중 1",
+   "rect": {
+    "x": 536,
+    "y": 212,
+    "w": 71,
+    "h": 33.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "차량·차량번호 검색",
+   "rect": {
+    "x": 352,
+    "y": 160,
+    "w": 818,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "oldest",
+   "rect": {
+    "x": 1178,
+    "y": 160,
+    "w": 134,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 관리자",
+   "rect": {
+    "x": 12,
+    "y": 4,
+    "w": 135.5,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오늘 할 일",
+   "rect": {
+    "x": 12,
+    "y": 64,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수",
+   "rect": {
+    "x": 12,
+    "y": 143.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "픽업·입고",
+   "rect": {
+    "x": 12,
+    "y": 181.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검수",
+   "rect": {
+    "x": 12,
+    "y": 220,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매물",
+   "rect": {
+    "x": 12,
+    "y": 258.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 12,
+    "y": 337.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "결정·위탁",
+   "rect": {
+    "x": 12,
+    "y": 417.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대금",
+   "rect": {
+    "x": 12,
+    "y": 455.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "출고",
+   "rect": {
+    "x": 12,
+    "y": 493.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "정산",
+   "rect": {
+    "x": 12,
+    "y": 532,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래 내역",
+   "rect": {
+    "x": 12,
+    "y": 570.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "딜러",
+   "rect": {
+    "x": 12,
+    "y": 649.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "딜러제재",
+   "rect": {
+    "x": 12,
+    "y": 688,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림",
+   "rect": {
+    "x": 12,
+    "y": 767.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지·정책",
+   "rect": {
+    "x": 12,
+    "y": 805.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래 사례",
+   "rect": {
+    "x": 12,
+    "y": 844,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매설정",
+   "rect": {
+    "x": 12,
+    "y": 882.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "이어서",
+   "rect": {
+    "x": 1262,
+    "y": 347.4,
+    "w": 33,
+    "h": 15
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검수 시작",
+   "rect": {
+    "x": 1248,
+    "y": 395,
+    "w": 47,
+    "h": 15
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "접수번호 차량 단계 검수 입고일 처리 28하 **** Ninja 400 · 2022년식 검수중 미작성 서명 필요 2026. 10. 13. 이어서 19허 **** 엠보이 125 · 2020년식 검수 대기 미작성 서명 필요 2026. 11. 02. 검수 시작",
+   "rect": {
+    "x": 352,
+    "y": 292.3,
+    "w": 960,
+    "h": 134.3
+   }
+  }
+ ]
+}

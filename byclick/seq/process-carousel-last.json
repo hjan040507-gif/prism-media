@@ -1,0 +1,206 @@
+{
+ "file": "process-carousel-last.png",
+ "kind": "seq-frame",
+ "seq": "process-carousel.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "scrollY": 766,
+ "frames": 180,
+ "fps": 60,
+ "durationMs": 3000,
+ "crf": 12,
+ "capturedAt": "2026-11-05T23:56:18.578Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 1,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "대림 엠보이 125",
+   "rect": {
+    "x": 34,
+    "y": 64.1,
+    "w": 322,
+    "h": 22.1
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "쉽고 간편한 바이크 판매",
+   "rect": {
+    "x": 18,
+    "y": 284.9,
+    "w": 354,
+    "h": 35
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "무료픽업",
+   "rect": {
+    "x": 37,
+    "y": 572.9,
+    "w": 316,
+    "h": 26.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "☰",
+   "rect": {
+    "x": 330,
+    "y": 12,
+    "w": 42,
+    "h": 42
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "‹",
+   "rect": {
+    "x": 190,
+    "y": 442.3,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "›",
+   "rect": {
+    "x": 336,
+    "y": 442.3,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 18,
+    "y": 17.5,
+    "w": 175,
+    "h": 31
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 신청 보기 →",
+   "rect": {
+    "x": 207,
+    "y": 17.9,
+    "w": 76,
+    "h": 30.1
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 바이크 최고가 보기 →",
+   "rect": {
+    "x": 16,
+    "y": 783,
+    "w": 358,
+    "h": 51
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "● LIVE 경매 중 대림 엠보이 125 경매 남은 시간 05:42:10 연식 · 주행거리 2020년식 · 10,500km",
+   "rect": {
+    "x": 18,
+    "y": -148.9,
+    "w": 354,
+    "h": 322.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "예상 소요기간 0.5일 내 바이크 모의견적 제조사와 모델을 선택하고 내 바이크 견적을 확인해 보세요. 간단한 정보로 견적 신청 바이크 정보 예시 사진 예시 제조사 BMW BMW 모델 R1200 RT 사진은 별도 촬영 차량 예시입니다.",
+   "rect": {
+    "x": -336,
+    "y": 504.3,
+    "w": 354,
+    "h": 596.8
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "예상 소요기간 1일 무료픽업 원하는 방문 날짜와 시간을 선택하면 바이클릭이 바이크가 있는 곳으로 찾아갑니다. 희망 일정을 선택하면 방문 픽업 무료 픽업 일정 선택 화면 예시 2026년 11월 일 월 화 수 목 금 토 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 ",
+   "rect": {
+    "x": 18,
+    "y": 504.3,
+    "w": 354,
+    "h": 596.8
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "예상 소요기간 0.5일 검수 픽업된 바이크를 전문 검수팀이 점검하고 경매를 준비합니다. 전문 검수팀의 차량 상태 확인 검수 리포트 화면 예시 사고·구조 이력 무사고 침수 유무 무 구조 변경 순정 기록부 주행거리 12,400km 전 항목 상태 양호",
+   "rect": {
+    "x": 372,
+    "y": 504.3,
+    "w": 354,
+    "h": 596.8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "바이클릭 로고",
+   "rect": {
+    "x": 18,
+    "y": 17.5,
+    "w": 175,
+    "h": 31
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "대림 엠보이 125 경매 매물 사진",
+   "rect": {
+    "x": 19,
+    "y": -147.9,
+    "w": 352,
+    "h": 200
+   }
+  }
+ ]
+}

@@ -1,0 +1,757 @@
+{
+ "file": "admin-roles-full.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/settings/roles",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1496,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T02:05:51.858Z",
+ "title": "역할 · 바이클릭 관리자",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 4,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/vehicle_catalog"
+  ],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "역할",
+   "rect": {
+    "x": 416,
+    "y": 88,
+    "w": 832,
+    "h": 32
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "역할이 하는 일",
+   "rect": {
+    "x": 437,
+    "y": 223,
+    "w": 790,
+    "h": 22.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "차량 관리",
+   "rect": {
+    "x": 12,
+    "y": 112.3,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "경매 관리",
+   "rect": {
+    "x": 12,
+    "y": 306.5,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "거래 관리",
+   "rect": {
+    "x": 12,
+    "y": 386,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "딜러 관리",
+   "rect": {
+    "x": 12,
+    "y": 618.5,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "운영 관리",
+   "rect": {
+    "x": 12,
+    "y": 736.3,
+    "w": 200,
+    "h": 29.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "신청·매물·경매·딜러 검색 ⌘K",
+   "rect": {
+    "x": 248,
+    "y": 9.5,
+    "w": 448,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 857,
+    "y": 11.8,
+    "w": 64,
+    "h": 31.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 437,
+    "y": 581.4,
+    "w": 56,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 437,
+    "y": 836.9,
+    "w": 56,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 437,
+    "y": 1092.4,
+    "w": 56,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 437,
+    "y": 1347.9,
+    "w": 56,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 454,
+    "y": 533.4,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 585,
+    "y": 533.4,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 677,
+    "y": 533.4,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 769,
+    "y": 533.4,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 454,
+    "y": 788.9,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 585,
+    "y": 788.9,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 677,
+    "y": 788.9,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 769,
+    "y": 788.9,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 454,
+    "y": 1044.4,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 585,
+    "y": 1044.4,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 677,
+    "y": 1044.4,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 769,
+    "y": 1044.4,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 454,
+    "y": 1299.9,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 585,
+    "y": 1299.9,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 677,
+    "y": 1299.9,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 769,
+    "y": 1299.9,
+    "w": 16,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "바이클릭 관리자",
+   "rect": {
+    "x": 12,
+    "y": 4,
+    "w": 135.5,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "오늘 할 일",
+   "rect": {
+    "x": 12,
+    "y": 64,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "접수",
+   "rect": {
+    "x": 12,
+    "y": 143.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "픽업·입고",
+   "rect": {
+    "x": 12,
+    "y": 181.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검수",
+   "rect": {
+    "x": 12,
+    "y": 220,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "매물",
+   "rect": {
+    "x": 12,
+    "y": 258.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매",
+   "rect": {
+    "x": 12,
+    "y": 337.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "결정·위탁",
+   "rect": {
+    "x": 12,
+    "y": 417.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "대금",
+   "rect": {
+    "x": 12,
+    "y": 455.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "출고",
+   "rect": {
+    "x": 12,
+    "y": 493.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "정산",
+   "rect": {
+    "x": 12,
+    "y": 532,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래 내역",
+   "rect": {
+    "x": 12,
+    "y": 570.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "딜러",
+   "rect": {
+    "x": 12,
+    "y": 649.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "딜러제재",
+   "rect": {
+    "x": 12,
+    "y": 688,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림",
+   "rect": {
+    "x": 12,
+    "y": 767.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "공지·정책",
+   "rect": {
+    "x": 12,
+    "y": 805.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래 사례",
+   "rect": {
+    "x": 12,
+    "y": 844,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "경매설정",
+   "rect": {
+    "x": 12,
+    "y": 882.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "수수료 고지",
+   "rect": {
+    "x": 12,
+    "y": 920.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "휴무일",
+   "rect": {
+    "x": 12,
+    "y": 958.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "차량코드",
+   "rect": {
+    "x": 12,
+    "y": 997,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "감사 로그",
+   "rect": {
+    "x": 12,
+    "y": 1035.3,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "2단계 인증",
+   "rect": {
+    "x": 12,
+    "y": 1073.5,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "역할",
+   "rect": {
+    "x": 12,
+    "y": 1111.8,
+    "w": 200,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "section",
+   "text": "역할이 하는 일 최고관리자 모든 화면과 작업. 역할 부여·설정 변경은 이 역할만 할 수 있어요. 진행 중 경매의 금액은 이 역할도 볼 수 없어요. 운영 접수·검수 확인·매물·경매·딜러·공지. 정산 금액은 볼 수 없어요. 검수 검수 입력과 매물 초안 · 접수 · 픽업·입고 · 출고. 판매",
+   "rect": {
+    "x": 416,
+    "y": 202,
+    "w": 832,
+    "h": 228.4
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "검수 박○○ 검수 검수 박○○ 의 역할 최고관리자 운영 검수 정산 저장 인증 앱 등록 안 됨 — 휴대폰을 바꾸거나 인증 앱을 잃었으면 등록을 풀어 다시 등록하게 할 수 있습니다(작업 기록에 남습니다).",
+   "rect": {
+    "x": 416,
+    "y": 454.4,
+    "w": 832,
+    "h": 243.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 437,
+    "y": 581.4,
+    "w": 56,
+    "h": 40
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "운영 이○○ 운영 운영 이○○ 의 역할 최고관리자 운영 검수 정산 저장 인증 앱 등록 안 됨 — 휴대폰을 바꾸거나 인증 앱을 잃었으면 등록을 풀어 다시 등록하게 할 수 있습니다(작업 기록에 남습니다).",
+   "rect": {
+    "x": 416,
+    "y": 709.9,
+    "w": 832,
+    "h": 243.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 437,
+    "y": 836.9,
+    "w": 56,
+    "h": 40
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "정산 최○○ 정산 정산 최○○ 의 역할 최고관리자 운영 검수 정산 저장 인증 앱 등록 안 됨 — 휴대폰을 바꾸거나 인증 앱을 잃었으면 등록을 풀어 다시 등록하게 할 수 있습니다(작업 기록에 남습니다).",
+   "rect": {
+    "x": 416,
+    "y": 965.4,
+    "w": 832,
+    "h": 243.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 437,
+    "y": 1092.4,
+    "w": 56,
+    "h": 40
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "최고관리자 김○○나 최고관리자 최고관리자 김○○ 의 역할 최고관리자 운영 검수 정산 저장 인증 앱 등록 안 됨",
+   "rect": {
+    "x": 416,
+    "y": 1220.9,
+    "w": 832,
+    "h": 243.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 437,
+    "y": 1347.9,
+    "w": 56,
+    "h": 40
+   }
+  }
+ ]
+}

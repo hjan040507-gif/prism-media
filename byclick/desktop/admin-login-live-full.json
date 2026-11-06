@@ -1,0 +1,139 @@
+{
+ "file": "admin-login-live-full.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/admin/login",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 900,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T03:20:05.536Z",
+ "title": "바이클릭",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 2,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "관리자 로그인",
+   "rect": {
+    "x": 528,
+    "y": 301.5,
+    "w": 384,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그인",
+   "rect": {
+    "x": 553,
+    "y": 573.5,
+    "w": 334,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "이메일 주소",
+   "rect": {
+    "x": 553,
+    "y": 436,
+    "w": 334,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "",
+   "rect": {
+    "x": 553,
+    "y": 517.5,
+    "w": 334,
+    "h": 40
+   }
+  },
+  {
+   "type": "card",
+   "tag": "form",
+   "text": "이메일 비밀번호 로그인",
+   "rect": {
+    "x": 528,
+    "y": 385.5,
+    "w": 384,
+    "h": 253
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "로그인",
+   "rect": {
+    "x": 553,
+    "y": 573.5,
+    "w": 334,
+    "h": 40
+   }
+  }
+ ]
+}

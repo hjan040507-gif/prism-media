@@ -1,0 +1,144 @@
+{
+ "file": "header.png",
+ "kind": "header",
+ "project": "byclick",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/",
+ "scrollY": 600,
+ "scrollX": 0,
+ "docHeight": 5689,
+ "full": false,
+ "clip": {
+  "x": 0,
+  "y": 0,
+  "width": 390,
+  "height": 67
+ },
+ "capturedAt": "2026-11-05T23:47:22.637Z",
+ "title": "바이클릭 — 내 바이크의 최고가, 클릭 한 번으로 확인.",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 3,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 1,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "☰",
+   "rect": {
+    "x": 330,
+    "y": 12,
+    "w": 42,
+    "h": 42
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 18,
+    "y": 17.5,
+    "w": 175,
+    "h": 31
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 신청 보기 →",
+   "rect": {
+    "x": 207,
+    "y": 17.9,
+    "w": 76,
+    "h": 30.1
+   }
+  },
+  {
+   "type": "card",
+   "tag": "article",
+   "text": "● LIVE 경매 중 대림 엠보이 125 경매 남은 시간 05:50:25 연식 · 주행거리 2020년식 · 10,500km",
+   "rect": {
+    "x": 18,
+    "y": 17.1,
+    "w": 354,
+    "h": 322.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "바이클릭 로고",
+   "rect": {
+    "x": 18,
+    "y": 17.5,
+    "w": 175,
+    "h": 31
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "대림 엠보이 125 경매 매물 사진",
+   "rect": {
+    "x": 19,
+    "y": 18.1,
+    "w": 352,
+    "h": 200
+   }
+  }
+ ]
+}

@@ -1,0 +1,337 @@
+{
+ "file": "apply-full.png",
+ "kind": "page",
+ "project": "byclick",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/my/apply",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2640,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:49:26.175Z",
+ "title": "내 바이크 최고가 확인하기 · 바이클릭",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 1,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 1,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 2,
+  "fake": 0,
+  "removed": 1,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 3,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "내 바이크 최고가 확인하기",
+   "rect": {
+    "x": 18,
+    "y": 125.1,
+    "w": 354,
+    "h": 36.3
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "견적 확인",
+   "rect": {
+    "x": 36,
+    "y": 380.3,
+    "w": 218,
+    "h": 35.6
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "견적 등록 후 안내를 받을 정보를 입력하세요",
+   "rect": {
+    "x": 35,
+    "y": 1511.5,
+    "w": 296.9,
+    "h": 27.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "☰",
+   "rect": {
+    "x": 330,
+    "y": 12,
+    "w": 42,
+    "h": 42
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "제조사 선택 ⌄",
+   "rect": {
+    "x": 35,
+    "y": 510.6,
+    "w": 320,
+    "h": 50
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "＋ 사진 등록하기 필수 4장 · 추가 최대 6장",
+   "rect": {
+    "x": 35,
+    "y": 1198.5,
+    "w": 320,
+    "h": 148.9
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보기 ›",
+   "rect": {
+    "x": 298,
+    "y": 1949,
+    "w": 41,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보기 ›",
+   "rect": {
+    "x": 298,
+    "y": 2002,
+    "w": 41,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "견적 요청하기 →",
+   "rect": {
+    "x": 35,
+    "y": 2080,
+    "w": 320,
+    "h": 56.8
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: R 1200 RT",
+   "rect": {
+    "x": 35,
+    "y": 606.8,
+    "w": 320,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "",
+   "rect": {
+    "x": 35,
+    "y": 702.9,
+    "w": 320,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 12,000",
+   "rect": {
+    "x": 36,
+    "y": 801.1,
+    "w": 286,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "예: 300,000",
+   "rect": {
+    "x": 36,
+    "y": 897.2,
+    "w": 293,
+    "h": 46
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "있어요",
+   "rect": {
+    "x": 84.8,
+    "y": 1009.8,
+    "w": 13,
+    "h": 13
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "없어요",
+   "rect": {
+    "x": 249.3,
+    "y": 1009.8,
+    "w": 13,
+    "h": 13
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "성함을 입력해 주세요",
+   "rect": {
+    "x": 35,
+    "y": 1633.5,
+    "w": 320,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "010-****-****",
+   "rect": {
+    "x": 35,
+    "y": 1729.7,
+    "w": 320,
+    "h": 50
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 66,
+    "y": 1906.6,
+    "w": 17,
+    "h": 17
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 51,
+    "y": 1956.5,
+    "w": 17,
+    "h": 17
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 51,
+    "y": 2009.5,
+    "w": 17,
+    "h": 17
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 18,
+    "y": 17.5,
+    "w": 175,
+    "h": 31
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 신청 보기 →",
+   "rect": {
+    "x": 207,
+    "y": 17.9,
+    "w": 76,
+    "h": 30.1
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "← 홈으로",
+   "rect": {
+    "x": 324,
+    "y": 92,
+    "w": 48,
+    "h": 20.1
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "바이클릭 로고",
+   "rect": {
+    "x": 18,
+    "y": 17.5,
+    "w": 175,
+    "h": 31
+   }
+  }
+ ]
+}
