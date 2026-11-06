@@ -1,0 +1,629 @@
+{
+ "file": "assignments-day-full.png",
+ "kind": "page",
+ "project": "okjob",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/assignments",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 900,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:43:22.821Z",
+ "title": "저장된 배정 — OK잡 제주",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 35
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 3
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 262,
+    "y": 84,
+    "w": 468.7,
+    "h": 34.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 184,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일별",
+   "rect": {
+    "x": 1151.7,
+    "y": 107,
+    "w": 52,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "월별",
+   "rect": {
+    "x": 1203.7,
+    "y": 107,
+    "w": 52,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "근로자별",
+   "rect": {
+    "x": 1255.7,
+    "y": 107,
+    "w": 76,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기간 배정",
+   "rect": {
+    "x": 1331.7,
+    "y": 107,
+    "w": 79.3,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 281,
+    "y": 171,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 461,
+    "y": 171,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "오늘로",
+   "rect": {
+    "x": 501,
+    "y": 171,
+    "w": 58,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "배정표 복사",
+   "rect": {
+    "x": 1094.3,
+    "y": 245,
+    "w": 109.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "그림 보내기",
+   "rect": {
+    "x": 1211.7,
+    "y": 245,
+    "w": 109.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "엑셀",
+   "rect": {
+    "x": 1329,
+    "y": 245,
+    "w": 70,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "신○○ (위미) 파쇄 · 픽업 06:30 · 도시락 지참",
+   "rect": {
+    "x": 281,
+    "y": 319,
+    "w": 794.6,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1255,
+    "y": 325,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1291,
+    "y": 325,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1327,
+    "y": 325,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1363,
+    "y": 325,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "오○○ (신흥) 선과 · 픽업 06:30 · 도시락 미지참",
+   "rect": {
+    "x": 281,
+    "y": 405,
+    "w": 830.6,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1291,
+    "y": 411,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1327,
+    "y": 411,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1363,
+    "y": 411,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "홍○○ (안덕) 일반작업 · 픽업 06:30 · 도시락 미지참",
+   "rect": {
+    "x": 281,
+    "y": 491,
+    "w": 830.6,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1291,
+    "y": 497,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1327,
+    "y": 497,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1363,
+    "y": 497,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "농가·근로자 검색",
+   "rect": {
+    "x": 262,
+    "y": 11.5,
+    "w": 384,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "10000000-0000-0000-0000-000000000003",
+   "rect": {
+    "x": 1347,
+    "y": 11.5,
+    "w": 67,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "2026-11-06",
+   "rect": {
+    "x": 317,
+    "y": 171,
+    "w": 140,
+    "h": 32
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "on",
+   "rect": {
+    "x": 348.3,
+    "y": 254,
+    "w": 14,
+    "h": 14
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "월간 현황",
+   "rect": {
+    "x": 12,
+    "y": 114,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배정하기",
+   "rect": {
+    "x": 12,
+    "y": 151.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 12,
+    "y": 189,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금·지급 검증",
+   "rect": {
+    "x": 12,
+    "y": 226.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증 완료 달력",
+   "rect": {
+    "x": 12,
+    "y": 264,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가 조회",
+   "rect": {
+    "x": 12,
+    "y": 340.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "근로자 조회",
+   "rect": {
+    "x": 12,
+    "y": 378,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림톡 발송",
+   "rect": {
+    "x": 12,
+    "y": 454.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 확인",
+   "rect": {
+    "x": 12,
+    "y": 492,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 미확인 농가",
+   "rect": {
+    "x": 12,
+    "y": 529.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "급여 계산",
+   "rect": {
+    "x": 12,
+    "y": 567,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기수 현황",
+   "rect": {
+    "x": 12,
+    "y": 604.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가별 이용 통계",
+   "rect": {
+    "x": 12,
+    "y": 642,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설정",
+   "rect": {
+    "x": 12,
+    "y": 718.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 138,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "오늘로 11월 6일 (금)오늘 농가 3곳 · 배정 12명(남 5 · 여 7) · 미발송 1 발송됨 2",
+   "rect": {
+    "x": 262,
+    "y": 156,
+    "w": 1152,
+    "h": 62
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "공유용 복사 임금 합계 포함 배정표 복사 그림 보내기 엑셀",
+   "rect": {
+    "x": 262,
+    "y": 234,
+    "w": 1152,
+    "h": 54
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "신○○ (위미) 파쇄 · 픽업 06:30 · 도시락 지참 5명(남 1 · 여 4) 미발송",
+   "rect": {
+    "x": 262,
+    "y": 304,
+    "w": 1152,
+    "h": 74
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "오○○ (신흥) 선과 · 픽업 06:30 · 도시락 미지참 3명(남 2 · 여 1) 발송됨",
+   "rect": {
+    "x": 262,
+    "y": 390,
+    "w": 1152,
+    "h": 74
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "홍○○ (안덕) 일반작업 · 픽업 06:30 · 도시락 미지참 4명(남 2 · 여 2) 발송됨",
+   "rect": {
+    "x": 262,
+    "y": 476,
+    "w": 1152,
+    "h": 74
+   }
+  }
+ ]
+}

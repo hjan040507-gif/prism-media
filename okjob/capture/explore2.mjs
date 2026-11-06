@@ -1,0 +1,15 @@
+import { launch, newContext, BASE, STATE, GUARD, assertLocal, log } from './common.mjs';
+const browser = await launch();
+const { ctx, page } = await newContext(browser, 'desktop', { project: 'okjob', guard: GUARD, storageState: STATE });
+assertLocal(page);
+await page.goto(BASE + '/assign', { waitUntil: 'networkidle' }); await page.waitForTimeout(1500);
+const inp = page.getByLabel('농가 이름 검색');
+await inp.fill('김'); await page.waitForTimeout(600);
+console.log('suggest', await page.locator('#assign-farm-suggest li').allInnerTexts());
+await page.locator('#assign-farm-suggest li button').first().click(); await page.waitForTimeout(1500);
+const chips = await page.locator('button[aria-label][data-state]').evaluateAll((els) => els.slice(0, 8).map((e) => [e.getAttribute('aria-label'), e.getAttribute('data-state')]));
+console.log(chips);
+console.log('text', (await page.locator('main').innerText()).slice(0, 1500));
+log('가로챈', ctx.__prismStats.intercepted, ctx.__prismStats.list.join('|'));
+await page.screenshot({ path: process.env.EXPLORE_OUT + '/assign-farm.png' });
+await browser.close();

@@ -1,0 +1,498 @@
+{
+ "file": "settings-wages-view.png",
+ "kind": "page",
+ "project": "okjob",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/settings",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 900,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:44:57.373Z",
+ "title": "설정 — OK잡 제주",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/assignment_batch_list"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 35
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 5
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 5
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 6
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 3
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 3
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "설정",
+   "rect": {
+    "x": 326,
+    "y": 84,
+    "w": 1024,
+    "h": 34.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "고정 단가 3기",
+   "rect": {
+    "x": 347,
+    "y": 242.5,
+    "w": 982,
+    "h": 20.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 184,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "시간 단가",
+   "rect": {
+    "x": 326,
+    "y": 162,
+    "w": 83.6,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일당 단가",
+   "rect": {
+    "x": 413.6,
+    "y": 162,
+    "w": 83.6,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "숙소와 호실",
+   "rect": {
+    "x": 501.3,
+    "y": 162,
+    "w": 96.6,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "급여명세서",
+   "rect": {
+    "x": 601.9,
+    "y": 162,
+    "w": 93,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "작업 종류",
+   "rect": {
+    "x": 698.9,
+    "y": 162,
+    "w": 83.6,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기수",
+   "rect": {
+    "x": 786.5,
+    "y": 162,
+    "w": 54,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "농가·근로자 검색",
+   "rect": {
+    "x": 262,
+    "y": 11.5,
+    "w": 384,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "10000000-0000-0000-0000-000000000003",
+   "rect": {
+    "x": 1347,
+    "y": 11.5,
+    "w": 67,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "100,000",
+   "rect": {
+    "x": 981.8,
+    "y": 386.8,
+    "w": 112,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "130,000",
+   "rect": {
+    "x": 1202,
+    "y": 386.8,
+    "w": 112,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "월간 현황",
+   "rect": {
+    "x": 12,
+    "y": 114,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배정하기",
+   "rect": {
+    "x": 12,
+    "y": 151.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 12,
+    "y": 189,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금·지급 검증",
+   "rect": {
+    "x": 12,
+    "y": 226.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증 완료 달력",
+   "rect": {
+    "x": 12,
+    "y": 264,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가 조회",
+   "rect": {
+    "x": 12,
+    "y": 340.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "근로자 조회",
+   "rect": {
+    "x": 12,
+    "y": 378,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림톡 발송",
+   "rect": {
+    "x": 12,
+    "y": 454.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 확인",
+   "rect": {
+    "x": 12,
+    "y": 492,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 미확인 농가",
+   "rect": {
+    "x": 12,
+    "y": 529.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "급여 계산",
+   "rect": {
+    "x": 12,
+    "y": 567,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기수 현황",
+   "rect": {
+    "x": 12,
+    "y": 604.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가별 이용 통계",
+   "rect": {
+    "x": 12,
+    "y": 642,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설정",
+   "rect": {
+    "x": 12,
+    "y": 718.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 138,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "고정 단가 3기 스프레이처럼 시간·도시락과 무관하게 값이 정해진 작업의 단가입니다. 기수마다 따로 관리하며, 위 기수 칩을 바꾸면 그 기수 값이 나옵니다. 지난 기수 배정을 수정해도 그 기수 단가로 다시 계산됩니다. 시간대별 단가는 시간 단가 탭에서 관리합니다. 근로자에게 지급하는 금액",
+   "rect": {
+    "x": 326,
+    "y": 221.5,
+    "w": 1024,
+    "h": 214.6
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "고정 단가 3기 스프레이처럼 시간·도시락과 무관하게 값이 정해진 작업의 단가입니다. 기수마다 따로 관리하며, 위 기수 칩을 바꾸면 그 기수 값이 나옵니다. 지난 기수 배정을 수정해도 그 기수 단가로 다시 계산됩니다. 시간대별 단가는 시간 단가 탭에서 관리합니다. 근로자에게 지급하는 금액",
+   "rect": {
+    "x": 327,
+    "y": 222.5,
+    "w": 1022,
+    "h": 99.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "th",
+   "text": "작업",
+   "rect": {
+    "x": 327,
+    "y": 322,
+    "w": 470.6,
+    "h": 52
+   }
+  },
+  {
+   "type": "card",
+   "tag": "th",
+   "text": "농가 청구액 농가에 받는 돈",
+   "rect": {
+    "x": 1121.3,
+    "y": 322,
+    "w": 227.7,
+    "h": 52
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "스프레이 현장 팁 1만원 별도 지급. 계산에서 제외하고 비고로만 표시.",
+   "rect": {
+    "x": 327,
+    "y": 374,
+    "w": 470.6,
+    "h": 61.1
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1121.3,
+    "y": 374,
+    "w": 227.7,
+    "h": 61.1
+   }
+  }
+ ]
+}

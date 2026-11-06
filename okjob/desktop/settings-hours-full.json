@@ -1,0 +1,3530 @@
+{
+ "file": "settings-hours-full.png",
+ "kind": "page",
+ "project": "okjob",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/settings",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2856,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:44:46.067Z",
+ "title": "설정 — OK잡 제주",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/assignment_batch_list"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 35
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 5
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 5
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 6
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 3
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "설정",
+   "rect": {
+    "x": 326,
+    "y": 84,
+    "w": 1024,
+    "h": 34.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "시간 단가 3기",
+   "rect": {
+    "x": 347,
+    "y": 242.5,
+    "w": 982,
+    "h": 20.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 184,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "시간 단가",
+   "rect": {
+    "x": 326,
+    "y": 162,
+    "w": 83.6,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일당 단가",
+   "rect": {
+    "x": 413.6,
+    "y": 162,
+    "w": 83.6,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "숙소와 호실",
+   "rect": {
+    "x": 501.3,
+    "y": 162,
+    "w": 96.6,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "급여명세서",
+   "rect": {
+    "x": 601.9,
+    "y": 162,
+    "w": 93,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "작업 종류",
+   "rect": {
+    "x": 698.9,
+    "y": 162,
+    "w": 83.6,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기수",
+   "rect": {
+    "x": 786.5,
+    "y": 162,
+    "w": 54,
+    "h": 39.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "농가·근로자 검색",
+   "rect": {
+    "x": 262,
+    "y": 11.5,
+    "w": 384,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "10000000-0000-0000-0000-000000000003",
+   "rect": {
+    "x": 1347,
+    "y": 11.5,
+    "w": 67,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 404,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 404,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 404,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 404,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 465,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 465,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 465,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 465,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 526,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 526,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 526,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 526,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 587,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 587,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 587,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 587,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 648,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 648,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 648,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 648,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 709,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 709,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 709,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 709,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 770,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 770,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 770,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 770,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "45,000",
+   "rect": {
+    "x": 561,
+    "y": 831,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "55,000",
+   "rect": {
+    "x": 778.6,
+    "y": 831,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "45,000",
+   "rect": {
+    "x": 1000.6,
+    "y": 831,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "50,000",
+   "rect": {
+    "x": 1218,
+    "y": 831,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 892,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 892,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 892,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 892,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "55,000",
+   "rect": {
+    "x": 561,
+    "y": 953,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "70,000",
+   "rect": {
+    "x": 778.6,
+    "y": 953,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "55,000",
+   "rect": {
+    "x": 1000.6,
+    "y": 953,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "60,000",
+   "rect": {
+    "x": 1218,
+    "y": 953,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1014,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1014,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1014,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1014,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "65,000",
+   "rect": {
+    "x": 561,
+    "y": 1075,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "85,000",
+   "rect": {
+    "x": 778.6,
+    "y": 1075,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "65,000",
+   "rect": {
+    "x": 1000.6,
+    "y": 1075,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "70,000",
+   "rect": {
+    "x": 1218,
+    "y": 1075,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1136,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1136,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1136,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1136,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "75,000",
+   "rect": {
+    "x": 561,
+    "y": 1197,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "95,000",
+   "rect": {
+    "x": 778.6,
+    "y": 1197,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "75,000",
+   "rect": {
+    "x": 1000.6,
+    "y": 1197,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "80,000",
+   "rect": {
+    "x": 1218,
+    "y": 1197,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1258,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1258,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1258,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1258,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "85,000",
+   "rect": {
+    "x": 561,
+    "y": 1319,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "110,000",
+   "rect": {
+    "x": 778.6,
+    "y": 1319,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "85,000",
+   "rect": {
+    "x": 1000.6,
+    "y": 1319,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "90,000",
+   "rect": {
+    "x": 1218,
+    "y": 1319,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1380,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1380,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1380,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1380,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "95,000",
+   "rect": {
+    "x": 561,
+    "y": 1441,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "125,000",
+   "rect": {
+    "x": 778.6,
+    "y": 1441,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "90,000",
+   "rect": {
+    "x": 1000.6,
+    "y": 1441,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "95,000",
+   "rect": {
+    "x": 1218,
+    "y": 1441,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1502,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1502,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1502,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1502,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "110,000",
+   "rect": {
+    "x": 561,
+    "y": 1563,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "145,000",
+   "rect": {
+    "x": 778.6,
+    "y": 1563,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "95,000",
+   "rect": {
+    "x": 1000.6,
+    "y": 1563,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "100,000",
+   "rect": {
+    "x": 1218,
+    "y": 1563,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1624,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1624,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1624,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1624,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1685,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1685,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1685,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1685,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1746,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1746,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1746,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1746,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1807,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1807,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1807,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1807,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1868,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1868,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1868,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1868,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1929,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1929,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1929,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1929,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 1990,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 1990,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 1990,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 1990,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2051,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2051,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2051,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2051,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2112,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2112,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2112,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2112,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2173,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2173,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2173,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2173,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2234,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2234,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2234,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2234,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2295,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2295,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2295,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2295,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2356,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2356,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2356,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2356,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2417,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2417,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2417,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2417,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2478,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2478,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2478,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2478,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2539,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2539,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2539,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2539,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2600,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2600,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2600,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2600,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2661,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2661,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2661,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2661,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2722,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2722,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2722,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2722,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 561,
+    "y": 2783,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 778.6,
+    "y": 2783,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1000.6,
+    "y": 2783,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "—",
+   "rect": {
+    "x": 1218,
+    "y": 2783,
+    "w": 96,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "월간 현황",
+   "rect": {
+    "x": 12,
+    "y": 114,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배정하기",
+   "rect": {
+    "x": 12,
+    "y": 151.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 12,
+    "y": 189,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금·지급 검증",
+   "rect": {
+    "x": 12,
+    "y": 226.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증 완료 달력",
+   "rect": {
+    "x": 12,
+    "y": 264,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가 조회",
+   "rect": {
+    "x": 12,
+    "y": 340.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "근로자 조회",
+   "rect": {
+    "x": 12,
+    "y": 378,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림톡 발송",
+   "rect": {
+    "x": 12,
+    "y": 454.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 확인",
+   "rect": {
+    "x": 12,
+    "y": 492,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 미확인 농가",
+   "rect": {
+    "x": 12,
+    "y": 529.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "급여 계산",
+   "rect": {
+    "x": 12,
+    "y": 567,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기수 현황",
+   "rect": {
+    "x": 12,
+    "y": 604.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가별 이용 통계",
+   "rect": {
+    "x": 12,
+    "y": 642,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설정",
+   "rect": {
+    "x": 12,
+    "y": 718.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 138,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "시간 단가 3기 도시락 미지참 기준입니다. 도시락 지참 시 근로자 지급액에 +5,000원(4시간 이상). 스프레이는 고정 단가 탭에서 관리합니다. 빈 시간은 근로자 지급액·농가 청구액을 둘 다 넣어야 저장됩니다. 값을 바꾸고 Enter 또는 다른 곳을 누르면 저장됩니다. 시간 남 여 근",
+   "rect": {
+    "x": 326,
+    "y": 221.5,
+    "w": 1024,
+    "h": 2610.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "시간 단가 3기 도시락 미지참 기준입니다. 도시락 지참 시 근로자 지급액에 +5,000원(4시간 이상). 스프레이는 고정 단가 탭에서 관리합니다. 빈 시간은 근로자 지급액·농가 청구액을 둘 다 넣어야 저장됩니다. 값을 바꾸고 Enter 또는 다른 곳을 누르면 저장됩니다.",
+   "rect": {
+    "x": 327,
+    "y": 222.5,
+    "w": 1022,
+    "h": 102.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "th",
+   "text": "시간",
+   "rect": {
+    "x": 327,
+    "y": 325,
+    "w": 143.5,
+    "h": 66.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "th",
+   "text": "농가 청구",
+   "rect": {
+    "x": 1123.6,
+    "y": 358,
+    "w": 225.4,
+    "h": 33.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "0.5시간",
+   "rect": {
+    "x": 327,
+    "y": 391.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 391.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 391.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "1시간",
+   "rect": {
+    "x": 327,
+    "y": 452.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 452.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 452.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "1.5시간",
+   "rect": {
+    "x": 327,
+    "y": 513.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 513.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 513.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "2시간",
+   "rect": {
+    "x": 327,
+    "y": 574.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 574.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 574.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "2.5시간",
+   "rect": {
+    "x": 327,
+    "y": 635.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 635.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 635.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "3시간",
+   "rect": {
+    "x": 327,
+    "y": 696.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 696.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 696.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "3.5시간",
+   "rect": {
+    "x": 327,
+    "y": 757.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 757.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 757.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "4시간",
+   "rect": {
+    "x": 327,
+    "y": 818.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 818.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 818.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "4.5시간",
+   "rect": {
+    "x": 327,
+    "y": 879.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 879.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 879.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "5시간",
+   "rect": {
+    "x": 327,
+    "y": 940.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 940.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 940.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "5.5시간",
+   "rect": {
+    "x": 327,
+    "y": 1001.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1001.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1001.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "6시간",
+   "rect": {
+    "x": 327,
+    "y": 1062.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1062.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1062.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "6.5시간",
+   "rect": {
+    "x": 327,
+    "y": 1123.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1123.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1123.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "7시간",
+   "rect": {
+    "x": 327,
+    "y": 1184.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1184.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1184.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "7.5시간",
+   "rect": {
+    "x": 327,
+    "y": 1245.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1245.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1245.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "8시간",
+   "rect": {
+    "x": 327,
+    "y": 1306.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1306.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1306.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "8.5시간",
+   "rect": {
+    "x": 327,
+    "y": 1367.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1367.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1367.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "9시간",
+   "rect": {
+    "x": 327,
+    "y": 1428.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1428.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1428.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "9.5시간",
+   "rect": {
+    "x": 327,
+    "y": 1489.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1489.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1489.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "10시간",
+   "rect": {
+    "x": 327,
+    "y": 1550.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1550.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1550.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "10.5시간",
+   "rect": {
+    "x": 327,
+    "y": 1611.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1611.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1611.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "11시간",
+   "rect": {
+    "x": 327,
+    "y": 1672.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1672.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1672.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "11.5시간",
+   "rect": {
+    "x": 327,
+    "y": 1733.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1733.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1733.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "12시간",
+   "rect": {
+    "x": 327,
+    "y": 1794.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1794.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1794.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "12.5시간",
+   "rect": {
+    "x": 327,
+    "y": 1855.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1855.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1855.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "13시간",
+   "rect": {
+    "x": 327,
+    "y": 1916.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1916.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1916.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "13.5시간",
+   "rect": {
+    "x": 327,
+    "y": 1977.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 1977.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 1977.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "14시간",
+   "rect": {
+    "x": 327,
+    "y": 2038.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2038.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2038.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "14.5시간",
+   "rect": {
+    "x": 327,
+    "y": 2099.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2099.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2099.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "15시간",
+   "rect": {
+    "x": 327,
+    "y": 2160.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2160.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2160.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "15.5시간",
+   "rect": {
+    "x": 327,
+    "y": 2221.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2221.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2221.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "16시간",
+   "rect": {
+    "x": 327,
+    "y": 2282.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2282.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2282.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "16.5시간",
+   "rect": {
+    "x": 327,
+    "y": 2343.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2343.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2343.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "17시간",
+   "rect": {
+    "x": 327,
+    "y": 2404.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2404.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2404.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "17.5시간",
+   "rect": {
+    "x": 327,
+    "y": 2465.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2465.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2465.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "18시간",
+   "rect": {
+    "x": 327,
+    "y": 2526.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2526.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2526.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "18.5시간",
+   "rect": {
+    "x": 327,
+    "y": 2587.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2587.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2587.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "19시간",
+   "rect": {
+    "x": 327,
+    "y": 2648.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2648.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2648.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "19.5시간",
+   "rect": {
+    "x": 327,
+    "y": 2709.5,
+    "w": 143.5,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2709.5,
+    "w": 226.1,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2709.5,
+    "w": 225.4,
+    "h": 61
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "20시간",
+   "rect": {
+    "x": 327,
+    "y": 2770.5,
+    "w": 143.5,
+    "h": 60.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 684,
+    "y": 2770.5,
+    "w": 226.1,
+    "h": 60.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "원",
+   "rect": {
+    "x": 1123.6,
+    "y": 2770.5,
+    "w": 225.4,
+    "h": 60.5
+   }
+  }
+ ]
+}

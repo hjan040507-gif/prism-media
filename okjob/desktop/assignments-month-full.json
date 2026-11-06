@@ -1,0 +1,710 @@
+{
+ "file": "assignments-month-full.png",
+ "kind": "page",
+ "project": "okjob",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/assignments",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1275,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:43:36.164Z",
+ "title": "저장된 배정 — OK잡 제주",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 35
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 5
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 3
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 262,
+    "y": 84,
+    "w": 468.7,
+    "h": 34.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 184,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일별",
+   "rect": {
+    "x": 1151.7,
+    "y": 107,
+    "w": 52,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "월별",
+   "rect": {
+    "x": 1203.7,
+    "y": 107,
+    "w": 52,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "근로자별",
+   "rect": {
+    "x": 1255.7,
+    "y": 107,
+    "w": 76,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기간 배정",
+   "rect": {
+    "x": 1331.7,
+    "y": 107,
+    "w": 79.3,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 281,
+    "y": 171,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 636,
+    "y": 171,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이번 달",
+   "rect": {
+    "x": 680,
+    "y": 171,
+    "w": 61.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/01일 5 24 16 · 8 – 1 4 –",
+   "rect": {
+    "x": 279,
+    "y": 280,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/02월 5 21 16 · 5 – 1 4 –",
+   "rect": {
+    "x": 279,
+    "y": 316.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/03화 6 24 15 · 9 – 2 4 –",
+   "rect": {
+    "x": 279,
+    "y": 353,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/04수 5 21 12 · 9 – – 5 –",
+   "rect": {
+    "x": 279,
+    "y": 389.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/05목 4 20 10 · 10 – – 4 –",
+   "rect": {
+    "x": 279,
+    "y": 426,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/06금오늘 3 12 5 · 7 1 2 – –",
+   "rect": {
+    "x": 279,
+    "y": 462.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/07토 3 12 10 · 2 1 2 – –",
+   "rect": {
+    "x": 279,
+    "y": 499,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/08일 3 11 9 · 2 3 – – –",
+   "rect": {
+    "x": 279,
+    "y": 535.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/09월 3 11 9 · 2 3 – – –",
+   "rect": {
+    "x": 279,
+    "y": 572,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/10화 2 10 8 · 2 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 608.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/11수 2 9 8 · 1 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 645,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/12목 2 9 4 · 5 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 681.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/13금 2 9 7 · 2 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 718,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/14토 2 9 6 · 3 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 754.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/15일 2 7 3 · 4 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 791,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/16월 2 7 6 · 1 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 827.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/17화 1 5 5 · 0 1 – – –",
+   "rect": {
+    "x": 279,
+    "y": 864,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/18수 2 6 3 · 3 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 900.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/19목 1 4 3 · 1 1 – – –",
+   "rect": {
+    "x": 279,
+    "y": 937,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/20금 1 4 4 · 0 1 – – –",
+   "rect": {
+    "x": 279,
+    "y": 973.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/23월 1 5 4 · 1 1 – – –",
+   "rect": {
+    "x": 279,
+    "y": 1010,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/24화 2 10 8 · 2 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 1046.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/25수 2 10 8 · 2 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 1083,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/26목 2 10 8 · 2 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 1119.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/27금 2 10 8 · 2 2 – – –",
+   "rect": {
+    "x": 279,
+    "y": 1156,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "tr",
+   "text": "11/28토 1 5 4 · 1 1 – – –",
+   "rect": {
+    "x": 279,
+    "y": 1192.5,
+    "w": 880,
+    "h": 36.5
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "농가·근로자 검색",
+   "rect": {
+    "x": 262,
+    "y": 11.5,
+    "w": 384,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "10000000-0000-0000-0000-000000000003",
+   "rect": {
+    "x": 1347,
+    "y": 11.5,
+    "w": 67,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "2026-11-01",
+   "rect": {
+    "x": 325,
+    "y": 171,
+    "w": 140,
+    "h": 32
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "2026-11-30",
+   "rect": {
+    "x": 484,
+    "y": 171,
+    "w": 140,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "월간 현황",
+   "rect": {
+    "x": 12,
+    "y": 114,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배정하기",
+   "rect": {
+    "x": 12,
+    "y": 151.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 12,
+    "y": 189,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금·지급 검증",
+   "rect": {
+    "x": 12,
+    "y": 226.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증 완료 달력",
+   "rect": {
+    "x": 12,
+    "y": 264,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가 조회",
+   "rect": {
+    "x": 12,
+    "y": 340.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "근로자 조회",
+   "rect": {
+    "x": 12,
+    "y": 378,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림톡 발송",
+   "rect": {
+    "x": 12,
+    "y": 454.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 확인",
+   "rect": {
+    "x": 12,
+    "y": 492,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 미확인 농가",
+   "rect": {
+    "x": 12,
+    "y": 529.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "급여 계산",
+   "rect": {
+    "x": 12,
+    "y": 567,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기수 현황",
+   "rect": {
+    "x": 12,
+    "y": 604.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가별 이용 통계",
+   "rect": {
+    "x": 12,
+    "y": 642,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설정",
+   "rect": {
+    "x": 12,
+    "y": 718.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 138,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "~ 이번 달 배정 66건 · 인원 285명(남 199 · 여 86)",
+   "rect": {
+    "x": 262,
+    "y": 156,
+    "w": 1152,
+    "h": 62
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "날짜 농가 인원 남·여 미발송 발송됨 농가 확인 취소 11/01일 5 24 16 · 8 – 1 4 – 11/02월 5 21 16 · 5 – 1 4 – 11/03화 6 24 15 · 9 – 2 4 – 11/04수 5 21 12 · 9 – – 5 – 11/05목 4 20 10 · 10 – ",
+   "rect": {
+    "x": 262,
+    "y": 234,
+    "w": 1152,
+    "h": 1016.5
+   }
+  }
+ ]
+}

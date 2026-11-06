@@ -1,0 +1,30 @@
+{
+ "file": "day-sheet.png",
+ "kind": "pdf",
+ "project": "okjob",
+ "title": "일별 배정표 엑셀",
+ "source": "GET /api/reports/day/export?date=2026-11-03 (src/lib/domain/day-sheet.ts buildDaySheet) · 로컬 사본 앱 + 로컬 Supabase 가짜 데이터 · soffice --headless --convert-to pdf(SinglePageSheets) → pdftoppm",
+ "pdf_pages": 1,
+ "dpi": 200,
+ "page": 1,
+ "capturedAt": "2026-11-06T08:46:53.766781Z",
+ "pii_scan": {
+  "total": 0,
+  "by_pattern": {
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "url": 0,
+   "plate": 0
+  },
+  "checked": "pdftotext -layout (all pages) × tools/ocr.py PAT"
+ },
+ "intercepted": {
+  "total": 0,
+  "note": "운영 접속 없음(로컬 가짜 DB)"
+ },
+ "viewport": {
+  "name": "pdf-200dpi"
+ }
+}

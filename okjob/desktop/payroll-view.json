@@ -1,0 +1,834 @@
+{
+ "file": "payroll-view.png",
+ "kind": "page",
+ "project": "okjob",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/payroll",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2467,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:44:14.733Z",
+ "title": "급여 계산 — OK잡 제주",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/assignment_batch_list"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 35
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 5
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 5
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "급여 계산",
+   "rect": {
+    "x": 262,
+    "y": 84,
+    "w": 370.5,
+    "h": 34.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 184,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "급여명세서",
+   "rect": {
+    "x": 972.1,
+    "y": 102,
+    "w": 121,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "농협 대량이체 파일",
+   "rect": {
+    "x": 1101.1,
+    "y": 102,
+    "w": 167.2,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "엑셀 내려받기",
+   "rect": {
+    "x": 1276.4,
+    "y": 102,
+    "w": 137.6,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이번 달",
+   "rect": {
+    "x": 611,
+    "y": 207.5,
+    "w": 63.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "지난달",
+   "rect": {
+    "x": 680.3,
+    "y": 207.5,
+    "w": 60,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이번 기수",
+   "rect": {
+    "x": 746.3,
+    "y": 207.5,
+    "w": 75.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체",
+   "rect": {
+    "x": 288,
+    "y": 280,
+    "w": 48,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "남",
+   "rect": {
+    "x": 336,
+    "y": 280,
+    "w": 36,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "여",
+   "rect": {
+    "x": 372,
+    "y": 280,
+    "w": 36,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "근로자별",
+   "rect": {
+    "x": 288,
+    "y": 510.5,
+    "w": 80,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "농가별",
+   "rect": {
+    "x": 368,
+    "y": 510.5,
+    "w": 68,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 283,
+    "y": 610,
+    "w": 24,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 283,
+    "y": 655,
+    "w": 24,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 283,
+    "y": 700,
+    "w": 24,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 283,
+    "y": 745,
+    "w": 24,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 283,
+    "y": 790,
+    "w": 24,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 283,
+    "y": 835,
+    "w": 24,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 283,
+    "y": 880,
+    "w": 24,
+    "h": 24
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "농가·근로자 검색",
+   "rect": {
+    "x": 262,
+    "y": 11.5,
+    "w": 384,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "10000000-0000-0000-0000-000000000003",
+   "rect": {
+    "x": 1347,
+    "y": 11.5,
+    "w": 67,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "2026-10-01",
+   "rect": {
+    "x": 283,
+    "y": 201.5,
+    "w": 152,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "2026-10-31",
+   "rect": {
+    "x": 447,
+    "y": 201.5,
+    "w": 152,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "10000000-0000-0000-0000-000000000003",
+   "rect": {
+    "x": 833.7,
+    "y": 201.5,
+    "w": 136,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "",
+   "rect": {
+    "x": 981.7,
+    "y": 201.5,
+    "w": 124,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "",
+   "rect": {
+    "x": 1117.7,
+    "y": 201.5,
+    "w": 136,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "이름 또는 번호 (3, 5, 12)",
+   "rect": {
+    "x": 425,
+    "y": 276,
+    "w": 968,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "월간 현황",
+   "rect": {
+    "x": 12,
+    "y": 114,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배정하기",
+   "rect": {
+    "x": 12,
+    "y": 151.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 12,
+    "y": 189,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금·지급 검증",
+   "rect": {
+    "x": 12,
+    "y": 226.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증 완료 달력",
+   "rect": {
+    "x": 12,
+    "y": 264,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가 조회",
+   "rect": {
+    "x": 12,
+    "y": 340.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "근로자 조회",
+   "rect": {
+    "x": 12,
+    "y": 378,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림톡 발송",
+   "rect": {
+    "x": 12,
+    "y": 454.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 확인",
+   "rect": {
+    "x": 12,
+    "y": 492,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 미확인 농가",
+   "rect": {
+    "x": 12,
+    "y": 529.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "급여 계산",
+   "rect": {
+    "x": 12,
+    "y": 567,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기수 현황",
+   "rect": {
+    "x": 12,
+    "y": 604.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가별 이용 통계",
+   "rect": {
+    "x": 12,
+    "y": 642,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설정",
+   "rect": {
+    "x": 12,
+    "y": 718.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 138,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "호실별 근무표",
+   "rect": {
+    "x": 826.5,
+    "y": 102,
+    "w": 137.6,
+    "h": 40
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "시작일 종료일 이번 달 지난달 이번 기수 기수 전체 기수 3기 2기 1기 국가 전체 베트남 캄보디아 필리핀 숙소 전체 한남동 숙소 신성동 숙소 자가 성별 전체 남 여 근로자 검색",
+   "rect": {
+    "x": 262,
+    "y": 158,
+    "w": 1152,
+    "h": 179
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "총 인원 39 명 조건에 맞는 40명 중 이 기간에 일한 사람",
+   "rect": {
+    "x": 262,
+    "y": 353,
+    "w": 374.7,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "총 근무 일수 791 일 사람 × 날 (연인원)",
+   "rect": {
+    "x": 650.7,
+    "y": 353,
+    "w": 374.7,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "총 지급액 70,675,000 원 배정 시점 스냅샷 합계",
+   "rect": {
+    "x": 1039.3,
+    "y": 353,
+    "w": 374.7,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "근로자별 농가별 2026-10-01 ~ 2026-10-31 번호 이름 성별 근무 일수 지급액 팀장수당 실수령액 1M J○○ D○○ C○○ 남 24 2,280,000 2,030,000 2F K○○ S○○ 여 17 1,480,000 1,230,000 3M M○○ B○○ 남 26 2,445,",
+   "rect": {
+    "x": 262,
+    "y": 490.5,
+    "w": 1152,
+    "h": 1910
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "근로자별 농가별 2026-10-01 ~ 2026-10-31",
+   "rect": {
+    "x": 263,
+    "y": 491.5,
+    "w": 1150,
+    "h": 71
+   }
+  },
+  {
+   "type": "card",
+   "tag": "th",
+   "text": "",
+   "rect": {
+    "x": 263,
+    "y": 562.5,
+    "w": 44,
+    "h": 37
+   }
+  },
+  {
+   "type": "card",
+   "tag": "th",
+   "text": "실수령액",
+   "rect": {
+    "x": 1202.4,
+    "y": 562.5,
+    "w": 210.6,
+    "h": 37
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "",
+   "rect": {
+    "x": 263,
+    "y": 599.5,
+    "w": 44,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "2,030,000",
+   "rect": {
+    "x": 1202.4,
+    "y": 599.5,
+    "w": 210.6,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "",
+   "rect": {
+    "x": 263,
+    "y": 644.5,
+    "w": 44,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "1,230,000",
+   "rect": {
+    "x": 1202.4,
+    "y": 644.5,
+    "w": 210.6,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "",
+   "rect": {
+    "x": 263,
+    "y": 689.5,
+    "w": 44,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "2,195,000",
+   "rect": {
+    "x": 1202.4,
+    "y": 689.5,
+    "w": 210.6,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "",
+   "rect": {
+    "x": 263,
+    "y": 734.5,
+    "w": 44,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "1,760,000",
+   "rect": {
+    "x": 1202.4,
+    "y": 734.5,
+    "w": 210.6,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "",
+   "rect": {
+    "x": 263,
+    "y": 779.5,
+    "w": 44,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "1,500,000",
+   "rect": {
+    "x": 1202.4,
+    "y": 779.5,
+    "w": 210.6,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "",
+   "rect": {
+    "x": 263,
+    "y": 824.5,
+    "w": 44,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "1,760,000",
+   "rect": {
+    "x": 1202.4,
+    "y": 824.5,
+    "w": 210.6,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "",
+   "rect": {
+    "x": 263,
+    "y": 869.5,
+    "w": 44,
+    "h": 45
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "1,850,000",
+   "rect": {
+    "x": 1202.4,
+    "y": 869.5,
+    "w": 210.6,
+    "h": 45
+   }
+  }
+ ]
+}

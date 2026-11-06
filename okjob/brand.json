@@ -1,0 +1,17 @@
+{
+  "primary": "#E8722C",
+  "secondary": "#1A1D21",
+  "accent": { "canvas": "#F6F6F4", "sea": "#0B6E63", "sand": "#B8862B", "amber": "#A86808", "amber_fill": "#F7CE46", "tangerine_w": "#FDF1E8" },
+  "fonts": ["Pretendard Variable", "JetBrains Mono"],
+  "source": [
+    "src/app/globals.css:9 --color-basalt #1a1d21",
+    "src/app/globals.css:10 --color-canvas #f6f6f4",
+    "src/app/globals.css:16 --color-tangerine #e8722c",
+    "src/app/globals.css:18 --color-sea #0b6e63",
+    "src/app/globals.css:24 --color-amber-fill #f7ce46",
+    "src/app/layout.tsx:6-10 Pretendard Variable (src/fonts/PretendardVariable.woff2)",
+    "src/app/layout.tsx:14-17 JetBrains Mono (src/fonts/JetBrainsMono.woff2)",
+    "public/manifest.json theme_color #1A1D21"
+  ],
+  "note": "소스 = 사본 tmp/okjob-src (git archive ea28ba36). 로고 파일은 없고 앱 아이콘(public/icons/icon.svg)·워드마크 텍스트 「OK잡 제주」만 있다."
+}

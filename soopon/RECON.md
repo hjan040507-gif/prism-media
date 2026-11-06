@@ -81,7 +81,7 @@
 **화면에 글자로 보이는 개인정보·연락처**
 | 대상 | 위치·셀렉터 | 비고 |
 |---|---|---|
-| 참여기업 담당자 **휴대전화 번호**(010-…) · 대표번호 | 프로그램 상세 `a[data-cta-kind="tel"]`(`<span class="tabular-nums">010-…</span>` `detail-cta.tsx:68-77`, 좁은 막대엔 `.sr-only`), 기업 상세 `/company/[slug]` 「연락처」 행 `a[href^="tel:"]`(`company/[id]/page.tsx:237-245`). 예: `/program/gajasoop-01` 이 전화가 **주 버튼**(010-2336-6203 가 보임). 라이브 샘플 6개 중 4곳에 번호 있음 | 값은 `010-****-****`, `href` 도 `tel:` 값 지움. 지시 규칙상 「화면 속 전화」 지움 |
+| 참여기업 담당자 **휴대전화 번호**(010-…) · 대표번호 | 프로그램 상세 `a[data-cta-kind="tel"]`(`<span class="tabular-nums">010-…</span>` `detail-cta.tsx:68-77`, 좁은 막대엔 `.sr-only`), 기업 상세 `/company/[slug]` 「연락처」 행 `a[href^="tel:"]`(`company/[id]/page.tsx:237-245`). 예: `/program/gajasoop-01` 이 전화가 **주 버튼**(010-****-**** 가 보임). 라이브 샘플 6개 중 4곳에 번호 있음 | 값은 `010-****-****`, `href` 도 `tel:` 값 지움. 지시 규칙상 「화면 속 전화」 지움 |
 | 상담 폼 입력칸 | 이름·소속·이메일·전화 `[data-field=…]` | 우리가 입력하는 값은 **처음부터 가짜**(예: 김○○ / 가상기관 / `user***` / 010-****-**** — 단 전화 input type=tel 형식 검증 `lib/inquiry.ts` 통과 필요 → 규칙 통과 형식의 가짜 번호는 쓰되 화면 글자는 `010-****-****` 로 바꿔 찍을지 촬영 때 결정) |
 | 푸터 연락처 | `FOOTER_CONTACT` = **null**(`lib/pending.ts:137-140`) → 푸터에 전화·이메일 줄 없음 | 가림 불필요(확인됨) |
 | 도메인·URL 글자 | 화면 글자로 노출되는 URL 은 **없음** — 예약·홈페이지·SNS 는 라벨(「예약하기」「홈페이지」·인스타그램 아이콘)만 보이고 주소는 `href` 에만(`company-section.tsx` 주석 「주소를 글자로 보이지 않고 링크에만」, `detail-cta.tsx:45-66`). 단 상세 본문(`description_html`·`booking_guide`·`notice` 자유 글)에 URL 이 들어 있을 수 있음 → 저장 직전 `https?://·www\.·\.com·\.kr·naver\.me` 정규식 검사 | 샘플 6개 가시 텍스트엔 없었음 |

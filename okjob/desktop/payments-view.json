@@ -1,0 +1,717 @@
+{
+ "file": "payments-view.png",
+ "kind": "page",
+ "project": "okjob",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/payments",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1878,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:44:25.744Z",
+ "title": "입금 확인 — OK잡 제주",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/assignment_batch_list"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 35
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 5
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 5
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 6
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 3
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "입금 확인",
+   "rect": {
+    "x": 262,
+    "y": 84,
+    "w": 452.1,
+    "h": 34.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 184,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이번 달",
+   "rect": {
+    "x": 611,
+    "y": 207.5,
+    "w": 63.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "지난달",
+   "rect": {
+    "x": 680.3,
+    "y": 207.5,
+    "w": 60,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "날짜별",
+   "rect": {
+    "x": 288,
+    "y": 436,
+    "w": 68,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "농가별",
+   "rect": {
+    "x": 356,
+    "y": 436,
+    "w": 68,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1054.3,
+    "y": 781.5,
+    "w": 27,
+    "h": 27
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1054.3,
+    "y": 870.5,
+    "w": 27,
+    "h": 27
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "농가·근로자 검색",
+   "rect": {
+    "x": 262,
+    "y": 11.5,
+    "w": 384,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "10000000-0000-0000-0000-000000000003",
+   "rect": {
+    "x": 1347,
+    "y": 11.5,
+    "w": 67,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "2026-11-01",
+   "rect": {
+    "x": 283,
+    "y": 201.5,
+    "w": 152,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "2026-11-06",
+   "rect": {
+    "x": 447,
+    "y": 201.5,
+    "w": 152,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "",
+   "rect": {
+    "x": 752.3,
+    "y": 201.5,
+    "w": 280,
+    "h": 40
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "월간 현황",
+   "rect": {
+    "x": 12,
+    "y": 114,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배정하기",
+   "rect": {
+    "x": 12,
+    "y": 151.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 12,
+    "y": 189,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금·지급 검증",
+   "rect": {
+    "x": 12,
+    "y": 226.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증 완료 달력",
+   "rect": {
+    "x": 12,
+    "y": 264,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가 조회",
+   "rect": {
+    "x": 12,
+    "y": 340.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "근로자 조회",
+   "rect": {
+    "x": 12,
+    "y": 378,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림톡 발송",
+   "rect": {
+    "x": 12,
+    "y": 454.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 확인",
+   "rect": {
+    "x": 12,
+    "y": 492,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 미확인 농가",
+   "rect": {
+    "x": 12,
+    "y": 529.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "급여 계산",
+   "rect": {
+    "x": 12,
+    "y": 567,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기수 현황",
+   "rect": {
+    "x": 12,
+    "y": 604.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가별 이용 통계",
+   "rect": {
+    "x": 12,
+    "y": 642,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설정",
+   "rect": {
+    "x": 12,
+    "y": 718.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 138,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "시작일 종료일 이번 달 지난달 농가 전체 농가 김○○ 류○○ 박○○ 송○○ 신○○ 오○○ 윤○○ 이○○ 임○○ 장○○ 조○○ 최○○ 한○○ 홍○○ 황○○ 미수만 보기",
+   "rect": {
+    "x": 262,
+    "y": 158,
+    "w": 1152,
+    "h": 104.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "청구액 13,185,000 원 2026-11-01 ~ 2026-11-06",
+   "rect": {
+    "x": 262,
+    "y": 278.5,
+    "w": 277.5,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "입금액 5,780,000 원 실제 받은 금액과 같습니다",
+   "rect": {
+    "x": 553.5,
+    "y": 278.5,
+    "w": 277.5,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "미수금 7,405,000 원 아직 결제되지 않은 날의 합계",
+   "rect": {
+    "x": 845,
+    "y": 278.5,
+    "w": 277.5,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "미수 농가 8 곳 미수가 남은 농가 수",
+   "rect": {
+    "x": 1136.5,
+    "y": 278.5,
+    "w": 277.5,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "날짜별 농가별 28건 농가 날짜 인원 청구액 입금 비고 신○○ 2026-11-06 고르기 신○○위미 2026-11-06 5 495,000원 미수 — 오○○ 2026-11-06 고르기 오○○신흥 2026-11-06 3 310,000원 미수 — 홍○○ 2026-11-06 고르기 홍○○안덕 ",
+   "rect": {
+    "x": 262,
+    "y": 416,
+    "w": 1152,
+    "h": 1341.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "날짜별 농가별 28건",
+   "rect": {
+    "x": 263,
+    "y": 417,
+    "w": 1150,
+    "h": 71
+   }
+  },
+  {
+   "type": "card",
+   "tag": "th",
+   "text": "",
+   "rect": {
+    "x": 263,
+    "y": 488,
+    "w": 46,
+    "h": 37
+   }
+  },
+  {
+   "type": "card",
+   "tag": "th",
+   "text": "비고",
+   "rect": {
+    "x": 1304.4,
+    "y": 488,
+    "w": 108.6,
+    "h": 37
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "신○○ 2026-11-06 고르기",
+   "rect": {
+    "x": 263,
+    "y": 525,
+    "w": 46,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "—",
+   "rect": {
+    "x": 1304.4,
+    "y": 525,
+    "w": 108.6,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "오○○ 2026-11-06 고르기",
+   "rect": {
+    "x": 263,
+    "y": 566,
+    "w": 46,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "—",
+   "rect": {
+    "x": 1304.4,
+    "y": 566,
+    "w": 108.6,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "홍○○ 2026-11-06 고르기",
+   "rect": {
+    "x": 263,
+    "y": 607,
+    "w": 46,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "—",
+   "rect": {
+    "x": 1304.4,
+    "y": 607,
+    "w": 108.6,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "오○○ 2026-11-05 고르기",
+   "rect": {
+    "x": 263,
+    "y": 648,
+    "w": 46,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "—",
+   "rect": {
+    "x": 1304.4,
+    "y": 648,
+    "w": 108.6,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "윤○○ 2026-11-05 고르기",
+   "rect": {
+    "x": 263,
+    "y": 689,
+    "w": 46,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "—",
+   "rect": {
+    "x": 1304.4,
+    "y": 689,
+    "w": 108.6,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "장○○ 2026-11-05 고르기",
+   "rect": {
+    "x": 263,
+    "y": 730,
+    "w": 46,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "—",
+   "rect": {
+    "x": 1304.4,
+    "y": 730,
+    "w": 108.6,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "고를 수 없음",
+   "rect": {
+    "x": 263,
+    "y": 771,
+    "w": 46,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "—",
+   "rect": {
+    "x": 1304.4,
+    "y": 771,
+    "w": 108.6,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "김○○ 2026-11-04 고르기",
+   "rect": {
+    "x": 263,
+    "y": 819,
+    "w": 46,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "—",
+   "rect": {
+    "x": 1304.4,
+    "y": 819,
+    "w": 108.6,
+    "h": 41
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "고를 수 없음",
+   "rect": {
+    "x": 263,
+    "y": 860,
+    "w": 46,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "td",
+   "text": "—",
+   "rect": {
+    "x": 1304.4,
+    "y": 860,
+    "w": 108.6,
+    "h": 48
+   }
+  }
+ ]
+}

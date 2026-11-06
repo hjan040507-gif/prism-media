@@ -1,0 +1,462 @@
+{
+ "file": "05-hover-cell-4-worker13-11-13.png",
+ "kind": "state",
+ "project": "okjob",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/assignments",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 916,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:45:54.316Z",
+ "title": "저장된 배정 — OK잡 제주",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/farm_assignment_history"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 8
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 7
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 6
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 262,
+    "y": 84,
+    "w": 468.7,
+    "h": 34.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 184,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일별",
+   "rect": {
+    "x": 1151.7,
+    "y": 107,
+    "w": 52,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "월별",
+   "rect": {
+    "x": 1203.7,
+    "y": 107,
+    "w": 52,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "근로자별",
+   "rect": {
+    "x": 1255.7,
+    "y": 107,
+    "w": 76,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기간 배정",
+   "rect": {
+    "x": 1331.7,
+    "y": 107,
+    "w": 79.3,
+    "h": 30
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 281,
+    "y": 171,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 497,
+    "y": 171,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이번 달",
+   "rect": {
+    "x": 541,
+    "y": 171,
+    "w": 61.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체",
+   "rect": {
+    "x": 648,
+    "y": 173,
+    "w": 48,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "남",
+   "rect": {
+    "x": 696,
+    "y": 173,
+    "w": 36,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "여",
+   "rect": {
+    "x": 732,
+    "y": 173,
+    "w": 36,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "지난 날짜 숨기기 5일",
+   "rect": {
+    "x": 783,
+    "y": 171,
+    "w": 173.6,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "근로자별 엑셀",
+   "rect": {
+    "x": 968.6,
+    "y": 171,
+    "w": 121.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "농가·근로자 검색",
+   "rect": {
+    "x": 262,
+    "y": 11.5,
+    "w": 384,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "10000000-0000-0000-0000-000000000003",
+   "rect": {
+    "x": 1347,
+    "y": 11.5,
+    "w": 67,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "2026-11",
+   "rect": {
+    "x": 325,
+    "y": 171,
+    "w": 160,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "월간 현황",
+   "rect": {
+    "x": 12,
+    "y": 114,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배정하기",
+   "rect": {
+    "x": 12,
+    "y": 151.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 12,
+    "y": 189,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금·지급 검증",
+   "rect": {
+    "x": 12,
+    "y": 226.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증 완료 달력",
+   "rect": {
+    "x": 12,
+    "y": 264,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가 조회",
+   "rect": {
+    "x": 12,
+    "y": 340.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "근로자 조회",
+   "rect": {
+    "x": 12,
+    "y": 378,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림톡 발송",
+   "rect": {
+    "x": 12,
+    "y": 454.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 확인",
+   "rect": {
+    "x": 12,
+    "y": 492,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 미확인 농가",
+   "rect": {
+    "x": 12,
+    "y": 529.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "급여 계산",
+   "rect": {
+    "x": 12,
+    "y": 567,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기수 현황",
+   "rect": {
+    "x": 12,
+    "y": 604.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가별 이용 통계",
+   "rect": {
+    "x": 12,
+    "y": 642,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설정",
+   "rect": {
+    "x": 12,
+    "y": 718.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 138,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "이번 달 3기 전체 남 여 지난 날짜 숨기기 5일 근로자별 엑셀 근로자 40명 · 연인원 285명 칸의 이름은 그날 나간 농가(.도 도시락 지참, S 스프레이). 사번에 마우스를 올리면 이름이 뜹니다. REST·마약검사·외국청·의무교육 휴무 운영 중 빈칸(배정 가능) 운영 밖(입국 전·",
+   "rect": {
+    "x": 262,
+    "y": 156,
+    "w": 1152,
+    "h": 87.9
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "사번 6 금 7 토 8 일 9 월 10 화 11 수 12 목 13 금 14 토 15 일 16 월 17 화 18 수 19 목 20 금 21 토 22 일 23 월 24 화 25 수 26 목 27 금 28 토 29 일 30 월 1M 강○○ S 조○○ S 임○○ S 서○○ S 2F 신○○ .도",
+   "rect": {
+    "x": 262,
+    "y": 259.9,
+    "w": 1152,
+    "h": 632
+   }
+  }
+ ]
+}

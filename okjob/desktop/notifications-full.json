@@ -1,0 +1,578 @@
+{
+ "file": "notifications-full.png",
+ "kind": "page",
+ "project": "okjob",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/notifications",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1037,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:44:34.245Z",
+ "title": "알림톡 발송 — OK잡 제주",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 3,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [
+   "POST /rest/v1/rpc/assignment_batch_list"
+  ],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 35
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 5
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 5
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 6
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 4
+   },
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 2
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "알림톡 발송",
+   "rect": {
+    "x": 262,
+    "y": 84,
+    "w": 466.8,
+    "h": 34.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "아직 확인 안 함",
+   "rect": {
+    "x": 283,
+    "y": 533,
+    "w": 208.7,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "안내가 아직 안 나감",
+   "rect": {
+    "x": 283,
+    "y": 746.5,
+    "w": 604.6,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "확인함",
+   "rect": {
+    "x": 283,
+    "y": 882,
+    "w": 169.3,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 184,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "확인 현황",
+   "rect": {
+    "x": 288,
+    "y": 413,
+    "w": 83.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "예약",
+   "rect": {
+    "x": 371.3,
+    "y": 413,
+    "w": 56,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이력",
+   "rect": {
+    "x": 427.3,
+    "y": 413,
+    "w": 56,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이전 날",
+   "rect": {
+    "x": 283,
+    "y": 485,
+    "w": 63.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "다음 날",
+   "rect": {
+    "x": 447.9,
+    "y": 485,
+    "w": 63.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "농가·근로자 검색",
+   "rect": {
+    "x": 262,
+    "y": 11.5,
+    "w": 384,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "10000000-0000-0000-0000-000000000003",
+   "rect": {
+    "x": 1347,
+    "y": 11.5,
+    "w": 67,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "월간 현황",
+   "rect": {
+    "x": 12,
+    "y": 114,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배정하기",
+   "rect": {
+    "x": 12,
+    "y": 151.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 12,
+    "y": 189,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금·지급 검증",
+   "rect": {
+    "x": 12,
+    "y": 226.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증 완료 달력",
+   "rect": {
+    "x": 12,
+    "y": 264,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가 조회",
+   "rect": {
+    "x": 12,
+    "y": 340.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "근로자 조회",
+   "rect": {
+    "x": 12,
+    "y": 378,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림톡 발송",
+   "rect": {
+    "x": 12,
+    "y": 454.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 확인",
+   "rect": {
+    "x": 12,
+    "y": 492,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 미확인 농가",
+   "rect": {
+    "x": 12,
+    "y": 529.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "급여 계산",
+   "rect": {
+    "x": 12,
+    "y": 567,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기수 현황",
+   "rect": {
+    "x": 12,
+    "y": 604.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가별 이용 통계",
+   "rect": {
+    "x": 12,
+    "y": 642,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설정",
+   "rect": {
+    "x": 12,
+    "y": 718.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 138,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "010-****-****",
+   "rect": {
+    "x": 1268.2,
+    "y": 595.5,
+    "w": 107.8,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "010-****-****",
+   "rect": {
+    "x": 1268.2,
+    "y": 673.5,
+    "w": 107.8,
+    "h": 44
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "010-****-****",
+   "rect": {
+    "x": 1268.2,
+    "y": 809,
+    "w": 107.8,
+    "h": 44
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "지금은 예약만 쌓입니다. 농가로 나가지 않습니다. NOTIFY_PROVIDER 가 mock 입니다 (실제 발송 안 함)",
+   "rect": {
+    "x": 262,
+    "y": 158,
+    "w": 1152,
+    "h": 81.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "2026-11-07 배정 3 농가 확인 현황이 보는 날짜",
+   "rect": {
+    "x": 262,
+    "y": 255.5,
+    "w": 277.5,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "확인함 0 농가 농가가 버튼을 눌렀습니다",
+   "rect": {
+    "x": 553.5,
+    "y": 255.5,
+    "w": 277.5,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "아직 안 함 2 농가 전화로 확인이 필요합니다",
+   "rect": {
+    "x": 845,
+    "y": 255.5,
+    "w": 277.5,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "발송 실패 1 건 이력 조회 구간 전체",
+   "rect": {
+    "x": 1136.5,
+    "y": 255.5,
+    "w": 277.5,
+    "h": 121.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "확인 현황 예약 이력 이전 날 2026-11-07 다음 날 아직 확인 안 함 전화로 확인을 받아야 하는 농가입니다. 2 농가 권○○ 월평 2명 · 06:30 · 파쇄 발송 11-06 07:30 010-****-**** 송○○ 표선 6명 · 06:30 · 일반작업 발송 11-06 07:3",
+   "rect": {
+    "x": 262,
+    "y": 393,
+    "w": 1152,
+    "h": 619.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "확인 현황 예약 이력",
+   "rect": {
+    "x": 263,
+    "y": 394,
+    "w": 1150,
+    "h": 71
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "이전 날 2026-11-07 다음 날 아직 확인 안 함 전화로 확인을 받아야 하는 농가입니다. 2 농가 권○○ 월평 2명 · 06:30 · 파쇄 발송 11-06 07:30 010-****-**** 송○○ 표선 6명 · 06:30 · 일반작업 발송 11-06 07:30 010-****-*",
+   "rect": {
+    "x": 263,
+    "y": 465,
+    "w": 1150,
+    "h": 546.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "권○○ 월평 2명 · 06:30 · 파쇄 발송 11-06 07:30 010-****-****",
+   "rect": {
+    "x": 283,
+    "y": 582.5,
+    "w": 1110,
+    "h": 70
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "송○○ 표선 6명 · 06:30 · 일반작업 발송 11-06 07:30 010-****-****",
+   "rect": {
+    "x": 283,
+    "y": 660.5,
+    "w": 1110,
+    "h": 70
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "오○○ 신흥 4명 · 06:30 · 일반작업 발송 전 010-****-****",
+   "rect": {
+    "x": 283,
+    "y": 796,
+    "w": 1110,
+    "h": 70
+   }
+  },
+  {
+   "type": "card",
+   "tag": "p",
+   "text": "아직 확인한 농가가 없습니다.",
+   "rect": {
+    "x": 283,
+    "y": 931.5,
+    "w": 1110,
+    "h": 60
+   }
+  }
+ ]
+}

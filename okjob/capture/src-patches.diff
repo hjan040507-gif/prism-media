@@ -1,0 +1,18 @@
+--- a/scripts/seed-dev.ts
++++ b/scripts/seed-dev.ts
+-// STEP 44 A2(2026-09-29): 알림톡이 실제로 나간다. 이 스크립트는 실제 농가(이름에 5eed0000 없음) 또는 가짜 휴대폰 농가에 배정을 저장·수정·취소·삭제할 수 있어 막았다 — 고치기 전에는 돌리지 않는다(CLAUDE.md "알림톡 켠 뒤 막은 스크립트").
+-console.error("막힘(STEP 44 A2): 알림톡이 켜져 있어 이 스크립트는 돌리지 않는다 — CLAUDE.md 참조"); process.exit(1);
+-      name: "진소장",
++      name: "김○○",
+-      name: "정윤지",
++      name: "이○○",
+-    const name = SUR[i] + GIV[i];
++    const name = SUR[i] + "○○"; // 가림 꼴(실제 농가명과 겹치지 않게)
+-    const name = nameFor(country, sex, code);
++    const name = nameFor(country, sex, code).split(" ").map((t) => t[0] + "○○").join(" "); // 가림 꼴
++    console.log(`  ${a.name.padEnd(4)} (can_view_sensitive=${a.canView})`);
+--- a/supabase/migrations/20260825170000_wage_rules_2gi_spray_charge.sql
++++ b/supabase/migrations/20260825170000_wage_rules_2gi_spray_charge.sql
++  if v_rows = 0 then return; end if; -- 촬영 사본만: 빈 DB(운영 시드 전)에서는 건너뜀
+# supabase/migrations/20260921190100_step29_backfill_prev_term.sql: 본문 전체를 "select 1;" 한 줄로 교체(운영 3기 데이터 백필이라 빈 DB 에서 가드가 멈춤)
+# 새 파일 supabase/config.toml (supabase init 뒤 수정: project_id=pm-okjob · 포트 57010~57016 · studio/analytics/edge_runtime 끔 · seed sql_paths=./seeds/base.sql · site_url 127.0.0.1:3611)

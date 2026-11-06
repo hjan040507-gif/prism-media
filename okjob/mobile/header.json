@@ -1,0 +1,347 @@
+{
+ "file": "header.png",
+ "kind": "header",
+ "project": "okjob",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/dashboard",
+ "scrollY": 600,
+ "scrollX": 0,
+ "docHeight": 1754,
+ "full": false,
+ "clip": {
+  "x": 0,
+  "y": 0,
+  "width": 390,
+  "height": 60
+ },
+ "capturedAt": "2026-11-06T08:46:07.258Z",
+ "title": "월간 현황 — OK잡 제주",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 3
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 8,
+    "y": 7.5,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "1 가능 15",
+   "rect": {
+    "x": 29,
+    "y": -46,
+    "w": 44.8,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "2 가능 18",
+   "rect": {
+    "x": 76.8,
+    "y": -46,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "3 가능 14",
+   "rect": {
+    "x": 124.7,
+    "y": -46,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "4 가능 18",
+   "rect": {
+    "x": 172.6,
+    "y": -46,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "5 가능 17",
+   "rect": {
+    "x": 220.4,
+    "y": -46,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "6 가능 22",
+   "rect": {
+    "x": 268.3,
+    "y": -46,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "7 가능 24",
+   "rect": {
+    "x": 316.1,
+    "y": -46,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "8 가능 26",
+   "rect": {
+    "x": 29,
+    "y": 49,
+    "w": 44.8,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "9 가능 26",
+   "rect": {
+    "x": 76.8,
+    "y": 49,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "10 가능 27",
+   "rect": {
+    "x": 124.7,
+    "y": 49,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "11 가능 27",
+   "rect": {
+    "x": 172.6,
+    "y": 49,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "12 가능 28",
+   "rect": {
+    "x": 220.4,
+    "y": 49,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "13 가능 28",
+   "rect": {
+    "x": 268.3,
+    "y": 49,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "14 가능 29",
+   "rect": {
+    "x": 316.1,
+    "y": 49,
+    "w": 44.9,
+    "h": 92
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "10000000-0000-0000-0000-000000000003",
+   "rect": {
+    "x": 307,
+    "y": 7.5,
+    "w": 67,
+    "h": 44
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "2026년 11월 오늘 일 월 화 수 목 금 토 1 가능 15 2 가능 18 3 가능 14 4 가능 18 5 가능 17 6 가능 22 7 가능 24 8 가능 26 9 가능 26 10 가능 27 11 가능 27 12 가능 28 13 가능 28 14 가능 29 15 가능 31 16 가능 3",
+   "rect": {
+    "x": 16,
+    "y": -145.5,
+    "w": 358,
+    "h": 634
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "운영 39명 — 이미 배정 24, 휴무·병원 0, 배정 가능 15",
+   "rect": {
+    "x": 38,
+    "y": -2.5,
+    "w": 26.8,
+    "h": 4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "운영 39명 — 이미 배정 21, 휴무·병원 0, 배정 가능 18",
+   "rect": {
+    "x": 85.8,
+    "y": -2.5,
+    "w": 26.9,
+    "h": 4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "운영 39명 — 이미 배정 24, 휴무·병원 1, 배정 가능 14",
+   "rect": {
+    "x": 133.7,
+    "y": -2.5,
+    "w": 26.9,
+    "h": 4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "운영 39명 — 이미 배정 21, 휴무·병원 0, 배정 가능 18",
+   "rect": {
+    "x": 181.6,
+    "y": -2.5,
+    "w": 26.9,
+    "h": 4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "운영 38명 — 이미 배정 20, 휴무·병원 1, 배정 가능 17",
+   "rect": {
+    "x": 229.4,
+    "y": -2.5,
+    "w": 26.9,
+    "h": 4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "운영 37명 — 이미 배정 12, 휴무·병원 3, 배정 가능 22",
+   "rect": {
+    "x": 277.3,
+    "y": -2.5,
+    "w": 26.9,
+    "h": 4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "운영 38명 — 이미 배정 12, 휴무·병원 2, 배정 가능 24",
+   "rect": {
+    "x": 325.1,
+    "y": -2.5,
+    "w": 26.9,
+    "h": 4
+   }
+  }
+ ]
+}

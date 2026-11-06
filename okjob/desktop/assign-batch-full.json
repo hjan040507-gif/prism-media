@@ -1,0 +1,1013 @@
+{
+ "file": "assign-batch-full.png",
+ "kind": "page",
+ "project": "okjob",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/assign",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1033,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:58:09.800Z",
+ "title": "배정하기 — OK잡 제주",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/_next/webpack-hmr",
+    "sent": 30
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "배정하기",
+   "rect": {
+    "x": 262,
+    "y": 84,
+    "w": 620.7,
+    "h": 34.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "기간 배정 조건",
+   "rect": {
+    "x": 283,
+    "y": 169.5,
+    "w": 372.7,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "미리보기",
+   "rect": {
+    "x": 283,
+    "y": 706.5,
+    "w": 333.8,
+    "h": 19.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 184,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "하루 배정",
+   "rect": {
+    "x": 1220.3,
+    "y": 94.3,
+    "w": 95.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기간 배정",
+   "rect": {
+    "x": 1315.7,
+    "y": 94.3,
+    "w": 95.3,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 707.5,
+    "y": 249,
+    "w": 22,
+    "h": 22
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "지참",
+   "rect": {
+    "x": 916.6,
+    "y": 314,
+    "w": 74.6,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "미지참",
+   "rect": {
+    "x": 991.2,
+    "y": 314,
+    "w": 74.6,
+    "h": 34
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "일",
+   "rect": {
+    "x": 283,
+    "y": 386,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "월",
+   "rect": {
+    "x": 325,
+    "y": 386,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "화",
+   "rect": {
+    "x": 367,
+    "y": 386,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "수",
+   "rect": {
+    "x": 409,
+    "y": 386,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "목",
+   "rect": {
+    "x": 451,
+    "y": 386,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "금",
+   "rect": {
+    "x": 493,
+    "y": 386,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "토",
+   "rect": {
+    "x": 535,
+    "y": 386,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "전체",
+   "rect": {
+    "x": 532.6,
+    "y": 473,
+    "w": 44,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "남",
+   "rect": {
+    "x": 576.6,
+    "y": 473,
+    "w": 32,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "여",
+   "rect": {
+    "x": 608.6,
+    "y": 473,
+    "w": 32,
+    "h": 26
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "1 M",
+   "rect": {
+    "x": 281,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "2 F",
+   "rect": {
+    "x": 343.2,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "3 M",
+   "rect": {
+    "x": 405.4,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "5 F",
+   "rect": {
+    "x": 467.7,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "7 F",
+   "rect": {
+    "x": 529.9,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "8 M",
+   "rect": {
+    "x": 592.1,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "9 M",
+   "rect": {
+    "x": 654.3,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "10 M",
+   "rect": {
+    "x": 716.5,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "11 F",
+   "rect": {
+    "x": 778.8,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "12 M",
+   "rect": {
+    "x": 841,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "13 M",
+   "rect": {
+    "x": 903.2,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "14 F",
+   "rect": {
+    "x": 965.4,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "15 M",
+   "rect": {
+    "x": 1027.7,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "16 F",
+   "rect": {
+    "x": 1089.9,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "17 M",
+   "rect": {
+    "x": 1152.1,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "18 M",
+   "rect": {
+    "x": 1214.3,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "19 M",
+   "rect": {
+    "x": 1276.5,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "20 F",
+   "rect": {
+    "x": 1338.8,
+    "y": 512,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "21 M",
+   "rect": {
+    "x": 281,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "22 M",
+   "rect": {
+    "x": 343.2,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "23 F",
+   "rect": {
+    "x": 405.4,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "24 M",
+   "rect": {
+    "x": 467.7,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "25 F",
+   "rect": {
+    "x": 529.9,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "26 M",
+   "rect": {
+    "x": 592.1,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "27 M",
+   "rect": {
+    "x": 654.3,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "28 M",
+   "rect": {
+    "x": 716.5,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "29 F",
+   "rect": {
+    "x": 778.8,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "30 M",
+   "rect": {
+    "x": 841,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "31 F",
+   "rect": {
+    "x": 903.2,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "32 M",
+   "rect": {
+    "x": 965.4,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "33 M",
+   "rect": {
+    "x": 1027.7,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "34 F",
+   "rect": {
+    "x": 1089.9,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "35 M",
+   "rect": {
+    "x": 1152.1,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "36 F",
+   "rect": {
+    "x": 1214.3,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "37 M",
+   "rect": {
+    "x": 1276.5,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "38 F",
+   "rect": {
+    "x": 1338.8,
+    "y": 554,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "39 F",
+   "rect": {
+    "x": 281,
+    "y": 596,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "40 F",
+   "rect": {
+    "x": 343.2,
+    "y": 596,
+    "w": 56.2,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "기간 배정 저장 (14일)",
+   "rect": {
+    "x": 1236,
+    "y": 947.5,
+    "w": 157,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "농가·근로자 검색",
+   "rect": {
+    "x": 262,
+    "y": 11.5,
+    "w": 384,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "10000000-0000-0000-0000-000000000003",
+   "rect": {
+    "x": 1347,
+    "y": 11.5,
+    "w": 67,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "2026-11-07",
+   "rect": {
+    "x": 752.5,
+    "y": 242,
+    "w": 151.1,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "2026-11-20",
+   "rect": {
+    "x": 915.6,
+    "y": 242,
+    "w": 151.1,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "30000000-0000-0000-0000-000000000001",
+   "rect": {
+    "x": 1078.7,
+    "y": 242,
+    "w": 314.3,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "06:30",
+   "rect": {
+    "x": 752.5,
+    "y": 313,
+    "w": 151.1,
+    "h": 36
+   }
+  },
+  {
+   "type": "input",
+   "tag": "select",
+   "text": "8",
+   "rect": {
+    "x": 1078.7,
+    "y": 313,
+    "w": 151.1,
+    "h": 40
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "번호로 선택 (예: 3, 5, 12)",
+   "rect": {
+    "x": 331.6,
+    "y": 470,
+    "w": 186,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "월간 현황",
+   "rect": {
+    "x": 12,
+    "y": 114,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "배정하기",
+   "rect": {
+    "x": 12,
+    "y": 151.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "저장된 배정",
+   "rect": {
+    "x": 12,
+    "y": 189,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금·지급 검증",
+   "rect": {
+    "x": 12,
+    "y": 226.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "검증 완료 달력",
+   "rect": {
+    "x": 12,
+    "y": 264,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가 조회",
+   "rect": {
+    "x": 12,
+    "y": 340.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "근로자 조회",
+   "rect": {
+    "x": 12,
+    "y": 378,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림톡 발송",
+   "rect": {
+    "x": 12,
+    "y": 454.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 확인",
+   "rect": {
+    "x": 12,
+    "y": 492,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "입금 미확인 농가",
+   "rect": {
+    "x": 12,
+    "y": 529.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "급여 계산",
+   "rect": {
+    "x": 12,
+    "y": 567,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "기수 현황",
+   "rect": {
+    "x": 12,
+    "y": 604.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "농가별 이용 통계",
+   "rect": {
+    "x": 12,
+    "y": 642,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "설정",
+   "rect": {
+    "x": 12,
+    "y": 718.5,
+    "w": 212,
+    "h": 35.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 138,
+    "y": 852,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "기간 배정 조건 농가와 기간, 작업을 정합니다. 인원은 아래에서 번호로 직접 고릅니다. 농가 황○○ 하례 시작일 종료일 작업 일반작업 선과 파쇄 스프레이 (남자만) 기타 픽업 도시락 지참 미지참 시간 0.5시간 1시간 1.5시간 2시간 2.5시간 3시간 3.5시간 4시간 4.5시간 5시",
+   "rect": {
+    "x": 262,
+    "y": 148.5,
+    "w": 1152,
+    "h": 294.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "근로자 전체 남 여 38명 가용 1 M 2 F 3 M 5 F 7 F 8 M 9 M 10 M 11 F 12 M 13 M 14 F 15 M 16 F 17 M 18 M 19 M 20 F 21 M 22 M 23 F 24 M 25 F 26 M 27 M 28 M 29 F 30 M 31 F 32 M",
+   "rect": {
+    "x": 262,
+    "y": 455,
+    "w": 1152,
+    "h": 218.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "미리보기 황○○ · 2026-11-07 ~ 2026-11-20 · 고른 근로자 3명 (남 2 · 여 1) 11-07 토 3 11-08 일 3 11-09 월 3 11-10 화 3 11-11 수 3 11-12 목 3 11-13 금 3 11-14 토 3 11-15 일 3 11-16 월 3 1",
+   "rect": {
+    "x": 262,
+    "y": 685.5,
+    "w": 1152,
+    "h": 229
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "남 일당 90,000원 여 일당 90,000원 · 이 계획의 지급 합계 3,780,000원 (8시간 기준) 기간 배정 저장 (14일)",
+   "rect": {
+    "x": 262,
+    "y": 926.5,
+    "w": 1152,
+    "h": 82
+   }
+  }
+ ]
+}
