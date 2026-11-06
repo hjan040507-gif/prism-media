@@ -21,6 +21,7 @@
 - 저장소: hjan040507-gif/prism-media 없음 + 이 서버에 GitHub API 인증 없음(gh 미로그인, 토큰 없음, SSH 로는 생성 불가) → ~/prism-media 에 커밋만, 보고에 '저장소 생성 필요'
 
 ## NOW
+- 02:40Z byclick 검수 FAIL: 관리자 6장(접수·결정 view/full, 상세 2 full)에 가짜 연락처가 가려지지 않고 찍힘(서브에이전트가 OCR 23건을 '오탐'으로 판정했으나 실제 노출). 원인 lib 구멍 2개 — live 관찰자가 documentElement 에 붙어 <html> 교체 시 끊김 · 저장 뒤 '가림→검사' 순서라 찍는 사이 생긴 PII 를 지우고 통과(screencast 루프도 같음). tools/lib.mjs 수정(document 관찰·검사→가림), 재현 시험: 원본은 루트 교체 뒤 번호 노출, 수정본은 가림. 커밋분 6편+jipyeong json elements 재검사 걸림 0(tmp/elements-scan.py) — byclick 만 해당. byclick 6장 재촬영 맡김(종료 05:00Z), code-review medium 진행 중.
 - 02:10Z 컨텍스트 40만 인계 → /home/dev/.config/cc/manager/docs/handoff/HANDOFF.md 마지막 항목(백그라운드 3건 ID·검수 절차). /clear 뒤 '이어서'로 재개.
 - 02:03Z 정정: 완전한 빌드는 byclick 만(BUILD_EXIT 0). posco 는 빌드 시작 전, jipyeong 은 중간에 끊긴 빌드(prerender-manifest 없음) → 둘 다 heavy-run 재빌드 대기(게이트는 load 로 닫힘). 기한: jipyeong 03:30Z, posco 04:00Z 까지 안 되면 로컬 화면 BLOCKED.
 - 02:02Z Claude Code 재시작으로 jipyeong·byclick·posco 서브에이전트 끊김 → 재개(posco·jipyeong 빌드는 끝나 있음 → 바로 촬영, byclick 은 재빌드). 남은 3건 종료 03:30~04:30Z.

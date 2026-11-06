@@ -2,7 +2,7 @@
 // 사용: node tools/selftest.mjs  → tmp/selftest/ 에 결과, 마지막 줄 SELFTEST PASS/FAIL
 import fs from 'node:fs';
 import path from 'node:path';
-import { launch, newContext, capturePage, startFlow, recordSeq, ROOT } from './lib.mjs';
+import { launch, newContext, capturePage, startFlow, recordSeq, liveRedact, saveShot, ROOT } from './lib.mjs';
 
 const HTML = `<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>시험</title><style>
 body{margin:0;font-family:sans-serif} header{position:fixed;top:0;left:0;right:0;height:64px;background:#123;color:#fff;display:flex;align-items:center;padding:0 16px;z-index:9}
@@ -55,6 +55,44 @@ try {
       const probe = JSON.parse((await import('node:child_process')).execFileSync('ffprobe', ['-v', 'error', '-count_frames', '-select_streams', 'v:0', '-show_entries', 'stream=nb_read_frames,r_frame_rate,width,height', '-of', 'json', r.out]).toString()).streams[0];
       check('seq 60프레임·60fps·1170x2532', probe.nb_read_frames === '60' && probe.r_frame_rate === '60/1' && probe.width === 1170 && probe.height === 2532, JSON.stringify(probe));
     }
+    await ctx.close();
+  }
+  // 회귀(2026-11-06 byclick): React 가 <html> 루트를 갈아 끼우면 실시간 가림이 끊겨 연락처가 PNG 에 남았다
+  {
+    const { ctx, page } = await newContext(browser, 'desktop', { project: 'selftest' });
+    await page.route('https://regress.local/**', (r) => r.fulfill({ status: 200, contentType: 'text/html; charset=utf-8', body: '<!doctype html><html><body><p>x</p><div id=sh></div><script>document.getElementById("sh").attachShadow({mode:"open"}).innerHTML="<span>s</span>";</script></body></html>' }));
+    await page.goto('https://regress.local/');
+    await liveRedact(page, true);
+    const swapped = await page.evaluate(async () => {
+      const h = document.createElement('html'); h.innerHTML = '<body><div>010-3456-7890</div></body>';
+      document.replaceChild(h, document.documentElement);
+      await new Promise((r) => setTimeout(r, 50));
+      document.body.insertAdjacentHTML('beforeend', '<div>010-2345-6789</div>');
+      await new Promise((r) => setTimeout(r, 50));
+      return document.body.innerText;
+    });
+    check('루트 교체 뒤에도 실시간 가림', !/\d{4}-\d{4}/.test(swapped), JSON.stringify(swapped));
+    await page.goto('https://regress.local/');
+    await liveRedact(page, true);
+    const shadow = await page.evaluate(async () => {
+      const sr = document.getElementById('sh').shadowRoot; sr.querySelector('span').textContent = '010-3456-7890';
+      await new Promise((r) => setTimeout(r, 50));
+      return sr.textContent;
+    });
+    check('shadow root 안 새 글자도 실시간 가림', !/\d{4}-\d{4}/.test(shadow), JSON.stringify(shadow));
+    // 찍는 사이 관찰이 끊긴 채 PII 가 나타나면(byclick 경우) 가리기 전 검사가 잡아 PNG 를 지운다 — 찍기 직후에 끼워 넣어 결정적으로 재현
+    await page.goto('https://regress.local/');
+    const f = path.join(out, 'desktop', 'regress-during-shot.png');
+    const shoot = page.screenshot.bind(page);
+    page.screenshot = async (o) => {
+      const r = await shoot(o);
+      await page.evaluate(() => { window.__prism.live(false); document.body.insertAdjacentHTML('beforeend', '<div>010-1111-2222</div>'); });
+      return r;
+    };
+    let err = '';
+    try { await saveShot(page, f); } catch (e) { err = e.message; }
+    page.screenshot = shoot;
+    check('찍는 사이 생긴 PII 는 가리기 전 검사가 잡음', /PII \d+건이 찍는 사이 생김/.test(err) && !fs.existsSync(f), err.slice(0, 80));
     await ctx.close();
   }
 } finally {

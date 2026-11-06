@@ -177,9 +177,11 @@ window.__prism = window.__prism || (function () {
     }
     applyRules(base);
   }
+  let lastRoots = [document];
   function redactAll() {
     if (document.title) { const v = scrubText(document.title); if (v !== document.title) document.title = v; }
-    for (const r of roots()) scrubRoot(r);
+    lastRoots = roots();
+    for (const r of lastRoots) scrubRoot(r);
     return { ...stats };
   }
   // 저장 직전 검사: DOM 글자 전체(스크립트·스타일 제외, shadow root 포함) + 입력값 + 보이는 속성 + ::before/::after content + 제목
@@ -215,13 +217,24 @@ window.__prism = window.__prism || (function () {
   }
   let observer = null;
   const OBS = { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['placeholder', 'title', 'alt', 'aria-label', 'value', 'href', 'src', 'class', 'style'] };
+  const onInput = () => redactAll();
+  // documentElement 가 아니라 document 를 본다 — React 가 루트(<html>)를 갈아 끼워도 관찰이 끊기지 않는다. 열린 shadow root 는 따로 본다.
+  function watch() { observer.observe(document, OBS); for (const r of lastRoots) if (r !== document) observer.observe(r, OBS); }
   function live(on) {
     if (observer) { observer.disconnect(); observer = null; }
+    document.removeEventListener('input', onInput, true);
     if (!on) return;
-    observer = new MutationObserver(() => { observer.disconnect(); redactAll(); observer.observe(document.documentElement, OBS); });
-    observer.observe(document.documentElement, OBS);
-    // 입력값 바뀜은 MutationObserver 에 안 잡힌다
-    document.addEventListener('input', () => redactAll(), true);
+    lastRoots = roots();
+    observer = new MutationObserver(() => {
+      const o = observer;
+      if (!o) return;
+      o.disconnect();
+      // 가림이 예외를 내도 관찰은 다시 건다(끊기면 이후 글자가 조용히 안 가려진다)
+      try { redactAll(); } finally { if (observer === o) watch(); }
+    });
+    watch();
+    // 입력값 바뀜은 MutationObserver 에 안 잡힌다 — 같은 함수라 여러 번 켜도 한 번만 걸린다
+    document.addEventListener('input', onInput, true);
   }
   return { setRules(r) { rules = r || {}; }, redact: redactAll, scan, live, stats };
 })();
@@ -437,7 +450,9 @@ function relOut(page, sub) {
 }
 const scrollPos = (page) => page.evaluate(() => [Math.round(window.scrollX), Math.round(window.scrollY)]);
 
-// 저장 한 번: 가림(+실시간) → 검사 → PNG → 다시 가림·검사(찍는 사이 새 글자가 생겼으면 PNG 지우고 예외) → JSON
+// 저장 한 번: 가림(+실시간) → 검사 → PNG → 가리기 전에 다시 검사(남은 PII 가 있으면 PNG 지우고 예외) → 다시 가림 → JSON
+// 실시간 가림(MutationObserver)은 마이크로태스크라 그리기 전에 끝난다 — 관찰자가 잡은 글자는 PNG 에 안 남는다.
+// 관찰자가 놓친 글자(관찰 끊김 등)는 '가리기 전 검사'가 잡는다.
 export async function saveShot(page, file, { full = false, clip, kind = 'page', note, expectScroll } = {}) {
   await liveRedact(page, true);
   const red = await redactFrames(page);
@@ -450,10 +465,11 @@ export async function saveShot(page, file, { full = false, clip, kind = 'page', 
   const dsf = page.__prism.opts.deviceScaleFactor || 1;
   if (full) await fullPageShot(page, file, dsf);
   else await page.screenshot({ path: file, clip, animations: 'disabled', caret: 'hide', scale: 'device' });
-  await redactFrames(page);
+  // 검사 먼저, 가림은 그 뒤 — 가린 뒤에 검사하면 찍는 사이 생긴 PII 가 DOM 에서 지워져 PNG 에 남은 채 통과한다
   const post = await scanFrames(page);
   const after = await scrollPos(page);
   if (post.total > 0) { fs.rmSync(file, { force: true }); throw new Error(`PII ${post.total}건이 찍는 사이 생김 — PNG 지움 (${path.relative(ROOT, file)}): ${post.samples.join(', ')}`); }
+  await redactFrames(page);
   if (!full && (before[0] !== after[0] || before[1] !== after[1] || (expectScroll !== undefined && (after[1] !== expectScroll || after[0] !== 0)))) {
     fs.rmSync(file, { force: true });
     throw new Error(`스크롤이 찍는 사이 움직임 ${before} → ${after} (기대 ${expectScroll}) — PNG 지움 (${path.relative(ROOT, file)})`);
@@ -464,7 +480,7 @@ export async function saveShot(page, file, { full = false, clip, kind = 'page', 
     path: (() => { try { return new URL(page.url()).pathname; } catch { return ''; } })(),
     scrollY: full ? 0 : before[1], scrollX: before[0], docHeight: meta.docHeight, full, clip: clip || null,
     capturedAt: new Date().toISOString(), title: meta.title, note: note || undefined,
-    pii_scan: { total: 0, before: { ...pii, samples: undefined }, after: post.total, at: 'pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)', patterns: Object.keys(PII) },
+    pii_scan: { total: 0, before: { ...pii, samples: undefined }, after: post.total, at: 'pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)', patterns: Object.keys(PII) },
     redactions: red,
     intercepted: { total: st.intercepted, new: st.list.slice(st.since), allowed_nonget: [...new Set(st.allowed)], trackers_blocked: st.trackers, websockets: st.ws },
     elements: meta.elements,
@@ -664,8 +680,8 @@ export async function recordScreencast(page, name, { durationMs = 4000, start, c
   const t0 = Date.now();
   let worst = 0, checks = 0;
   while (Date.now() - t0 < durationMs) {
+    const s = await scanFrames(page); // 검사 먼저(녹화된 화면 기준), 가림은 그 뒤
     await redactFrames(page);
-    const s = await scanFrames(page);
     checks++; worst = Math.max(worst, s.total);
     await page.waitForTimeout(250);
   }
