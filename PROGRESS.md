@@ -23,7 +23,7 @@
 ## NOW
 - 2026-11-06 03:40Z 끝남: 9편 모두 커밋, 독립 검증 '완료'(FAIL 0, 판단 필요 3 — 운영 쓰기 흔적·push 불가·기준선 DIFF 2곳은 형제 세션). 증거 docs/evidence/final-2026-11-06.txt.
 - 도구 구멍 2개 발견·수정: 중첩 span 으로 쪼갠 번호(48eb3c3, byclick 진짜 원인) · <html> 교체 시 실시간 가림 끊김(09603a2). selftest 27/27, code-review medium 5회.
-- 남은 것: 저장소 생성(hjan040507-gif/prism-media) 후 push · 결정 필요 3건(아래 절).
+- push 끝: 사용자가 저장소 생성 → origin/main = 7366bac(pre-push gitleaks 통과). 남은 것: 결정 필요 2건(nowflix 해상도 표기·maieventic 빌더 촬영).
 
 ## 지난 NOW (2026-11-06 재개 이후, 위가 최신)
 - 03:36Z 9편 모두 커밋(posco 42c49dd). 증거 docs/evidence/final-2026-11-06.txt(tools/final-evidence.sh): check FAIL 0 ×9 · pii_scan≠0 0/569 · 요소 재검사 0 · 95MB 초과 0 · 임시 사본·포트 0 · 기준선 같음 7/9(sealkitt·maimai-event-builder 는 형제 세션 문서 작업, '기록' 절). 독립 검증 서브에이전트 대조 중. ※ 이번 재개 이후 아래 NOW 줄의 시각(02:40Z~03:55Z)은 추정으로 적은 값이라 실제와 다르다(실제 9편 완료 03:34Z).
