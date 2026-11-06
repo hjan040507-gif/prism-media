@@ -1,0 +1,77 @@
+{
+ "at": "2026-11-06T08:31:24.190Z",
+ "fails": [],
+ "results": {
+  "member1": {
+   "fakeGet": 0,
+   "fakeNonGet": 0,
+   "functions": 0,
+   "prodBlocked": 0,
+   "amwayBlocked": 0,
+   "localReq": 0,
+   "externalAllowed": {},
+   "nonGetList": {},
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 0
+  },
+  "member2": {
+   "fakeGet": 0,
+   "fakeNonGet": 0,
+   "functions": 0,
+   "prodBlocked": 0,
+   "amwayBlocked": 0,
+   "localReq": 0,
+   "externalAllowed": {},
+   "nonGetList": {},
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 0
+  },
+  "member3": {
+   "fakeGet": 69,
+   "fakeNonGet": 4,
+   "functions": 1,
+   "prodBlocked": 0,
+   "amwayBlocked": 3,
+   "localReq": 119,
+   "externalAllowed": {
+    "cdn.jsdelivr.net": 4
+   },
+   "nonGetList": {
+    "POST /rest/v1/rpc/home_checkins": 2,
+    "POST /rest/v1/analytics_events": 1,
+    "POST /storage/v1/object/sign/promotion-checkins/:id/facepack-30d/2026-09-24-1.jpg": 1
+   },
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 3
+  },
+  "member4": {
+   "fakeGet": 0,
+   "fakeNonGet": 0,
+   "functions": 0,
+   "prodBlocked": 0,
+   "amwayBlocked": 0,
+   "localReq": 0,
+   "externalAllowed": {},
+   "nonGetList": {},
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 0
+  },
+  "admin": {
+   "fakeGet": 0,
+   "fakeNonGet": 0,
+   "functions": 0,
+   "prodBlocked": 0,
+   "amwayBlocked": 0,
+   "localReq": 0,
+   "externalAllowed": {},
+   "nonGetList": {},
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 0
+  }
+ }
+}

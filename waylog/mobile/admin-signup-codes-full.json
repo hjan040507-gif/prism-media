@@ -1,0 +1,292 @@
+{
+ "file": "admin-signup-codes-full.png",
+ "kind": "page",
+ "project": "waylog",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/profile/me",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1142,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:06:16.844Z",
+ "title": "웨이로그 | Waylog",
+ "note": "오버레이 전체 — 안쪽 스크롤 298px 만큼 높이를 펴서 찍음(뒤 화면 숨김)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 0
+   },
+   {
+    "url": "/",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "가입 코드",
+   "rect": {
+    "x": 56,
+    "y": 16.5,
+    "w": 274,
+    "h": 22
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "새 가입 코드 발급",
+   "rect": {
+    "x": 20,
+    "y": 64,
+    "w": 350,
+    "h": 22
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 4,
+    "y": 3.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 334,
+    "y": 3.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "새 코드 생성",
+   "rect": {
+    "x": 20,
+    "y": 300,
+    "w": 350,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 126.3,
+    "y": 402,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "비활성화",
+   "rect": {
+    "x": 20,
+    "y": 504,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 199,
+    "y": 504,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 146.2,
+    "y": 584,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "비활성화",
+   "rect": {
+    "x": 20,
+    "y": 686,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 199,
+    "y": 686,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 112.8,
+    "y": 766,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "활성화",
+   "rect": {
+    "x": 20,
+    "y": 868,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 199,
+    "y": 868,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 116.3,
+    "y": 948,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "활성화",
+   "rect": {
+    "x": 20,
+    "y": 1050,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 199,
+    "y": 1050,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "코드 직접 입력 (선택, 영문 대문자·숫자 4~64자)",
+   "rect": {
+    "x": 20,
+    "y": 172,
+    "w": 350,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "라벨 (선택, 예: 2026 Q2)",
+   "rect": {
+    "x": 20,
+    "y": 236,
+    "w": 350,
+    "h": 52
+   }
+  }
+ ]
+}

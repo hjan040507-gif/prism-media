@@ -1,0 +1,392 @@
+{
+ "file": "settings-notifications-full.png",
+ "kind": "page",
+ "project": "waylog",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/profile/me",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1842,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:05:52.796Z",
+ "title": "웨이로그 | Waylog",
+ "note": "오버레이 전체 — 안쪽 스크롤 998px 만큼 높이를 펴서 찍음(뒤 화면 숨김)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 20,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 2
+   },
+   {
+    "url": "/",
+    "sent": 1
+   },
+   {
+    "url": "/",
+    "sent": 0
+   },
+   {
+    "url": "/",
+    "sent": 0
+   },
+   {
+    "url": "/",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "설정",
+   "rect": {
+    "x": 56,
+    "y": 16.5,
+    "w": 326,
+    "h": 22
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "표시",
+   "rect": {
+    "x": 0,
+    "y": 56,
+    "w": 390,
+    "h": 52
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "알림",
+   "rect": {
+    "x": 0,
+    "y": 292,
+    "w": 390,
+    "h": 52
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "계정",
+   "rect": {
+    "x": 0,
+    "y": 736,
+    "w": 390,
+    "h": 52
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "데이터",
+   "rect": {
+    "x": 0,
+    "y": 1124,
+    "w": 390,
+    "h": 52
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "정보",
+   "rect": {
+    "x": 0,
+    "y": 1392,
+    "w": 390,
+    "h": 52
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 4,
+    "y": 3.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 116,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보통",
+   "rect": {
+    "x": 60,
+    "y": 238,
+    "w": 98,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "크게",
+   "rect": {
+    "x": 166,
+    "y": 238,
+    "w": 98,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "아주 크게",
+   "rect": {
+    "x": 272,
+    "y": 238,
+    "w": 98,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "푸시 알림 켜기 눌러서 알림을 받아요",
+   "rect": {
+    "x": 0,
+    "y": 344,
+    "w": 390,
+    "h": 62
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 414,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 478,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 542,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 606,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 670,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "차단한 회원 관리 1명",
+   "rect": {
+    "x": 0,
+    "y": 906,
+    "w": 390,
+    "h": 62
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "AI 기능 동의 철회 철회하면 8주 식단 챌린지 AI 분석과 1일1팩 사진 확인을 쓸 수 없어요",
+   "rect": {
+    "x": 0,
+    "y": 968,
+    "w": 390,
+    "h": 82
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "계정 삭제하기",
+   "rect": {
+    "x": 20,
+    "y": 1058,
+    "w": 350,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "쓰다 만 글 지우기 작성 화면에 남은 제목·본문·태그를 지워요",
+   "rect": {
+    "x": 0,
+    "y": 1238,
+    "w": 390,
+    "h": 62
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이 폰에 남은 목록 지우기 저장·무드·최근 검색·알림 목록 등을 이 폰에서만 지워요",
+   "rect": {
+    "x": 0,
+    "y": 1300,
+    "w": 390,
+    "h": 82
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "앱 안내 (비공식 앱) 상표·저작권 안내",
+   "rect": {
+    "x": 0,
+    "y": 1506,
+    "w": 390,
+    "h": 62
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "온보딩 다시 보기",
+   "rect": {
+    "x": 0,
+    "y": 1568,
+    "w": 390,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "이용약관",
+   "rect": {
+    "x": 0,
+    "y": 1624,
+    "w": 390,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "개인정보 처리방침",
+   "rect": {
+    "x": 0,
+    "y": 1680,
+    "w": 390,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "로그아웃",
+   "rect": {
+    "x": 0,
+    "y": 1762,
+    "w": 390,
+    "h": 56
+   }
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "file": "01-tab-list.png",
+ "kind": "state",
+ "project": "waylog",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/challenge",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 858,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:25:16.385Z",
+ "title": "웨이로그 | Waylog",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 4,
+  "new": [
+   "POST /rest/v1/rpc/home_checkins (가짜 백엔드 메모리에만 반영)",
+   "POST /rest/v1/rpc/home_checkins (가짜 백엔드 메모리에만 반영)",
+   "POST /rest/v1/analytics_events (가짜 백엔드 메모리에만 반영)",
+   "POST /storage/v1/object/sign/promotion-checkins/a0000000-0000-4000-8000-000000000001/facepack-30d/2026-09-24-1.jpg (가짜 백엔드 메모리에만 반영)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "챌린지",
+   "rect": {
+    "x": 20,
+    "y": 14,
+    "w": 362,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "오늘 인증한 회원 2명",
+   "rect": {
+    "x": 20,
+    "y": 697,
+    "w": 282.3,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "1일1팩 30일 12일째 · 9번 인증 · 2일 연속",
+   "rect": {
+    "x": 20,
+    "y": 77,
+    "w": 350,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진으로 오늘 인증하기",
+   "rect": {
+    "x": 20,
+    "y": 199,
+    "w": 350,
+    "h": 52
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "8주 식단 챌린지 17일째 · 이번 주는 운동 강화 주간",
+   "rect": {
+    "x": 20,
+    "y": 299,
+    "w": 350,
+    "h": 42
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저녁 기록하기",
+   "rect": {
+    "x": 20,
+    "y": 501,
+    "w": 350,
+    "h": 52
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "더 쓰기",
+   "rect": {
+    "x": 295.6,
+    "y": 597,
+    "w": 74.4,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "모두 보기",
+   "rect": {
+    "x": 302.3,
+    "y": 685,
+    "w": 67.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 0,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "챌린지",
+   "rect": {
+    "x": 78,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품",
+   "rect": {
+    "x": 156,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "4 알림",
+   "rect": {
+    "x": 234,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 정보",
+   "rect": {
+    "x": 312,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 77,
+    "w": 56,
+    "h": 56
+   }
+  }
+ ]
+}

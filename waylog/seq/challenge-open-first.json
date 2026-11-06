@@ -1,0 +1,50 @@
+{
+ "file": "challenge-open-first.png",
+ "kind": "seq-frame",
+ "seq": "challenge-open.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "scrollY": 0,
+ "frames": 60,
+ "fps": 60,
+ "durationMs": 1000,
+ "crf": 12,
+ "capturedAt": "2026-11-06T08:31:22.347Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 5,
+  "new": [
+   "POST /rest/v1/rpc/home_checkins (가짜 백엔드 메모리에만 반영)",
+   "POST /rest/v1/rpc/home_checkins (가짜 백엔드 메모리에만 반영)",
+   "POST /rest/v1/analytics_events (가짜 백엔드 메모리에만 반영)",
+   "POST /storage/v1/object/sign/promotion-checkins/a0000000-0000-4000-8000-000000000001/facepack-30d/2026-09-24-1.jpg (가짜 백엔드 메모리에만 반영)",
+   "POST /functions/v1/claude (AI·함수 가짜 응답)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 0
+   }
+  ]
+ }
+}

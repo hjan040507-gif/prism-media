@@ -1,0 +1,100 @@
+{
+ "at": "2026-11-06T08:15:36.992Z",
+ "fails": [],
+ "results": {
+  "member1": {
+   "fakeGet": 55,
+   "fakeNonGet": 7,
+   "functions": 0,
+   "prodBlocked": 0,
+   "amwayBlocked": 0,
+   "localReq": 119,
+   "externalAllowed": {
+    "cdn.jsdelivr.net": 4
+   },
+   "nonGetList": {
+    "POST /rest/v1/analytics_events": 1,
+    "POST /storage/v1/object/sign/promotion-checkins": 2,
+    "POST /rest/v1/consents": 1,
+    "POST /rest/v1/member_feed_prefs": 3
+   },
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 0
+  },
+  "member2": {
+   "fakeGet": 69,
+   "fakeNonGet": 4,
+   "functions": 1,
+   "prodBlocked": 0,
+   "amwayBlocked": 3,
+   "localReq": 119,
+   "externalAllowed": {
+    "cdn.jsdelivr.net": 4
+   },
+   "nonGetList": {
+    "POST /rest/v1/rpc/home_checkins": 2,
+    "POST /rest/v1/analytics_events": 1,
+    "POST /storage/v1/object/sign/promotion-checkins/:id/facepack-30d/2026-09-24-1.jpg": 1
+   },
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 3
+  },
+  "member3": {
+   "fakeGet": 69,
+   "fakeNonGet": 4,
+   "functions": 1,
+   "prodBlocked": 0,
+   "amwayBlocked": 3,
+   "localReq": 119,
+   "externalAllowed": {
+    "cdn.jsdelivr.net": 4
+   },
+   "nonGetList": {
+    "POST /rest/v1/rpc/home_checkins": 2,
+    "POST /rest/v1/analytics_events": 1,
+    "POST /storage/v1/object/sign/promotion-checkins/:id/facepack-30d/2026-09-24-1.jpg": 1
+   },
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 3
+  },
+  "member4": {
+   "fakeGet": 63,
+   "fakeNonGet": 4,
+   "functions": 0,
+   "prodBlocked": 0,
+   "amwayBlocked": 3,
+   "localReq": 119,
+   "externalAllowed": {
+    "cdn.jsdelivr.net": 4
+   },
+   "nonGetList": {
+    "POST /rest/v1/rpc/home_checkins": 2,
+    "POST /rest/v1/analytics_events": 1,
+    "POST /storage/v1/object/sign/promotion-checkins/:id/facepack-30d/2026-09-24-1.jpg": 1
+   },
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 3
+  },
+  "admin": {
+   "fakeGet": 47,
+   "fakeNonGet": 1,
+   "functions": 0,
+   "prodBlocked": 0,
+   "amwayBlocked": 0,
+   "localReq": 120,
+   "externalAllowed": {
+    "cdn.jsdelivr.net": 4
+   },
+   "nonGetList": {
+    "POST /rest/v1/analytics_events": 1
+   },
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 0
+  }
+ }
+}

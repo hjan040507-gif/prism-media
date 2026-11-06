@@ -1,0 +1,350 @@
+{
+ "file": "review-detail-full.png",
+ "kind": "page",
+ "project": "waylog",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/review/b0000000-0000-4000-8000-000000000001",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 844,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:05:08.759Z",
+ "title": "웨이로그 | Waylog",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 11,
+  "new": [
+   "POST /rest/v1/rpc/post_view_counts (가짜 백엔드 메모리에만 반영)",
+   "POST /rest/v1/rpc/post_view_counts (가짜 백엔드 메모리에만 반영)",
+   "PATCH /rest/v1/challenges (가짜 백엔드 메모리에만 반영)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 2
+   },
+   {
+    "url": "/",
+    "sent": 1
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "웨이로그",
+   "rect": {
+    "x": 20,
+    "y": 14,
+    "w": 362,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "아침 한 끼, 단백질 쉐이크로 바꾼 지 3주",
+   "rect": {
+    "x": 20,
+    "y": 312.5,
+    "w": 350,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "이 글에 나온 제품",
+   "rect": {
+    "x": 20,
+    "y": 689.5,
+    "w": 350,
+    "h": 22
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 12,
+    "y": 12,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 12,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 292.5
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "초록산책 2시간 전",
+   "rect": {
+    "x": 20,
+    "y": 348.5,
+    "w": 350,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "#단백질",
+   "rect": {
+    "x": 20,
+    "y": 524.5,
+    "w": 76.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "#아침식사",
+   "rect": {
+    "x": 104.7,
+    "y": 524.5,
+    "w": 88.8,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "#8주챌린지",
+   "rect": {
+    "x": 201.5,
+    "y": 524.5,
+    "w": 97.3,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "고치기",
+   "rect": {
+    "x": 175.4,
+    "y": 613.5,
+    "w": 92.3,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "지우기",
+   "rect": {
+    "x": 275.7,
+    "y": 613.5,
+    "w": 94.3,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "누가 봤는지 보기",
+   "rect": {
+    "x": 262.7,
+    "y": 829.5,
+    "w": 107.3,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보내기",
+   "rect": {
+    "x": 234,
+    "y": 788,
+    "w": 68.3,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "18",
+   "rect": {
+    "x": 310.4,
+    "y": 788,
+    "w": 67.6,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "댓글 쓰기",
+   "rect": {
+    "x": 12,
+    "y": 788,
+    "w": 214,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 0,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "챌린지",
+   "rect": {
+    "x": 78,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품",
+   "rect": {
+    "x": 156,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "4 알림",
+   "rect": {
+    "x": 234,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 정보",
+   "rect": {
+    "x": 312,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "식물성 단백질 쉐이크 (900g) 회원 후기 5 · 쓰고 있는 회원 3명",
+   "rect": {
+    "x": 20,
+    "y": 723.5,
+    "w": 350,
+    "h": 90
+   }
+  },
+  {
+   "type": "card",
+   "tag": "span",
+   "text": "",
+   "rect": {
+    "x": 33,
+    "y": 736.5,
+    "w": 64,
+    "h": 64
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 292.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,446 @@
+{
+ "file": "admin-signup-codes-view.png",
+ "kind": "page",
+ "project": "waylog",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/profile/me",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1059,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:06:15.231Z",
+ "title": "웨이로그 | Waylog",
+ "note": "오버레이 화면 — 열린 그대로 첫 화면",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 0
+   },
+   {
+    "url": "/",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "내 정보",
+   "rect": {
+    "x": 20,
+    "y": 14,
+    "w": 310,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "가입 코드",
+   "rect": {
+    "x": 56,
+    "y": 16.5,
+    "w": 274,
+    "h": 22
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "새 가입 코드 발급",
+   "rect": {
+    "x": 20,
+    "y": 64,
+    "w": 350,
+    "h": 22
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 334,
+    "y": 4,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "프로필 고치기",
+   "rect": {
+    "x": 262.1,
+    "y": 71,
+    "w": 107.9,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "팔로워 0",
+   "rect": {
+    "x": 16,
+    "y": 203,
+    "w": 57,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "팔로잉 0",
+   "rect": {
+    "x": 84.5,
+    "y": 203,
+    "w": 57,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보통",
+   "rect": {
+    "x": 36,
+    "y": 325,
+    "w": 100.7,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "크게",
+   "rect": {
+    "x": 144.7,
+    "y": 325,
+    "w": 100.7,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "아주 크게",
+   "rect": {
+    "x": 253.3,
+    "y": 325,
+    "w": 100.7,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 397,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "설정",
+   "rect": {
+    "x": 0,
+    "y": 457,
+    "w": 390,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "내 글",
+   "rect": {
+    "x": 20,
+    "y": 531,
+    "w": 116.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "인증",
+   "rect": {
+    "x": 136.7,
+    "y": 531,
+    "w": 116.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 253.3,
+    "y": 531,
+    "w": 116.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "글쓰기",
+   "rect": {
+    "x": 155.5,
+    "y": 774,
+    "w": 78.9,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 4,
+    "y": 3.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "새 코드 생성",
+   "rect": {
+    "x": 20,
+    "y": 300,
+    "w": 350,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 126.3,
+    "y": 402,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "비활성화",
+   "rect": {
+    "x": 20,
+    "y": 504,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 199,
+    "y": 504,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 146.2,
+    "y": 584,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "비활성화",
+   "rect": {
+    "x": 20,
+    "y": 686,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "삭제",
+   "rect": {
+    "x": 199,
+    "y": 686,
+    "w": 171,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 112.8,
+    "y": 766,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "코드 직접 입력 (선택, 영문 대문자·숫자 4~64자)",
+   "rect": {
+    "x": 20,
+    "y": 172,
+    "w": 350,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "라벨 (선택, 예: 2026 Q2)",
+   "rect": {
+    "x": 20,
+    "y": 236,
+    "w": 350,
+    "h": 52
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 0,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "챌린지",
+   "rect": {
+    "x": 78,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품",
+   "rect": {
+    "x": 156,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "알림",
+   "rect": {
+    "x": 234,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 정보",
+   "rect": {
+    "x": 312,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "글자 크기 폰의 글자 크기 설정 위에 더 키워요 보통 크게 아주 크게",
+   "rect": {
+    "x": 20,
+    "y": 255,
+    "w": 350,
+    "h": 122
+   }
+  }
+ ]
+}

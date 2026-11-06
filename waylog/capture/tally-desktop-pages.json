@@ -1,0 +1,46 @@
+{
+ "at": "2026-11-06T08:27:15.529Z",
+ "fails": [],
+ "results": {
+  "member": {
+   "fakeGet": 349,
+   "fakeNonGet": 23,
+   "functions": 1,
+   "prodBlocked": 0,
+   "amwayBlocked": 12,
+   "localReq": 704,
+   "externalAllowed": {
+    "cdn.jsdelivr.net": 24
+   },
+   "nonGetList": {
+    "POST /rest/v1/rpc/home_checkins": 10,
+    "POST /rest/v1/analytics_events": 1,
+    "POST /storage/v1/object/sign/promotion-checkins/:id/facepack-30d/2026-09-24-1.jpg": 4,
+    "POST /rest/v1/post_views": 2,
+    "POST /rest/v1/rpc/post_view_counts": 2,
+    "POST /storage/v1/object/sign/promotion-checkins": 2,
+    "PATCH /rest/v1/challenges": 2
+   },
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 12
+  },
+  "admin": {
+   "fakeGet": 47,
+   "fakeNonGet": 1,
+   "functions": 0,
+   "prodBlocked": 0,
+   "amwayBlocked": 0,
+   "localReq": 120,
+   "externalAllowed": {
+    "cdn.jsdelivr.net": 4
+   },
+   "nonGetList": {
+    "POST /rest/v1/analytics_events": 1
+   },
+   "mockUnmocked": 0,
+   "unmocked": [],
+   "consoleErrors": 0
+  }
+ }
+}

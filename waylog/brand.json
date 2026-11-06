@@ -1,0 +1,21 @@
+{
+  "primary": "#0071CE",
+  "secondary": "#E5394B",
+  "name": { "primary": "brand-500 (버튼·활성 토글·링크 강조)", "secondary": "--c-heart / --c-seal (좋아요 하트·챌린지 도장·새 알림 점, 다크 #FF6B78)" },
+  "palette_light": {
+    "brand-50": "#EBF4FB", "brand-100": "#CEE4F4", "brand-500": "#0071CE", "brand-600": "#005BA5", "brand-700": "#00447C",
+    "page": "#FFFFFF", "neutral-100": "#EDF1F5", "neutral-200": "#DBE0E6", "neutral-500": "#636B74", "neutral-900": "#13181D",
+    "heart": "#E5394B"
+  },
+  "fonts": ["Pretendard"],
+  "font_note": "1.9.0 은 글꼴 파일을 자체 호스팅하지 않고 src/index.css:2 가 jsdelivr CDN 의 pretendard.css 를 불러온다(촬영 때도 같은 CDN 에서 받음 — 운영 서버 아님).",
+  "app_name": "웨이로그",
+  "logo": "media/icon-512.png (빨간 도장 위 「웨이로그」 글자) · media/icon-only.svg · icon-foreground.svg · icon-background.svg — 제품 회사·브랜드명 글자 없음(눈으로 확인)",
+  "source": [
+    "tmp/waylog-src(=git archive 3cbb43c)/tailwind.config.js:22-34 (brand 계단, #0071CE = 「브랜드 기준」)",
+    "tailwind.config.js:17-20 (fontFamily.sans = Pretendard …)",
+    "src/styles/tokens.css:36-37,89-90 (--c-heart / --c-seal)",
+    "src/index.css:2 (Pretendard CDN @import)",
+    "운영 라이브 CSS 의 rgb(0 113 206) 3건·#157352 0건 (RECON.md §0-2 — 라이브가 v3 초록이 아니라 1.9.0 파랑임을 확인)"
+  ]
+}

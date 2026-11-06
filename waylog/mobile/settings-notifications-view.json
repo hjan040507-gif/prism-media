@@ -1,0 +1,605 @@
+{
+ "file": "settings-notifications-view.png",
+ "kind": "page",
+ "project": "waylog",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/profile/me",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1100,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:05:50.869Z",
+ "title": "웨이로그 | Waylog",
+ "note": "오버레이 화면 — 열린 그대로 첫 화면",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 1,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 20,
+  "new": [
+   "POST /storage/v1/object/sign/promotion-checkins (가짜 백엔드 메모리에만 반영)",
+   "POST /storage/v1/object/sign/promotion-checkins (가짜 백엔드 메모리에만 반영)",
+   "PATCH /rest/v1/challenges (가짜 백엔드 메모리에만 반영)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 2
+   },
+   {
+    "url": "/",
+    "sent": 1
+   },
+   {
+    "url": "/",
+    "sent": 0
+   },
+   {
+    "url": "/",
+    "sent": 0
+   },
+   {
+    "url": "/",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "내 정보",
+   "rect": {
+    "x": 20,
+    "y": 14,
+    "w": 310,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "설정",
+   "rect": {
+    "x": 56,
+    "y": 16.5,
+    "w": 326,
+    "h": 22
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "표시",
+   "rect": {
+    "x": 0,
+    "y": 56,
+    "w": 390,
+    "h": 52
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "알림",
+   "rect": {
+    "x": 0,
+    "y": 292,
+    "w": 390,
+    "h": 52
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "계정",
+   "rect": {
+    "x": 0,
+    "y": 736,
+    "w": 390,
+    "h": 52
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 334,
+    "y": 4,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "프로필 고치기",
+   "rect": {
+    "x": 262.1,
+    "y": 77,
+    "w": 107.9,
+    "h": 40
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "팔로워 4",
+   "rect": {
+    "x": 16,
+    "y": 215,
+    "w": 57,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "팔로잉 3",
+   "rect": {
+    "x": 84.5,
+    "y": 215,
+    "w": 57,
+    "h": 44
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "8주 식단 챌린지 진행 중 56일 중 17일째, 오늘 미션을 확인해요",
+   "rect": {
+    "x": 0,
+    "y": 263,
+    "w": 390,
+    "h": 72
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보통",
+   "rect": {
+    "x": 36,
+    "y": 413,
+    "w": 100.7,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "크게",
+   "rect": {
+    "x": 144.7,
+    "y": 413,
+    "w": 100.7,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "아주 크게",
+   "rect": {
+    "x": 253.3,
+    "y": 413,
+    "w": 100.7,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 485,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "설정",
+   "rect": {
+    "x": 0,
+    "y": 545,
+    "w": 390,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "내 글",
+   "rect": {
+    "x": 20,
+    "y": 619,
+    "w": 116.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "인증",
+   "rect": {
+    "x": 136.7,
+    "y": 619,
+    "w": 116.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저장",
+   "rect": {
+    "x": 253.3,
+    "y": 619,
+    "w": 116.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 668,
+    "w": 127.3,
+    "h": 127.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 131.3,
+    "y": 668,
+    "w": 127.3,
+    "h": 127.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "치약 바꾼 지 한 달",
+   "rect": {
+    "x": 262.7,
+    "y": 668,
+    "w": 127.3,
+    "h": 127.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 799.3,
+    "w": 127.3,
+    "h": 127.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 131.3,
+    "y": 799.3,
+    "w": 127.3,
+    "h": 127.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 262.7,
+    "y": 799.3,
+    "w": 127.3,
+    "h": 127.3
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 4,
+    "y": 3.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 116,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "보통",
+   "rect": {
+    "x": 60,
+    "y": 238,
+    "w": 98,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "크게",
+   "rect": {
+    "x": 166,
+    "y": 238,
+    "w": 98,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "아주 크게",
+   "rect": {
+    "x": 272,
+    "y": 238,
+    "w": 98,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "푸시 알림 켜기 눌러서 알림을 받아요",
+   "rect": {
+    "x": 0,
+    "y": 344,
+    "w": 390,
+    "h": 62
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 414,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 478,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 542,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 606,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 330,
+    "y": 670,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 0,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "챌린지",
+   "rect": {
+    "x": 78,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품",
+   "rect": {
+    "x": 156,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "4 알림",
+   "rect": {
+    "x": 234,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 정보",
+   "rect": {
+    "x": 312,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "글자 크기 폰의 글자 크기 설정 위에 더 키워요 보통 크게 아주 크게",
+   "rect": {
+    "x": 20,
+    "y": 343,
+    "w": 350,
+    "h": 122
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 668,
+    "w": 127.3,
+    "h": 127.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 131.3,
+    "y": 668,
+    "w": 127.3,
+    "h": 127.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 799.3,
+    "w": 127.3,
+    "h": 127.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 131.3,
+    "y": 799.3,
+    "w": 127.3,
+    "h": 127.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 262.7,
+    "y": 799.3,
+    "w": 127.3,
+    "h": 127.3
+   }
+  }
+ ]
+}

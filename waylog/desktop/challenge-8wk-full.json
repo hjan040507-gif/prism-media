@@ -1,0 +1,854 @@
+{
+ "file": "challenge-8wk-full.png",
+ "kind": "page",
+ "project": "waylog",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/challenge",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 2906,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:26:52.350Z",
+ "title": "웨이로그 | Waylog",
+ "note": "오버레이 전체 — 안쪽 스크롤 2006px 만큼 높이를 펴서 찍음(뒤 화면 숨김)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 1,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 20,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 4
+   },
+   {
+    "url": "/",
+    "sent": 0
+   },
+   {
+    "url": "/",
+    "sent": 0
+   },
+   {
+    "url": "/",
+    "sent": 0
+   },
+   {
+    "url": "/",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "8주 식단 챌린지",
+   "rect": {
+    "x": 404,
+    "y": 398,
+    "w": 632,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "도장판",
+   "rect": {
+    "x": 404,
+    "y": 596,
+    "w": 45.6,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "3주차 운동 강화 주간",
+   "rect": {
+    "x": 404,
+    "y": 996,
+    "w": 144.4,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "오늘의 식단",
+   "rect": {
+    "x": 404,
+    "y": 1372,
+    "w": 79.8,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "오늘의 운동",
+   "rect": {
+    "x": 404,
+    "y": 1686,
+    "w": 79.8,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 388,
+    "y": 4,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "오늘",
+   "rect": {
+    "x": 404,
+    "y": 525,
+    "w": 48,
+    "h": 50
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "그래프",
+   "rect": {
+    "x": 476,
+    "y": 525,
+    "w": 48,
+    "h": 50
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "체성분",
+   "rect": {
+    "x": 548,
+    "y": 525,
+    "w": 48,
+    "h": 50
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "남은 4주 보기",
+   "rect": {
+    "x": 404,
+    "y": 900,
+    "w": 632,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "미션 편집",
+   "rect": {
+    "x": 936.3,
+    "y": 996,
+    "w": 99.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "유산소 운동 40분",
+   "rect": {
+    "x": 404,
+    "y": 1048,
+    "w": 632,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "코어 운동 15분",
+   "rect": {
+    "x": 404,
+    "y": 1105,
+    "w": 632,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "식단 기록 + 칼로리 체크",
+   "rect": {
+    "x": 404,
+    "y": 1162,
+    "w": 632,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "단백질 쉐이크 마시기",
+   "rect": {
+    "x": 404,
+    "y": 1219,
+    "w": 632,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "수면 7시간 이상 확보",
+   "rect": {
+    "x": 404,
+    "y": 1276,
+    "w": 632,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 988,
+    "y": 1460,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 988,
+    "y": 1525,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저녁 기록하기",
+   "rect": {
+    "x": 404,
+    "y": 1581,
+    "w": 632,
+    "h": 65
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 928,
+    "y": 1726,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 988,
+    "y": 1726,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "운동 추가",
+   "rect": {
+    "x": 404,
+    "y": 1794,
+    "w": 632,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "AI 결과 신고",
+   "rect": {
+    "x": 404,
+    "y": 2414,
+    "w": 102.4,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "AI 결과 신고",
+   "rect": {
+    "x": 404,
+    "y": 2556,
+    "w": 102.4,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "챌린지 포기하기",
+   "rect": {
+    "x": 404,
+    "y": 2701,
+    "w": 632,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저녁 식단 기록하기",
+   "rect": {
+    "x": 404,
+    "y": 2842,
+    "w": 632,
+    "h": 56
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "1주 1 2 3 4 5 6 7",
+   "rect": {
+    "x": 404,
+    "y": 636,
+    "w": 632,
+    "h": 44
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "2주 8 9 10 11 12 13 14",
+   "rect": {
+    "x": 404,
+    "y": 692,
+    "w": 632,
+    "h": 44
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "3주 15 16 17 18 19 20 21",
+   "rect": {
+    "x": 404,
+    "y": 748,
+    "w": 632,
+    "h": 44
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "4주 22 23 24 25 26 27 28",
+   "rect": {
+    "x": 404,
+    "y": 804,
+    "w": 632,
+    "h": 44
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "찍은 날",
+   "rect": {
+    "x": 404,
+    "y": 864,
+    "w": 67.8,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "빠진 날",
+   "rect": {
+    "x": 491.8,
+    "y": 864,
+    "w": 67.8,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 404,
+    "y": 1460,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 404,
+    "y": 1525,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 404,
+    "y": 1590,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "span",
+   "text": "",
+   "rect": {
+    "x": 404,
+    "y": 1726,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "운동 주 4회 40분 걷기 + 주 2회 근력 15분을 유지해 보세요. 식습관 저녁 탄수화물을 지금처럼 반으로 유지하고 단백질을 끼니마다 20g 이상 챙겨요. 수면 밤 11시 전 취침, 7시간 수면을 목표로 해요. 물 섭취 하루 물 1.5L — 오전 750ml, 오후 750ml 로 나눠 ",
+   "rect": {
+    "x": 404,
+    "y": 2012,
+    "w": 632,
+    "h": 308
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "이번 주 핵심 팁 체중보다 허리둘레 변화를 함께 기록하면 동기부여가 오래가요.",
+   "rect": {
+    "x": 404,
+    "y": 2328,
+    "w": 632,
+    "h": 78
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 384,
+    "y": 0,
+    "w": 672,
+    "h": 378
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "8주 중 3주차",
+   "rect": {
+    "x": 404,
+    "y": 472,
+    "w": 632,
+    "h": 8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 9일 수요일, 도장 찍힘",
+   "rect": {
+    "x": 466.3,
+    "y": 636,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 10일 목요일, 도장 찍힘",
+   "rect": {
+    "x": 550.8,
+    "y": 636,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 11일 금요일, 도장 찍힘",
+   "rect": {
+    "x": 635.4,
+    "y": 636,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 12일 토요일, 도장 찍힘",
+   "rect": {
+    "x": 720,
+    "y": 636,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 13일 일요일, 기록 없음",
+   "rect": {
+    "x": 804.6,
+    "y": 636,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 14일 월요일, 도장 찍힘",
+   "rect": {
+    "x": 889.1,
+    "y": 636,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 15일 화요일, 도장 찍힘",
+   "rect": {
+    "x": 973.7,
+    "y": 636,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 16일 수요일, 도장 찍힘",
+   "rect": {
+    "x": 466.3,
+    "y": 692,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 17일 목요일, 도장 찍힘",
+   "rect": {
+    "x": 550.8,
+    "y": 692,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 18일 금요일, 도장 찍힘",
+   "rect": {
+    "x": 635.4,
+    "y": 692,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 19일 토요일, 도장 찍힘",
+   "rect": {
+    "x": 720,
+    "y": 692,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 20일 일요일, 도장 찍힘",
+   "rect": {
+    "x": 804.6,
+    "y": 692,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 21일 월요일, 도장 찍힘",
+   "rect": {
+    "x": 889.1,
+    "y": 692,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 22일 화요일, 도장 찍힘",
+   "rect": {
+    "x": 973.7,
+    "y": 692,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 23일 수요일, 도장 찍힘",
+   "rect": {
+    "x": 466.3,
+    "y": 748,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 24일 목요일, 도장 찍힘",
+   "rect": {
+    "x": 550.8,
+    "y": 748,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 25일 금요일, 도장 찍힘",
+   "rect": {
+    "x": 635.4,
+    "y": 748,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 26일 토요일, 아직 안 온 날",
+   "rect": {
+    "x": 720,
+    "y": 748,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 27일 일요일, 아직 안 온 날",
+   "rect": {
+    "x": 804.6,
+    "y": 748,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 28일 월요일, 아직 안 온 날",
+   "rect": {
+    "x": 889.1,
+    "y": 748,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 29일 화요일, 아직 안 온 날",
+   "rect": {
+    "x": 973.7,
+    "y": 748,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 30일 수요일, 아직 안 온 날",
+   "rect": {
+    "x": 466.3,
+    "y": 804,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 1일 목요일, 아직 안 온 날",
+   "rect": {
+    "x": 550.8,
+    "y": 804,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 2일 금요일, 아직 안 온 날",
+   "rect": {
+    "x": 635.4,
+    "y": 804,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 3일 토요일, 아직 안 온 날",
+   "rect": {
+    "x": 720,
+    "y": 804,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 4일 일요일, 아직 안 온 날",
+   "rect": {
+    "x": 804.6,
+    "y": 804,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 5일 월요일, 아직 안 온 날",
+   "rect": {
+    "x": 889.1,
+    "y": 804,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 6일 화요일, 아직 안 온 날",
+   "rect": {
+    "x": 973.7,
+    "y": 804,
+    "w": 44,
+    "h": 44
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 404,
+    "y": 1525,
+    "w": 48,
+    "h": 48
+   }
+  }
+ ]
+}

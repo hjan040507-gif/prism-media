@@ -1,0 +1,190 @@
+{
+ "file": "inbody-ai-result-full.png",
+ "kind": "page",
+ "project": "waylog",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/challenge",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1208,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:05:43.203Z",
+ "title": "웨이로그 | Waylog",
+ "note": "오버레이 전체 — 안쪽 스크롤 364px 만큼 높이를 펴서 찍음(뒤 화면 숨김)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 1,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 17,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 2
+   },
+   {
+    "url": "/",
+    "sent": 1
+   },
+   {
+    "url": "/",
+    "sent": 0
+   },
+   {
+    "url": "/",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 4,
+    "y": 3.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "AI 결과 신고",
+   "rect": {
+    "x": 20,
+    "y": 1128,
+    "w": 102.4,
+    "h": 48
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "70.4",
+   "rect": {
+    "x": 20,
+    "y": 130,
+    "w": 169,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "23.2",
+   "rect": {
+    "x": 201,
+    "y": 130,
+    "w": 169,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "23",
+   "rect": {
+    "x": 20,
+    "y": 218,
+    "w": 169,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "26.5",
+   "rect": {
+    "x": 201,
+    "y": 218,
+    "w": 169,
+    "h": 52
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "32.6",
+   "rect": {
+    "x": 20,
+    "y": 306,
+    "w": 169,
+    "h": 52
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "운동 주 4회 40분 걷기 + 주 2회 근력 15분을 유지해 보세요. 식습관 저녁 탄수화물을 지금처럼 반으로 유지하고 단백질을 끼니마다 20g 이상 챙겨요. 수면 밤 11시 전 취침, 7시간 수면을 목표로 해요. 물 섭취 하루 물 1.5L — 오전 750ml, 오후 750ml 로 나눠 ",
+   "rect": {
+    "x": 20,
+    "y": 557,
+    "w": 350,
+    "h": 371
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "이번 주 핵심 팁 체중보다 허리둘레 변화를 함께 기록하면 동기부여가 오래가요.",
+   "rect": {
+    "x": 20,
+    "y": 936,
+    "w": 350,
+    "h": 100
+   }
+  }
+ ]
+}

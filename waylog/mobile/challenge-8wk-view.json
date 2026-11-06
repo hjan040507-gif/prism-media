@@ -1,0 +1,756 @@
+{
+ "file": "challenge-8wk-view.png",
+ "kind": "page",
+ "project": "waylog",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/challenge",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 858,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-06T09:05:28.607Z",
+ "title": "웨이로그 | Waylog",
+ "note": "오버레이 화면 — 열린 그대로 첫 화면",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 1,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 17,
+  "new": [
+   "POST /rest/v1/rpc/home_checkins (가짜 백엔드 메모리에만 반영)",
+   "POST /rest/v1/rpc/home_checkins (가짜 백엔드 메모리에만 반영)",
+   "POST /storage/v1/object/sign/promotion-checkins/a0000000-0000-4000-8000-000000000001/facepack-30d/2026-09-24-1.jpg (가짜 백엔드 메모리에만 반영)",
+   "POST /functions/v1/claude (AI·함수 가짜 응답)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 2
+   },
+   {
+    "url": "/",
+    "sent": 1
+   },
+   {
+    "url": "/",
+    "sent": 0
+   },
+   {
+    "url": "/",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "챌린지",
+   "rect": {
+    "x": 20,
+    "y": 14,
+    "w": 362,
+    "h": 28
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "오늘 인증한 회원 2명",
+   "rect": {
+    "x": 20,
+    "y": 697,
+    "w": 282.3,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "8주 식단 챌린지",
+   "rect": {
+    "x": 20,
+    "y": 239.4,
+    "w": 350,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "도장판",
+   "rect": {
+    "x": 20,
+    "y": 437.4,
+    "w": 45.6,
+    "h": 24
+   }
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "3주차 운동 강화 주간",
+   "rect": {
+    "x": 20,
+    "y": 822.6,
+    "w": 144.4,
+    "h": 24
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "1일1팩 30일 12일째 · 9번 인증 · 2일 연속",
+   "rect": {
+    "x": 20,
+    "y": 77,
+    "w": 350,
+    "h": 56
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "사진으로 오늘 인증하기",
+   "rect": {
+    "x": 20,
+    "y": 199,
+    "w": 350,
+    "h": 52
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "8주 식단 챌린지 17일째 · 이번 주는 운동 강화 주간",
+   "rect": {
+    "x": 20,
+    "y": 299,
+    "w": 350,
+    "h": 42
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저녁 기록하기",
+   "rect": {
+    "x": 20,
+    "y": 501,
+    "w": 350,
+    "h": 52
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "더 쓰기",
+   "rect": {
+    "x": 295.6,
+    "y": 597,
+    "w": 74.4,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "모두 보기",
+   "rect": {
+    "x": 302.3,
+    "y": 685,
+    "w": 67.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 4,
+    "y": 4,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "오늘",
+   "rect": {
+    "x": 20,
+    "y": 366.4,
+    "w": 48,
+    "h": 50
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "그래프",
+   "rect": {
+    "x": 92,
+    "y": 366.4,
+    "w": 48,
+    "h": 50
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "체성분",
+   "rect": {
+    "x": 164,
+    "y": 366.4,
+    "w": 48,
+    "h": 50
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "남은 4주 보기",
+   "rect": {
+    "x": 20,
+    "y": 726.6,
+    "w": 350,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "미션 편집",
+   "rect": {
+    "x": 270.3,
+    "y": 822.6,
+    "w": 99.7,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "저녁 식단 기록하기",
+   "rect": {
+    "x": 20,
+    "y": 780,
+    "w": 350,
+    "h": 56
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 0,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "챌린지",
+   "rect": {
+    "x": 78,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "제품",
+   "rect": {
+    "x": 156,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "4 알림",
+   "rect": {
+    "x": 234,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "내 정보",
+   "rect": {
+    "x": 312,
+    "y": 784,
+    "w": 78,
+    "h": 60
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "1주 1 2 3 4 5 6 7",
+   "rect": {
+    "x": 20,
+    "y": 477.4,
+    "w": 350,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "2주 8 9 10 11 12 13 14",
+   "rect": {
+    "x": 20,
+    "y": 529.7,
+    "w": 350,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "3주 15 16 17 18 19 20 21",
+   "rect": {
+    "x": 20,
+    "y": 582,
+    "w": 350,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "4주 22 23 24 25 26 27 28",
+   "rect": {
+    "x": 20,
+    "y": 634.3,
+    "w": 350,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "찍은 날",
+   "rect": {
+    "x": 20,
+    "y": 690.6,
+    "w": 67.8,
+    "h": 20
+   }
+  },
+  {
+   "type": "card",
+   "tag": "li",
+   "text": "빠진 날",
+   "rect": {
+    "x": 107.8,
+    "y": 690.6,
+    "w": 67.8,
+    "h": 20
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 20,
+    "y": 77,
+    "w": 56,
+    "h": 56
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 219.4
+   }
+  },
+  {
+   "type": "image",
+   "tag": "div",
+   "text": "8주 중 3주차",
+   "rect": {
+    "x": 20,
+    "y": 313.4,
+    "w": 350,
+    "h": 8
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 9일 수요일, 도장 찍힘",
+   "rect": {
+    "x": 64,
+    "y": 477.4,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 10일 목요일, 도장 찍힘",
+   "rect": {
+    "x": 108.3,
+    "y": 477.4,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 11일 금요일, 도장 찍힘",
+   "rect": {
+    "x": 152.6,
+    "y": 477.4,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 12일 토요일, 도장 찍힘",
+   "rect": {
+    "x": 196.8,
+    "y": 477.4,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 13일 일요일, 기록 없음",
+   "rect": {
+    "x": 241.1,
+    "y": 477.4,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 14일 월요일, 도장 찍힘",
+   "rect": {
+    "x": 285.4,
+    "y": 477.4,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 15일 화요일, 도장 찍힘",
+   "rect": {
+    "x": 329.7,
+    "y": 477.4,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 16일 수요일, 도장 찍힘",
+   "rect": {
+    "x": 64,
+    "y": 529.7,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 17일 목요일, 도장 찍힘",
+   "rect": {
+    "x": 108.3,
+    "y": 529.7,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 18일 금요일, 도장 찍힘",
+   "rect": {
+    "x": 152.6,
+    "y": 529.7,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 19일 토요일, 도장 찍힘",
+   "rect": {
+    "x": 196.8,
+    "y": 529.7,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 20일 일요일, 도장 찍힘",
+   "rect": {
+    "x": 241.1,
+    "y": 529.7,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 21일 월요일, 도장 찍힘",
+   "rect": {
+    "x": 285.4,
+    "y": 529.7,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 22일 화요일, 도장 찍힘",
+   "rect": {
+    "x": 329.7,
+    "y": 529.7,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 23일 수요일, 도장 찍힘",
+   "rect": {
+    "x": 64,
+    "y": 582,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 24일 목요일, 도장 찍힘",
+   "rect": {
+    "x": 108.3,
+    "y": 582,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 25일 금요일, 도장 찍힘",
+   "rect": {
+    "x": 152.6,
+    "y": 582,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 26일 토요일, 아직 안 온 날",
+   "rect": {
+    "x": 196.8,
+    "y": 582,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 27일 일요일, 아직 안 온 날",
+   "rect": {
+    "x": 241.1,
+    "y": 582,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 28일 월요일, 아직 안 온 날",
+   "rect": {
+    "x": 285.4,
+    "y": 582,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 29일 화요일, 아직 안 온 날",
+   "rect": {
+    "x": 329.7,
+    "y": 582,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "9월 30일 수요일, 아직 안 온 날",
+   "rect": {
+    "x": 64,
+    "y": 634.3,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 1일 목요일, 아직 안 온 날",
+   "rect": {
+    "x": 108.3,
+    "y": 634.3,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 2일 금요일, 아직 안 온 날",
+   "rect": {
+    "x": 152.6,
+    "y": 634.3,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 3일 토요일, 아직 안 온 날",
+   "rect": {
+    "x": 196.8,
+    "y": 634.3,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 4일 일요일, 아직 안 온 날",
+   "rect": {
+    "x": 241.1,
+    "y": 634.3,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 5일 월요일, 아직 안 온 날",
+   "rect": {
+    "x": 285.4,
+    "y": 634.3,
+    "w": 40.3,
+    "h": 40.3
+   }
+  },
+  {
+   "type": "image",
+   "tag": "svg",
+   "text": "10월 6일 화요일, 아직 안 온 날",
+   "rect": {
+    "x": 329.7,
+    "y": 634.3,
+    "w": 40.3,
+    "h": 40.3
+   }
+  }
+ ]
+}

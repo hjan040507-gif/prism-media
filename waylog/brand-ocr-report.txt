@@ -1,0 +1,1 @@
+# 브랜드 글자 OCR(tesseract kor+eng) · 대상 56장 · 걸림 0

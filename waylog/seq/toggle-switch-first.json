@@ -1,0 +1,46 @@
+{
+ "file": "toggle-switch-first.png",
+ "kind": "seq-frame",
+ "seq": "toggle-switch.mp4",
+ "method": "page.clock 1/60s runFor + getAnimations currentTime sync, screenshot per frame",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "scrollY": 0,
+ "frames": 72,
+ "fps": 60,
+ "durationMs": 1200,
+ "crf": 12,
+ "capturedAt": "2026-11-06T08:13:02.642Z",
+ "pii_scan": {
+  "total": 0,
+  "checked": "every frame (redact + scan before screenshot)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "intercepted": {
+  "total": 7,
+  "new": [
+   "POST /rest/v1/member_feed_prefs (가짜 백엔드 메모리에만 반영)"
+  ],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "file": "admin-reports-full.png",
+ "kind": "page",
+ "project": "waylog",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/profile/me",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 968,
+ "full": true,
+ "clip": null,
+ "capturedAt": "2026-11-06T08:27:14.607Z",
+ "title": "웨이로그 | Waylog",
+ "note": "오버레이 전체 — 안쪽 스크롤 68px 만큼 높이를 펴서 찍음(뒤 화면 숨김)",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre-screenshot DOM text after redaction + post-screenshot DOM text before redaction (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 1,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": [
+   {
+    "url": "/",
+    "sent": 0
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "신고 관리",
+   "rect": {
+    "x": 440,
+    "y": 16.5,
+    "w": 556,
+    "h": 22
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 388,
+    "y": 3.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 1000,
+    "y": 3.5,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "소식 보내기",
+   "rect": {
+    "x": 404,
+    "y": 60,
+    "w": 128.4,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "새 신고",
+   "rect": {
+    "x": 404,
+    "y": 120,
+    "w": 50.4,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "처리함",
+   "rect": {
+    "x": 478.4,
+    "y": 120,
+    "w": 46.9,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "문제없음",
+   "rect": {
+    "x": 404,
+    "y": 362,
+    "w": 312,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "숨기기",
+   "rect": {
+    "x": 724,
+    "y": 362,
+    "w": 312,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "문제없음",
+   "rect": {
+    "x": 404,
+    "y": 606,
+    "w": 312,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "숨기기",
+   "rect": {
+    "x": 724,
+    "y": 606,
+    "w": 312,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "문제없음",
+   "rect": {
+    "x": 404,
+    "y": 876,
+    "w": 312,
+    "h": 48
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "숨기기",
+   "rect": {
+    "x": 724,
+    "y": 876,
+    "w": 312,
+    "h": 48
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "할인 정보 공유 감사해요",
+   "rect": {
+    "x": 404,
+    "y": 268,
+    "w": 632,
+    "h": 54
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "가격 때문에 고민 중이었는데 후기 덕분에 결정했어요 @초록산책",
+   "rect": {
+    "x": 404,
+    "y": 512,
+    "w": 632,
+    "h": 54
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "맛은 어떤 편이에요? 텁텁하지 않나요?",
+   "rect": {
+    "x": 404,
+    "y": 782,
+    "w": 632,
+    "h": 54
+   }
+  }
+ ]
+}
