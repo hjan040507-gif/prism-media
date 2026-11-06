@@ -21,6 +21,7 @@
 - 저장소: hjan040507-gif/prism-media 없음 + 이 서버에 GitHub API 인증 없음(gh 미로그인, 토큰 없음, SSH 로는 생성 불가) → ~/prism-media 에 커밋만, 보고에 '저장소 생성 필요'
 
 ## NOW
+- 00:11Z sellfit 검수 끝(check FAIL 0·OCR 0/27·사람 사진 0 확인·관리자·교환 흐름 BLOCKED) → 커밋.
 - 00:10Z medimajor 검수 끝(check FAIL 0·OCR 5건 오탐 판정·contact 확인·관리자 GET 쓰기 없음) → 커밋 d4e391f.
 - 23:46Z sealkitt 검수 끝(check FAIL 0·OCR 0/81·contact 확인, lib 수정 2건: full 캡처 하단 고정 요소 위치·화면 밖 이미지 빈칸 → 페이지 재촬영) → 커밋 d9c8005.
 - 23:10Z 도구 커밋 1ece652(자체 시험 17/17·OCR 0·code-review medium 11건 반영). 조사 7건 RECON.md. 공통 지침 docs/CAPTURE-BRIEF.md.

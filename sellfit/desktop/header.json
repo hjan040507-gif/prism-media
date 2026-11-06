@@ -1,0 +1,199 @@
+{
+ "file": "header.png",
+ "kind": "header",
+ "project": "sellfit",
+ "viewport": {
+  "width": 1440,
+  "height": 900,
+  "deviceScaleFactor": 2,
+  "name": "desktop"
+ },
+ "path": "/sensel",
+ "scrollY": 600,
+ "scrollX": 0,
+ "docHeight": 13331,
+ "full": false,
+ "clip": {
+  "x": 0,
+  "y": 0,
+  "width": 1440,
+  "height": 57
+ },
+ "capturedAt": "2026-11-05T23:54:01.004Z",
+ "title": "쎈셀샵 · 쎈셀핏",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 512,
+    "y": 16,
+    "w": 123.7,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "SHOP",
+   "rect": {
+    "x": 641.7,
+    "y": 14,
+    "w": 57.4,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 830,
+    "y": 10,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 868,
+    "y": 12,
+    "w": 60,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 513,
+    "y": -172.7,
+    "w": 200,
+    "h": 266.7
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 727,
+    "y": -172.7,
+    "w": 200,
+    "h": 266.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "쎈셀샵",
+   "rect": {
+    "x": 512,
+    "y": -173.7,
+    "w": 202,
+    "h": 268.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "쎈셀샵",
+   "rect": {
+    "x": 726,
+    "y": -173.7,
+    "w": 202,
+    "h": 268.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "쎈셀핏",
+   "rect": {
+    "x": 512,
+    "y": 16,
+    "w": 123.7,
+    "h": 24
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "리바이스 쉐르파 자켓",
+   "rect": {
+    "x": 513,
+    "y": -172.7,
+    "w": 200,
+    "h": 266.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "CP 컴퍼니 조끼 패딩",
+   "rect": {
+    "x": 727,
+    "y": -172.7,
+    "w": 200,
+    "h": 266.7
+   }
+  }
+ ]
+}

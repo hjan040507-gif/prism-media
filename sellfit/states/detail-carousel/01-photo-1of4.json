@@ -1,0 +1,261 @@
+{
+ "file": "01-photo-1of4.png",
+ "kind": "state",
+ "project": "sellfit",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/products/62610461-b496-43b1-88fa-b41b688ecc90",
+ "scrollY": 0,
+ "scrollX": 0,
+ "docHeight": 1105,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:58:02.643Z",
+ "title": "쎈셀핏",
+ "note": "counter=1/4",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 1,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 2,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "베이프 샤크 후드 (남녀공용)",
+   "rect": {
+    "x": 16,
+    "y": 511,
+    "w": 358,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 69,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 69,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "팔로우",
+   "rect": {
+    "x": 304,
+    "y": 464,
+    "w": 70,
+    "h": 34
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 16,
+    "w": 123.7,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "SHOP",
+   "rect": {
+    "x": 145.7,
+    "y": 14,
+    "w": 57.4,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 276,
+    "y": 10,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 314,
+    "y": 12,
+    "w": 60,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "user***",
+   "rect": {
+    "x": 16,
+    "y": 463,
+    "w": 130,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 0,
+    "y": 785.5,
+    "w": 97.5,
+    "h": 58.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래",
+   "rect": {
+    "x": 97.5,
+    "y": 785.5,
+    "w": 97.5,
+    "h": 58.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "채팅",
+   "rect": {
+    "x": 195,
+    "y": 785.5,
+    "w": 97.5,
+    "h": 58.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 292.5,
+    "y": 785.5,
+    "w": 97.5,
+    "h": 58.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 69,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 338,
+    "y": 69,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "쎈셀핏",
+   "rect": {
+    "x": 16,
+    "y": 16,
+    "w": 123.7,
+    "h": 24
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "베이프 샤크 후드 (남녀공용)",
+   "rect": {
+    "x": 0,
+    "y": 57,
+    "w": 390,
+    "h": 390
+   }
+  }
+ ]
+}

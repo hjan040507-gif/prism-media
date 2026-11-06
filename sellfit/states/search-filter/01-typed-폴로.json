@@ -1,0 +1,602 @@
+{
+ "file": "01-typed-폴로.png",
+ "kind": "state",
+ "project": "sellfit",
+ "viewport": {
+  "width": 390,
+  "height": 844,
+  "deviceScaleFactor": 3,
+  "name": "mobile"
+ },
+ "path": "/products",
+ "scrollY": 300,
+ "scrollX": 0,
+ "docHeight": 4953,
+ "full": false,
+ "clip": null,
+ "capturedAt": "2026-11-05T23:58:14.989Z",
+ "title": "쎈셀핏",
+ "note": "query=폴로 cards=28",
+ "pii_scan": {
+  "total": 0,
+  "before": {
+   "total": 0,
+   "phone": 0,
+   "email": 0,
+   "rrn": 0,
+   "account": 0,
+   "passport": 0,
+   "url": 0,
+   "plate": 0,
+   "addr": 0,
+   "frames": 1
+  },
+  "after": 0,
+  "at": "pre- and post-screenshot DOM text (all frames, shadow roots, pseudo content)",
+  "patterns": [
+   "phone",
+   "email",
+   "rrn",
+   "account",
+   "passport",
+   "url",
+   "plate",
+   "addr"
+  ]
+ },
+ "redactions": {
+  "phone": 0,
+  "email": 0,
+  "rrn": 0,
+  "account": 0,
+  "passport": 0,
+  "url": 0,
+  "plate": 0,
+  "addr": 0,
+  "names": 0,
+  "ids": 0,
+  "address": 0,
+  "biz": 0,
+  "textMap": 0,
+  "fake": 0,
+  "removed": 0,
+  "qr": 0
+ },
+ "intercepted": {
+  "total": 0,
+  "new": [],
+  "allowed_nonget": [],
+  "trackers_blocked": 0,
+  "websockets": []
+ },
+ "elements": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "거래",
+   "rect": {
+    "x": 16,
+    "y": 27.7,
+    "w": 32,
+    "h": 28
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 148,
+    "y": 133.5,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 333,
+    "y": 133.5,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 148,
+    "y": 451,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 333,
+    "y": 451,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 148,
+    "y": 768.5,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "button",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 333,
+    "y": 768.5,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "input",
+   "tag": "input",
+   "text": "폴로",
+   "rect": {
+    "x": 16,
+    "y": 67.7,
+    "w": 358,
+    "h": 44.8
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": 16,
+    "w": 123.7,
+    "h": 24
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "SHOP",
+   "rect": {
+    "x": 145.7,
+    "y": 14,
+    "w": 57.4,
+    "h": 28
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 276,
+    "y": 10,
+    "w": 36,
+    "h": 36
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "로그인",
+   "rect": {
+    "x": 314,
+    "y": 12,
+    "w": 60,
+    "h": 32
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "신뢰 쇼핑몰 검색 ›",
+   "rect": {
+    "x": 291,
+    "y": 33.7,
+    "w": 83,
+    "h": 16
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 17,
+    "y": 125.5,
+    "w": 171,
+    "h": 228
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "폴로 폴로 블루 긴팔카라티 38,000원 교환가능",
+   "rect": {
+    "x": 16,
+    "y": 362.5,
+    "w": 173,
+    "h": 59.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 202,
+    "y": 125.5,
+    "w": 171,
+    "h": 228
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "폴로 폴로 잉글랜드 셔츠 128,000원 교환가능",
+   "rect": {
+    "x": 201,
+    "y": 362.5,
+    "w": 173,
+    "h": 59.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 17,
+    "y": 443,
+    "w": 171,
+    "h": 228
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "폴로 폴로 레터링 카라티 38,000원 교환가능",
+   "rect": {
+    "x": 16,
+    "y": 680,
+    "w": 173,
+    "h": 59.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 202,
+    "y": 443,
+    "w": 171,
+    "h": 228
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "폴로 폴로 와플 긴팔 롱슬리브 38,000원 교환가능",
+   "rect": {
+    "x": 201,
+    "y": 680,
+    "w": 173,
+    "h": 59.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 17,
+    "y": 760.5,
+    "w": 171,
+    "h": 228
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "",
+   "rect": {
+    "x": 202,
+    "y": 760.5,
+    "w": 171,
+    "h": 228
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "홈",
+   "rect": {
+    "x": 0,
+    "y": 785.5,
+    "w": 97.5,
+    "h": 58.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "거래",
+   "rect": {
+    "x": 97.5,
+    "y": 785.5,
+    "w": 97.5,
+    "h": 58.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "채팅",
+   "rect": {
+    "x": 195,
+    "y": 785.5,
+    "w": 97.5,
+    "h": 58.5
+   }
+  },
+  {
+   "type": "link",
+   "tag": "a",
+   "text": "마이",
+   "rect": {
+    "x": 292.5,
+    "y": 785.5,
+    "w": 97.5,
+    "h": 58.5
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": -231,
+    "w": 358,
+    "h": 238.7
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "쎈셀샵",
+   "rect": {
+    "x": 16,
+    "y": 124.5,
+    "w": 173,
+    "h": 230
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 148,
+    "y": 133.5,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "쎈셀샵",
+   "rect": {
+    "x": 201,
+    "y": 124.5,
+    "w": 173,
+    "h": 230
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 333,
+    "y": 133.5,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "쎈셀샵",
+   "rect": {
+    "x": 16,
+    "y": 442,
+    "w": 173,
+    "h": 230
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 148,
+    "y": 451,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "쎈셀샵",
+   "rect": {
+    "x": 201,
+    "y": 442,
+    "w": 173,
+    "h": 230
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 333,
+    "y": 451,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "쎈셀샵",
+   "rect": {
+    "x": 16,
+    "y": 759.5,
+    "w": 173,
+    "h": 230
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 148,
+    "y": 768.5,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "card",
+   "tag": "div",
+   "text": "쎈셀샵",
+   "rect": {
+    "x": 201,
+    "y": 759.5,
+    "w": 173,
+    "h": 230
+   }
+  },
+  {
+   "type": "card",
+   "tag": "button",
+   "text": "",
+   "rect": {
+    "x": 333,
+    "y": 768.5,
+    "w": 32,
+    "h": 32
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "쎈셀핏",
+   "rect": {
+    "x": 16,
+    "y": 16,
+    "w": 123.7,
+    "h": 24
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "",
+   "rect": {
+    "x": 16,
+    "y": -231,
+    "w": 358,
+    "h": 238.7
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "폴로 블루 긴팔카라티",
+   "rect": {
+    "x": 17,
+    "y": 125.5,
+    "w": 171,
+    "h": 228
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "폴로 잉글랜드 셔츠",
+   "rect": {
+    "x": 202,
+    "y": 125.5,
+    "w": 171,
+    "h": 228
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "폴로 레터링 카라티",
+   "rect": {
+    "x": 17,
+    "y": 443,
+    "w": 171,
+    "h": 228
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "폴로 와플 긴팔 롱슬리브",
+   "rect": {
+    "x": 202,
+    "y": 443,
+    "w": 171,
+    "h": 228
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "폴로 빅포니 후드 자켓 점퍼",
+   "rect": {
+    "x": 17,
+    "y": 760.5,
+    "w": 171,
+    "h": 228
+   }
+  },
+  {
+   "type": "image",
+   "tag": "img",
+   "text": "폴로 빅포니 블랙와치 긴팔 카라티 화이트 (남녀공용)",
+   "rect": {
+    "x": 202,
+    "y": 760.5,
+    "w": 171,
+    "h": 228
+   }
+  }
+ ]
+}

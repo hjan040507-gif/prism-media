@@ -1,0 +1,21 @@
+{
+  "primary": "#000000",
+  "secondary": "#F8C808",
+  "name": { "primary": "블랙 액센트 (--color-accent, UI 기본은 흑백 모노크롬)", "secondary": "로고·PWA 스플래시 노랑 (manifest background_color)" },
+  "palette": {
+    "background": "#ffffff", "foreground": "#111111", "subtle": "#f6f6f7", "muted": "#f1f1f2",
+    "muted-foreground": "#767680", "border": "#e7e7ea", "accent": "#000000", "brand-blue (교환 플로우 액센트, 소수 사용)": "#2f6bff",
+    "pwa-background": "#F8C808", "pwa-theme": "#ffffff"
+  },
+  "fonts": ["Pretendard"],
+  "font_roles": { "Pretendard": "본문 전체(동적 서브셋, jsdelivr CDN 로드). 폴백: system-ui · Apple SD Gothic Neo · Malgun Gothic · Segoe UI · Roboto" },
+  "source": [
+    "/home/dev/sellfit/src/app/globals.css:10-18 (background #ffffff · foreground #111111 · accent #000000 · border #e7e7ea · muted-foreground #767680)",
+    "/home/dev/sellfit/src/app/globals.css:29 (--color-brand #2f6bff)",
+    "/home/dev/sellfit/src/app/globals.css:33 (--font-sans Pretendard + 시스템 폴백)",
+    "/home/dev/sellfit/src/app/manifest.ts:16-17 (background_color #F8C808 · theme_color #ffffff)",
+    "/home/dev/sellfit/src/app/layout.tsx:52-54 (Pretendard dynamic subset CSS, jsdelivr)",
+    "/home/dev/sellfit/src/lib/brand.ts:3-5 (앱 이름 쎈셀핏 · 워드마크 SELLFIT)"
+  ],
+  "note": "라이브 UI 는 흰 배경·검정 텍스트 모노크롬(촬영에서 확인). 노랑 #F8C808 은 PWA 스플래시·로고 이미지(media/logo-full.png) 배경에서만 보인다. 벡터(svg) 로고는 레포에 없고 PNG 만 있다."
+}

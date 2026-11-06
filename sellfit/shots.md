@@ -1,0 +1,74 @@
+# sellfit shots — 파일마다 한 줄
+
+촬영: Playwright 1.64.1(chromiumSandbox), 운영 https://sellfit.vercel.app 공개 화면, 로그인 0회·새 계정 0, 비GET 가로챔 0건·허용 0건(GET 만). 가짜 값 사용 0(실서비스 화면 그대로). 가린 것: 판매자 아바타(remove, 자리 유지)·판매자 닉네임→user***, 스플래시·'홈 화면에 추가' 안내 hide, 화면 속 도메인·URL 글자 자동 제거('비슷한 코디' 섹션은 이 상품들엔 없음, 규칙은 적용). 모든 PNG 곁 .json 의 pii_scan.total = 0.
+
+**사람 사진 확인 결과**: 촬영한 모든 장면(쎈셀샵 목록 71개 카드 전체, 상품 상세 3종의 캐러셀 사진 12장, 검색 필터 4단계, 캐러셀 4단계, 영상 프레임)을 직접 확인 — 얼굴·전신이 보이는 사진 0장(상품 상세 사진 중 손 클로즈업만 있음). 거래 `/products` 첫 카드(얼굴 사진인 유저 제품)는 촬영에서 제외했고 홈·코디 상세는 열지 않음.
+
+- `desktop/header.json` — 고정(sticky) 헤더(로고·SHOP·검색·로그인) 스크롤된 상태 header.png · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `desktop/header.png` — 고정(sticky) 헤더(로고·SHOP·검색·로그인) 스크롤된 상태 header.png · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠)
+- `desktop/login-full.json` — 로그인 `/login` — 이메일 로그인/회원가입 탭·Google 로 계속하기(빈 폼) · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · full(끝까지 스크롤한 전체) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `desktop/login-full.png` — 로그인 `/login` — 이메일 로그인/회원가입 탭·Google 로 계속하기(빈 폼) · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · full(끝까지 스크롤한 전체)
+- `desktop/login-view.json` — 로그인 `/login` — 이메일 로그인/회원가입 탭·Google 로 계속하기(빈 폼) · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · view(첫 화면 스크롤 0) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `desktop/login-view.png` — 로그인 `/login` — 이메일 로그인/회원가입 탭·Google 로 계속하기(빈 폼) · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · view(첫 화면 스크롤 0)
+- `desktop/product-bape-shark-full.json` — 상품 상세 `/products/62610461…` 베이프 샤크 후드 — 사진 캐러셀 1/4·판매자·가격 168,000원·교환 가능·설명 · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · full(끝까지 스크롤한 전체) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `desktop/product-bape-shark-full.png` — 상품 상세 `/products/62610461…` 베이프 샤크 후드 — 사진 캐러셀 1/4·판매자·가격 168,000원·교환 가능·설명 · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · full(끝까지 스크롤한 전체)
+- `desktop/product-bape-shark-view.json` — 상품 상세 `/products/62610461…` 베이프 샤크 후드 — 사진 캐러셀 1/4·판매자·가격 168,000원·교환 가능·설명 · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · view(첫 화면 스크롤 0) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `desktop/product-bape-shark-view.png` — 상품 상세 `/products/62610461…` 베이프 샤크 후드 — 사진 캐러셀 1/4·판매자·가격 168,000원·교환 가능·설명 · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · view(첫 화면 스크롤 0)
+- `desktop/product-polo-italy-full.json` — 상품 상세 `/products/26582015…` 폴로 빅포니 이탈리아 집업 — 캐러셀 1/4·280,000원·교환 가능·실측 · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · full(끝까지 스크롤한 전체) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `desktop/product-polo-italy-full.png` — 상품 상세 `/products/26582015…` 폴로 빅포니 이탈리아 집업 — 캐러셀 1/4·280,000원·교환 가능·실측 · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · full(끝까지 스크롤한 전체)
+- `desktop/product-polo-italy-view.json` — 상품 상세 `/products/26582015…` 폴로 빅포니 이탈리아 집업 — 캐러셀 1/4·280,000원·교환 가능·실측 · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · view(첫 화면 스크롤 0) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `desktop/product-polo-italy-view.png` — 상품 상세 `/products/26582015…` 폴로 빅포니 이탈리아 집업 — 캐러셀 1/4·280,000원·교환 가능·실측 · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · view(첫 화면 스크롤 0)
+- `desktop/sensel-list-full.json` — 쎈셀샵 `/sensel` — 배너 + 운영자 공식 상품 71개 2열 그리드(전부 의류 단독 컷, 사람 사진 없음) · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · full(끝까지 스크롤한 전체) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `desktop/sensel-list-full.png` — 쎈셀샵 `/sensel` — 배너 + 운영자 공식 상품 71개 2열 그리드(전부 의류 단독 컷, 사람 사진 없음) · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · full(끝까지 스크롤한 전체)
+- `desktop/sensel-list-view.json` — 쎈셀샵 `/sensel` — 배너 + 운영자 공식 상품 71개 2열 그리드(전부 의류 단독 컷, 사람 사진 없음) · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · view(첫 화면 스크롤 0) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `desktop/sensel-list-view.png` — 쎈셀샵 `/sensel` — 배너 + 운영자 공식 상품 71개 2열 그리드(전부 의류 단독 컷, 사람 사진 없음) · 데스크톱 1440×900@2(앱이 모바일 폭 448px 컬럼을 중앙에 둠) · view(첫 화면 스크롤 0)
+- `media/apple-icon.png` — Apple touch 아이콘 180 ← 레포 src/app/apple-icon.png
+- `media/emblem.png` — 엠블럼 500×500 RGBA ← 레포 루트 emblem.png
+- `media/icon-192.png` — PWA 아이콘 192 ← 레포 public/icon-192.png
+- `media/icon-512-maskable.png` — PWA maskable 아이콘 512 ← 레포 public/icon-512-maskable.png
+- `media/icon-512.png` — PWA 아이콘 512 ← 레포 public/icon-512.png
+- `media/logo-full.png` — 풀 로고 818×817(노랑 배경+지구본+SELL) ← 레포 루트 logo-full.png
+- `media/logo-wordmark.png` — SELLFIT 가로 워드마크 835×162 ← 레포 public/logo.png (앱 헤더·스플래시에 쓰는 로고)
+- `mobile/header.json` — 고정(sticky) 헤더(로고·SHOP·검색·로그인) 스크롤된 상태 header.png · 모바일 390×844@3 · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `mobile/header.png` — 고정(sticky) 헤더(로고·SHOP·검색·로그인) 스크롤된 상태 header.png · 모바일 390×844@3
+- `mobile/login-full.json` — 로그인 `/login` — 이메일 로그인/회원가입 탭·Google 로 계속하기(빈 폼) · 모바일 390×844@3 · full(끝까지 스크롤한 전체) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `mobile/login-full.png` — 로그인 `/login` — 이메일 로그인/회원가입 탭·Google 로 계속하기(빈 폼) · 모바일 390×844@3 · full(끝까지 스크롤한 전체)
+- `mobile/login-view.json` — 로그인 `/login` — 이메일 로그인/회원가입 탭·Google 로 계속하기(빈 폼) · 모바일 390×844@3 · view(첫 화면 스크롤 0) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `mobile/login-view.png` — 로그인 `/login` — 이메일 로그인/회원가입 탭·Google 로 계속하기(빈 폼) · 모바일 390×844@3 · view(첫 화면 스크롤 0)
+- `mobile/product-bape-shark-full.json` — 상품 상세 `/products/62610461…` 베이프 샤크 후드 — 사진 캐러셀 1/4·판매자·가격 168,000원·교환 가능·설명 · 모바일 390×844@3 · full(끝까지 스크롤한 전체) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `mobile/product-bape-shark-full.png` — 상품 상세 `/products/62610461…` 베이프 샤크 후드 — 사진 캐러셀 1/4·판매자·가격 168,000원·교환 가능·설명 · 모바일 390×844@3 · full(끝까지 스크롤한 전체)
+- `mobile/product-bape-shark-view.json` — 상품 상세 `/products/62610461…` 베이프 샤크 후드 — 사진 캐러셀 1/4·판매자·가격 168,000원·교환 가능·설명 · 모바일 390×844@3 · view(첫 화면 스크롤 0) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `mobile/product-bape-shark-view.png` — 상품 상세 `/products/62610461…` 베이프 샤크 후드 — 사진 캐러셀 1/4·판매자·가격 168,000원·교환 가능·설명 · 모바일 390×844@3 · view(첫 화면 스크롤 0)
+- `mobile/product-palace-knit-full.json` — 상품 상세 `/products/e275d237…` 팔라스 니트집업 — 캐러셀 1/4·380,000원·교환 가능·실측 · 모바일 390×844@3 · full(끝까지 스크롤한 전체) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `mobile/product-palace-knit-full.png` — 상품 상세 `/products/e275d237…` 팔라스 니트집업 — 캐러셀 1/4·380,000원·교환 가능·실측 · 모바일 390×844@3 · full(끝까지 스크롤한 전체)
+- `mobile/product-palace-knit-view.json` — 상품 상세 `/products/e275d237…` 팔라스 니트집업 — 캐러셀 1/4·380,000원·교환 가능·실측 · 모바일 390×844@3 · view(첫 화면 스크롤 0) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `mobile/product-palace-knit-view.png` — 상품 상세 `/products/e275d237…` 팔라스 니트집업 — 캐러셀 1/4·380,000원·교환 가능·실측 · 모바일 390×844@3 · view(첫 화면 스크롤 0)
+- `mobile/product-polo-italy-full.json` — 상품 상세 `/products/26582015…` 폴로 빅포니 이탈리아 집업 — 캐러셀 1/4·280,000원·교환 가능·실측 · 모바일 390×844@3 · full(끝까지 스크롤한 전체) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `mobile/product-polo-italy-full.png` — 상품 상세 `/products/26582015…` 폴로 빅포니 이탈리아 집업 — 캐러셀 1/4·280,000원·교환 가능·실측 · 모바일 390×844@3 · full(끝까지 스크롤한 전체)
+- `mobile/product-polo-italy-view.json` — 상품 상세 `/products/26582015…` 폴로 빅포니 이탈리아 집업 — 캐러셀 1/4·280,000원·교환 가능·실측 · 모바일 390×844@3 · view(첫 화면 스크롤 0) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `mobile/product-polo-italy-view.png` — 상품 상세 `/products/26582015…` 폴로 빅포니 이탈리아 집업 — 캐러셀 1/4·280,000원·교환 가능·실측 · 모바일 390×844@3 · view(첫 화면 스크롤 0)
+- `mobile/sensel-list-full.json` — 쎈셀샵 `/sensel` — 배너 + 운영자 공식 상품 71개 2열 그리드(전부 의류 단독 컷, 사람 사진 없음) · 모바일 390×844@3 · full(끝까지 스크롤한 전체) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `mobile/sensel-list-full.png` — 쎈셀샵 `/sensel` — 배너 + 운영자 공식 상품 71개 2열 그리드(전부 의류 단독 컷, 사람 사진 없음) · 모바일 390×844@3 · full(끝까지 스크롤한 전체)
+- `mobile/sensel-list-view.json` — 쎈셀샵 `/sensel` — 배너 + 운영자 공식 상품 71개 2열 그리드(전부 의류 단독 컷, 사람 사진 없음) · 모바일 390×844@3 · view(첫 화면 스크롤 0) · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `mobile/sensel-list-view.png` — 쎈셀샵 `/sensel` — 배너 + 운영자 공식 상품 71개 2열 그리드(전부 의류 단독 컷, 사람 사진 없음) · 모바일 390×844@3 · view(첫 화면 스크롤 0)
+- `seq/detail-carousel-swipe-first.json` — seq detail-carousel-swipe.mp4 의 첫 프레임 · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `seq/detail-carousel-swipe-first.png` — seq detail-carousel-swipe.mp4 의 첫 프레임
+- `seq/detail-carousel-swipe-last.json` — seq detail-carousel-swipe.mp4 의 끝 프레임 · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `seq/detail-carousel-swipe-last.png` — seq detail-carousel-swipe.mp4 의 끝 프레임
+- `seq/detail-carousel-swipe.mp4` — 상품 상세 사진 캐러셀 1→2→3→4 전환 5.0s 60fps · 방식: page.clock 가상 시간 1/60s runFor + 프레임마다 스크린샷(300프레임, 프레임 40·130·220 에서 36프레임 동안 easeInOutCubic). 캐러셀이 CSS scroll-snap 이라 브라우저 smooth scroll 이 가상 시계에 안 묶여, 전환 동안만 scroll-snap-type:none 으로 두고 scrollLeft 를 프레임마다 직접 지정(위치 보간만 스크립트, 렌더는 실제 앱). 390×844@3
+- `states/detail-carousel/01-photo-1of4.json` — 상품 상세(베이프 샤크 후드) 사진 캐러셀 넘기기 — 01-photo-1of4. 390×844·scrollY 0 고정, 스와이프 대신 컨테이너 scrollLeft 를 사진 폭 단위로 이동(scroll-snap 위치와 같음), 카운터 1/4→4/4 갱신 확인 · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `states/detail-carousel/01-photo-1of4.png` — 상품 상세(베이프 샤크 후드) 사진 캐러셀 넘기기 — 01-photo-1of4. 390×844·scrollY 0 고정, 스와이프 대신 컨테이너 scrollLeft 를 사진 폭 단위로 이동(scroll-snap 위치와 같음), 카운터 1/4→4/4 갱신 확인
+- `states/detail-carousel/02-photo-2of4.json` — 상품 상세(베이프 샤크 후드) 사진 캐러셀 넘기기 — 02-photo-2of4. 390×844·scrollY 0 고정, 스와이프 대신 컨테이너 scrollLeft 를 사진 폭 단위로 이동(scroll-snap 위치와 같음), 카운터 1/4→4/4 갱신 확인 · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `states/detail-carousel/02-photo-2of4.png` — 상품 상세(베이프 샤크 후드) 사진 캐러셀 넘기기 — 02-photo-2of4. 390×844·scrollY 0 고정, 스와이프 대신 컨테이너 scrollLeft 를 사진 폭 단위로 이동(scroll-snap 위치와 같음), 카운터 1/4→4/4 갱신 확인
+- `states/detail-carousel/03-photo-3of4.json` — 상품 상세(베이프 샤크 후드) 사진 캐러셀 넘기기 — 03-photo-3of4. 390×844·scrollY 0 고정, 스와이프 대신 컨테이너 scrollLeft 를 사진 폭 단위로 이동(scroll-snap 위치와 같음), 카운터 1/4→4/4 갱신 확인 · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `states/detail-carousel/03-photo-3of4.png` — 상품 상세(베이프 샤크 후드) 사진 캐러셀 넘기기 — 03-photo-3of4. 390×844·scrollY 0 고정, 스와이프 대신 컨테이너 scrollLeft 를 사진 폭 단위로 이동(scroll-snap 위치와 같음), 카운터 1/4→4/4 갱신 확인
+- `states/detail-carousel/04-photo-4of4.json` — 상품 상세(베이프 샤크 후드) 사진 캐러셀 넘기기 — 04-photo-4of4. 390×844·scrollY 0 고정, 스와이프 대신 컨테이너 scrollLeft 를 사진 폭 단위로 이동(scroll-snap 위치와 같음), 카운터 1/4→4/4 갱신 확인 · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `states/detail-carousel/04-photo-4of4.png` — 상품 상세(베이프 샤크 후드) 사진 캐러셀 넘기기 — 04-photo-4of4. 390×844·scrollY 0 고정, 스와이프 대신 컨테이너 scrollLeft 를 사진 폭 단위로 이동(scroll-snap 위치와 같음), 카운터 1/4→4/4 갱신 확인
+- `states/search-filter/01-typed-폴로.json` — 거래 `/products` 검색창 입력 → 목록 필터 — 01-typed-폴로. 390×844·scrollY 300 고정. 앱은 2글자부터 필터(1글자는 60개 그대로). 클라이언트 필터 + Supabase 공개 REST GET 1회, 비GET 0. 빈 입력 단계는 첫 카드가 얼굴 사진이라 찍지 않음 · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `states/search-filter/01-typed-폴로.png` — 거래 `/products` 검색창 입력 → 목록 필터 — 01-typed-폴로. 390×844·scrollY 300 고정. 앱은 2글자부터 필터(1글자는 60개 그대로). 클라이언트 필터 + Supabase 공개 REST GET 1회, 비GET 0. 빈 입력 단계는 첫 카드가 얼굴 사진이라 찍지 않음
+- `states/search-filter/02-typed-폴로_빅.json` — 거래 `/products` 검색창 입력 → 목록 필터 — 02-typed-폴로_빅. 390×844·scrollY 300 고정. 앱은 2글자부터 필터(1글자는 60개 그대로). 클라이언트 필터 + Supabase 공개 REST GET 1회, 비GET 0. 빈 입력 단계는 첫 카드가 얼굴 사진이라 찍지 않음 · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `states/search-filter/02-typed-폴로_빅.png` — 거래 `/products` 검색창 입력 → 목록 필터 — 02-typed-폴로_빅. 390×844·scrollY 300 고정. 앱은 2글자부터 필터(1글자는 60개 그대로). 클라이언트 필터 + Supabase 공개 REST GET 1회, 비GET 0. 빈 입력 단계는 첫 카드가 얼굴 사진이라 찍지 않음
+- `states/search-filter/03-typed-스투시.json` — 거래 `/products` 검색창 입력 → 목록 필터 — 03-typed-스투시. 390×844·scrollY 300 고정. 앱은 2글자부터 필터(1글자는 60개 그대로). 클라이언트 필터 + Supabase 공개 REST GET 1회, 비GET 0. 빈 입력 단계는 첫 카드가 얼굴 사진이라 찍지 않음 · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `states/search-filter/03-typed-스투시.png` — 거래 `/products` 검색창 입력 → 목록 필터 — 03-typed-스투시. 390×844·scrollY 300 고정. 앱은 2글자부터 필터(1글자는 60개 그대로). 클라이언트 필터 + Supabase 공개 REST GET 1회, 비GET 0. 빈 입력 단계는 첫 카드가 얼굴 사진이라 찍지 않음
+- `states/search-filter/04-typed-슈프림.json` — 거래 `/products` 검색창 입력 → 목록 필터 — 04-typed-슈프림. 390×844·scrollY 300 고정. 앱은 2글자부터 필터(1글자는 60개 그대로). 클라이언트 필터 + Supabase 공개 REST GET 1회, 비GET 0. 빈 입력 단계는 첫 카드가 얼굴 사진이라 찍지 않음 · 곁 json(요소 사각형·글자·scrollY·pii_scan)
+- `states/search-filter/04-typed-슈프림.png` — 거래 `/products` 검색창 입력 → 목록 필터 — 04-typed-슈프림. 390×844·scrollY 300 고정. 앱은 2글자부터 필터(1글자는 60개 그대로). 클라이언트 필터 + Supabase 공개 REST GET 1회, 비GET 0. 빈 입력 단계는 첫 카드가 얼굴 사진이라 찍지 않음
