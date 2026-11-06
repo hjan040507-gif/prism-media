@@ -23,6 +23,11 @@
 - 기준선: docs/baseline2/<repo>.status·.worktrees·SUMMARY.txt (07:40Z)
 
 ## 2차 NOW
+- 10:35Z 끝남: 10폴더 모두 push(마지막 26c3a5e). 충족 7(okjob·matchsat·hanil·eureka·pscompany·soopon·waylog — check FAIL 0·OCR 걸림 0), BLOCKED 3(sy-motors 는 지시가 인정한 응답 JSON 3흐름, edubily·switin 은 소스·주소 없음). 독립 대조 '완료'. 증거 docs/evidence/final2-2026-11-06.txt.
+- 결정 필요: ① edubily·switin 주소 ② 상호 표기(sy-motors 에스와이모터스·eureka 노모어누수) ③ RECON 실명 1건이 4592832 이력에 남음(이력 정리=force push) ④ 4개 로컬 화면이 dev 렌더(빌드 게이트) ⑤ 단가표·수익 문구·예시 번호 가림 같은 표기 결정 — 상세는 아래 '결정 필요 후보'.
+- 이어서: 주소를 받으면 "edubily 주소는 …" 지시로 같은 규격 촬영. 서버가 한가할 때 okjob·matchsat·hanil 관리자·waylog prod 빌드 재촬영(capture 스크립트 재실행).
+
+### 2차 진행 기록
 - 07:45Z 사전 조사 10건 끝(<proj>/RECON.md), 다른 점 위에 적음. edubily·switin 은 소스·주소가 서버에 없어 BLOCKED.md(시도 2번·대안: 주소 받으면 바로 촬영).
 - 07:50Z 촬영 서브에이전트 6건 시작(종료 11:00Z, waylog 11:30Z): okjob(로컬 Supabase pm-okjob 57010~·3611) · matchsat(pm-matchsat 57020~·3612) · hanil(공개=운영 GET, 관리자=pm-hanil 57030~·3613) · eureka(운영 nomorenusu.com GET, 관리자 BLOCKED) · sy-motors(사본 드라이런 3615 + 목 PostgREST 3616, 응답 JSON 3흐름) · waylog(v1.9.0 사본 3614 + 가짜 응답). 남은 것: pscompany·soopon(운영 공개 화면, 1묶음 하나 끝나면 시작).
 - 커밋(push 됨): 준비 4592832 · sy-motors 46760b1(JSON 3흐름 32+로그 3, pii 0/34, 화면 FAIL 7 은 BLOCKED 사유) · pscompany 0137908(check FAIL 0·OCR 0/25, 관리자 BLOCKED, 수익 문구 가림 — 결정 필요 후보). · soopon ba05d68(FAIL 0·OCR 0/63) · matchsat de7196e(FAIL 0·OCR 0/31, 로컬 DB, next dev 렌더 — 빌드 게이트 75, danger-guard 가 db reset --local 막음 → 우회 없이 seed-tail.sql, 3→4단계 예산 오류 배너는 고객 앱 실제 동작). · waylog 575da0a(FAIL 0·OCR 0/39·브랜드 OCR 0/56, vite dev 렌더, Play 버전·스토어 스크린샷 BLOCKED). · hanil 74979f2(FAIL 0·OCR 0/76, 관리자 로컬 next dev, 접근성 실측 4/6 100·96·95). · okjob f4cd57f(FAIL 0·OCR 0/43, 로컬 next dev, vitest 재측정 못 함 — 게이트, 단가표는 base.sql 실제 값 — 결정 필요 후보) + RECON 실명·휴대폰 2건 가림(준비 커밋 4592832 이력엔 남음 — 결정 필요).
